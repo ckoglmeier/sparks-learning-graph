@@ -1,16 +1,16 @@
 # US educator guide
 
-Reviewed 24 November 2026 · release candidate 0.1.0-rc.1
+Reviewed 24 November 2026 · guide for the next graph update
 
-The graph is international. This guide helps US educators select concepts without changing their meaning or treating an age range as a grade assignment. It contains no game worlds, levels or unlock paths. State and district requirements remain the local reference.
+This graph draws on several education systems. Use this guide to find starting points for US lessons, then check your state or district’s requirements. Suggested ages are not grade assignments.
 
 ## Grades 3–5
 
-Start with observable pushes, comparisons, measurements and precise instructions. Check that learners can describe what changed and record results before introducing controlled tests. Reuse the existing problem-definition, solution-comparison and fair-testing topics as a connected design investigation. Collect a design brief, alternatives, test notes and an explanation of the revision.
+Start with observable pushes, comparisons, measurements and precise instructions. Check that learners can describe what changed and record results before introducing controlled tests. Bring together the topics on defining a problem, comparing solutions and fair testing. Ask learners to explain what they want to build, sketch alternatives, record tests and describe what they changed.
 
 For programming, begin with a short visual program, then introduce loops, input, decisions and debugging. Explain the sensor–controller–actuator chain separately from writing its program. Naming components does not demonstrate programming competence.
 
-Density, displacement, buoyancy, liquid pressure, feedback and machine tradeoffs can be enrichment. Their usefulness does not establish a grade-level mandate. Density is explicitly outside the assessment boundary of 5-PS1-3; that is not a claim about every US curriculum.
+Density, displacement, buoyancy, liquid pressure, feedback and machine tradeoffs can be enrichment. These are optional extensions, not requirements for every grade. Density is explicitly outside the assessment boundary of 5-PS1-3; that is not a claim about every US curriculum.
 
 ## Grades 6–8
 
@@ -18,15 +18,15 @@ Use the same concepts as a bridge, checking prerequisites rather than assuming m
 
 For physical computing, combine program input and decisions with repeated measurement. Have learners explain whether an output changes the measured quantity: a sensor trigger is not automatically feedback. A supplied feedback diagram does not establish circuit construction or programming competence. More advanced work may need variables, procedures, data analysis and documentation beyond this focused crosswalk.
 
-This guide does not extend the authored age ranges of the ten additions beyond age 12. Grades 6–8 include older learners; educators must choose appropriate depth. The broader inherited graph contains older-age material, but this is not a complete middle-school course.
+This guide does not extend the authored age ranges of the fifteen additions beyond age 12. Grades 6–8 include older learners; educators must choose appropriate depth. The broader inherited graph contains older-age material, but this is not a complete middle-school course.
 
 ## Selected standards relationships
 
-These are source-reviewed editorial connections, not official certification, full coverage or evidence of learner outcomes. Existing canonical links are preserved. No new formal standards associations are authored. The machine-readable companion is [us-crosswalk.json](us-crosswalk.json).
+These are source-reviewed editorial connections, not official certification, full coverage or evidence of learner outcomes. Existing curriculum references are retained. These notes do not add formal standards links. The machine-readable companion is [us-crosswalk.json](us-crosswalk.json).
 
 ### 3-5-ETS1-1 (2013; grades 3–5)
 
-- Relationship: `partial_contribution`. Problem definition and criteria.
+- How it connects: Supports part of the expectation. Problem definition and criteria.
 - Topics: `mt_Z5-fSCOBep`
 - Suggested evidence: Write a design brief for a bridge that carries a chosen load within a materials budget.
 - Limits: The learner must define the need and criteria, rather than only follow a supplied recipe.
@@ -34,7 +34,7 @@ These are source-reviewed editorial connections, not official certification, ful
 
 ### 3-5-ETS1-2 (2013; grades 3–5)
 
-- Relationship: `partial_contribution`. Comparison of proposed designs.
+- How it connects: Supports part of the expectation. Comparison of proposed designs.
 - Topics: `mt_HveO1bOXpJ`
 - Suggested evidence: Compare three bridge sketches against the same brief.
 - Limits: A successful single build is insufficient; explain the comparison against criteria and constraints.
@@ -42,7 +42,7 @@ These are source-reviewed editorial connections, not official certification, ful
 
 ### 3-5-ETS1-3 (2013; grades 3–5)
 
-- Relationship: `partial_contribution`. Controlled prototype testing.
+- How it connects: Supports part of the expectation. Controlled prototype testing.
 - Topics: `mt_eoPcc4nrBE`
 - Suggested evidence: Record repeated bridge tests, failures and a justified revision.
 - Limits: Plan controls and trial count; use failure evidence to improve the design. Topic evidence alone does not ensure every condition.
@@ -50,7 +50,7 @@ These are source-reviewed editorial connections, not official certification, ful
 
 ### 3-PS2-1 (2013; grades 3–5)
 
-- Relationship: `partial_contribution`. Investigating forces and motion.
+- How it connects: Supports part of the expectation. Investigating forces and motion.
 - Topics: `mt_3WMADSy0mA`
 - Suggested evidence: Compare motion under balanced and unbalanced pushes.
 - Limits: Control one variable; keep force comparisons qualitative. A race result alone does not isolate forces.
@@ -58,7 +58,7 @@ These are source-reviewed editorial connections, not official certification, ful
 
 ### 4-PS3-4 (2013; grades 3–5)
 
-- Relationship: `partial_contribution`. Designing an energy-converting device.
+- How it connects: Supports part of the expectation. Designing an energy-converting device.
 - Topics: `mt_K1-HopEJAB`
 - Suggested evidence: Build and revise a rubber-band vehicle and explain its energy changes.
 - Limits: Respect the assessment boundary. The inherited solar-oven example is not itself evidence of meeting that boundary.
@@ -66,7 +66,7 @@ These are source-reviewed editorial connections, not official certification, ful
 
 ### MS-ETS1-1 (2013; grades 6–8)
 
-- Relationship: `prerequisite_only`. An elementary design brief provides a starting point.
+- How it connects: Provides background for later work. An elementary design brief provides a starting point.
 - Topics: `mt_Z5-fSCOBep`
 - Suggested evidence: Revise the bridge brief using scientific constraints and effects on people and the environment.
 - Limits: The existing topic does not establish middle-school depth or these wider impacts.
@@ -74,7 +74,7 @@ These are source-reviewed editorial connections, not official certification, ful
 
 ### 5-PS1-3 (2013; grades 3–5)
 
-- Relationship: `assessment_exclusion`. Density is enrichment for this selected expectation.
+- Assessment limit: Excluded from this expectation. Density is enrichment for this selected expectation.
 - Topics: `mt_915b9dc0b3714097`
 - Suggested evidence: Compare equal-volume samples as an optional conceptual investigation.
 - Limits: Density is explicitly excluded from this expectation’s assessment; do not claim coverage.
@@ -82,7 +82,7 @@ These are source-reviewed editorial connections, not official certification, ful
 
 ### E3-PRO-TR-08 (2026; grades 3)
 
-- Relationship: `partial_contribution`. Debugging foundation.
+- How it connects: Supports part of the expectation. Debugging foundation.
 - Topics: `mt_5UtPmgdoQ9`, `mt_6XbAmdmjDb`, `mt_nfGAtwqSvP`
 - Suggested evidence: Keep before-and-after programs and explain the fault.
 - Limits: Include sequence, events, loops and decisions across the work; a loop exercise alone is insufficient.
@@ -90,7 +90,7 @@ These are source-reviewed editorial connections, not official certification, ful
 
 ### E5-PRO-TR-08 (2026; grades 5)
 
-- Relationship: `partial_contribution`. Systematic debugging foundation.
+- How it connects: Supports part of the expectation. Systematic debugging foundation.
 - Topics: `mt_5UtPmgdoQ9`
 - Suggested evidence: Record how two different debugging methods located a fault.
 - Limits: One successful correction does not establish a repertoire of methods.
@@ -98,7 +98,7 @@ These are source-reviewed editorial connections, not official certification, ful
 
 ### MS-PRO-TR-19 (2026; grades 6–8)
 
-- Relationship: `prerequisite_only`. Testing foundation for later development.
+- How it connects: Provides background for later work. Testing foundation for later development.
 - Topics: `mt_5UtPmgdoQ9`
 - Suggested evidence: Keep a change log connecting tests and peer feedback to revisions.
 - Limits: The topic alone does not supply the full development and documentation practice.
@@ -106,7 +106,7 @@ These are source-reviewed editorial connections, not official certification, ful
 
 ## Editions, coverage and rights
 
-The baseline already contains US references: 78 of 78 catalogued K–5 science codes and 34 of 59 middle-school science codes have at least one topic link. These are link counts, not verified coverage scores. Common Core mathematics and literacy references are also inherited. No 50-state equivalence is asserted.
+The baseline already contains US references: 78 of 78 catalogued K–5 science codes and 34 of 59 middle-school science codes have at least one topic link. These are link counts, not verified coverage scores. Common Core mathematics and literacy references are also inherited. Requirements vary by state; these references do not establish a match across all 50 states.
 
 Computing references above use CSTA’s 2026 edition (PDF printed pages 60–61). Some local curricula may still use 2017; do not substitute identifiers across editions. CSTA’s source is CC BY-NC-SA 4.0. We link to it and supply identifiers and our own limited relationship analysis; its text, tables and examples are not imported or relicensed. These selected programming connections do not cover the complete computing curriculum or represent CSTA approval.
 

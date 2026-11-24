@@ -178,3 +178,7 @@ WestEd's [commercial trademark guidance](https://www.nextgenscience.org/ngss-tra
 ## US companion (24 November 2026)
 
 `docs/us-educator-guide.md` and `docs/us-crosswalk.json` are Sparks-authored editorial analysis of selected official 2013 science and 2026 CSTA references. No CSTA standard text is imported. CSTA source material retains CC BY-NC-SA 4.0; source terms remain separate; the publication approach is disclosed above. No canonical topic or alignment records changed.
+
+## Approved repository update
+
+Five further Sparks-authored claims extend early floating, navigation, music and French. Fifteen additions now accompany the original 1,912 unchanged topic and teaching records. Twenty-three additional soft links and seven corrected inherited directions are explicitly recorded in `extensions/sparks/connection-review.json`. Citations support bounded facts; source lessons and standards wording have not been imported. Existing catalogue treatment is unchanged.

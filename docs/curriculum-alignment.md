@@ -4,7 +4,7 @@ A useful engineering concept need not map one-to-one to a curriculum expectation
 
 **Scope:** selected England 2013 Science, Computing and Design & Technology programmes, plus the Next Generation Science Standards* 5-PS1-3 assessment boundary. This is not a worldwide curriculum audit, and no newly authored topic is advertised as fully curriculum-aligned. Existing upstream associations are preserved, not recertified.
 
-All ten new concepts currently have proposed global age contexts and no formal standard associations. That does **not** mean that all ten are absent from school curricula. Some contribute to primary requirements, some introduce later-stage ideas qualitatively, and some are applications for which an exact mapping has not been established.
+All fifteen additions have suggested age ranges, but no new formal links to standards. That does **not** mean that all fifteen are absent from school curricula. Some contribute to primary requirements, some introduce later-stage ideas qualitatively, and some are applications for which an exact mapping has not been established.
 
 | Concept | Relationship | Coverage disposition and boundary |
 | --- | --- | --- |
@@ -42,3 +42,7 @@ The public story supported by this release is that practical engineering prompte
 ## US educator companion
 
 [US educator guide](us-educator-guide.md) and [versioned crosswalk](us-crosswalk.json) cover selected grades 3–5 and 6–8 connections. These editorial records do not add canonical standards associations or game paths.
+
+## Navigation, music, early floating and French additions
+
+The five later additions have **Unverified** curriculum dispositions: no exact jurisdictional mapping was performed. Their sources support the specific ideas being taught; they do not show that an entire standard is covered. The US crosswalk still covers selected engineering and computing topics only. No standards text or new formal associations were added.

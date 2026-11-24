@@ -1,0 +1,348 @@
+{
+  "approvedAt": "2026-11-24",
+  "status": "Approved for repository publication",
+  "addedEdges": [
+    {
+      "group": "new-topics",
+      "topicId": "mt_0df627589564d732",
+      "prerequisiteId": "mt_MRQcEvyPJv",
+      "strength": "soft",
+      "reason": "Comparing observed outcomes with recorded predictions supports using the controlled shape contrast as evidence.",
+      "confidence": "medium",
+      "countercase": "The adult may supply observations, so independent prediction-recording is not essential."
+    },
+    {
+      "group": "new-topics",
+      "topicId": "mt_0df627589564d732",
+      "prerequisiteId": "mt_wf-SJhZ1kC",
+      "strength": "soft",
+      "reason": "Recognising that reshaping can leave the material unchanged supports isolating shape in the flotation comparison.",
+      "confidence": "medium",
+      "countercase": "An adult can state that the same piece is used; all four reshaping procedures need not be mastered."
+    },
+    {
+      "group": "new-topics",
+      "topicId": "mt_0124c7499b7c49de",
+      "prerequisiteId": "mt_0df627589564d732",
+      "strength": "soft",
+      "reason": "Recognising a same-material shape contrast gives a concrete phenomenon for the later support-and-displacement explanation.",
+      "confidence": "medium",
+      "countercase": "The later explanation can introduce its own contrast, so the empirical claim is helpful rather than required."
+    },
+    {
+      "group": "new-topics",
+      "topicId": "mt_db167f7896547ea5",
+      "prerequisiteId": "mt_TdV9YGJEoY",
+      "strength": "soft",
+      "reason": "Body turns and movement vocabulary help distinguish facing direction from an external compass reference.",
+      "confidence": "medium",
+      "countercase": "The teacher can model the necessary turn without requiring the whole mathematical vocabulary repertoire."
+    },
+    {
+      "group": "new-topics",
+      "topicId": "mt_HX8VtJRt0Y",
+      "prerequisiteId": "mt_db167f7896547ea5",
+      "strength": "soft",
+      "reason": "Maintaining a compass reference while the body turns can support retaining a supplied map reference when its page turns.",
+      "confidence": "low",
+      "countercase": "Map directions can be learned entirely from a drawn arrow; this is transfer support, not a requirement, and magnetic and map north must remain distinct."
+    },
+    {
+      "group": "new-topics",
+      "topicId": "mt_bebacc3f78c4a751",
+      "prerequisiteId": "mt_OTFABm2xdf",
+      "strength": "soft",
+      "reason": "Experience following a steady beat supports placing sustained sounds and rests against a supplied pulse.",
+      "confidence": "medium",
+      "countercase": "The pulse is supplied, so the learner need not independently maintain a beat or perform a whole rhyme."
+    },
+    {
+      "group": "new-topics",
+      "topicId": "mt_Gy9nCgUjlD",
+      "prerequisiteId": "mt_bebacc3f78c4a751",
+      "strength": "soft",
+      "reason": "Controlling sound and rest durations supports realising the duration relationships represented in a staff score.",
+      "confidence": "medium",
+      "countercase": "The staff topic can teach durations alongside notation; this component does not establish the rest of staff literacy."
+    },
+    {
+      "group": "new-topics",
+      "topicId": "mt_40f6101fa9192fe4",
+      "prerequisiteId": "mt_Winq7Tu99m",
+      "strength": "soft",
+      "reason": "Familiar French word meanings support interpreting their relationships in a newly combined spoken sentence.",
+      "confidence": "medium",
+      "countercase": "Known meanings can be supplied and checked without requiring delayed productive vocabulary recall."
+    },
+    {
+      "group": "new-topics",
+      "topicId": "mt_884733f0dd1c4413",
+      "prerequisiteId": "mt_wLroTdOoZh",
+      "strength": "soft",
+      "reason": "Producing familiar French consonants supports blending them with the taught vowel spellings when decoding.",
+      "confidence": "low",
+      "countercase": "The bounded decoding task uses only m and p; mastery of every contrast and cluster in the older topic is unnecessary."
+    },
+    {
+      "group": "new-topics",
+      "topicId": "mt_sPd4fWeY9x",
+      "prerequisiteId": "mt_884733f0dd1c4413",
+      "strength": "soft",
+      "reason": "Decoding regular parts of taught French words can support retaining their written forms alongside explicitly learned irregular features.",
+      "confidence": "medium",
+      "countercase": "Spelling retrieval can be learned without this particular decoding inventory, and nontransparent forms cannot be reconstructed from sound alone."
+    },
+    {
+      "group": "forces-machines",
+      "topicId": "mt_Ns6Jw8Q4rB",
+      "prerequisiteId": "mt_B3W5EfimJw",
+      "strength": "soft",
+      "reason": "Understanding pushes and pulls as forces supports explaining how a structure carries a load and how struts and ties resist it.",
+      "confidence": "medium",
+      "countercase": "Arguably hard: struts push and ties pull, and upstream's own task design for the matching curriculum expectation uses both topics together. Kept soft because the topic's teaching record states no new hard prerequisite."
+    },
+    {
+      "group": "forces-machines",
+      "topicId": "mt_p7LBWFX60E",
+      "prerequisiteId": "mt_Ns6Jw8Q4rB",
+      "strength": "soft",
+      "reason": "Explaining how compression struts and tension ties support a framework supports identifying internal tension and compression in a member.",
+      "confidence": "medium",
+      "countercase": "Arguably hard because of the shared strut and tie content. Kept soft because upstream reviewed the nearby force topics for this claim and added no edges."
+    },
+    {
+      "group": "forces-machines",
+      "topicId": "mt_p7LBWFX60E",
+      "prerequisiteId": "mt_wf-SJhZ1kC",
+      "strength": "soft",
+      "reason": "Experience of stretching, squashing and bending solids supports explaining the stretching and squeezing effects of tension and compression.",
+      "confidence": "medium",
+      "countercase": "The earlier topic is about changing shape by hand, not about forces inside a loaded member. Upstream's task design uses the two topics together for one curriculum expectation but added no edge."
+    },
+    {
+      "group": "forces-machines",
+      "topicId": "mt_p7LBWFX60E",
+      "prerequisiteId": "mt_3WMADSy0mA",
+      "strength": "soft",
+      "reason": "Knowing that balanced forces leave an object still supports explaining why a loaded beam can carry internal forces while remaining at rest.",
+      "confidence": "medium",
+      "countercase": "The claim can be met with a supplied beam case without a net-force investigation."
+    },
+    {
+      "group": "forces-machines",
+      "topicId": "mt_AiWlJfvC3O",
+      "prerequisiteId": "mt_3WMADSy0mA",
+      "strength": "soft",
+      "reason": "Distinguishing zero and non-zero resultant forces builds on evidence of how balanced and unbalanced forces affect motion.",
+      "confidence": "high",
+      "countercase": "Qualitative force balance is useful, but the prerequisite also assesses investigation; completing that entire procedure is not necessary for combining supplied forces."
+    },
+    {
+      "group": "forces-machines",
+      "topicId": "mt_Q2k3fSwyzQ",
+      "prerequisiteId": "mt_vjMAN6sb7z",
+      "strength": "soft",
+      "reason": "Recognising levers, pulleys and other simple-machine arrangements and their everyday functions supports recognising that such mechanisms let a smaller force have a greater effect.",
+      "confidence": "medium",
+      "countercase": "Gears are not among the six classical machines, and the topic's source curriculum teaches it without the classification."
+    },
+    {
+      "group": "forces-machines",
+      "topicId": "mt_d1f48410cd8b4254",
+      "prerequisiteId": "mt_Q2k3fSwyzQ",
+      "strength": "soft",
+      "reason": "Recognising that mechanisms let a smaller force have a greater effect supports explaining the matching increase in input travel.",
+      "confidence": "medium",
+      "countercase": "The Sparks rationale says supplied motion comparisons can introduce the mechanisms, and its authors chose not to link these. A hard edge would be wrong."
+    },
+    {
+      "group": "forces-machines",
+      "topicId": "mt_56c39fbf4ef341a0",
+      "prerequisiteId": "mt_6xNmQLzuqm",
+      "strength": "soft",
+      "reason": "Understanding area as the amount of surface covered supports comparing the areas over which a force is spread.",
+      "confidence": "medium",
+      "countercase": "Broad-face versus narrow-face comparisons can be made by eye without unit squares."
+    },
+    {
+      "group": "forces-machines",
+      "topicId": "mt_0124c7499b7c49de",
+      "prerequisiteId": "mt_3WMADSy0mA",
+      "strength": "soft",
+      "reason": "Evidence that balanced forces leave an object at rest supports explaining a floating object as held by an upward support equal to its weight.",
+      "confidence": "medium",
+      "countercase": "The only force prerequisite the Sparks authors set is Pushes & Pulls, and the claim can be reasoned in support-equals-weight language without a net-force investigation."
+    },
+    {
+      "group": "solar",
+      "topicId": "mt_3568068de7804719",
+      "prerequisiteId": "mt_X_aDUBh-HF",
+      "strength": "soft",
+      "reason": "Recognising light and electric current as energy-transfer routes supports explaining the panel’s changed electrical output.",
+      "confidence": "high",
+      "countercase": "The whole prior topic includes sound and heat examples; supplied light-to-electricity context avoids requiring all of them, so this is soft."
+    },
+    {
+      "group": "solar",
+      "topicId": "mt_3568068de7804719",
+      "prerequisiteId": "mt_Oru08pKlxd",
+      "strength": "soft",
+      "reason": "Experience of a surface intercepting light supports comparing how much of a direct beam reaches differently oriented panel faces.",
+      "confidence": "medium",
+      "countercase": "Shadow-size investigation is not required by the panel claim; interception can be introduced directly, so this is soft."
+    },
+    {
+      "group": "solar",
+      "topicId": "mt_3568068de7804719",
+      "prerequisiteId": "mt_qZro923zvz",
+      "strength": "soft",
+      "reason": "A straight-ray representation supports explaining the panel-face comparison relative to incoming direct light.",
+      "confidence": "high",
+      "countercase": "A supplied ray diagram can teach the needed representation without prior mastery of the broader seeing-and-shadows claim."
+    },
+    {
+      "group": "solar",
+      "topicId": "mt_3568068de7804719",
+      "prerequisiteId": "mt_DA7-JYRvtP",
+      "strength": "soft",
+      "reason": "Experience of a complete circuit helps interpret a panel powering an unchanged load.",
+      "confidence": "medium",
+      "countercase": "Supplied output readings avoid requiring circuit construction; the solar claim does not certify wiring skill."
+    }
+  ],
+  "reversals": [
+    {
+      "reviewId": "R1",
+      "before": {
+        "topicId": "mt_cEzX5r7kp0",
+        "prerequisiteId": "mt_1wxwg782yX",
+        "strength": "hard",
+        "reason": "Must observe parent-offspring resemblance before analysing inherited traits with data"
+      },
+      "after": {
+        "topicId": "mt_1wxwg782yX",
+        "prerequisiteId": "mt_cEzX5r7kp0",
+        "strength": "hard",
+        "reason": "Must observe parent-offspring resemblance before analysing inherited traits with data"
+      },
+      "confidence": "high",
+      "confidenceAuthor": "Codex; Fable did not rate individual reversals",
+      "reason": "The recorded reason describes this direction, and the reviewed claims support it.",
+      "countercase": "The relationship may be taught together; the existing strength is retained, and minimum ages alone are not used to justify reversal."
+    },
+    {
+      "reviewId": "R2",
+      "before": {
+        "topicId": "mt_YQkUdIHO8L",
+        "prerequisiteId": "mt_Pl-nsjYGZ3",
+        "strength": "hard",
+        "reason": "Must classify states of matter before understanding changes between states"
+      },
+      "after": {
+        "topicId": "mt_Pl-nsjYGZ3",
+        "prerequisiteId": "mt_YQkUdIHO8L",
+        "strength": "hard",
+        "reason": "Must classify states of matter before understanding changes between states"
+      },
+      "confidence": "high",
+      "confidenceAuthor": "Codex; Fable did not rate individual reversals",
+      "reason": "The recorded reason describes this direction, and the reviewed claims support it.",
+      "countercase": "The relationship may be taught together; the existing strength is retained, and minimum ages alone are not used to justify reversal."
+    },
+    {
+      "reviewId": "R4",
+      "before": {
+        "topicId": "mt_RhntJz7p_6",
+        "prerequisiteId": "mt_q7zxOloj_L",
+        "strength": "soft",
+        "reason": "PSD decision-making skills underpin strategy selection in Learning-to-Learn"
+      },
+      "after": {
+        "topicId": "mt_q7zxOloj_L",
+        "prerequisiteId": "mt_RhntJz7p_6",
+        "strength": "soft",
+        "reason": "PSD decision-making skills underpin strategy selection in Learning-to-Learn"
+      },
+      "confidence": "high",
+      "confidenceAuthor": "Codex; Fable did not rate individual reversals",
+      "reason": "The recorded reason describes this direction, and the reviewed claims support it.",
+      "countercase": "The relationship may be taught together; the existing strength is retained, and minimum ages alone are not used to justify reversal."
+    },
+    {
+      "reviewId": "R5",
+      "before": {
+        "topicId": "mt_cJjnPjuvCU",
+        "prerequisiteId": "mt_jIszRCO2ij",
+        "strength": "soft",
+        "reason": "PSD goal-setting scaffolds the learning goal practices taught in Learning-to-Learn"
+      },
+      "after": {
+        "topicId": "mt_jIszRCO2ij",
+        "prerequisiteId": "mt_cJjnPjuvCU",
+        "strength": "soft",
+        "reason": "PSD goal-setting scaffolds the learning goal practices taught in Learning-to-Learn"
+      },
+      "confidence": "medium",
+      "confidenceAuthor": "Codex; Fable did not rate individual reversals",
+      "reason": "The recorded reason describes this direction, and the reviewed claims support it.",
+      "countercase": "The relationship may be taught together; the existing strength is retained, and minimum ages alone are not used to justify reversal."
+    },
+    {
+      "reviewId": "R6",
+      "before": {
+        "topicId": "mt_AylKwhbDWM",
+        "prerequisiteId": "mt__aHSZTm5k5",
+        "strength": "soft",
+        "reason": "Marine animal classification benefits from curriculum grouping-living-things skill"
+      },
+      "after": {
+        "topicId": "mt__aHSZTm5k5",
+        "prerequisiteId": "mt_AylKwhbDWM",
+        "strength": "soft",
+        "reason": "Marine animal classification benefits from curriculum grouping-living-things skill"
+      },
+      "confidence": "high",
+      "confidenceAuthor": "Codex; Fable did not rate individual reversals",
+      "reason": "The recorded reason describes this direction, and the reviewed claims support it.",
+      "countercase": "The relationship may be taught together; the existing strength is retained, and minimum ages alone are not used to justify reversal."
+    },
+    {
+      "reviewId": "R7",
+      "before": {
+        "topicId": "mt_ppENoD8vf1",
+        "prerequisiteId": "mt_w2u9bXP9n7",
+        "strength": "soft",
+        "reason": "Rock pools are a microhabitat; benefits from curriculum naming plants/animals in habitats"
+      },
+      "after": {
+        "topicId": "mt_w2u9bXP9n7",
+        "prerequisiteId": "mt_ppENoD8vf1",
+        "strength": "soft",
+        "reason": "Rock pools are a microhabitat; benefits from curriculum naming plants/animals in habitats"
+      },
+      "confidence": "medium",
+      "confidenceAuthor": "Codex; Fable did not rate individual reversals",
+      "reason": "The recorded reason describes this direction, and the reviewed claims support it.",
+      "countercase": "The relationship may be taught together; the existing strength is retained, and minimum ages alone are not used to justify reversal."
+    },
+    {
+      "reviewId": "R8",
+      "before": {
+        "topicId": "mt_oB-L8EVdIP",
+        "prerequisiteId": "mt_OnV_DTp5i8",
+        "strength": "soft",
+        "reason": "Ocean food webs build on curriculum food chains with trophic levels"
+      },
+      "after": {
+        "topicId": "mt_OnV_DTp5i8",
+        "prerequisiteId": "mt_oB-L8EVdIP",
+        "strength": "soft",
+        "reason": "Ocean food webs build on curriculum food chains with trophic levels"
+      },
+      "confidence": "high",
+      "confidenceAuthor": "Codex; Fable did not rate individual reversals",
+      "reason": "The recorded reason describes this direction, and the reviewed claims support it.",
+      "countercase": "The relationship may be taught together; the existing strength is retained, and minimum ages alone are not used to justify reversal."
+    }
+  ]
+}

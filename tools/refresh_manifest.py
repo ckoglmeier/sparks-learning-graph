@@ -16,7 +16,7 @@ def refresh(root=ROOT):
             raise ValueError('Not in release allowlist: '+str(rel))
         data=path.read_bytes()
         records.append({'path':str(rel),'bytes':len(data),'sha256':hashlib.sha256(data).hexdigest()})
-    manifest={'version':'0.1.0-rc.1','preparedAt':'2026-11-24','upstreamCommit':'acac33d2a23bef7d60c462da2cd8ef124c7faa2a','inventoryExcludes':['RELEASE-MANIFEST.json (self)','local .git metadata','Python __pycache__'],'files':records}
+    manifest={'version':'0.1.0-rc.2-dev','preparedAt':'2026-11-24','upstreamCommit':'acac33d2a23bef7d60c462da2cd8ef124c7faa2a','inventoryExcludes':['RELEASE-MANIFEST.json (self)','local .git metadata','Python __pycache__'],'files':records}
     (root/'RELEASE-MANIFEST.json').write_text(json.dumps(manifest,indent=2)+'\n')
     print('Inventoried',len(records),'files')
 if __name__=='__main__':refresh()

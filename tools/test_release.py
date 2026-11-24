@@ -35,6 +35,13 @@ class GraphMutations(unittest.TestCase):
         g=self.changed('manifest');g['manifest']['counts']['topics']+=1
         with self.assertRaisesRegex(ValueError,'Manifest count'):check_graph(g)
 
+    def test_stale_coverage_summary(self):
+        g=self.changed('teaching-research');g['teaching-research']['coverage']['topicCount']-=1
+        with self.assertRaisesRegex(ValueError,'coverage summary'):check_graph(g)
+    def test_stale_manifest_research_binding(self):
+        g=self.changed('manifest');g['manifest']['teachingResearch']['topicFileSha256']='stale'
+        with self.assertRaisesRegex(ValueError,'research summary'):check_graph(g)
+
 class InventoryMutations(unittest.TestCase):
     def test_tamper_and_unlisted_file(self):
         with tempfile.TemporaryDirectory() as d:

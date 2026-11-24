@@ -1,6 +1,6 @@
 {
   "version": "v1",
-  "topicCount": 1922,
+  "topicCount": 1927,
   "topics": [
     {
       "id": "mt__p5n8z5soJ",
@@ -48666,6 +48666,96 @@
         "Explain why a single angle cannot maximise instantaneous direct-light capture for every changing light direction, and why clouds or shading complicate the simple comparison."
       ],
       "assessmentPrompt": "Can {{name}} compare a small panel facing a fixed lamp with the same panel turned nearly edge-on, explain the difference in captured light, and say why the best direction may change as the light source moves?",
+      "standards": []
+    },
+    {
+      "id": "mt_0df627589564d732",
+      "type": "CONCEPTUAL",
+      "subject": "Science",
+      "domain": "Forces & Motion",
+      "name": "Shape and floating",
+      "description": "Use controlled observations to explain that reshaping the same amount of a waterproof material can change whether the whole object floats or sinks. Distinguish a change in shape from a change in material or amount, and reject material-name-only or heavier-means-sinks rules using the supplied comparisons. No density, displacement or force explanation is required.",
+      "ageRangeStart": 5,
+      "ageRangeEnd": 8,
+      "centrality": null,
+      "evidence": [
+        "Identify a floating object as supported at the water surface after release, rather than held by a hand or resting on the bottom.",
+        "In a repeated lump–watertight-hull–lump comparison with the same material and amount, identify shape as the changed feature and use the outcomes to show that the material name alone does not settle flotation.",
+        "Transfer the same-material reasoning to another supplied controlled comparison, while saying that an untested hull is not guaranteed to float."
+      ],
+      "assessmentPrompt": "Can {{name}} explain what changed when the same piece of waterproof modelling material sank as a lump but floated as a watertight bowl, then explain why that does not mean every bowl will float?",
+      "standards": []
+    },
+    {
+      "id": "mt_db167f7896547ea5",
+      "type": "PROCEDURAL",
+      "subject": "Geography",
+      "domain": "Maps & Spatial Skills",
+      "name": "Using a compass to find directions",
+      "description": "Use a supplied magnetic compass to establish a local magnetic-north reference and identify north, east, south and west in a bounded familiar space. Re-establish the reference after turning the body, and point toward a requested direction without confusing the needle with the fixed case markings. No map reading, numerical bearing or magnetic-field explanation is required.",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 10,
+      "centrality": null,
+      "evidence": [
+        "Hold the supplied compass level, allow the needle to settle and identify its north-seeking end using the instrument key.",
+        "Align the marked cardinal reference with that end and point to each of the four directions relative to the same observation point.",
+        "After changing facing direction, re-establish the reference and retain the same environmental directions instead of calling forward north."
+      ],
+      "assessmentPrompt": "With a suitable compass in a familiar supervised space, can {{name}} find north and point east, then turn around and find the same directions again without treating the way they face as north?",
+      "standards": []
+    },
+    {
+      "id": "mt_bebacc3f78c4a751",
+      "type": "PROCEDURAL",
+      "subject": "Performing Arts",
+      "domain": "Music",
+      "name": "Sound and silence durations against a pulse",
+      "description": "Perform and compare short sequences of sustained sound and silence lasting one or two intervals of a supplied steady pulse. Preserve the relative durations and the entry after a rest when the pulse changes speed. No pitch matching, conventional note symbols or staff reading is required.",
+      "ageRangeStart": 5,
+      "ageRangeEnd": 9,
+      "centrality": null,
+      "evidence": [
+        "Sustain one continuous sound for one or two pulse intervals, distinguishing a two-interval sound from two separate attacks.",
+        "Keep a one- or two-interval silence within a supplied sequence and resume at its specified boundary rather than omit the rest.",
+        "Perform a fresh sequence at a second comfortable pulse speed, retaining the relative lengths while actual elapsed seconds change."
+      ],
+      "assessmentPrompt": "With you keeping a steady pulse, can {{name}} make one sound last two pulses, stay silent for one, and start the next sound at the right time, then keep those lengths when you change the speed?",
+      "standards": []
+    },
+    {
+      "id": "mt_40f6101fa9192fe4",
+      "type": "LANGUAGE",
+      "subject": "Français",
+      "domain": "Langage oral",
+      "name": "Comprendre les relations dans une phrase orale",
+      "description": "Interpret who does what to whom in a short newly combined spoken French sentence built from a declared taught vocabulary and present-tense subject–verb–object pattern. Demonstrate the relationship by arranging or selecting a scene without needing to read, translate into French or repeat the sentence. Word recognition alone is insufficient.",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "Identify agent, action and recipient in a new spoken sentence made from known words.",
+        "Distinguish sentences using the same words with agent and recipient exchanged, and change the represented scene accordingly.",
+        "Transfer to a different combination and speaker, with the vocabulary, structure and permitted repetition kept explicit."
+      ],
+      "assessmentPrompt": "After the words and sentence pattern are familiar, can {{name}} show who is helping whom when they hear “Mila aide Sami”, then change the scene for “Sami aide Mila”, without seeing the sentence written down?",
+      "standards": []
+    },
+    {
+      "id": "mt_884733f0dd1c4413",
+      "type": "LANGUAGE",
+      "subject": "Français",
+      "domain": "Orthographe",
+      "name": "Lire des correspondances graphème–phonème françaises",
+      "description": "Use a declared taught set of French spelling-to-sound correspondences to decode fresh regular syllables or short decodable strings, rather than retrieve a memorised whole-word pronunciation. Preserve the taught u/ou contrast while combining it with known consonants. The claim is decoding, not guessing a unique spelling from a sound or understanding a message.",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "Identify the taught spelling units in a printed item, treating ou as one unit rather than two independent letter sounds.",
+        "Blend a new combination of the taught units while preserving the u/ou sound distinction of the target French model.",
+        "Apply the same correspondences to unfamiliar explicitly labelled practice strings and explain which changed printed unit changed the pronunciation."
+      ],
+      "assessmentPrompt": "After learning French m, p, a, i, u and ou, can {{name}} read fresh practice syllables such as mou and mu, then combine the same units in a new practice string without hearing it first?",
       "standards": []
     }
   ]

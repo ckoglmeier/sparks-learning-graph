@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0-rc.1",
+  "version": "0.1.0-rc.2-dev",
   "preparedAt": "2026-11-24",
   "upstreamCommit": "acac33d2a23bef7d60c462da2cd8ef124c7faa2a",
   "inventoryExcludes": [
@@ -20,13 +20,13 @@
     },
     {
       "path": "ATTRIBUTION.md",
-      "bytes": 3415,
-      "sha256": "ff4939bbd7adbf8dc2409dfe36d58fce67f7f58cfe14fc10ac4ef0b1dd97e972"
+      "bytes": 3476,
+      "sha256": "b1780589418925a51c4ebe18e904343aee1b1f900dc965f548ca48a8317ffb2f"
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 1706,
-      "sha256": "d49e2b43a0767a841ef8f253ae82fb2d468b59cf501e9fde4f86648b35e0e2a6"
+      "bytes": 2397,
+      "sha256": "7460e0902600e915058b6760740f5dfc8f98fd687fb2dcde4df8ced671db6d51"
     },
     {
       "path": "CITATION.cff",
@@ -55,13 +55,13 @@
     },
     {
       "path": "PROVENANCE.md",
-      "bytes": 37759,
-      "sha256": "990a97553bea86f1022003c4c234bb56a715e3528cc0ea67f71fde2fc5939d91"
+      "bytes": 38253,
+      "sha256": "db61566609837fdc9481930483bba819885ec0cd4803a3f6821cde24bce37c71"
     },
     {
       "path": "README.md",
-      "bytes": 6350,
-      "sha256": "4fe7fc1d215a7ea979110fc7ee726525b10e17c16aea949ebb19a3aca526836f"
+      "bytes": 7139,
+      "sha256": "503e4c624629ddefc439c8bea4b3f6c336be34001cac18121a73bd1fd1ca0abe"
     },
     {
       "path": "UPSTREAM.json",
@@ -80,8 +80,8 @@
     },
     {
       "path": "data/curriculum-alignments.json",
-      "bytes": 1821393,
-      "sha256": "08e15d56b32d02b5fb63cacd0c31b27576a4c7cf41ae4d44cd7fc1637dd2b2b6"
+      "bytes": 1822261,
+      "sha256": "2ded7cc074e10965038ebe45b127afa0faf2e9334bec8f7ae66c2e39018223ab"
     },
     {
       "path": "data/curriculum-standards.json",
@@ -90,23 +90,23 @@
     },
     {
       "path": "data/dependencies.json",
-      "bytes": 885948,
-      "sha256": "08277203e5609db62bd8f0a90d24f17f6d446fc9109cf31590bd51787cd68fd6"
+      "bytes": 891918,
+      "sha256": "e3f36996045c3b0520a2ed883509f662786b3d7fe7947f44f9c28e2feb5f2400"
     },
     {
       "path": "data/manifest.json",
       "bytes": 4560,
-      "sha256": "51fa8e859f17f29c30403bad20d30a5864ff8e4a88f70981117f4465fa73e369"
+      "sha256": "cf9ad63f88323cca19730e89fcee165d43b5b9f23108e7ec26d1d2add7654eab"
     },
     {
       "path": "data/teaching-research.json",
-      "bytes": 32907436,
-      "sha256": "4c3a3d5c5caf7db9169ef98c9e475ce61053e5aaa8cbb7a3460dd27ab1b6b59d"
+      "bytes": 32951115,
+      "sha256": "f9c5781ef9346b2020db896ee66c9c3226d192b58eff185670ce3343c61f7d53"
     },
     {
       "path": "data/topics.json",
-      "bytes": 2864346,
-      "sha256": "8c587905709bfa3c722a9261bed9f648ad7c79b0a4281409e3223baa8d1ad45e"
+      "bytes": 2871082,
+      "sha256": "608e918bfb794f93b0ba546f06238f155ae0395cece3ec64e751a3382b15c9b8"
     },
     {
       "path": "docs/MARBLE-CITATION.cff",
@@ -115,23 +115,23 @@
     },
     {
       "path": "docs/concepts.md",
-      "bytes": 19724,
-      "sha256": "e73ef3536806add261ea10adc89384fb4f8a644077dada174957c8c3d1a463d2"
+      "bytes": 25366,
+      "sha256": "f0be3d5450ac596ac6b35c2e5664c3fbe4952c6dd5c52c6d328c0d9f5885bda9"
     },
     {
       "path": "docs/curriculum-alignment.json",
-      "bytes": 9405,
-      "sha256": "a1bd1e48ae08e387c4eb438987c891fada7e35d4a4713c74565a9eb97d03b34b"
+      "bytes": 12183,
+      "sha256": "29e6ec2c5bf59bdb604eff3fd720f6cf66508813021d30b7395d35fc5d27ff15"
     },
     {
       "path": "docs/curriculum-alignment.md",
-      "bytes": 7748,
-      "sha256": "88d0f59113b0b5af900b6b383862016c97b3e9621ee41597a5570c350e4abe0b"
+      "bytes": 8157,
+      "sha256": "9a3488493938f3304ea4b80c7c98b0358749444dfce8cc9de64485c4b96dec99"
     },
     {
       "path": "docs/data-format.md",
-      "bytes": 2036,
-      "sha256": "292858d0171760a73489e26e6c76d75cf0cee325ad44b29c718bfc8b783acec8"
+      "bytes": 2422,
+      "sha256": "01827c777b8792cca073f724ef751c420f3abbeb718f109713d04c8693676c1f"
     },
     {
       "path": "docs/reconciliation.md",
@@ -150,18 +150,18 @@
     },
     {
       "path": "docs/us-educator-guide.md",
-      "bytes": 8592,
-      "sha256": "d5831ce402f5293789df6afd2a0e34da4ffcf09f19d80146236ef98bfae6d9eb"
+      "bytes": 8728,
+      "sha256": "c371c4a8b3950007666aa4e80d50a7378b41392a56c69282dbb9fe1e8ba19413"
     },
     {
       "path": "docs/validation.md",
-      "bytes": 2251,
-      "sha256": "5be4e60152aaea5bc4c80ecfa993f840b5248e6949b6c07a155e2d2855f5eae5"
+      "bytes": 3232,
+      "sha256": "89e2e3a18c04282c2059c03e0950e5424d38a44fedf36ab8c9af25f93dde33d2"
     },
     {
       "path": "extensions/sparks/additions.json",
-      "bytes": 111913,
-      "sha256": "5a9294f3ec3556aa87a629a57feaeade61a48a3062437e732d180374961e083b"
+      "bytes": 169376,
+      "sha256": "7080ca683bc3465cdb7036c22ac64c0089a37499e19353d66b6996eb44ec9b2e"
     },
     {
       "path": "extensions/sparks/baseline-authored-hashes.json",
@@ -170,13 +170,18 @@
     },
     {
       "path": "extensions/sparks/claim-rationale.json",
-      "bytes": 6632,
-      "sha256": "55e007e0b96fe308fc62bc04031feae271c4939e44b6dffeacc19457bc58b63d"
+      "bytes": 13175,
+      "sha256": "8b3e2bcc0900adfa9353e4cd7860efccbf901e3f230b8613f24c31f4d9337edf"
+    },
+    {
+      "path": "extensions/sparks/connection-review.json",
+      "bytes": 17056,
+      "sha256": "e67d2c685bc4998aae72a076f5a6097eea2f981cde42ca72fc256124d365b2df"
     },
     {
       "path": "extensions/sparks/verify.py",
-      "bytes": 2006,
-      "sha256": "1328d57f29797d3f4a68f69223aaa6166514814db09774082e9b6d60aadbd295"
+      "bytes": 2829,
+      "sha256": "5f4bdc1ea302962c2363797d93baf6252f2f2ec2591ea6276a85aa527d999317"
     },
     {
       "path": "requirements-dev.txt",
@@ -280,13 +285,13 @@
     },
     {
       "path": "tools/refresh_manifest.py",
-      "bytes": 1490,
-      "sha256": "2829bf4ee1972fd53a2c7e8823878a7e43d7b4e71055831492c64b54f6b5a872"
+      "bytes": 1494,
+      "sha256": "79df543ff501922bdeffa10534f3a908228efc85d6475ff74a3b4a18557f55ea"
     },
     {
       "path": "tools/test_release.py",
-      "bytes": 3438,
-      "sha256": "e2a287c5f8aff224528657b3939debadf22dad8c1769ea36466da92977e2973f"
+      "bytes": 3890,
+      "sha256": "9e4914539b1c6850237822bf0624f2af5b73ad6dbd79fbbc613a525601dd4e5f"
     },
     {
       "path": "tools/test_us_crosswalk.py",
@@ -295,8 +300,8 @@
     },
     {
       "path": "tools/verify_release.py",
-      "bytes": 8647,
-      "sha256": "29760cfabaf826a6ceb7e00b6d8f5b1e70f8dd0d49f80c7123ed447b5c522fa6"
+      "bytes": 9233,
+      "sha256": "d8d7a49a5ee27f1b48aee7a6468872dd6a0320b987804ef869d674bc9b47f1e9"
     }
   ]
 }

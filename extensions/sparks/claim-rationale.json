@@ -88,5 +88,94 @@
       "Application enrichment; no exact primary curriculum mapping asserted.",
       "Technical source supports orientation effects, not a validated primary-age sequence."
     ]
+  },
+  {
+    "topicId": "mt_0df627589564d732",
+    "name": "Shape and floating",
+    "reuseRationale": "Did it happen as predicted? assesses a prediction/result comparison, and Classifying Materials assesses an investigation procedure; neither requires identifying shape as a controlled cause of changed flotation. Buoyant support and floating includes this case but requires a force/displacement explanation. This draft extracts a narrower empirical relationship independently assessable without that mechanism; it does not transfer mastery to the broader existing claim. The first review stopped at the observation-only wording; this is an explicitly revised claim, not a new label for that activity.",
+    "comparedTopicIds": [
+      "mt_MRQcEvyPJv",
+      "mt_zHnOGwHIEz",
+      "mt_wf-SJhZ1kC",
+      "mt_0124c7499b7c49de",
+      "mt_92fa2c4720f84f79"
+    ],
+    "scopeNotes": [
+      "Adult-supervised shallow water and large, non-toxic, waterproof samples; no small objects, deep water or life-saving claims.",
+      "Still fresh water, gentle release, no bottom contact, surface-tension-supported tiny objects, absorption, dissolution or changing load in the core comparison.",
+      "The adult may shape the samples; independent construction competence is not assessed.",
+      "No numerical density, water-volume measurement, buoyant-force balance or claim that solid material density changes when bent."
+    ],
+    "confidence": "medium"
+  },
+  {
+    "topicId": "mt_db167f7896547ea5",
+    "name": "Using a compass to find directions",
+    "reuseRationale": "Cardinal directions on maps supplies a drawn reference and explicitly excludes physical compass use. Magnetic Fields explains field behaviour rather than demonstrating practical orientation. Position, direction, and movement concerns body-relative turns. Instrument handling and maintaining an external reference form a distinct operation; no map or field mastery is transferred.",
+    "comparedTopicIds": [
+      "mt_HX8VtJRt0Y",
+      "mt_56aspHjU19",
+      "mt_TdV9YGJEoY"
+    ],
+    "scopeNotes": [
+      "Local magnetic-north frame only; do not equate magnetic, true and grid north or silently orient a geographic map without accounting for the difference.",
+      "Adult-checked familiar setting and suitable compass; no remote navigation, route safety, numerical bearings or declination calculation.",
+      "An adult can stabilise the base for access, but must not orient it for the learner; record assistance.",
+      "No phone-app calibration competence or magnetic-field theory is assessed."
+    ],
+    "confidence": "medium"
+  },
+  {
+    "topicId": "mt_bebacc3f78c4a751",
+    "name": "Sound and silence durations against a pulse",
+    "reuseRationale": "Rhythm in rhymes and songs already assesses steady beat and copied rhythm; it does not require explicit duration/rest control against a supplied pulse. Staff notation bundles this component with pitch, symbols and score translation. Creating and shaping musical sound permits free timing. This separates duration performance without duplicating beat keeping or claiming staff literacy.",
+    "comparedTopicIds": [
+      "mt_OTFABm2xdf",
+      "mt_Gy9nCgUjlD",
+      "mt_2mb17lUCPD"
+    ],
+    "scopeNotes": [
+      "Only one/two whole pulse intervals at a supplied steady pulse; no syncopation, subdivision, time-signature or formal note-value rule.",
+      "No universal assertion that a quarter note always equals one beat.",
+      "Use comfortable sound and accessible performance methods; do not infer pitch skill, independent beat keeping or general musicianship.",
+      "Tasks and pulse-speed choices are original proposals, not calibrated age thresholds."
+    ],
+    "confidence": "medium"
+  },
+  {
+    "topicId": "mt_40f6101fa9192fe4",
+    "name": "Comprendre les relations dans une phrase orale",
+    "reuseRationale": "Mémoriser et réemployer le vocabulaire identifies and retrieves taught words but does not require resolving relations between the same words in reordered sentences. The oral sound topics assess contrasts and production, not propositional meaning. Shared listening strategies do not establish performance in French; this claim requires French sentence interpretation with a bounded taught construction, without asserting broad fluency.",
+    "comparedTopicIds": [
+      "mt_Winq7Tu99m",
+      "mt_mAschyjZAT",
+      "mt_wLroTdOoZh",
+      "mt_mLPEMpYb_R"
+    ],
+    "scopeNotes": [
+      "Bounded present-tense subject–verb–object statements with proper-name subjects and objects; no pronouns, negation, passive voice or inference across a story in the core task.",
+      "Teacher establishes the declared vocabulary and pattern; success does not imply all French sentence comprehension.",
+      "No written transcript during the listening diagnostic; drawings, pointing or the learner’s preferred response language are acceptable.",
+      "Original examples require proficient spoken delivery; no recording has been produced or voice quality validated in this packet."
+    ],
+    "confidence": "medium"
+  },
+  {
+    "topicId": "mt_884733f0dd1c4413",
+    "name": "Lire des correspondances graphème–phonème françaises",
+    "reuseRationale": "Articuler les consonnes and Distinguer les voyelles nasales assess spoken contrasts, not deriving a pronunciation from print. Écrire de mémoire les mots français familiers retrieves known written words, including nontransparent forms; it does not assess unfamiliar print decoding. English phonics does not demonstrate the French correspondences. This draft is a distinct decoding operation with a declared inventory, not a duplicate vocabulary topic or general spelling claim.",
+    "comparedTopicIds": [
+      "mt_wLroTdOoZh",
+      "mt_mAschyjZAT",
+      "mt_sPd4fWeY9x",
+      "mt_Winq7Tu99m"
+    ],
+    "scopeNotes": [
+      "Diagnostic inventory is m=/m/, p=/p/, a=/a/, i=/i/, u=/y/, ou=/u/ in a stated standard French teaching model; no IPA knowledge is required from the learner.",
+      "Use fresh simple open-syllable combinations only; silent final letters, nasal spellings, liaison, regional mergers and exceptions need their own declared teaching conditions.",
+      "No universal sound-to-spelling rule: one sound may have multiple written forms; this topic assesses print-to-speech.",
+      "Do not infer comprehension, all-French reading, irregular-word spelling or pronunciation competence from written multiple-choice answers; proficient delivery/judgment is required."
+    ],
+    "confidence": "medium"
   }
 ]

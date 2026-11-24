@@ -1,6 +1,6 @@
 # Data format
 
-The upstream taxonomy namespace remains `v1`; `0.1.0-rc.1` identifies this derivative release, not a change to the taxonomy schema.
+The upstream taxonomy namespace remains `v1`; `0.1.0-rc.2-dev` identifies this repository update (the existing release tag remains `0.1.0-rc.1`), not a change to the taxonomy schema.
 
 - `data/topics.json`: stable topic IDs, mastery claims, observable evidence, parent prompts and generated age/standard compatibility fields.
 - `data/dependencies.json`: prerequisite edges; `topicId` depends on `prerequisiteId`, with hard/soft strength and rationale.
@@ -20,3 +20,5 @@ Empty standard arrays on new topics mean no formal association has been authored
 ## US educator companion
 
 [US educator guide](us-educator-guide.md) and [versioned crosswalk](us-crosswalk.json) cover selected grades 3–5 and 6–8 connections. These editorial records do not add canonical standards associations or game paths.
+
+`extensions/sparks/additions.json` includes all Sparks-added connections, including links whose dependent is an inherited topic. `connection-review.json` records the approved additional links and exact before/after inherited corrections. The preservation check reconstructs the original dependency array and verifies its pinned hash.

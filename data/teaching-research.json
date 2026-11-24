@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
   "version": "v1",
-  "topicFileSha256": "8c587905709bfa3c722a9261bed9f648ad7c79b0a4281409e3223baa8d1ad45e",
+  "topicFileSha256": "608e918bfb794f93b0ba546f06238f155ae0395cece3ec64e751a3382b15c9b8",
   "canonicalSchemaSha256": "a8e05a32309e4579efe71c777d25106fecd2390fc2108139f54f6a94198b8f9f",
   "digestContract": "authored-research-json-v1",
-  "recordCount": 1922,
+  "recordCount": 1927,
   "coverage": {
-    "topicCount": 1922,
-    "withResearch": 1922,
+    "topicCount": 1927,
+    "withResearch": 1927,
     "withoutResearch": 0,
     "bySubject": {
       "Computing": {
@@ -21,8 +21,8 @@
         "withoutResearch": 0
       },
       "Geography": {
-        "topics": 34,
-        "withResearch": 34,
+        "topics": 35,
+        "withResearch": 35,
         "withoutResearch": 0
       },
       "History": {
@@ -51,8 +51,8 @@
         "withoutResearch": 0
       },
       "Science": {
-        "topics": 590,
-        "withResearch": 590,
+        "topics": 591,
+        "withResearch": 591,
         "withoutResearch": 0
       },
       "Art & Design": {
@@ -61,13 +61,13 @@
         "withoutResearch": 0
       },
       "Performing Arts": {
-        "topics": 4,
-        "withResearch": 4,
+        "topics": 5,
+        "withResearch": 5,
         "withoutResearch": 0
       },
       "Français": {
-        "topics": 4,
-        "withResearch": 4,
+        "topics": 6,
+        "withResearch": 6,
         "withoutResearch": 0
       }
     },
@@ -347533,6 +347533,711 @@
       "confidence": "medium",
       "authorship": {
         "attribution": "Sparks & Sprockets extension; original AI-assisted authoring by OpenAI Codex, 24 November 2026. Source claims checked against the listed public pages. Built on Marble Skill Taxonomy; no Marble endorsement or learner efficacy claim."
+      }
+    },
+    {
+      "schemaVersion": 2,
+      "namespace": "v1",
+      "topicId": "mt_0df627589564d732",
+      "pedagogy": {
+        "summary": "Separate what the whole object does from its material name. Use a reversible shape comparison and a fresh contrast; accept an empirical explanation without requiring the later buoyancy mechanism.",
+        "bestPractices": [
+          "Adult-pretest the sample and hull so the contrast is repeatable; do not promise that every modelling material sinks.",
+          "Retain the same material and amount; observe water entry and actual release before classifying.",
+          "Ask for the changed feature and a counterexample to the claimed rule, not just a correct outcome label."
+        ],
+        "keyRepresentations": [
+          "A before/after record with material and amount marked unchanged.",
+          "Side view distinguishing surface support from bottom contact."
+        ],
+        "commonMisconceptions": [
+          "All objects made of this material must sink.",
+          "Making a bowl makes the material lighter."
+        ]
+      },
+      "learn": {
+        "schemaVersion": 2,
+        "summary": "Separate what the whole object does from its material name. Use a reversible shape comparison and a fresh contrast; accept an empirical explanation without requiring the later buoyancy mechanism.",
+        "activities": [
+          {
+            "id": "activity_34f2cc5cbd6c00f3",
+            "title": "Watch the whole object",
+            "learnerActions": [
+              "Observe a pretested floating sealed object and a sinking solid after gentle release.",
+              "Distinguish surface support from a hand-held object or one resting in a shallow tray."
+            ],
+            "intendedInsight": "Floating describes support of the object in the stated test, not a material label.",
+            "feedback": [
+              "Use water deep enough for the sample to avoid bottom contact while keeping the tray shallow and supervised."
+            ],
+            "rationale": "Original proposed task designed to distinguish the stated claim from its nearest alternatives; the cited references support the bounded content, not measured learner outcomes.",
+            "sourceIds": [
+              "citation_469c868922748121",
+              "citation_e787def5b4c406d1"
+            ]
+          },
+          {
+            "id": "activity_714f35f64865683b",
+            "title": "Change only the shape",
+            "learnerActions": [
+              "Observe one pretested waterproof modelling lump, the same amount shaped by an adult into a watertight hull, and then the reformed lump.",
+              "State what stayed the same and which outcome changed."
+            ],
+            "intendedInsight": "Shape can alter flotation without changing the material or its amount.",
+            "feedback": [
+              "If the hull leaks or rests on the bottom, repair the comparison rather than count it as the intended contrast."
+            ],
+            "rationale": "Original proposed task designed to distinguish the stated claim from its nearest alternatives; the cited references support the bounded content, not measured learner outcomes.",
+            "sourceIds": [
+              "citation_469c868922748121",
+              "citation_e787def5b4c406d1"
+            ]
+          },
+          {
+            "id": "activity_e62607791926323c",
+            "title": "Challenge a rule",
+            "learnerActions": [
+              "Inspect a new documented same-material shape pair and explain why the two outcomes can differ.",
+              "Consider an untested damaged hull and say why the earlier result does not guarantee this one floats."
+            ],
+            "intendedInsight": "An observed contrast can refute a universal rule without supplying a universal prediction formula.",
+            "feedback": [
+              "Do not credit saying all hollow shapes float; ask which conditions differed."
+            ],
+            "rationale": "Original proposed task designed to distinguish the stated claim from its nearest alternatives; the cited references support the bounded content, not measured learner outcomes.",
+            "sourceIds": [
+              "citation_469c868922748121",
+              "citation_e787def5b4c406d1"
+            ]
+          }
+        ],
+        "constraints": [
+          "Adult-supervised shallow water and large, non-toxic, waterproof samples; no small objects, deep water or life-saving claims.",
+          "Still fresh water, gentle release, no bottom contact, surface-tension-supported tiny objects, absorption, dissolution or changing load in the core comparison.",
+          "The adult may shape the samples; independent construction competence is not assessed.",
+          "No numerical density, water-volume measurement, buoyant-force balance or claim that solid material density changes when bent."
+        ],
+        "reviewNotes": [
+          "Draft for CK review; not applied to the graph.",
+          "Ages 5–8 are proposed teaching guidance, not measured outcomes or a jurisdiction mapping.",
+          "Cited public text was opened on 24 November 2026 for the bounded citation claims. Audio/video performance was not independently reviewed.",
+          "Activities and error patterns are original design proposals; no learner study, prevalence estimate or efficacy claim is made.",
+          "No curriculum wording, third-party worksheets, recordings or illustrations are redistributed."
+        ]
+      },
+      "assess": {
+        "method": "performance_task",
+        "diagnosticPrompt": "Show a pretested lump of waterproof modelling material that sinks. Without adding or removing material, reshape it into a tested watertight hull that floats, then reform the lump and repeat. Ask what changed and whether the material itself changed. Give a fresh same-material comparison with recorded results and ask whether material name or total amount alone explains the different outcomes. Must a new cracked hull also float?",
+        "correctAnswer": "Shape changed while material and amount stayed fixed. The outcomes show that naming the material or its amount alone cannot determine the whole-object outcome. A cracked or differently shaped hull needs a new test; not every hull floats. No force or displacement account is necessary for this claim.",
+        "whatMakesItDiscriminate": "The reversible controlled contrast rules out merely matching an original prediction; the fresh comparison and damaged-hull limit rule out memorising one successful boat.",
+        "errorPatterns": [
+          {
+            "id": "diagnostic_34f2cc5cbd6c00f3",
+            "pattern": "All objects made of this material must sink.",
+            "kind": "misconception",
+            "revealedBy": "Keeps the rule despite the floating hull made from the same piece.",
+            "nextMove": "Compare the unchanged material with the changed whole-object shape.",
+            "distractor": null,
+            "reteachPrerequisiteId": null
+          },
+          {
+            "id": "diagnostic_714f35f64865683b",
+            "pattern": "Making a bowl makes the material lighter.",
+            "kind": "misconception",
+            "revealedBy": "Claims material was removed although the same piece was retained.",
+            "nextMove": "Trace the same piece through all three shapes; distinguish changing arrangement from changing amount.",
+            "distractor": null,
+            "reteachPrerequisiteId": null
+          }
+        ],
+        "probeDeeper": [
+          "What would make this comparison unfair?",
+          "What can we conclude from the two observations, and what still needs testing?"
+        ],
+        "responseLevels": {
+          "gap": "Does not yet perform the claim or relies on the single-cue error described above.",
+          "partial": "Handles a practised or supported example but loses the relationship in a fresh contrast.",
+          "full": "Performs the fresh contrasting and transfer cases with the reasoning in the answer key; support and task conditions are recorded."
+        },
+        "poeTask": null
+      },
+      "sources": [
+        {
+          "id": "citation_469c868922748121",
+          "source": "Science Learning Hub, University of Waikato, Building Science Concepts: Floating and sinking, volume discussion",
+          "url": "https://www.sciencelearn.org.nz/resources/3181-building-science-concepts-floating-and-sinking",
+          "claim": "Reshaping the same modelling material into a water-excluding hull can change its flotation outcome; this supports the physical contrast, not the efficacy of these original tasks.",
+          "verified": true
+        },
+        {
+          "id": "citation_e787def5b4c406d1",
+          "source": "Northumbria University NUSTEM, Investigating floating and sinking adult led activity",
+          "url": "https://nustem.uk/activity/investigating-floating-and-sinking-adult-led-activity/",
+          "claim": "Early-years guidance uses predictions, comparisons and questions about size, material and shape; detailed force explanations are background for adults rather than required child responses.",
+          "verified": true
+        }
+      ],
+      "confidence": "medium",
+      "authorship": {
+        "attribution": "Sparks & Sprockets proposed addition; original AI-assisted authoring by OpenAI Codex, 24 November 2026. Built on Marble Skill Taxonomy. No Marble endorsement or learner efficacy claim."
+      }
+    },
+    {
+      "schemaVersion": 2,
+      "namespace": "v1",
+      "topicId": "mt_db167f7896547ea5",
+      "pedagogy": {
+        "summary": "Make the difference between a freely turning needle, the case and the learner’s body visible. Keep the task local and use magnetic north explicitly.",
+        "bestPractices": [
+          "Use the instrument-specific north-end marking rather than assume every compass uses the same colours.",
+          "Adult-check a stable reference away from nearby magnetic interference before the task.",
+          "Point to a landmark rather than require walking, so mobility is not confused with compass use."
+        ],
+        "keyRepresentations": [
+          "Level compass with needle and case separately identified.",
+          "Four temporary direction markers around one observation point."
+        ],
+        "commonMisconceptions": [
+          "North is whichever way I face.",
+          "The printed N always tells me where north is."
+        ]
+      },
+      "learn": {
+        "schemaVersion": 2,
+        "summary": "Make the difference between a freely turning needle, the case and the learner’s body visible. Keep the task local and use magnetic north explicitly.",
+        "activities": [
+          {
+            "id": "activity_0f3eb09896004462",
+            "title": "Find the reference",
+            "learnerActions": [
+              "Hold the compass level at the checked observation point.",
+              "Use its key to identify the north-seeking end and align the four-point reference."
+            ],
+            "intendedInsight": "The needle provides the reference; the case does not find north by itself.",
+            "feedback": [
+              "Let the needle settle before reading it."
+            ],
+            "rationale": "Original proposed task designed to distinguish the stated claim from its nearest alternatives; the cited references support the bounded content, not measured learner outcomes.",
+            "sourceIds": [
+              "citation_8fe2870e82688199"
+            ]
+          },
+          {
+            "id": "activity_e74853c4b126a599",
+            "title": "Turn yourself",
+            "learnerActions": [
+              "Point north and east, then face a different way.",
+              "Recheck the compass and point toward the same environmental directions."
+            ],
+            "intendedInsight": "Turning the observer does not redefine north.",
+            "feedback": [
+              "Contrast body-relative left/right with the established compass reference."
+            ],
+            "rationale": "Original proposed task designed to distinguish the stated claim from its nearest alternatives; the cited references support the bounded content, not measured learner outcomes.",
+            "sourceIds": [
+              "citation_8fe2870e82688199"
+            ]
+          },
+          {
+            "id": "activity_58629b59efc7f74d",
+            "title": "Use a fresh starting pose",
+            "learnerActions": [
+              "At another adult-checked position, begin facing a different direction and identify the requested cardinal directions.",
+              "If readings are unstable, pause and ask to recheck the setting rather than guess."
+            ],
+            "intendedInsight": "The procedure transfers beyond a memorised room corner.",
+            "feedback": [
+              "Use clear cardinal requests rather than ambiguous diagonal landmarks."
+            ],
+            "rationale": "Original proposed task designed to distinguish the stated claim from its nearest alternatives; the cited references support the bounded content, not measured learner outcomes.",
+            "sourceIds": [
+              "citation_8fe2870e82688199"
+            ]
+          }
+        ],
+        "constraints": [
+          "Local magnetic-north frame only; do not equate magnetic, true and grid north or silently orient a geographic map without accounting for the difference.",
+          "Adult-checked familiar setting and suitable compass; no remote navigation, route safety, numerical bearings or declination calculation.",
+          "An adult can stabilise the base for access, but must not orient it for the learner; record assistance.",
+          "No phone-app calibration competence or magnetic-field theory is assessed."
+        ],
+        "reviewNotes": [
+          "Draft for CK review; not applied to the graph.",
+          "Ages 7–10 are proposed teaching guidance, not measured outcomes or a jurisdiction mapping.",
+          "Cited public text was opened on 24 November 2026 for the bounded citation claims. Audio/video performance was not independently reviewed.",
+          "Activities and error patterns are original design proposals; no learner study, prevalence estimate or efficacy claim is made.",
+          "No curriculum wording, third-party worksheets, recordings or illustrations are redistributed."
+        ]
+      },
+      "assess": {
+        "method": "performance_task",
+        "diagnosticPrompt": "From a checked position, ask the learner to establish north with the supplied compass and point east and south. Turn their body and rotate the compass case to a new starting position. Ask them to re-establish north and point west. Repeat at a second checked position. Ask why simply following the top of the case would not work.",
+        "correctAnswer": "The learner uses the settled north-seeking needle and aligned reference rather than body-forward or the unaligned case; the four directions remain consistent in the local magnetic frame after turning.",
+        "whatMakesItDiscriminate": "Changing body and case orientation defeats memorised room directions and exposes confusion between instrument parts; the second position checks procedural transfer.",
+        "errorPatterns": [
+          {
+            "id": "diagnostic_0f3eb09896004462",
+            "pattern": "North is whichever way I face.",
+            "kind": "misconception",
+            "revealedBy": "North changes with the learner’s body turn.",
+            "nextMove": "Find the needle reference again and compare with the unchanged surroundings.",
+            "distractor": null,
+            "reteachPrerequisiteId": null
+          },
+          {
+            "id": "diagnostic_e74853c4b126a599",
+            "pattern": "The printed N always tells me where north is.",
+            "kind": "misconception",
+            "revealedBy": "Reads the case before aligning it to the needle.",
+            "nextMove": "Rotate the case while keeping the needle visible and distinguish the two roles.",
+            "distractor": null,
+            "reteachPrerequisiteId": null
+          }
+        ],
+        "probeDeeper": [
+          "What would you do if the needle would not settle?",
+          "Does this activity prove you can safely navigate an unfamiliar route?"
+        ],
+        "responseLevels": {
+          "gap": "Does not yet perform the claim or relies on the single-cue error described above.",
+          "partial": "Handles a practised or supported example but loses the relationship in a fresh contrast.",
+          "full": "Performs the fresh contrasting and transfer cases with the reasoning in the answer key; support and task conditions are recorded."
+        },
+        "poeTask": null
+      },
+      "sources": [
+        {
+          "id": "citation_8fe2870e82688199",
+          "source": "Ordnance Survey, Map Reading, Know your compass and Using your compass, printed pages 13–14",
+          "url": "https://shop.osmaps.com/content/downloads/map%20reading%20booklet-a5.pdf",
+          "claim": "A magnetic needle provides a magnetic-north reference; the housing and direction-of-travel arrow have different roles, and the compass is held level for use. This is technique guidance, not an age norm.",
+          "verified": true
+        }
+      ],
+      "confidence": "medium",
+      "authorship": {
+        "attribution": "Sparks & Sprockets proposed addition; original AI-assisted authoring by OpenAI Codex, 24 November 2026. Built on Marble Skill Taxonomy. No Marble endorsement or learner efficacy claim."
+      }
+    },
+    {
+      "schemaVersion": 2,
+      "namespace": "v1",
+      "topicId": "mt_bebacc3f78c4a751",
+      "pedagogy": {
+        "summary": "Supply the pulse so duration is the assessed demand. Contrast sustained sound, repeated attacks and silence with explicit start/end boundaries.",
+        "bestPractices": [
+          "Use a comfortable sustained voice sound or controllable instrument; a short clap alone cannot demonstrate sustaining a sound.",
+          "Use a visible moving marker or pulse light alongside sound for access.",
+          "Keep pitch and loudness optional and fixed where possible; do not use a tuning task as a proxy."
+        ],
+        "keyRepresentations": [
+          "Pulse-boundary timeline with sound bands and empty intervals.",
+          "Original oral instructions for one/two-interval sounds and silences."
+        ],
+        "commonMisconceptions": [
+          "Silence does not take any time.",
+          "Two pulses means two separate noises."
+        ]
+      },
+      "learn": {
+        "schemaVersion": 2,
+        "summary": "Supply the pulse so duration is the assessed demand. Contrast sustained sound, repeated attacks and silence with explicit start/end boundaries.",
+        "activities": [
+          {
+            "id": "activity_c731c9d8a5bb8aa2",
+            "title": "One long sound or two short ones",
+            "learnerActions": [
+              "Against a supplied pulse, make a continuous sound lasting two intervals.",
+              "Contrast it with two separately started one-interval sounds."
+            ],
+            "intendedInsight": "Equal total time can contain different sound boundaries.",
+            "feedback": [
+              "Check continuity, not how loudly the sound is made."
+            ],
+            "rationale": "Original proposed task designed to distinguish the stated claim from its nearest alternatives; the cited references support the bounded content, not measured learner outcomes.",
+            "sourceIds": [
+              "citation_0df792476a034807"
+            ]
+          },
+          {
+            "id": "activity_9b0466fa388fffcf",
+            "title": "Leave time for silence",
+            "learnerActions": [
+              "Perform a two-interval sound, a one-interval rest and a one-interval sound from an oral instruction and simple timeline.",
+              "Resume exactly after the silent interval."
+            ],
+            "intendedInsight": "A rest occupies time even though no sound is produced.",
+            "feedback": [
+              "Keep the pulse visible through the silence."
+            ],
+            "rationale": "Original proposed task designed to distinguish the stated claim from its nearest alternatives; the cited references support the bounded content, not measured learner outcomes.",
+            "sourceIds": [
+              "citation_0df792476a034807"
+            ]
+          },
+          {
+            "id": "activity_18d636e129f901bc",
+            "title": "Change the speed",
+            "learnerActions": [
+              "Perform a new pattern with a one-interval sound, two-interval rest and one-interval sound.",
+              "Repeat with a different comfortable pulse speed."
+            ],
+            "intendedInsight": "Durations retain their relation to the pulse rather than a fixed number of seconds.",
+            "feedback": [
+              "Re-establish the pulse before starting; do not accelerate within the pattern."
+            ],
+            "rationale": "Original proposed task designed to distinguish the stated claim from its nearest alternatives; the cited references support the bounded content, not measured learner outcomes.",
+            "sourceIds": [
+              "citation_0df792476a034807"
+            ]
+          }
+        ],
+        "constraints": [
+          "Only one/two whole pulse intervals at a supplied steady pulse; no syncopation, subdivision, time-signature or formal note-value rule.",
+          "No universal assertion that a quarter note always equals one beat.",
+          "Use comfortable sound and accessible performance methods; do not infer pitch skill, independent beat keeping or general musicianship.",
+          "Tasks and pulse-speed choices are original proposals, not calibrated age thresholds."
+        ],
+        "reviewNotes": [
+          "Draft for CK review; not applied to the graph.",
+          "Ages 5–9 are proposed teaching guidance, not measured outcomes or a jurisdiction mapping.",
+          "Cited public text was opened on 24 November 2026 for the bounded citation claims. Audio/video performance was not independently reviewed.",
+          "Activities and error patterns are original design proposals; no learner study, prevalence estimate or efficacy claim is made.",
+          "No curriculum wording, third-party worksheets, recordings or illustrations are redistributed."
+        ]
+      },
+      "assess": {
+        "method": "performance_task",
+        "diagnosticPrompt": "Supply boundaries at t=0, 1, 2, 3, 4 in equal pulse intervals. Ask for one sustained sound from 0 to 2, silence from 2 to 3, and sound from 3 to 4. Then supply a different pulse speed and ask for sound from 0 to 1, silence from 1 to 3, and sound from 3 to 4. Can the learner compare the long sound with two short attacks?",
+        "correctAnswer": "The first sound stays continuous across the intermediate boundary; the rest occupies its interval and the next entry occurs on the specified boundary. In the second pattern, silence lasts two pulse intervals at the new speed. Two short attacks differ from one sustained sound despite equal total time.",
+        "whatMakesItDiscriminate": "Rest entry and changed-speed transfer distinguish duration control from beat clapping, copying a familiar song or holding a sound for memorised seconds.",
+        "errorPatterns": [
+          {
+            "id": "diagnostic_c731c9d8a5bb8aa2",
+            "pattern": "Silence does not take any time.",
+            "kind": "misconception",
+            "revealedBy": "Starts the next sound immediately instead of leaving the rest.",
+            "nextMove": "Trace the empty interval while the supplied pulse continues.",
+            "distractor": null,
+            "reteachPrerequisiteId": null
+          },
+          {
+            "id": "diagnostic_9b0466fa388fffcf",
+            "pattern": "Two pulses means two separate noises.",
+            "kind": "misconception",
+            "revealedBy": "Re-attacks a supposedly sustained sound at each pulse.",
+            "nextMove": "Compare a continuous hum with two distinct hums over the same interval.",
+            "distractor": null,
+            "reteachPrerequisiteId": null
+          }
+        ],
+        "probeDeeper": [
+          "What changes in seconds when the pulse becomes slower?",
+          "Can two sequences take the same total time but sound different?"
+        ],
+        "responseLevels": {
+          "gap": "Does not yet perform the claim or relies on the single-cue error described above.",
+          "partial": "Handles a practised or supported example but loses the relationship in a fresh contrast.",
+          "full": "Performs the fresh contrasting and transfer cases with the reasoning in the answer key; support and task conditions are recorded."
+        },
+        "poeTask": null
+      },
+      "sources": [
+        {
+          "id": "citation_0df792476a034807",
+          "source": "Steps to Music Theory, Texas A&M University Libraries, The Basics I, sections 1.2 and 1.4",
+          "url": "https://odp.library.tamu.edu/stepstomusictheory/chapter/the-basics/",
+          "claim": "Musical sounds and silences have relative durations; note and rest values express those relationships. The source supports timing distinctions, not a tested primary teaching sequence.",
+          "verified": true
+        }
+      ],
+      "confidence": "medium",
+      "authorship": {
+        "attribution": "Sparks & Sprockets proposed addition; original AI-assisted authoring by OpenAI Codex, 24 November 2026. Built on Marble Skill Taxonomy. No Marble endorsement or learner efficacy claim."
+      }
+    },
+    {
+      "schemaVersion": 2,
+      "namespace": "v1",
+      "topicId": "mt_40f6101fa9192fe4",
+      "pedagogy": {
+        "summary": "Keep the words known and vary their relationships. Use reversible actions and non-reading responses so listening comprehension cannot be replaced by word spotting or reading.",
+        "bestPractices": [
+          "Precheck taught vocabulary and action meanings separately; provide clear named figures.",
+          "Use a proficient French speaker and normal clear pronunciation; allow a stated repeat without gestures that reveal the answer.",
+          "Record linguistic exposure and support; do not infer a general French level from a narrow sentence set."
+        ],
+        "keyRepresentations": [
+          "Two named figures and an action arrow or enactment.",
+          "Paired scenes with the same participants but reversed roles."
+        ],
+        "commonMisconceptions": [
+          "Hearing both names is enough to choose either scene.",
+          "The first practice scene is always the answer."
+        ]
+      },
+      "learn": {
+        "schemaVersion": 2,
+        "summary": "Keep the words known and vary their relationships. Use reversible actions and non-reading responses so listening comprehension cannot be replaced by word spotting or reading.",
+        "activities": [
+          {
+            "id": "activity_5f9a2b97ee05e301",
+            "title": "Who acts?",
+            "learnerActions": [
+              "After teaching names, aide and the sentence pattern, hear a new sentence and arrange the figures to show the helper and recipient.",
+              "Point to each role without needing a French spoken answer."
+            ],
+            "intendedInsight": "Sentence relationships contribute meaning beyond knowing each word.",
+            "feedback": [
+              "Keep both people visible in both answer scenes."
+            ],
+            "rationale": "Original proposed task designed to distinguish the stated claim from its nearest alternatives; the cited references support the bounded content, not measured learner outcomes.",
+            "sourceIds": [
+              "citation_ffb79df6e16e8fde"
+            ]
+          },
+          {
+            "id": "activity_bd29c247fa8820d9",
+            "title": "Swap the roles",
+            "learnerActions": [
+              "Hear the same names with their order reversed.",
+              "Explain or demonstrate what must change in the scene."
+            ],
+            "intendedInsight": "The same word set can express a different relationship.",
+            "feedback": [
+              "Replay without pointing to the intended actor."
+            ],
+            "rationale": "Original proposed task designed to distinguish the stated claim from its nearest alternatives; the cited references support the bounded content, not measured learner outcomes.",
+            "sourceIds": [
+              "citation_ffb79df6e16e8fde"
+            ]
+          },
+          {
+            "id": "activity_18068ca4eb489ded",
+            "title": "New combination, another voice",
+            "learnerActions": [
+              "Use a newly combined pair of taught names and a second taught reversible verb, such as regarde.",
+              "Respond to a second proficient voice using the same bounded pattern."
+            ],
+            "intendedInsight": "Understanding transfers beyond one memorised phrase or voice.",
+            "feedback": [
+              "If a word was not known, teach it separately and use a different assessment item."
+            ],
+            "rationale": "Original proposed task designed to distinguish the stated claim from its nearest alternatives; the cited references support the bounded content, not measured learner outcomes.",
+            "sourceIds": [
+              "citation_ffb79df6e16e8fde"
+            ]
+          }
+        ],
+        "constraints": [
+          "Bounded present-tense subject–verb–object statements with proper-name subjects and objects; no pronouns, negation, passive voice or inference across a story in the core task.",
+          "Teacher establishes the declared vocabulary and pattern; success does not imply all French sentence comprehension.",
+          "No written transcript during the listening diagnostic; drawings, pointing or the learner’s preferred response language are acceptable.",
+          "Original examples require proficient spoken delivery; no recording has been produced or voice quality validated in this packet."
+        ],
+        "reviewNotes": [
+          "Draft for CK review; not applied to the graph.",
+          "Ages 7–12 are proposed teaching guidance, not measured outcomes or a jurisdiction mapping.",
+          "Cited public text was opened on 24 November 2026 for the bounded citation claims. Audio/video performance was not independently reviewed.",
+          "Activities and error patterns are original design proposals; no learner study, prevalence estimate or efficacy claim is made.",
+          "No curriculum wording, third-party worksheets, recordings or illustrations are redistributed."
+        ]
+      },
+      "assess": {
+        "method": "performance_task",
+        "diagnosticPrompt": "With figures for Mila and Sami and the meaning of aide already taught, say “Mila aide Sami” and ask the learner to arrange who helps whom. Then say “Sami aide Mila”. Use another taught pair, Nora and Léo, with regarde in both orders. Give no written sentence or revealing gesture; record any repeats and use a fresh combination after practice.",
+        "correctAnswer": "Mila is helper and Sami recipient in the first statement; those roles reverse in the second. In “Nora regarde Léo”, Nora is the viewer and Léo the viewed person; reversing the names reverses that relationship. The learner’s demonstration follows the spoken relation, not a fixed favourite character.",
+        "whatMakesItDiscriminate": "Both scenes contain identical named people and actions, so individual word recognition cannot choose the correct relationship; changed order, verb and voice test the bounded interpretation.",
+        "errorPatterns": [
+          {
+            "id": "diagnostic_5f9a2b97ee05e301",
+            "pattern": "Hearing both names is enough to choose either scene.",
+            "kind": "misconception",
+            "revealedBy": "Does not change the scene when roles reverse.",
+            "nextMove": "Keep the vocabulary fixed and contrast who carries out the action.",
+            "distractor": null,
+            "reteachPrerequisiteId": null
+          },
+          {
+            "id": "diagnostic_bd29c247fa8820d9",
+            "pattern": "The first practice scene is always the answer.",
+            "kind": "misconception",
+            "revealedBy": "Reuses the same actor for fresh sentences.",
+            "nextMove": "Use a fresh reversible pair with both participants equally plausible.",
+            "distractor": null,
+            "reteachPrerequisiteId": null
+          }
+        ],
+        "probeDeeper": [
+          "What changed when the names changed places?",
+          "What would you need help with if the verb were unfamiliar?"
+        ],
+        "responseLevels": {
+          "gap": "Does not yet perform the claim or relies on the single-cue error described above.",
+          "partial": "Handles a practised or supported example but loses the relationship in a fresh contrast.",
+          "full": "Performs the fresh contrasting and transfer cases with the reasoning in the answer key; support and task conditions are recorded."
+        },
+        "poeTask": null
+      },
+      "sources": [
+        {
+          "id": "citation_ffb79df6e16e8fde",
+          "source": "Oak National Academy, French primary curriculum explainer, subject principles",
+          "url": "https://www.thenational.academy/teachers/programmes/french-primary/curriculum-explainer",
+          "claim": "The provider treats phonics, vocabulary and grammar as distinguishable knowledge used together in listening, speaking, reading and writing, with recombination in new contexts. No statutory alignment or efficacy claim is inferred.",
+          "verified": true
+        }
+      ],
+      "confidence": "medium",
+      "authorship": {
+        "attribution": "Sparks & Sprockets proposed addition; original AI-assisted authoring by OpenAI Codex, 24 November 2026. Built on Marble Skill Taxonomy. No Marble endorsement or learner efficacy claim."
+      }
+    },
+    {
+      "schemaVersion": 2,
+      "namespace": "v1",
+      "topicId": "mt_884733f0dd1c4413",
+      "pedagogy": {
+        "summary": "Separate spoken-sound familiarity from decoding print. Use a tiny declared inventory, hold other sounds constant and assess fresh combinations rather than a memorised vocabulary list.",
+        "bestPractices": [
+          "Teach and model the sound inventory first with a proficient French speaker; preserve the u/ou distinction.",
+          "Keep practice strings separate from real vocabulary and label them as made-up reading exercises, not French words.",
+          "Use no new silent-letter, liaison or context-dependent rule in the diagnostic."
+        ],
+        "keyRepresentations": [
+          "Printed tiles m, p, a, i, u and ou with explicitly taught sound values.",
+          "Paired fresh strings differing only in u versus ou."
+        ],
+        "commonMisconceptions": [
+          "French letters must sound as they do in English.",
+          "ou is two separately sounded vowels."
+        ]
+      },
+      "learn": {
+        "schemaVersion": 2,
+        "summary": "Separate spoken-sound familiarity from decoding print. Use a tiny declared inventory, hold other sounds constant and assess fresh combinations rather than a memorised vocabulary list.",
+        "activities": [
+          {
+            "id": "activity_d1b9e05b638887e3",
+            "title": "Find the spelling unit",
+            "learnerActions": [
+              "After guided sound teaching, segment printed mou and mu into the taught units.",
+              "Point to the unit that differs before reading it."
+            ],
+            "intendedInsight": "A two-letter spelling can represent one taught sound.",
+            "feedback": [
+              "Keep the letters in ou together."
+            ],
+            "rationale": "Original proposed task designed to distinguish the stated claim from its nearest alternatives; the cited references support the bounded content, not measured learner outcomes.",
+            "sourceIds": [
+              "citation_cacf975032698792",
+              "citation_3f4c13e024a0d6fa"
+            ]
+          },
+          {
+            "id": "activity_ef628a28363bb81e",
+            "title": "Blend a new string",
+            "learnerActions": [
+              "Read an unseen permitted combination without hearing the entire item first.",
+              "Build the pronunciation from the supplied taught inventory rather than an English spelling rule."
+            ],
+            "intendedInsight": "Known correspondences can be recombined beyond a remembered word.",
+            "feedback": [
+              "Teach any missing sound separately before restarting with a fresh item."
+            ],
+            "rationale": "Original proposed task designed to distinguish the stated claim from its nearest alternatives; the cited references support the bounded content, not measured learner outcomes.",
+            "sourceIds": [
+              "citation_cacf975032698792",
+              "citation_3f4c13e024a0d6fa"
+            ]
+          },
+          {
+            "id": "activity_1fbfd199d7bb0eae",
+            "title": "Change one unit",
+            "learnerActions": [
+              "Compare fresh made-up practice strings moupa and mupa, then a different pair such as pimou and pimu.",
+              "Read the changed item and identify the printed difference."
+            ],
+            "intendedInsight": "The decoding rule transfers across position while preserving the contrast.",
+            "feedback": [
+              "No meaning is assigned to practice strings; they test decoding alone."
+            ],
+            "rationale": "Original proposed task designed to distinguish the stated claim from its nearest alternatives; the cited references support the bounded content, not measured learner outcomes.",
+            "sourceIds": [
+              "citation_cacf975032698792",
+              "citation_3f4c13e024a0d6fa"
+            ]
+          }
+        ],
+        "constraints": [
+          "Diagnostic inventory is m=/m/, p=/p/, a=/a/, i=/i/, u=/y/, ou=/u/ in a stated standard French teaching model; no IPA knowledge is required from the learner.",
+          "Use fresh simple open-syllable combinations only; silent final letters, nasal spellings, liaison, regional mergers and exceptions need their own declared teaching conditions.",
+          "No universal sound-to-spelling rule: one sound may have multiple written forms; this topic assesses print-to-speech.",
+          "Do not infer comprehension, all-French reading, irregular-word spelling or pronunciation competence from written multiple-choice answers; proficient delivery/judgment is required."
+        ],
+        "reviewNotes": [
+          "Draft for CK review; not applied to the graph.",
+          "Ages 7–12 are proposed teaching guidance, not measured outcomes or a jurisdiction mapping.",
+          "Cited public text was opened on 24 November 2026 for the bounded citation claims. Audio/video performance was not independently reviewed.",
+          "Activities and error patterns are original design proposals; no learner study, prevalence estimate or efficacy claim is made.",
+          "No curriculum wording, third-party worksheets, recordings or illustrations are redistributed."
+        ]
+      },
+      "assess": {
+        "method": "performance_task",
+        "diagnosticPrompt": "After teaching and checking the six-unit inventory, reserve poumi, pumi, mamou and mamu as fresh made-up assessment strings; do not use them in practice. Ask for a reading without an immediate spoken model. Then change ou to u in another fresh combination. Ask which printed unit changed. Teacher key: /pu.mi/, /py.mi/, /ma.mu/, /ma.my/; accept appropriate phonetic variation that preserves the intended contrast.",
+        "correctAnswer": "The learner groups ou as one unit, blends the taught units and preserves /u/ versus /y/ in fresh combinations. The printed change predicts the changed vowel; no meaning, unique reverse spelling or whole-word memorisation is required.",
+        "whatMakesItDiscriminate": "Unfamiliar labelled strings prevent retrieval of memorised French words; minimal printed changes expose whether the learner applies a correspondence rather than echoes audio.",
+        "errorPatterns": [
+          {
+            "id": "diagnostic_d1b9e05b638887e3",
+            "pattern": "French letters must sound as they do in English.",
+            "kind": "misconception",
+            "revealedBy": "Substitutes an English letter-name or vowel rule in fresh strings.",
+            "nextMove": "Return to the declared French sound model and compare the two spelling units.",
+            "distractor": null,
+            "reteachPrerequisiteId": null
+          },
+          {
+            "id": "diagnostic_ef628a28363bb81e",
+            "pattern": "ou is two separately sounded vowels.",
+            "kind": "misconception",
+            "revealedBy": "Segments and pronounces o and u separately despite the taught unit.",
+            "nextMove": "Keep the ou tile intact and blend it with one known consonant.",
+            "distractor": null,
+            "reteachPrerequisiteId": null
+          }
+        ],
+        "probeDeeper": [
+          "Does being able to pronounce a practice string mean it has a meaning?",
+          "Does hearing /u/ tell you every possible way it could be spelled in French?"
+        ],
+        "responseLevels": {
+          "gap": "Does not yet perform the claim or relies on the single-cue error described above.",
+          "partial": "Handles a practised or supported example but loses the relationship in a fresh contrast.",
+          "full": "Performs the fresh contrasting and transfer cases with the reasoning in the answer key; support and task conditions are recorded."
+        },
+        "poeTask": null
+      },
+      "sources": [
+        {
+          "id": "citation_cacf975032698792",
+          "source": "Oak National Academy, Year 3 French, Practice with French vowels and verbs for the classroom, key learning points",
+          "url": "https://www.thenational.academy/teachers/programmes/french-primary-ks2/units/me-and-others-singular-etre-and-regular-adjectives/lessons/practice-with-french-vowels-and-verbs-for-the-classroom",
+          "claim": "Primary French lesson guidance separates listening to vowel sounds from applying French sound–spelling knowledge when reading aloud; English reading conventions cannot simply be substituted.",
+          "verified": true
+        },
+        {
+          "id": "citation_3f4c13e024a0d6fa",
+          "source": "The Open University, OpenLearn, Getting started with French 1, section 7 Recognising u and ou sounds",
+          "url": "https://www.open.edu/openlearn/mod/oucontent/view.php?id=109148&section=_unit2.8",
+          "claim": "French u and ou represent distinct sounds in the cited examples. This introductory reference supports the contrast; it is not evidence for primary ages or these assessment items.",
+          "verified": true
+        }
+      ],
+      "confidence": "medium",
+      "authorship": {
+        "attribution": "Sparks & Sprockets proposed addition; original AI-assisted authoring by OpenAI Codex, 24 November 2026. Built on Marble Skill Taxonomy. No Marble endorsement or learner efficacy claim."
       }
     }
   ]

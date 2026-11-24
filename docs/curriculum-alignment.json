@@ -140,6 +140,61 @@
       "contribution": "Related light, electricity and design content provides foundations; no exact primary panel-orientation requirement was established.",
       "remainingConditions": "Do not label a working circuit or generic energy-conversion standard fully covered by this orientation concept. Other jurisdictions were not checked.",
       "formalAssociationAuthored": false
+    },
+    {
+      "topicId": "mt_0df627589564d732",
+      "relationship": "unmapped_concept_extension",
+      "reviewDisposition": "Unverified",
+      "scope": "No exact jurisdictional standards mapping performed for this addition.",
+      "sourceUrls": [],
+      "reviewedAt": "2026-11-24",
+      "contribution": "Shape and floating",
+      "remainingConditions": "Teaching references support the bounded claim, not formal curriculum alignment. Ages are editorial guidance through age 12.",
+      "formalAssociationAuthored": false
+    },
+    {
+      "topicId": "mt_db167f7896547ea5",
+      "relationship": "unmapped_concept_extension",
+      "reviewDisposition": "Unverified",
+      "scope": "No exact jurisdictional standards mapping performed for this addition.",
+      "sourceUrls": [],
+      "reviewedAt": "2026-11-24",
+      "contribution": "Using a compass to find directions",
+      "remainingConditions": "Teaching references support the bounded claim, not formal curriculum alignment. Ages are editorial guidance through age 12.",
+      "formalAssociationAuthored": false
+    },
+    {
+      "topicId": "mt_bebacc3f78c4a751",
+      "relationship": "unmapped_concept_extension",
+      "reviewDisposition": "Unverified",
+      "scope": "No exact jurisdictional standards mapping performed for this addition.",
+      "sourceUrls": [],
+      "reviewedAt": "2026-11-24",
+      "contribution": "Sound and silence durations against a pulse",
+      "remainingConditions": "Teaching references support the bounded claim, not formal curriculum alignment. Ages are editorial guidance through age 12.",
+      "formalAssociationAuthored": false
+    },
+    {
+      "topicId": "mt_40f6101fa9192fe4",
+      "relationship": "unmapped_concept_extension",
+      "reviewDisposition": "Unverified",
+      "scope": "No exact jurisdictional standards mapping performed for this addition.",
+      "sourceUrls": [],
+      "reviewedAt": "2026-11-24",
+      "contribution": "Comprendre les relations dans une phrase orale",
+      "remainingConditions": "Teaching references support the bounded claim, not formal curriculum alignment. Ages are editorial guidance through age 12.",
+      "formalAssociationAuthored": false
+    },
+    {
+      "topicId": "mt_884733f0dd1c4413",
+      "relationship": "unmapped_concept_extension",
+      "reviewDisposition": "Unverified",
+      "scope": "No exact jurisdictional standards mapping performed for this addition.",
+      "sourceUrls": [],
+      "reviewedAt": "2026-11-24",
+      "contribution": "Lire des correspondances graphème–phonème françaises",
+      "remainingConditions": "Teaching references support the bounded claim, not formal curriculum alignment. Ages are editorial guidance through age 12.",
+      "formalAssociationAuthored": false
     }
   ]
 }

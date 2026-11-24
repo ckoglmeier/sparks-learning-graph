@@ -1,5 +1,13 @@
 # Changelog
 
+## Repository update — 24 November 2026
+
+- Added five concepts and teaching records: shape and floating, practical compass use, sound/rest durations, French sentence listening and French decoding.
+- Added 23 soft connections and corrected seven inherited directions; confidence and counterarguments are retained in `extensions/sparks/connection-review.json`.
+- Totals: 1,927 topics, 4,046 connections, 1,927 teaching records and 15 Sparks concepts.
+- Added five global age-only contexts; no formal standards links. Original topic and teaching claims and the existing curriculum catalogue are unchanged.
+- This update is available on main; the v0.1.0-rc.1 tag retains the earlier release.
+
 ## 0.1.0-rc.1 — 24 November 2026
 
 - Added ten bounded concepts and canonical teaching records: density, displacement, buoyancy, hydrostatic pressure, physical control, feedback, simple-machine force/travel, static tipping, contact pressure and solar-panel orientation.

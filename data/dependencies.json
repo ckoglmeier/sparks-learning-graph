@@ -1,7 +1,7 @@
 {
   "version": "v1",
   "note": "`topicId` depends on `prerequisiteId` (the prerequisite). Directed edges of a DAG.",
-  "edgeCount": 4023,
+  "edgeCount": 4046,
   "dependencies": [
     {
       "topicId": "mt__00ZSLnB7p",
@@ -4834,8 +4834,8 @@
       "reason": "Insect vs non-insect sorting enriches curriculum grouping-by-features"
     },
     {
-      "topicId": "mt_AylKwhbDWM",
-      "prerequisiteId": "mt__aHSZTm5k5",
+      "topicId": "mt__aHSZTm5k5",
+      "prerequisiteId": "mt_AylKwhbDWM",
       "strength": "soft",
       "reason": "Marine animal classification benefits from curriculum grouping-living-things skill"
     },
@@ -5968,8 +5968,8 @@
       "reason": "Reflection on patterns benefits from understanding cultural context"
     },
     {
-      "topicId": "mt_cEzX5r7kp0",
-      "prerequisiteId": "mt_1wxwg782yX",
+      "topicId": "mt_1wxwg782yX",
+      "prerequisiteId": "mt_cEzX5r7kp0",
       "strength": "hard",
       "reason": "Must observe parent-offspring resemblance before analysing inherited traits with data"
     },
@@ -6124,8 +6124,8 @@
       "reason": "Goal-setting and progress monitoring uses vocabulary of self-regulation and managing distress when things go wrong"
     },
     {
-      "topicId": "mt_cJjnPjuvCU",
-      "prerequisiteId": "mt_jIszRCO2ij",
+      "topicId": "mt_jIszRCO2ij",
+      "prerequisiteId": "mt_cJjnPjuvCU",
       "strength": "soft",
       "reason": "PSD goal-setting scaffolds the learning goal practices taught in Learning-to-Learn"
     },
@@ -15118,8 +15118,8 @@
       "reason": "Constructing and interpreting food chains requires producer, consumer, predator, prey vocabulary"
     },
     {
-      "topicId": "mt_oB-L8EVdIP",
-      "prerequisiteId": "mt_OnV_DTp5i8",
+      "topicId": "mt_OnV_DTp5i8",
+      "prerequisiteId": "mt_oB-L8EVdIP",
       "strength": "soft",
       "reason": "Ocean food webs build on curriculum food chains with trophic levels"
     },
@@ -16210,8 +16210,8 @@
       "reason": "Naming plants and animals in habitats and microhabitats requires those terms"
     },
     {
-      "topicId": "mt_ppENoD8vf1",
-      "prerequisiteId": "mt_w2u9bXP9n7",
+      "topicId": "mt_w2u9bXP9n7",
+      "prerequisiteId": "mt_ppENoD8vf1",
       "strength": "soft",
       "reason": "Rock pools are a microhabitat; benefits from curriculum naming plants/animals in habitats"
     },
@@ -17656,8 +17656,8 @@
       "reason": "Decision-making process applies vocabulary of 'ethical', 'consequence', and 'responsibility'"
     },
     {
-      "topicId": "mt_RhntJz7p_6",
-      "prerequisiteId": "mt_q7zxOloj_L",
+      "topicId": "mt_q7zxOloj_L",
+      "prerequisiteId": "mt_RhntJz7p_6",
       "strength": "soft",
       "reason": "PSD decision-making skills underpin strategy selection in Learning-to-Learn"
     },
@@ -22972,8 +22972,8 @@
       "reason": "Comparing and grouping solids, liquids, and gases by properties is greatly aided by the particle diagram representation"
     },
     {
-      "topicId": "mt_YQkUdIHO8L",
-      "prerequisiteId": "mt_Pl-nsjYGZ3",
+      "topicId": "mt_Pl-nsjYGZ3",
+      "prerequisiteId": "mt_YQkUdIHO8L",
       "strength": "hard",
       "reason": "Must classify states of matter before understanding changes between states"
     },
@@ -24140,6 +24140,144 @@
       "prerequisiteId": "mt_B3W5EfimJw",
       "strength": "hard",
       "reason": "Force must be distinguished from the surface over which it acts."
+    },
+    {
+      "topicId": "mt_0df627589564d732",
+      "prerequisiteId": "mt_MRQcEvyPJv",
+      "strength": "soft",
+      "reason": "Comparing observed outcomes with recorded predictions supports using the controlled shape contrast as evidence."
+    },
+    {
+      "topicId": "mt_0df627589564d732",
+      "prerequisiteId": "mt_wf-SJhZ1kC",
+      "strength": "soft",
+      "reason": "Recognising that reshaping can leave the material unchanged supports isolating shape in the flotation comparison."
+    },
+    {
+      "topicId": "mt_0124c7499b7c49de",
+      "prerequisiteId": "mt_0df627589564d732",
+      "strength": "soft",
+      "reason": "Recognising a same-material shape contrast gives a concrete phenomenon for the later support-and-displacement explanation."
+    },
+    {
+      "topicId": "mt_db167f7896547ea5",
+      "prerequisiteId": "mt_TdV9YGJEoY",
+      "strength": "soft",
+      "reason": "Body turns and movement vocabulary help distinguish facing direction from an external compass reference."
+    },
+    {
+      "topicId": "mt_HX8VtJRt0Y",
+      "prerequisiteId": "mt_db167f7896547ea5",
+      "strength": "soft",
+      "reason": "Maintaining a compass reference while the body turns can support retaining a supplied map reference when its page turns."
+    },
+    {
+      "topicId": "mt_bebacc3f78c4a751",
+      "prerequisiteId": "mt_OTFABm2xdf",
+      "strength": "soft",
+      "reason": "Experience following a steady beat supports placing sustained sounds and rests against a supplied pulse."
+    },
+    {
+      "topicId": "mt_Gy9nCgUjlD",
+      "prerequisiteId": "mt_bebacc3f78c4a751",
+      "strength": "soft",
+      "reason": "Controlling sound and rest durations supports realising the duration relationships represented in a staff score."
+    },
+    {
+      "topicId": "mt_40f6101fa9192fe4",
+      "prerequisiteId": "mt_Winq7Tu99m",
+      "strength": "soft",
+      "reason": "Familiar French word meanings support interpreting their relationships in a newly combined spoken sentence."
+    },
+    {
+      "topicId": "mt_884733f0dd1c4413",
+      "prerequisiteId": "mt_wLroTdOoZh",
+      "strength": "soft",
+      "reason": "Producing familiar French consonants supports blending them with the taught vowel spellings when decoding."
+    },
+    {
+      "topicId": "mt_sPd4fWeY9x",
+      "prerequisiteId": "mt_884733f0dd1c4413",
+      "strength": "soft",
+      "reason": "Decoding regular parts of taught French words can support retaining their written forms alongside explicitly learned irregular features."
+    },
+    {
+      "topicId": "mt_Ns6Jw8Q4rB",
+      "prerequisiteId": "mt_B3W5EfimJw",
+      "strength": "soft",
+      "reason": "Understanding pushes and pulls as forces supports explaining how a structure carries a load and how struts and ties resist it."
+    },
+    {
+      "topicId": "mt_p7LBWFX60E",
+      "prerequisiteId": "mt_Ns6Jw8Q4rB",
+      "strength": "soft",
+      "reason": "Explaining how compression struts and tension ties support a framework supports identifying internal tension and compression in a member."
+    },
+    {
+      "topicId": "mt_p7LBWFX60E",
+      "prerequisiteId": "mt_wf-SJhZ1kC",
+      "strength": "soft",
+      "reason": "Experience of stretching, squashing and bending solids supports explaining the stretching and squeezing effects of tension and compression."
+    },
+    {
+      "topicId": "mt_p7LBWFX60E",
+      "prerequisiteId": "mt_3WMADSy0mA",
+      "strength": "soft",
+      "reason": "Knowing that balanced forces leave an object still supports explaining why a loaded beam can carry internal forces while remaining at rest."
+    },
+    {
+      "topicId": "mt_AiWlJfvC3O",
+      "prerequisiteId": "mt_3WMADSy0mA",
+      "strength": "soft",
+      "reason": "Distinguishing zero and non-zero resultant forces builds on evidence of how balanced and unbalanced forces affect motion."
+    },
+    {
+      "topicId": "mt_Q2k3fSwyzQ",
+      "prerequisiteId": "mt_vjMAN6sb7z",
+      "strength": "soft",
+      "reason": "Recognising levers, pulleys and other simple-machine arrangements and their everyday functions supports recognising that such mechanisms let a smaller force have a greater effect."
+    },
+    {
+      "topicId": "mt_d1f48410cd8b4254",
+      "prerequisiteId": "mt_Q2k3fSwyzQ",
+      "strength": "soft",
+      "reason": "Recognising that mechanisms let a smaller force have a greater effect supports explaining the matching increase in input travel."
+    },
+    {
+      "topicId": "mt_56c39fbf4ef341a0",
+      "prerequisiteId": "mt_6xNmQLzuqm",
+      "strength": "soft",
+      "reason": "Understanding area as the amount of surface covered supports comparing the areas over which a force is spread."
+    },
+    {
+      "topicId": "mt_0124c7499b7c49de",
+      "prerequisiteId": "mt_3WMADSy0mA",
+      "strength": "soft",
+      "reason": "Evidence that balanced forces leave an object at rest supports explaining a floating object as held by an upward support equal to its weight."
+    },
+    {
+      "topicId": "mt_3568068de7804719",
+      "prerequisiteId": "mt_X_aDUBh-HF",
+      "strength": "soft",
+      "reason": "Recognising light and electric current as energy-transfer routes supports explaining the panel’s changed electrical output."
+    },
+    {
+      "topicId": "mt_3568068de7804719",
+      "prerequisiteId": "mt_Oru08pKlxd",
+      "strength": "soft",
+      "reason": "Experience of a surface intercepting light supports comparing how much of a direct beam reaches differently oriented panel faces."
+    },
+    {
+      "topicId": "mt_3568068de7804719",
+      "prerequisiteId": "mt_qZro923zvz",
+      "strength": "soft",
+      "reason": "A straight-ray representation supports explaining the panel-face comparison relative to incoming direct light."
+    },
+    {
+      "topicId": "mt_3568068de7804719",
+      "prerequisiteId": "mt_DA7-JYRvtP",
+      "strength": "soft",
+      "reason": "Experience of a complete circuit helps interpret a panel powering an unchanged load."
     }
   ]
 }

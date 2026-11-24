@@ -115,6 +115,14 @@ def check_graph(g):
         raise ValueError('Subject inventory mismatch')
     if g['topics']['topicCount'] != len(ids) or g['dependencies']['edgeCount'] != len(edges):
         raise ValueError('Collection count mismatch')
+    coverage = {'topicCount':len(ids), 'withResearch':len(records), 'withoutResearch':0,
+                'bySubject':{s:{'topics':n,'withResearch':n,'withoutResearch':0}
+                             for s,n in collections.Counter(t['subject'] for t in topics).items()},
+                'missingTopicIds':[]}
+    if g['teaching-research']['coverage'] != coverage:
+        raise ValueError('Research coverage summary mismatch')
+    if any(v != g['teaching-research'][k] for k,v in g['manifest']['teachingResearch'].items()):
+        raise ValueError('Manifest research summary mismatch')
     return expected
 
 

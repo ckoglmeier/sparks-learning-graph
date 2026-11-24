@@ -16,3 +16,9 @@ Candidate: **0.1.0-rc.1**, prepared 24 November 2026. Local validation used Pyth
 The source review establishes bounded technical support and selected curriculum relationships. It does not validate learner efficacy, proposed ages, all inherited source flags, or every inherited curriculum association. No learner study is required for this release. The eight historical computing supplements retain their original evidence limits and are not active canonical records.
 
 The distribution is a data/content release with original validation tools; upstream applications and authoring scripts are excluded. Local technical checks are complete. The subsequent license review identified an outstanding third-party trademark question; see [reuse and licensing](reuse-and-licensing.md). Public hosting, download links, and hosted CI remain publication actions.
+
+## Next update: local validation scope
+
+The approved update contains 1,927 topics, 4,046 dependencies and 1,927 teaching records. The earlier checks above describe the original candidate. Current validation reruns release schemas, graph integrity, pinned-claim preservation and the release regression suite. The dependency preservation check reconstructs the baseline using the explicit approved connection review; it rejects changes outside that delta. This does not establish learner efficacy or new formal standards coverage.
+
+Local checks passed on 24 November 2026: release schema/inventory/binding/integrity checks; preservation of all original topic and teaching claims; release unit suite. Negative preservation checks rejected an unapproved inherited reason edit, a missing approved edge and a reverted approved reversal. The authoring explorer check also passed for full and subset graphs. No hosted CI or learner-efficacy testing was run before this repository update.
