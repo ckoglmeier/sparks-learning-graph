@@ -1,0 +1,258 @@
+{
+ "topicId": "mt_iqmt8wL26h",
+ "pedagogy": {
+  "summary": "- **Age:** 6–8 years\n\n- **Topic:** Decisions and repeats in algorithms\n\n- **Standards — Australia (Digital Technologies v9, Years 1–2):** AC9TDI2P02, following and describing algorithms that combine a sequence of steps, branching (decisions) and iteration (repetition).\n\n- **Standards — US (CSTA K-12, Level 1A, grades K–2):** 1A-AP-10 (develop programs with sequences and simple loops) and 1A-AP-14 (debug errors in programs with sequences and simple loops).\n\n- **Standards — UK (England, Computing programme of study):** KS1 asks pupils to predict what simple programs do; using sequence, selection and repetition in programs is named at KS2, so for 6–7 year olds this topic sits at the KS1→KS2 boundary.\n\n- **Checkpoint:** Follow and describe, not yet write code: the child can carry out an algorithm with one repeat and one if/otherwise decision, say which part was repeated and how that adds up, and say what the decision checked and what each answer led to. Builds on plain sequences (mt__p5n8z5soJ); feeds My first visual program (mt_sPV503BQnI).",
+  "bestPractices": [
+   "Teach repeats and decisions unplugged first with whole-body games and routines (repeat 3 times: step, clap; if the card is red, box it, otherwise table), then carry the same structures to a floor robot or block-based tool.",
+   "Introduce one new structure at a time on top of a sequence the child already handles; sequencing scores dropped for kindergarteners when control-flow blocks were first added.",
+   "For repeats, make the cumulative effect visible: count the total claps or steps, and contrast 'step 3 times' with 'step, step, step' written out longhand.",
+   "For decisions, teach explicitly that a condition is a question with a yes/no (true/false) answer that has to be checked each time, and practise both branches; the 'otherwise' half is harder than the 'if' half for young children.",
+   "Ask children to point to and name the repeated part and the decision in a familiar routine (getting ready for school, a song with a chorus), not just perform it.",
+   "Keep to one decision and one simple repeat; nested conditionals proved too complex even for 8–10 year olds in an unplugged course."
+  ],
+  "keyRepresentations": [
+   "Action cards inside a 'repeat ×3' bracket or loop band, laid on the floor and followed with the body",
+   "A two-way sorting station: a question card ('Is it red?') with a yes path and a no path",
+   "Simple flowchart with a diamond decision and an arrow looping back for a repeat",
+   "Songs and rhymes with a repeated chorus as everyday examples of repetition",
+   "Floor robot or tablet block code where a repeat block wraps a short sequence"
+  ],
+  "commonMisconceptions": [
+   "Not totalling the repeat: reading 'repeat 5 times: move 3 steps, meow' as 3 steps and 5 meows rather than 15 steps and 5 meows.",
+   "Treating the condition as a label attached to an outcome rather than a question to be checked true or false; children connected 'if' to an outcome before they understood that a condition can be true or false.",
+   "Handling the 'if' branch but not the 'otherwise' (if not) branch.",
+   "Parallelism: assuming different lines of an algorithm can be active at the same time (e.g. an 'if' that keeps watching while other steps run), one of Pea's language-independent novice bugs.",
+   "Losing the order of steps once a repeat or decision is added, even when plain sequences were secure."
+  ]
+ },
+ "learn": {
+  "summary": "For ages 6–8, extend plain sequences with two new ideas: a repeat (do these steps again a set number of times, and the effect adds up) and a decision (check a yes/no question, then do one thing or the other). Teach each unplugged with movement games, sorting and familiar routines, then move the same structures onto a floor robot or block-based tool. Ask children to follow, then describe: which part repeated and how many times, what the decision checked, and what happened for each answer. Keep to one simple repeat and one if/otherwise decision; nesting and writing full programs come later.",
+  "activities": [
+   {
+    "title": "Repeat dance: how much did it add up to?",
+    "learnerActions": [
+     "Follow a card sequence on the floor: 'repeat 3 times: step forward, clap'.",
+     "Before starting, predict how many steps and how many claps you will do altogether.",
+     "Do the dance, counting aloud, and check the prediction.",
+     "Rewrite the dance longhand without the repeat card (step, clap, step, clap, step, clap) and compare the two versions.",
+     "Point to the part that was repeated and say how many times it ran."
+    ],
+    "intendedInsight": "A repeat runs the whole bracketed group again each time, so its effect adds up: three times round 'step, clap' is three steps and three claps. A repeat is a short way to write the longhand steps.",
+    "feedback": [
+     "If the child predicts one step and three claps, ask them to walk it through slowly: on the second time round, which cards do you do?",
+     "If the child repeats only the last card, point to the bracket and ask which cards are inside it.",
+     "Confirm when the child links the two versions: 'Repeat 3 times is the same as writing it out 3 times.'"
+    ],
+    "rationale": "The trajectory treats 'some tasks involve repeating actions' and the equivalence of 'step 3 times' with 'step, step, step' as early, unplugged goals, and children's partial answers show the cumulative effect needs explicit attention.",
+    "sourceClaims": [
+     "In the repetition learning trajectory, 'Some tasks involve repeating actions' is an unplugged goal, 'Instructions like Step 3 times do the same thing as Step, step, step' is beginning-level, and 'Repeating things can have a cumulative effect' is intermediate.",
+     "Asked what 'repeat 5 times: move 3 steps, sound meow' does, fourth graders answered '3 steps and meows 5 times' instead of 15 steps and 5 meows, showing a partial grasp of the cumulative effect of repetition.",
+     "Barefoot Computing's 'Head, Shoulders, Knees and Toes' unplugged lesson has pupils write a step-by-step algorithm for singing a song, use repetition within it, and debug it, using body-part cards and repeat cards."
+    ]
+   },
+   {
+    "title": "Sorting station: if it is red, box it; otherwise, table",
+    "learnerActions": [
+     "Take a card from the pile and ask the decision question out loud: 'Is it red?'.",
+     "If the answer is yes, put it in the box; if no, put it on the table.",
+     "After a few cards, explain what the decision did and what happened for a 'yes' and for a 'no'.",
+     "Swap roles: one child makes up a new rule ('If it has a number bigger than 5…'), the other follows it.",
+     "Find a card that makes the answer 'no' and say where it goes before moving it."
+    ],
+    "intendedInsight": "A decision is a question with a yes or no answer that you check every time; the answer chooses which of two things to do, and both paths matter.",
+    "feedback": [
+     "If the child sorts by memory of the last card, ask them to say the question and the answer aloud for each new card.",
+     "If the child knows what happens for red but hesitates on other colours, ask: what does the rule say to do when the answer is no?",
+     "If the child says the rule 'is' the red pile, ask whether a blue card could ever go in the box under this rule, and how you would know."
+    ],
+    "rationale": "Young children readily connect an 'if' to an outcome but often do not treat the condition as something to evaluate true or false, and the 'if not' branch was harder than the 'if' branch for kindergarteners programming robots. Saying the question and its answer aloud and practising both paths targets both gaps.",
+    "sourceClaims": [
+     "Children could connect a condition to an outcome (completing 'If I see a spider, then…') before showing that a condition is something that can be true or false; in if-else items they did not evaluate the comparison to decide which action ran, and the authors recommend teaching the two states of a condition explicitly.",
+     "In the TangibleK curriculum, kindergarteners scored lower when control-flow instructions were added than on action-only sequences; only 53% reached the target on looping, 68% on the 'If' half of a conditional and 41% on the 'If Not' half, a statistically significant difference between the two halves."
+    ]
+   },
+   {
+    "title": "Find the steps, the decision and the repeat in getting ready for school",
+    "learnerActions": [
+     "Draw or list the steps of getting ready for school in order.",
+     "Mark a decision in the routine (e.g. if it is raining, take an umbrella; otherwise, take a sun hat).",
+     "Mark a repeat (e.g. brush each tooth section, or 'repeat until all buttons are done' simplified to 'do 4 buttons').",
+     "Explain to a partner which part is the decision, what it checks, and which part repeats and how many times.",
+     "Partner follows the drawn algorithm with a weather card drawn at random and acts out the result."
+    ],
+    "intendedInsight": "Everyday routines already contain sequences, decisions and repeats; naming them is the same thinking a computer program uses.",
+    "feedback": [
+     "If the child lists only steps, ask: is there anything you do only sometimes? What decides it?",
+     "If the child marks a decision but cannot say both outcomes, ask what happens on a sunny day.",
+     "If the partner gets a different result from the author, have them find whether the decision question or the order caused it."
+    ],
+    "rationale": "Describing sequence, branching and iteration in a familiar routine is named directly in the Years 1–2 Australian curriculum and the topic's evidence; peer following provides a quick check that the description is complete.",
+    "sourceClaims": [
+     "Australian Curriculum Digital Technologies v9 content description AC9TDI2P02 (Years 1–2) asks students to carry out and explain algorithms that combine ordered steps, decisions (branching) and repetition (iteration); the Digital Technologies Hub lessons have students design steps for peers, convey them and evaluate whether the outcome succeeded."
+    ]
+   },
+   {
+    "title": "Robot with a repeat and a decision",
+    "learnerActions": [
+     "On a floor robot or block-based tool, run a short program that uses one repeat (e.g. repeat 4: forward, turn) and predict the path first.",
+     "Change the repeat number and predict the new path before running it.",
+     "With a simple decision (e.g. a card placed on a square: 'if the square has a star, spin; otherwise, keep going'), act as the robot's sensor and follow the rule along the path.",
+     "When the result surprises you, find whether the repeat, the decision or the order of steps caused it, fix it and run it again."
+    ],
+    "intendedInsight": "The same repeat and decision ideas work on a robot or screen: a repeat runs its steps again the stated number of times, and a decision checks its question at that moment to choose what happens next.",
+    "feedback": [
+     "If the child's sequence falls apart once the repeat is added, go back to the plain sequence first, then wrap it.",
+     "If the child thinks the decision 'keeps watching' while the robot moves, walk the steps one at a time and ask at which step the question is asked.",
+     "Celebrate a fixed bug by asking the child to say what they changed and why it worked."
+    ],
+    "rationale": "Moving the unplugged structures onto a device links to CSTA 1A-AP-10/14 and the KS2 expectation to use sequence, selection and repetition; the drop in sequencing when control flow was added justifies keeping programs very short and falling back to plain sequences when needed. The step-at-a-time walk-through addresses Pea's parallelism bug.",
+    "sourceClaims": [
+     "In the TangibleK curriculum, kindergarteners scored lower when control-flow instructions were added than on action-only sequences; only 53% reached the target on looping, 68% on the 'If' half of a conditional and 41% on the 'If Not' half, a statistically significant difference between the two halves.",
+     "Pea identified parallelism, the assumption that different lines of a program can be active at the same time, as one of three language-independent conceptual bugs seen in novices from primary school to college.",
+     "CSTA Level 1A (grades K–2) standards include 1A-AP-10 (build programs using sequences and basic loops to express an idea or solve a problem) and 1A-AP-14 (find and fix errors in algorithms or programs containing sequences and basic loops)."
+    ]
+   }
+  ],
+  "constraints": [
+   "Keep to one simple repeat (a fixed number of times) and one if/otherwise decision; nested conditionals and 'repeat until' loops are beyond this level.",
+   "The goal is to follow and describe; writing full programs belongs to My first visual program (mt_sPV503BQnI).",
+   "Add a repeat or decision only on top of a plain sequence the child already handles; if the sequence breaks, drop back to plain sequences.",
+   "Teach both branches of every decision, including what happens when the answer is no.",
+   "Use concrete conditions a 6-year-old can check (colour, weather, a picture on a square); comparisons with numbers can come later."
+  ],
+  "reviewNotes": [
+   "Research pass by an AI agent with live source checks in October 2026; sources were opened where marked verified. Activities are research-informed designs, not validated interventions.",
+   "The repeat and conditional findings from Luo et al. (2020) come from 13 fourth graders (about 9–10), older than this topic's 6–8 band; the Bers et al. (2014) kindergarten data (ages about 5–6) bracket the band from below. Applying both to 6–8 year olds is an inference.",
+   "Leifheit et al. (2018) worked with third and fourth graders; their note that nested conditionals were too complex is used only to justify keeping to one decision.",
+   "The 'if that keeps watching' error pattern is a design inference applying Pea's parallelism bug (ERIC abstract definition only) to unplugged conditionals; no source observed it in 6–8 year olds.",
+   "The repetition-trajectory goal statements are quoted via Luo et al.; the original Rich et al. (2017) paper was not opened.",
+   "England's computing curriculum names selection and repetition at KS2 (ages 7–11), so for English schools the decisions part of this topic is slightly ahead of KS1."
+  ],
+  "schemaVersion": 2
+ },
+ "assess": {
+  "method": "performance_task",
+  "diagnosticPrompt": "Play the game: 'Repeat 3 times: if I clap, you jump; otherwise, you sit.' The adult claps, then stomps, then claps. Afterwards, tell me which part repeated, how many times, and what the 'if' part did each time.",
+  "correctAnswer": "The child jumps, sits, jumps. They say the whole 'if…otherwise' rule was repeated 3 times, and each time they checked the question 'did you clap?': yes meant jump, no meant sit. So there were 2 jumps and 1 sit altogether.",
+  "whatMakesItDiscriminate": "Performing alone can be done by copying; the explanation separates a child who sees the repeat as running the whole rule three times and the decision as a yes/no check made fresh each time from one who repeats only part of it, treats 'if clap' as a fixed pairing without checking, or cannot say what happens on the 'no' path.",
+  "errorPatterns": [
+   {
+    "pattern": "'Repeat 5 times: move 3 steps, meow. So it moves 3 steps and meows 5 times.'",
+    "kind": "misconception",
+    "revealedBy": "Applies the repeat count to only one action, or does not total the repeated actions.",
+    "nextMove": "Act it out step by step and count every step aloud; then write it longhand and count again.",
+    "distractor": "It moves 3 steps and meows 5 times.",
+    "reteachPrerequisiteId": null
+   },
+   {
+    "pattern": "'If I see a clap I jump… and if you stomp I just do nothing.'",
+    "kind": "developmental",
+    "revealedBy": "Follows the 'if' branch but freezes, guesses or does nothing on the 'otherwise' branch.",
+    "nextMove": "Do not just repeat the rule louder. Practise the 'no' path on its own, then put both paths back together, saying the question and answer aloud.",
+    "distractor": "When you stomp, nothing happens.",
+    "reteachPrerequisiteId": null
+   },
+   {
+    "pattern": "'The if part means jumping. Clap is the jump one.'",
+    "kind": "misconception",
+    "revealedBy": "Describes the decision as a fixed pairing and cannot say there is a question that is true or false and must be checked each time.",
+    "nextMove": "Use the sorting station: say the question aloud for each card and answer yes or no before acting; ask what would change the answer.",
+    "distractor": null,
+    "reteachPrerequisiteId": null
+   },
+   {
+    "pattern": "'The if is listening the whole time, so I jump as soon as you clap, even in the middle.'",
+    "kind": "misconception",
+    "revealedBy": "Expects a decision to interrupt or run alongside other steps rather than being checked when its turn comes.",
+    "nextMove": "Walk the algorithm one card at a time with a pointer and ask at which card the question is asked.",
+    "distractor": null,
+    "reteachPrerequisiteId": null
+   },
+   {
+    "pattern": "'I did all the moves, just not in that order.'",
+    "kind": "performance",
+    "revealedBy": "Repeat and decision are handled but the plain steps inside them come out jumbled once control is added.",
+    "nextMove": "Drop back to the plain sequence without the repeat or decision, secure it, then wrap it again.",
+    "distractor": null,
+    "reteachPrerequisiteId": "mt__p5n8z5soJ"
+   }
+  ],
+  "probeDeeper": [
+   "If we changed it to 'repeat 5 times', how many jumps would there be if I clapped every time?",
+   "What question did you ask yourself each time? What were the two possible answers?",
+   "Can you write the same game out longhand, without the word 'repeat'?",
+   "Where in your morning routine do you make a decision like this, and where do you repeat something?"
+  ],
+  "responseLevels": {
+   "gap": "Copies the adult or acts randomly; cannot point to the repeated part or say what the 'if' did.",
+   "partial": "Performs correctly and can name 'the repeat' and 'the if', but cannot total the repeated actions, or explains the decision only for the 'yes' case.",
+   "full": "Performs correctly, says the whole rule ran three times, totals the outcomes, explains the decision as a yes/no question checked each time with an action for each answer, and transfers the same structure to a routine or robot program."
+  },
+  "poeTask": "Show a floor robot or on-screen character with a program 'repeat 4 times: forward 1, turn right'. Ask the child to predict the path and draw it. Run it and compare (it traces a square and ends where it started). Ask the child to explain why it came back, then predict what 'repeat 2 times' would do."
+ },
+ "sources": [
+  {
+   "claim": "In the repetition learning trajectory, 'Some tasks involve repeating actions' is an unplugged goal, 'Instructions like Step 3 times do the same thing as Step, step, step' is beginning-level, and 'Repeating things can have a cumulative effect' is intermediate.",
+   "source": "Luo, F., Israel, M., Liu, R., Yan, W., Gane, B., & Hampton, J. (2020). Understanding Students' Computational Thinking through Cognitive Interviews: A Learning Trajectory-based Analysis. SIGCSE '20 (citing Rich et al.'s K-8 trajectories)",
+   "url": "https://par.nsf.gov/servlets/purl/10178448",
+   "verified": true
+  },
+  {
+   "claim": "Asked what 'repeat 5 times: move 3 steps, sound meow' does, fourth graders answered '3 steps and meows 5 times' instead of 15 steps and 5 meows, showing a partial grasp of the cumulative effect of repetition.",
+   "source": "Luo, F., Israel, M., Liu, R., Yan, W., Gane, B., & Hampton, J. (2020). Understanding Students' Computational Thinking through Cognitive Interviews: A Learning Trajectory-based Analysis. SIGCSE '20",
+   "url": "https://par.nsf.gov/servlets/purl/10178448",
+   "verified": true
+  },
+  {
+   "claim": "Children could connect a condition to an outcome (completing 'If I see a spider, then…') before showing that a condition is something that can be true or false; in if-else items they did not evaluate the comparison to decide which action ran, and the authors recommend teaching the two states of a condition explicitly.",
+   "source": "Luo, F., Israel, M., Liu, R., Yan, W., Gane, B., & Hampton, J. (2020). Understanding Students' Computational Thinking through Cognitive Interviews: A Learning Trajectory-based Analysis. SIGCSE '20",
+   "url": "https://par.nsf.gov/servlets/purl/10178448",
+   "verified": true
+  },
+  {
+   "claim": "In the TangibleK curriculum, kindergarteners scored lower when control-flow instructions were added than on action-only sequences; only 53% reached the target on looping, 68% on the 'If' half of a conditional and 41% on the 'If Not' half, a statistically significant difference between the two halves.",
+   "source": "Bers, M. U., Flannery, L., Kazakoff, E. R., & Sullivan, A. (2014). Computational thinking and tinkering: Exploration of an early childhood robotics curriculum. Computers & Education 72, 145–157",
+   "url": "https://sites.bc.edu/devtech/wp-content/uploads/sites/181/2018/02/computersandeducation.pdf",
+   "verified": true
+  },
+  {
+   "claim": "In an 18-session course for 33 third and fourth graders that introduced sequences, loops, branches and events through unplugged games before plugged-in programming, students reached on average 82% or more of the learning objectives for all but one concept, but content such as nested conditionals appeared too complex for the age group.",
+   "source": "Leifheit, L., Jabs, J., Ninaus, M., Moeller, K., & Ostermann, K. (2018). Programming Unplugged: An Evaluation of Game-Based Methods for Teaching Computational Thinking in Primary School. European Conference on Games Based Learning",
+   "url": "https://pl.cs.uni-tuebingen.de/publications/leifheit2018unplugged/",
+   "verified": true
+  },
+  {
+   "claim": "Pea identified parallelism, the assumption that different lines of a program can be active at the same time, as one of three language-independent conceptual bugs seen in novices from primary school to college.",
+   "source": "Pea, R. D. (1984/1986). Language-Independent Conceptual 'Bugs' in Novice Programming. Bank Street Technical Report No. 31 (ERIC ED319373); Journal of Educational Computing Research 2(1), 25–36",
+   "url": "https://eric.ed.gov/?id=ED319373",
+   "verified": true
+  },
+  {
+   "claim": "Australian Curriculum Digital Technologies v9 content description AC9TDI2P02 (Years 1–2) asks students to carry out and explain algorithms that combine ordered steps, decisions (branching) and repetition (iteration); the Digital Technologies Hub lessons have students design steps for peers, convey them and evaluate whether the outcome succeeded.",
+   "source": "Digital Technologies Hub (Australian Government) — Introducing algorithms",
+   "url": "https://www.digitaltechnologieshub.edu.au/search/introducing-algorithms/",
+   "verified": true
+  },
+  {
+   "claim": "CSTA Level 1A (grades K–2) standards include 1A-AP-10 (build programs using sequences and basic loops to express an idea or solve a problem) and 1A-AP-14 (find and fix errors in algorithms or programs containing sequences and basic loops).",
+   "source": "CSTA K-12 Computer Science Standards (2017), Level 1A, as reproduced by Washington OSPI",
+   "url": "https://ospi.k12.wa.us/sites/default/files/2022-12/cs-standards-k-2.pdf",
+   "verified": true
+  },
+  {
+   "claim": "Barefoot Computing's 'Head, Shoulders, Knees and Toes' unplugged lesson has pupils write a step-by-step algorithm for singing a song, use repetition within it, and debug it, using body-part cards and repeat cards.",
+   "source": "Barefoot Computing (NCCE/BCS) — Head, Shoulders, Knees and Toes Algorithms (SEND)",
+   "url": "https://www.barefootcomputing.org/resources/head-shoulders-knees-and-toes-algorithms",
+   "verified": true
+  }
+ ],
+ "confidence": "medium",
+ "provenance": {
+  "originalResearchGeneratedBy": "claude-opus-5-5 (Sparks & Sprockets computing research pass)",
+  "createdAt": "2026-10-29T00:00:00Z",
+  "updatedAt": "2026-10-29T00:00:00Z"
+ },
+ "publicationNotes": {
+  "omittedCurriculumText": []
+ }
+}

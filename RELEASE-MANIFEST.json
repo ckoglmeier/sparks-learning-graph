@@ -1,0 +1,302 @@
+{
+  "version": "0.1.0-rc.1",
+  "preparedAt": "2026-11-24",
+  "upstreamCommit": "acac33d2a23bef7d60c462da2cd8ef124c7faa2a",
+  "inventoryExcludes": [
+    "RELEASE-MANIFEST.json (self)",
+    "local .git metadata",
+    "Python __pycache__"
+  ],
+  "files": [
+    {
+      "path": ".github/workflows/validate.yml",
+      "bytes": 475,
+      "sha256": "d3fdd747dc1a29968b506a12f83f703f744eab0ea406680a20f9cfd5a0c5c28e"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 26,
+      "sha256": "4cad133d4f0a6cf4bba15f1b8bbae48d6a55f20b94f75487c51a93cc6a5af59f"
+    },
+    {
+      "path": "ATTRIBUTION.md",
+      "bytes": 3415,
+      "sha256": "ff4939bbd7adbf8dc2409dfe36d58fce67f7f58cfe14fc10ac4ef0b1dd97e972"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 1706,
+      "sha256": "d49e2b43a0767a841ef8f253ae82fb2d468b59cf501e9fde4f86648b35e0e2a6"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 398,
+      "sha256": "5dc1ad8e243af43186164031523bc11c3015aa0ae309f9d0bcb428901765f0f4"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 1756,
+      "sha256": "6108d2add77e118345139ed62269a09f05aa006b061d9dcca7e8f85aac678928"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 25289,
+      "sha256": "77d2692c3d64efdd4db18dce2407699baf62930e2b50d6e5ed90b48acf16b7c1"
+    },
+    {
+      "path": "LICENSE-CODE",
+      "bytes": 1075,
+      "sha256": "6b938f2d830851d1dab2b34d7e452925432cdeb1de112ed5cae258457dd98b64"
+    },
+    {
+      "path": "LICENSE-CONTENT",
+      "bytes": 18375,
+      "sha256": "cde7883b9050a1104f4ac19a1572aafd6e5d7323b68351aaf51fbf4beba54966"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "bytes": 37759,
+      "sha256": "990a97553bea86f1022003c4c234bb56a715e3528cc0ea67f71fde2fc5939d91"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4887,
+      "sha256": "d678f420deea5ebccf32390c61f4a2ea8d5123c7a9bb7017a6299916cc398b9c"
+    },
+    {
+      "path": "UPSTREAM.json",
+      "bytes": 4780,
+      "sha256": "279c6af21d85ea18caedc1d90f09cbc493da7336f63908b2753896c37b1e0834"
+    },
+    {
+      "path": "data/archived-teaching-research.json",
+      "bytes": 122155,
+      "sha256": "c4d3acf94075f5436f6535371f6dd7420900431704e2f45c352d5c01b84b33bc"
+    },
+    {
+      "path": "data/clusters.json",
+      "bytes": 59129,
+      "sha256": "4e112dd2fc3373666d9f33e7a0314798f282b67b650063ec5afeb69b7af5dbc3"
+    },
+    {
+      "path": "data/curriculum-alignments.json",
+      "bytes": 1821393,
+      "sha256": "08e15d56b32d02b5fb63cacd0c31b27576a4c7cf41ae4d44cd7fc1637dd2b2b6"
+    },
+    {
+      "path": "data/curriculum-standards.json",
+      "bytes": 1120253,
+      "sha256": "9a73d62c59c84dab74a00ea2ec7f19742881f4b8022fd4196959bc179fad6a67"
+    },
+    {
+      "path": "data/dependencies.json",
+      "bytes": 885948,
+      "sha256": "08277203e5609db62bd8f0a90d24f17f6d446fc9109cf31590bd51787cd68fd6"
+    },
+    {
+      "path": "data/manifest.json",
+      "bytes": 4560,
+      "sha256": "51fa8e859f17f29c30403bad20d30a5864ff8e4a88f70981117f4465fa73e369"
+    },
+    {
+      "path": "data/teaching-research.json",
+      "bytes": 32907436,
+      "sha256": "4c3a3d5c5caf7db9169ef98c9e475ce61053e5aaa8cbb7a3460dd27ab1b6b59d"
+    },
+    {
+      "path": "data/topics.json",
+      "bytes": 2864346,
+      "sha256": "8c587905709bfa3c722a9261bed9f648ad7c79b0a4281409e3223baa8d1ad45e"
+    },
+    {
+      "path": "docs/MARBLE-CITATION.cff",
+      "bytes": 701,
+      "sha256": "26d5acde6fff688ee774fc849e33213c30236df4b423dcdd445f5ee21473d11b"
+    },
+    {
+      "path": "docs/concepts.md",
+      "bytes": 19724,
+      "sha256": "e73ef3536806add261ea10adc89384fb4f8a644077dada174957c8c3d1a463d2"
+    },
+    {
+      "path": "docs/curriculum-alignment.json",
+      "bytes": 9405,
+      "sha256": "a1bd1e48ae08e387c4eb438987c891fada7e35d4a4713c74565a9eb97d03b34b"
+    },
+    {
+      "path": "docs/curriculum-alignment.md",
+      "bytes": 7748,
+      "sha256": "88d0f59113b0b5af900b6b383862016c97b3e9621ee41597a5570c350e4abe0b"
+    },
+    {
+      "path": "docs/data-format.md",
+      "bytes": 2036,
+      "sha256": "292858d0171760a73489e26e6c76d75cf0cee325ad44b29c718bfc8b783acec8"
+    },
+    {
+      "path": "docs/reconciliation.md",
+      "bytes": 3214,
+      "sha256": "fd6d6a1f6d61702ee06ab4265e458d395c31e092124fb82d13f45003b96a4923"
+    },
+    {
+      "path": "docs/reuse-and-licensing.md",
+      "bytes": 4151,
+      "sha256": "ddca4e532fca237200b741a0523476a980996be6768e2e889e7102271a78c13c"
+    },
+    {
+      "path": "docs/us-crosswalk.json",
+      "bytes": 6852,
+      "sha256": "615ba66681a0f27de624d09a7cbe69cf0251f04e27c235d1a298788d36aaf9b3"
+    },
+    {
+      "path": "docs/us-educator-guide.md",
+      "bytes": 8592,
+      "sha256": "d5831ce402f5293789df6afd2a0e34da4ffcf09f19d80146236ef98bfae6d9eb"
+    },
+    {
+      "path": "docs/validation.md",
+      "bytes": 2251,
+      "sha256": "5be4e60152aaea5bc4c80ecfa993f840b5248e6949b6c07a155e2d2855f5eae5"
+    },
+    {
+      "path": "extensions/sparks/additions.json",
+      "bytes": 111913,
+      "sha256": "5a9294f3ec3556aa87a629a57feaeade61a48a3062437e732d180374961e083b"
+    },
+    {
+      "path": "extensions/sparks/baseline-authored-hashes.json",
+      "bytes": 340547,
+      "sha256": "34c5773c8f300c15476726abf3b0b9a4b5f29d6d8227a2774f2f83f96953946c"
+    },
+    {
+      "path": "extensions/sparks/claim-rationale.json",
+      "bytes": 6632,
+      "sha256": "55e007e0b96fe308fc62bc04031feae271c4939e44b6dffeacc19457bc58b63d"
+    },
+    {
+      "path": "extensions/sparks/verify.py",
+      "bytes": 2006,
+      "sha256": "1328d57f29797d3f4a68f69223aaa6166514814db09774082e9b6d60aadbd295"
+    },
+    {
+      "path": "requirements-dev.txt",
+      "bytes": 19,
+      "sha256": "44ff0dc2f1e40311b8239e83146749ab9d9cee2a650e699f5464755d552ee20d"
+    },
+    {
+      "path": "schema/canonical-teaching-research-v2.schema.json",
+      "bytes": 11143,
+      "sha256": "a8e05a32309e4579efe71c777d25106fecd2390fc2108139f54f6a94198b8f9f"
+    },
+    {
+      "path": "schema/clusters.schema.json",
+      "bytes": 829,
+      "sha256": "b19098d9de830cfa4becdf959c1274bd440cea777a18b7434dbe7eabae244669"
+    },
+    {
+      "path": "schema/curriculum-alignments-v2.schema.json",
+      "bytes": 4849,
+      "sha256": "c915c41fad8e74f6224c4d30ec843a418e984620e5f2a18ec7fbf4e9a3a668da"
+    },
+    {
+      "path": "schema/curriculum-alignments.schema.json",
+      "bytes": 1456,
+      "sha256": "5b5f985f181938727cc009cb7fa955ce24f43dcac96452c14a0070f9330ae46e"
+    },
+    {
+      "path": "schema/curriculum-standards.schema.json",
+      "bytes": 1551,
+      "sha256": "6bff8f71ecf346d9b8ebe06f00beccd42d6ce5f4feb1a21992d5a9c7b1cbf7ff"
+    },
+    {
+      "path": "schema/dependencies.schema.json",
+      "bytes": 940,
+      "sha256": "81a75a386599f31a32ed27e7b204b57992a344e2dc5a99169349deba7d60a54e"
+    },
+    {
+      "path": "schema/teaching-research.schema.json",
+      "bytes": 17400,
+      "sha256": "ce1bc28e86fd4966944065b7ae2cafbf6674c2492f35f074a46f4c3246c5c0ef"
+    },
+    {
+      "path": "schema/topics.schema.json",
+      "bytes": 1449,
+      "sha256": "2c6ea7f7b0f598fafa0950d40006617ae777216466b09a3300a58e38d0f21887"
+    },
+    {
+      "path": "supplements/computing-2026-10-29/README.md",
+      "bytes": 1079,
+      "sha256": "455e933864ac4721e945f23c50b474b4306ff7826f7c22fdccf5f6e06c0ebf8e"
+    },
+    {
+      "path": "supplements/computing-2026-10-29/index.json",
+      "bytes": 2371,
+      "sha256": "7bfd42bc9a89371fcaaa325673a4f57521eed84988f9d49c367d116cff259b58"
+    },
+    {
+      "path": "supplements/computing-2026-10-29/mt_5UtPmgdoQ9.json",
+      "bytes": 24860,
+      "sha256": "993783ae77153cfafd63153a4047986762d5274b2fa03ae70cef8e8832da6ac9"
+    },
+    {
+      "path": "supplements/computing-2026-10-29/mt_6XbAmdmjDb.json",
+      "bytes": 30355,
+      "sha256": "d6e8ea252166b2cda8e99cab7b4cecff57ddc8192a0f63d5bb68fd392838ec88"
+    },
+    {
+      "path": "supplements/computing-2026-10-29/mt_JTuhd-cPiV.json",
+      "bytes": 27124,
+      "sha256": "b0d07a7d07610a347243821ede4cb3bbb721843e2777cce522b5c77931e8680d"
+    },
+    {
+      "path": "supplements/computing-2026-10-29/mt_XXpEz9tyu6.json",
+      "bytes": 28839,
+      "sha256": "dfd34ca81e06e008cbd6c1ec375ac61ca5a7d200b14fee1b0f9ab20adee673a2"
+    },
+    {
+      "path": "supplements/computing-2026-10-29/mt__p5n8z5soJ.json",
+      "bytes": 25256,
+      "sha256": "1ab8bc60ace72ef81cb9affd69867cf1c11681d035540c31b9503d008f96882c"
+    },
+    {
+      "path": "supplements/computing-2026-10-29/mt_iqmt8wL26h.json",
+      "bytes": 24425,
+      "sha256": "d2ea47da416ab227082338874ff545d6c307e14b543681aa27bfba12e83aa9aa"
+    },
+    {
+      "path": "supplements/computing-2026-10-29/mt_nfGAtwqSvP.json",
+      "bytes": 30517,
+      "sha256": "2108dba7c5526698a6a200f3b7ad0efc55635d511456a48c8cce2db80e207af1"
+    },
+    {
+      "path": "supplements/computing-2026-10-29/mt_sPV503BQnI.json",
+      "bytes": 25627,
+      "sha256": "e62522e8d500fe4fab5ead5009933a6d502da2b62ce3e6b182d8f142a541e278"
+    },
+    {
+      "path": "tools/build_archive.py",
+      "bytes": 1091,
+      "sha256": "13838ee9b0f2adebca3a3dda3949ace332ef2f2c971b85ad1596eec0de7e2bbb"
+    },
+    {
+      "path": "tools/refresh_manifest.py",
+      "bytes": 1490,
+      "sha256": "2829bf4ee1972fd53a2c7e8823878a7e43d7b4e71055831492c64b54f6b5a872"
+    },
+    {
+      "path": "tools/test_release.py",
+      "bytes": 3438,
+      "sha256": "e2a287c5f8aff224528657b3939debadf22dad8c1769ea36466da92977e2973f"
+    },
+    {
+      "path": "tools/test_us_crosswalk.py",
+      "bytes": 1132,
+      "sha256": "64cfd2d405d3b2342b02cbdbf6cba83f75cb427ab7ceeef09de45b592a90cb34"
+    },
+    {
+      "path": "tools/verify_release.py",
+      "bytes": 8647,
+      "sha256": "29760cfabaf826a6ceb7e00b6d8f5b1e70f8dd0d49f80c7123ed447b5c522fa6"
+    }
+  ]
+}

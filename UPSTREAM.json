@@ -1,0 +1,128 @@
+{
+  "repository": "https://github.com/withmarbleapp/os-taxonomy",
+  "commit": "acac33d2a23bef7d60c462da2cd8ef124c7faa2a",
+  "retrievedAt": "2026-11-24",
+  "files": [
+    {
+      "path": "CITATION.cff",
+      "sha256": "26d5acde6fff688ee774fc849e33213c30236df4b423dcdd445f5ee21473d11b",
+      "gitBlob": "805e1e22817f4cf49e05c14a65c76caae7417769",
+      "bytes": 701
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "77d2692c3d64efdd4db18dce2407699baf62930e2b50d6e5ed90b48acf16b7c1",
+      "gitBlob": "8ca51c358d59596c271ee7c928e5feb0d4d9b817",
+      "bytes": 25289
+    },
+    {
+      "path": "LICENSE-CONTENT",
+      "sha256": "cde7883b9050a1104f4ac19a1572aafd6e5d7323b68351aaf51fbf4beba54966",
+      "gitBlob": "835a6836b385fa068fdd625685548845cda60c2f",
+      "bytes": 18375
+    },
+    {
+      "path": "PROVENANCE.md",
+      "sha256": "f3325aa6131d4259f8d160dda57aa0b876a5c6ee859d0e548630386810f8623f",
+      "gitBlob": "af3ac9304f07eb72d2b526e639b8bd95d3c12b6b",
+      "bytes": 32519
+    },
+    {
+      "path": "data/archived-teaching-research.json",
+      "sha256": "c4d3acf94075f5436f6535371f6dd7420900431704e2f45c352d5c01b84b33bc",
+      "gitBlob": "019eee4c1ecd376be96dd89068ca12e068949c05",
+      "bytes": 122155
+    },
+    {
+      "path": "data/clusters.json",
+      "sha256": "4e112dd2fc3373666d9f33e7a0314798f282b67b650063ec5afeb69b7af5dbc3",
+      "gitBlob": "cc7abf6ea9488780dc0592ae8ebc2e9f5136024a",
+      "bytes": 59129
+    },
+    {
+      "path": "data/curriculum-alignments.json",
+      "sha256": "63734721b57fa497e2330851b6d8fadfd09cf530b7ecd7816929515bca1264f4",
+      "gitBlob": "454a700affd6f6927239d50711a2faabcf114fa0",
+      "bytes": 1819651
+    },
+    {
+      "path": "data/curriculum-standards.json",
+      "sha256": "ddbabe92f6e476231a24161907900b5a52a1f4ced57adabe2d98f753264b772b",
+      "gitBlob": "23a9145b9c50fe2349d90dec498288d0949f9305",
+      "bytes": 2859477
+    },
+    {
+      "path": "data/dependencies.json",
+      "sha256": "ed38d8a265699d1687a7fa8166c528999e21771d54449a84ea5362dc1d0e7758",
+      "gitBlob": "e7125d6bcf3f66dfd22eb7df9839396dcec0d830",
+      "bytes": 880941
+    },
+    {
+      "path": "data/manifest.json",
+      "sha256": "5900349b08d3dd4647900a66eea2bee3a4430468e9d7ddb3d109ba7df9be35d7",
+      "gitBlob": "1c3f4580b3ee254411280d668efe76657b6bf2a6",
+      "bytes": 4454
+    },
+    {
+      "path": "data/teaching-research.json",
+      "sha256": "4c8bd1ae6acf1ac62c3926b4de1c6a3b740a6f38915f5bfc67144d9d26e297c0",
+      "gitBlob": "c2bb6bcbda21bb977795cc99b89d9e7ee3a458cd",
+      "bytes": 32816789
+    },
+    {
+      "path": "data/topics.json",
+      "sha256": "fd96ce5963e24f11dcfb549fee46d3cb6afae5d545dc30f4d01366a406444f35",
+      "gitBlob": "8ddc9c5ff703233019ba1c609e01a708291ccccb",
+      "bytes": 2850439
+    },
+    {
+      "path": "schema/canonical-teaching-research-v2.schema.json",
+      "sha256": "a8e05a32309e4579efe71c777d25106fecd2390fc2108139f54f6a94198b8f9f",
+      "gitBlob": "d0d97276037aa9387568104b746985afe6d93e89",
+      "bytes": 11143
+    },
+    {
+      "path": "schema/clusters.schema.json",
+      "sha256": "b19098d9de830cfa4becdf959c1274bd440cea777a18b7434dbe7eabae244669",
+      "gitBlob": "273dbadd05f114b0002a96ca8609e26a090d28b7",
+      "bytes": 829
+    },
+    {
+      "path": "schema/curriculum-alignments-v2.schema.json",
+      "sha256": "c915c41fad8e74f6224c4d30ec843a418e984620e5f2a18ec7fbf4e9a3a668da",
+      "gitBlob": "fda6ce2aa9f6da13b433de424705e040c9a5ae14",
+      "bytes": 4849
+    },
+    {
+      "path": "schema/curriculum-alignments.schema.json",
+      "sha256": "5b5f985f181938727cc009cb7fa955ce24f43dcac96452c14a0070f9330ae46e",
+      "gitBlob": "b341343d9ee0cd4683028db26f8584c7f8d6c77a",
+      "bytes": 1456
+    },
+    {
+      "path": "schema/curriculum-standards.schema.json",
+      "sha256": "6bff8f71ecf346d9b8ebe06f00beccd42d6ce5f4feb1a21992d5a9c7b1cbf7ff",
+      "gitBlob": "31d2c914523796d2be8c35fd302ec6b5fd0cc719",
+      "bytes": 1551
+    },
+    {
+      "path": "schema/dependencies.schema.json",
+      "sha256": "81a75a386599f31a32ed27e7b204b57992a344e2dc5a99169349deba7d60a54e",
+      "gitBlob": "bcea8f52f10f9c3b49d1349464585989e3d16d77",
+      "bytes": 940
+    },
+    {
+      "path": "schema/teaching-research.schema.json",
+      "sha256": "ce1bc28e86fd4966944065b7ae2cafbf6674c2492f35f074a46f4c3246c5c0ef",
+      "gitBlob": "e75e1a6c9810f18cb41ca9ee38a286bac108f248",
+      "bytes": 17400
+    },
+    {
+      "path": "schema/topics.schema.json",
+      "sha256": "2c6ea7f7b0f598fafa0950d40006617ae777216466b09a3300a58e38d0f21887",
+      "gitBlob": "9c56eb2f901ae86532b4a4d860c097e4b751160b",
+      "bytes": 1449
+    }
+  ],
+  "note": "Hashes identify original upstream bytes before Sparks modifications. Release inventory identifies the distributed bytes."
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "topicId": "mt_915b9dc0b3714097",
+    "name": "Comparing density using equal volumes",
+    "reuseRationale": "Material Properties Vocabulary names density but does not assess relational comparison; The Particle Model requires a different microscopic explanatory model. Existing mass and volume topics measure separate quantities, not their relationship. This is a distinct conceptual claim, not an easier copy of particle theory.",
+    "scopeNotes": [
+      "Age 9–12 is proposed global teaching guidance, not a certified jurisdiction mapping.",
+      "Concrete comparison can precede formal division and particle theory."
+    ]
+  },
+  {
+    "topicId": "mt_92fa2c4720f84f79",
+    "name": "Water displaced by immersed objects",
+    "reuseRationale": "What volume means concerns unit-cube volume, and ordinary-pouring conservation concerns unchanged liquid amount. Neither assesses the relation between immersed object volume and displaced liquid. The new claim does not duplicate measuring an irregular object by subtraction as a procedure.",
+    "scopeNotes": [
+      "Middle-school displacement material supports the physics; the simpler primary activity is original authoring.",
+      "This conceptual claim does not certify the graduated-cylinder measurement procedure."
+    ]
+  },
+  {
+    "topicId": "mt_0124c7499b7c49de",
+    "name": "Buoyant support and floating",
+    "reuseRationale": "Forces Vocabulary names upthrust; density vocabulary and particle explanations do not establish the relation between water displacement, support and load. This claim integrates a single flotation model and retains pressure mechanism as an optional explanation, not a required whole bundled pressure topic.",
+    "scopeNotes": [
+      "Primary flotation teaching has classroom evidence, but these exact activities have not been tested.",
+      "Assessment design is included in the graph; learner efficacy testing is not a release gate for this project."
+    ]
+  },
+  {
+    "topicId": "mt_b39a1788b3424357",
+    "name": "Pressure in still liquids",
+    "reuseRationale": "Deformation & Fluid Pressure bundles this concept with elastic/inelastic deformation and thermal expansion. The new focused claim extracts independently assessable hydrostatics without changing or retiring the older broader claim or transferring its mastery. Moments, Pressure & Hooke's Law also includes independent content and cannot substitute.",
+    "scopeNotes": [
+      "Proposed primary age guidance is 10–12; technical sources do not establish an exact age threshold.",
+      "Older bundled topic and research remain unchanged; overlap is documented, not silently merged."
+    ]
+  },
+  {
+    "topicId": "mt_da7df960e3c3497f",
+    "name": "Sensing and acting in physical control systems",
+    "reuseRationale": "Parts of a computer classifies/selects peripherals and Real-World Robots identifies examples. Decisions and input in programs implements branching. This claim assesses the causal physical chain and power-versus-information distinction, independently of writing code.",
+    "scopeNotes": [
+      "Age guidance is a proposed primary teaching range.",
+      "Physical control is a curriculum component; no full standard coverage is asserted."
+    ]
+  },
+  {
+    "topicId": "mt_84988393c9e342de",
+    "name": "Correcting a system using feedback",
+    "reuseRationale": "Loops and input decisions implement execution structures but do not require the measured output to feed back into a regulating action. A thermostat-style causal loop is independently explainable from code construction; do not create separate rover/submarine feedback nodes.",
+    "scopeNotes": [
+      "Technical feedback sources support correctness, not an experimentally established primary age threshold.",
+      "Repeated sensor use is supported by primary lesson guidance; closed-loop regulator examples are original bounded applications."
+    ]
+  },
+  {
+    "topicId": "mt_d1f48410cd8b4254",
+    "name": "Force and travel in simple machines",
+    "reuseRationale": "Simple machine arrangements and everyday uses assesses recognition and function. Levers, Pulleys & Gears assesses force-changing mechanisms but does not require the reciprocal input-travel explanation. Efficiency, Sankey diagrams, and work done requires numerical efficiency and diagrams. This qualitative energy/travel relationship is independently assessable; separate topic copies for each tool are unnecessary.",
+    "scopeNotes": [
+      "Primary ages are proposed, not a new statutory mapping.",
+      "Year 5 mechanism recognition is related; the explicit travel/energy tradeoff extends that requirement."
+    ]
+  },
+  {
+    "topicId": "mt_9401faebe1804335",
+    "name": "Load placement and static tipping",
+    "reuseRationale": "Balanced & Unbalanced Forces concerns investigation of net force and motion, not the support-region condition for tipping. Moments, Pressure & Hooke's Law bundles numerical torque, hydraulics and elasticity. The proposed claim is the spatial static-stability criterion, with supplied combined centre markers, not an easier replacement for the whole older claim.",
+    "scopeNotes": [
+      "Related to England D&T stability practice, but conceptual prediction alone does not cover building structures.",
+      "Formal turning effects occur in England KS3; the proposed earlier qualitative model is enrichment."
+    ]
+  },
+  {
+    "topicId": "mt_56c39fbf4ef341a0",
+    "name": "Contact force spread over an area",
+    "reuseRationale": "Deformation & Fluid Pressure covers elastic change, thermal expansion and fluid depth. Moments, Pressure & Hooke's Law covers other bundled quantitative claims. Neither assesses the controlled solid-contact force/area comparison; force vocabulary alone is insufficient.",
+    "scopeNotes": [
+      "Qualitative enrichment relative to England primary Science; ratio pressure is explicit at KS3.",
+      "This is not the same claim as hydrostatic pressure with depth."
+    ]
+  },
+  {
+    "topicId": "mt_3568068de7804719",
+    "name": "Solar-panel orientation and light capture",
+    "reuseRationale": "Sunlight warms things up concerns thermal effects. Building an energy-converting device is a design/test procedure, and Energy stores and transfers classifies stores/pathways. None assesses geometric interception by a photovoltaic surface; successful device construction alone does not demonstrate that explanation.",
+    "scopeNotes": [
+      "Application enrichment; no exact primary curriculum mapping asserted.",
+      "Technical source supports orientation effects, not a validated primary-age sequence."
+    ]
+  }
+]

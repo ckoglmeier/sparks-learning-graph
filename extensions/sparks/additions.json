@@ -1,0 +1,1925 @@
+{
+  "schemaVersion": 1,
+  "upstreamCommit": "acac33d2a23bef7d60c462da2cd8ef124c7faa2a",
+  "topicIds": {
+    "density": "mt_915b9dc0b3714097",
+    "displacement": "mt_92fa2c4720f84f79",
+    "buoyancy": "mt_0124c7499b7c49de",
+    "pressure": "mt_b39a1788b3424357",
+    "hardware": "mt_da7df960e3c3497f",
+    "feedback": "mt_84988393c9e342de",
+    "machine_tradeoff": "mt_d1f48410cd8b4254",
+    "tipping": "mt_9401faebe1804335",
+    "contact_pressure": "mt_56c39fbf4ef341a0",
+    "solar_orientation": "mt_3568068de7804719"
+  },
+  "topics": [
+    {
+      "id": "mt_915b9dc0b3714097",
+      "type": "CONCEPTUAL",
+      "subject": "Science",
+      "domain": "Matter & Materials",
+      "name": "Comparing density using equal volumes",
+      "description": "Compare the density of uniform materials by comparing masses of equal volumes, and explain why changing the amount of the same uniform material does not by itself change its density. Distinguish total mass from mass relative to occupied volume; no density formula or particle theory is required.",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "Compare equal-volume samples using their masses and justify which material is denser, rather than choosing by colour or total size.",
+        "Explain why a larger sample of the same uniform material has more mass but the same density under unchanged conditions.",
+        "Reject an unsupported density ranking of unequal-volume samples from total masses alone; request an equal-volume comparison or adequate mass-and-volume information."
+      ],
+      "assessmentPrompt": "Can {{name}} explain which of two equal-sized solid blocks is denser from a balance comparison, then explain whether cutting one block in half changes the density of its material?",
+      "standards": []
+    },
+    {
+      "id": "mt_92fa2c4720f84f79",
+      "type": "CONCEPTUAL",
+      "subject": "Science",
+      "domain": "Matter & Materials",
+      "name": "Water displaced by immersed objects",
+      "description": "Explain that a water-excluding object displaces a volume of water equal to the volume of the part below the water surface, and use this to compare controlled partial and full immersion cases. Distinguish displaced volume from object mass and from water-level height; no density calculation is required.",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "Predict equal displacement for fully immersed, water-excluding objects with equal outside volume but different mass.",
+        "Explain why lowering more of an object below the surface increases displaced volume until full immersion, after which moving the same rigid object deeper does not add displacement.",
+        "Explain why the same displaced volume can cause different level rises in differently shaped containers."
+      ],
+      "assessmentPrompt": "Can {{name}} predict whether two same-sized sealed blocks of different masses displace the same water when fully submerged, and explain what changes when only half of a block is submerged?",
+      "standards": []
+    },
+    {
+      "id": "mt_0124c7499b7c49de",
+      "type": "CONCEPTUAL",
+      "subject": "Science",
+      "domain": "Forces & Motion",
+      "name": "Buoyant support and floating",
+      "description": "Explain floating and initial rising or sinking using upward support from displaced water and downward weight. A freely floating object at rest displaces water with the same weight as the object; a fully immersed object released from rest initially rises or sinks according to the balance. Apply the model to hollow hulls and changed loads without requiring equations or a microscopic pressure derivation.",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "Explain that water provides upward support even to an object that sinks; compare this support with weight in a released-from-rest case.",
+        "Explain how reshaping the same material into a water-excluding hull can allow enough displacement to support its weight before water enters.",
+        "Predict and explain how adding load changes the waterline of a floating hull and why a hull can eventually flood or sink.",
+        "Transfer the force/displacement explanation to a fully immersed sealed object at rest without claiming that neutral buoyancy brakes existing motion."
+      ],
+      "assessmentPrompt": "Can {{name}} explain how the same lump of material could sink as a solid lump but float as a watertight bowl, and why adding cargo makes the bowl sit lower?",
+      "standards": []
+    },
+    {
+      "id": "mt_b39a1788b3424357",
+      "type": "CONCEPTUAL",
+      "subject": "Science",
+      "domain": "Forces & Motion",
+      "name": "Pressure in still liquids",
+      "description": "Explain that pressure in a connected liquid at rest acts on immersed surfaces in all orientations and increases with depth below the free surface. Compare pressures at equal and different depths in the same liquid under the same surface pressure; distinguish local pressure from net buoyant force without calculating hydrostatic equations.",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "Predict the same pressure at equal depths in the same connected resting liquid despite differing container widths or wall shapes.",
+        "Predict higher pressure at greater depth and identify inward pressure forces normal to surfaces at different orientations.",
+        "Explain why a deeper rigid fully submerged object can face greater local pressure without a larger displaced volume or automatically larger buoyant support."
+      ],
+      "assessmentPrompt": "Can {{name}} compare pressure readings beside the top, side and bottom of a submerged box, explain why greater depth matters, and say whether water pushes only downward?",
+      "standards": []
+    },
+    {
+      "id": "mt_da7df960e3c3497f",
+      "type": "CONCEPTUAL",
+      "subject": "Computing",
+      "domain": "Digital Systems",
+      "name": "Sensing and acting in physical control systems",
+      "description": "Explain the causal roles of a sensor or input device, a controller following a rule, and an actuator or output in a supplied physical control system. Trace information separately from the power that enables an action, and distinguish sensing a condition from deciding and acting on it; no circuit-building or program-writing procedure is required.",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "Trace a supplied sensor reading through a controller rule to a physical output and predict what changes when the reading or rule changes.",
+        "Explain why a sensor alone does not choose or power every action, identifying the controller and powered output in the supplied model.",
+        "Distinguish manual input, sensing and actuation in contrasting systems, including a device whose output is visible but whose feedback is absent."
+      ],
+      "assessmentPrompt": "Can {{name}} explain how a distance sensor, controller rule and motor work together to stop a rover, and what would happen if the sensor reading changed but the controller never used it?",
+      "standards": []
+    },
+    {
+      "id": "mt_84988393c9e342de",
+      "type": "CONCEPTUAL",
+      "subject": "Computing",
+      "domain": "Digital Systems",
+      "name": "Correcting a system using feedback",
+      "description": "Explain how repeatedly measuring an outcome, comparing it with a target or target band and choosing a corrective action forms a feedback loop. Distinguish outcome feedback from a fixed timed action or an unrelated sensor trigger, and predict how a bounded controller responds to a changed load or disturbance without promising perfect control.",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "Identify the measured outcome, target, comparison, action and changed outcome in a supplied closed-loop system.",
+        "Predict why a fixed timed action can fail after a changed starting state or load and explain how repeated outcome measurement can support correction.",
+        "Distinguish a sensor-triggered action from feedback when the measured variable is not affected by the controlled action.",
+        "Explain a supplied overshoot or delayed-response case and why repeated measurement does not guarantee instant, exact or stable control."
+      ],
+      "assessmentPrompt": "Can {{name}} explain why a submarine that checks its depth repeatedly can respond after cargo is added, while a program that runs the motor for a fixed time may miss the target?",
+      "standards": []
+    },
+    {
+      "id": "mt_d1f48410cd8b4254",
+      "type": "CONCEPTUAL",
+      "subject": "Science",
+      "domain": "Forces & Motion",
+      "name": "Force and travel in simple machines",
+      "description": "Explain the tradeoff between input force and input travel when a low-loss simple machine performs the same output task slowly. Use supplied motion comparisons to explain why reducing input force requires more input travel, and distinguish this from reducing the energy required. Transfer the relationship across a ramp, a wheel-and-axle lifting device, and supplied wedge or screw models without requiring mechanical-advantage formulae.",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "For the same load raised to the same height, compare two low-friction ramps and explain the smaller push and longer travel on the shallower ramp.",
+        "Trace input and output travel in a crank-and-drum lift and in a supplied screw or wedge model; explain which motion is traded for a smaller input force.",
+        "Reject a claim that a machine gives both less force and less travel for the same output without another energy source; explain why friction can increase the input needed."
+      ],
+      "assessmentPrompt": "Can {{name}} explain why a longer gentle ramp can need a smaller push but a longer journey to lift the same box, and find the corresponding tradeoff in a hand-cranked lift?",
+      "standards": []
+    },
+    {
+      "id": "mt_9401faebe1804335",
+      "type": "CONCEPTUAL",
+      "subject": "Science",
+      "domain": "Forces & Motion",
+      "name": "Load placement and static tipping",
+      "description": "Predict whether a rigid supported object begins to tip under gravity using the vertical line through its combined centre of gravity and its base of support. Explain how changing load position, support width or centre height affects the static tipping margin in supplied models. Do not infer dynamic vehicle safety or require numerical moments.",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "For supplied centre-of-gravity markers, distinguish cases with the vertical line inside, at the edge of, or outside the support region.",
+        "Explain why moving a load outward can cause tipping despite unchanged total mass, and how a counterweight can move the combined centre back over the support.",
+        "Compare otherwise identical low and high centres or narrow and wide supports under a slow tilt, stating the no-sliding and rigid-body assumptions."
+      ],
+      "assessmentPrompt": "Can {{name}} explain why moving a load farther out on a stationary model crane can tip it even when the load weighs the same, and use a supplied combined balance-point marker to show how to prevent that?",
+      "standards": []
+    },
+    {
+      "id": "mt_56c39fbf4ef341a0",
+      "type": "CONCEPTUAL",
+      "subject": "Science",
+      "domain": "Forces & Motion",
+      "name": "Contact force spread over an area",
+      "description": "Explain average contact pressure qualitatively by comparing normal force and the area over which it is spread. Predict the direction of change when one factor is held fixed, and recognise when changing both factors requires more information. Apply controlled comparisons to indentation in the same yielding surface without treating pressure as identical to total force.",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "Predict lower average pressure when the same normal force is spread over a larger contact area.",
+        "Predict higher average pressure when force increases over the same contact area.",
+        "Reject a ranking based on footprint alone when loads also differ, and distinguish contact area from the visible outline of an object."
+      ],
+      "assessmentPrompt": "Can {{name}} explain why the same model load presses less strongly per patch when it rests on broad pads than narrow pads, and why two different loads cannot be compared from pad width alone?",
+      "standards": []
+    },
+    {
+      "id": "mt_3568068de7804719",
+      "type": "CONCEPTUAL",
+      "subject": "Science",
+      "domain": "Energy",
+      "name": "Solar-panel orientation and light capture",
+      "description": "Explain why the orientation of a fixed-area photovoltaic panel relative to direct incoming light can change the light it intercepts and its electrical output. Compare controlled orientations and distinguish facing the current light direction from a fixed tilt chosen for energy over a day or year; no semiconductor theory, trigonometry or installation design is required.",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 12,
+      "centrality": null,
+      "evidence": [
+        "With direct-light direction, intensity, panel and electrical load fixed, predict greater intercepted light when the panel face is more square-on to the rays than when it is nearly edge-on.",
+        "Use controlled power readings to explain the orientation comparison without attributing it to a change in battery capacity or panel area.",
+        "Explain why a single angle cannot maximise instantaneous direct-light capture for every changing light direction, and why clouds or shading complicate the simple comparison."
+      ],
+      "assessmentPrompt": "Can {{name}} compare a small panel facing a fixed lamp with the same panel turned nearly edge-on, explain the difference in captured light, and say why the best direction may change as the light source moves?",
+      "standards": []
+    }
+  ],
+  "dependencies": [
+    {
+      "topicId": "mt_915b9dc0b3714097",
+      "prerequisiteId": "mt_-P1kdZhHbL",
+      "strength": "hard",
+      "reason": "Comparing masses is necessary for the equal-volume density comparison."
+    },
+    {
+      "topicId": "mt_915b9dc0b3714097",
+      "prerequisiteId": "mt_IuHa5UI5od",
+      "strength": "soft",
+      "reason": "Solid-volume understanding supports the comparison, but supplied equal-volume blocks avoid requiring the complete unit-cube procedure."
+    },
+    {
+      "topicId": "mt_92fa2c4720f84f79",
+      "prerequisiteId": "mt_IuHa5UI5od",
+      "strength": "hard",
+      "reason": "The claim requires understanding volume as occupied three-dimensional space."
+    },
+    {
+      "topicId": "mt_92fa2c4720f84f79",
+      "prerequisiteId": "mt_dLJu-KoJAM",
+      "strength": "soft",
+      "reason": "Distinguishing liquid volume from height supports comparisons across containers without making pouring tasks an essential prerequisite."
+    },
+    {
+      "topicId": "mt_0124c7499b7c49de",
+      "prerequisiteId": "mt_92fa2c4720f84f79",
+      "strength": "hard",
+      "reason": "Relating support to displaced water requires understanding immersed volume."
+    },
+    {
+      "topicId": "mt_0124c7499b7c49de",
+      "prerequisiteId": "mt_B3W5EfimJw",
+      "strength": "hard",
+      "reason": "Comparing upward and downward interactions requires the pushes-and-pulls model."
+    },
+    {
+      "topicId": "mt_0124c7499b7c49de",
+      "prerequisiteId": "mt_915b9dc0b3714097",
+      "strength": "soft",
+      "reason": "Density comparisons offer another useful representation, but a weight-versus-displaced-water explanation need not use density terminology."
+    },
+    {
+      "topicId": "mt_b39a1788b3424357",
+      "prerequisiteId": "mt_B3W5EfimJw",
+      "strength": "soft",
+      "reason": "Push direction supports reasoning about pressure forces without requiring a complete formal force course."
+    },
+    {
+      "topicId": "mt_b39a1788b3424357",
+      "prerequisiteId": "mt_92fa2c4720f84f79",
+      "strength": "soft",
+      "reason": "Displacement supports the contrast with buoyant support but is not necessary for the basic equal-depth pressure relation."
+    },
+    {
+      "topicId": "mt_da7df960e3c3497f",
+      "prerequisiteId": "mt_XbGfVhfiUz",
+      "strength": "hard",
+      "reason": "Understanding a computer as a device processing information and instructions supports the controller role."
+    },
+    {
+      "topicId": "mt_da7df960e3c3497f",
+      "prerequisiteId": "mt_o0vTMl8vj5",
+      "strength": "soft",
+      "reason": "Classifying input/output peripherals supports the explanation without requiring the complete storage-device repertoire."
+    },
+    {
+      "topicId": "mt_da7df960e3c3497f",
+      "prerequisiteId": "mt_jvJ35MmCvK",
+      "strength": "soft",
+      "reason": "Familiar robot examples provide context but do not establish the causal control chain."
+    },
+    {
+      "topicId": "mt_84988393c9e342de",
+      "prerequisiteId": "mt_da7df960e3c3497f",
+      "strength": "hard",
+      "reason": "Feedback requires the causal sensing–controller–action chain."
+    },
+    {
+      "topicId": "mt_84988393c9e342de",
+      "prerequisiteId": "mt_nfGAtwqSvP",
+      "strength": "soft",
+      "reason": "Programmed decisions help implement the comparison, but conceptual feedback can be explained with a supplied rule or human controller."
+    },
+    {
+      "topicId": "mt_84988393c9e342de",
+      "prerequisiteId": "mt_6XbAmdmjDb",
+      "strength": "soft",
+      "reason": "Loops support repeated polling implementations; the conceptual claim does not require authoring every loop form."
+    },
+    {
+      "topicId": "mt_d1f48410cd8b4254",
+      "prerequisiteId": "mt_B3W5EfimJw",
+      "strength": "hard",
+      "reason": "Comparing pushes and their directions is necessary to distinguish input force from movement."
+    },
+    {
+      "topicId": "mt_d1f48410cd8b4254",
+      "prerequisiteId": "mt_vjMAN6sb7z",
+      "strength": "soft",
+      "reason": "Recognising the arrangements helps transfer but supplied motion diagrams can introduce unfamiliar mechanisms."
+    },
+    {
+      "topicId": "mt_d1f48410cd8b4254",
+      "prerequisiteId": "mt_-p_xp4hMvh",
+      "strength": "soft",
+      "reason": "Surface resistance supports explaining departures from the low-loss model."
+    },
+    {
+      "topicId": "mt_9401faebe1804335",
+      "prerequisiteId": "mt_B3W5EfimJw",
+      "strength": "hard",
+      "reason": "The learner must connect the downward force to a possible turning motion."
+    },
+    {
+      "topicId": "mt_9401faebe1804335",
+      "prerequisiteId": "mt_AvrQauS_zX",
+      "strength": "soft",
+      "reason": "Gravity context supports the downward line; the supplied model can explicitly show its direction."
+    },
+    {
+      "topicId": "mt_56c39fbf4ef341a0",
+      "prerequisiteId": "mt_B3W5EfimJw",
+      "strength": "hard",
+      "reason": "Force must be distinguished from the surface over which it acts."
+    }
+  ],
+  "alignments": [
+    {
+      "topicId": "mt_915b9dc0b3714097",
+      "scope": "global",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 12,
+      "standards": [],
+      "ageOnly": true
+    },
+    {
+      "topicId": "mt_92fa2c4720f84f79",
+      "scope": "global",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 12,
+      "standards": [],
+      "ageOnly": true
+    },
+    {
+      "topicId": "mt_0124c7499b7c49de",
+      "scope": "global",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 12,
+      "standards": [],
+      "ageOnly": true
+    },
+    {
+      "topicId": "mt_b39a1788b3424357",
+      "scope": "global",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "standards": [],
+      "ageOnly": true
+    },
+    {
+      "topicId": "mt_da7df960e3c3497f",
+      "scope": "global",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 12,
+      "standards": [],
+      "ageOnly": true
+    },
+    {
+      "topicId": "mt_84988393c9e342de",
+      "scope": "global",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 12,
+      "standards": [],
+      "ageOnly": true
+    },
+    {
+      "topicId": "mt_d1f48410cd8b4254",
+      "scope": "global",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 12,
+      "standards": [],
+      "ageOnly": true
+    },
+    {
+      "topicId": "mt_9401faebe1804335",
+      "scope": "global",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 12,
+      "standards": [],
+      "ageOnly": true
+    },
+    {
+      "topicId": "mt_56c39fbf4ef341a0",
+      "scope": "global",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 12,
+      "standards": [],
+      "ageOnly": true
+    },
+    {
+      "topicId": "mt_3568068de7804719",
+      "scope": "global",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 12,
+      "standards": [],
+      "ageOnly": true
+    }
+  ],
+  "research": [
+    {
+      "schemaVersion": 2,
+      "namespace": "v1",
+      "topicId": "mt_915b9dc0b3714097",
+      "pedagogy": {
+        "summary": "Begin with matched volumes and visible mass comparisons; then change amount while retaining the same material. Keep material density separate from the average density of a hollow object.",
+        "bestPractices": [
+          "Ask for a prediction and a reason before revealing a controlled comparison.",
+          "Contrast a large light material with a small dense one so total mass cannot be the only cue.",
+          "Use the same sample conditions and distinguish observation from a guess about hidden material."
+        ],
+        "keyRepresentations": [
+          "Equal-volume sample blocks and balance readings.",
+          "A sample cut into equal pieces, with volume and mass changing together."
+        ],
+        "commonMisconceptions": [
+          "The heavier object is always denser.",
+          "Cutting a material makes it less dense."
+        ]
+      },
+      "learn": {
+        "schemaVersion": 2,
+        "summary": "Begin with matched volumes and visible mass comparisons; then change amount while retaining the same material. Keep material density separate from the average density of a hollow object.",
+        "activities": [
+          {
+            "id": "activity_9aacab56d66e4107",
+            "title": "Matched blocks",
+            "learnerActions": [
+              "Predict which equal-volume block has greater mass.",
+              "Compare on a balance and explain the density ranking."
+            ],
+            "intendedInsight": "An equal-volume comparison isolates mass relative to volume.",
+            "feedback": [
+              "If size differs, provide matched samples rather than confirming a mass-only rule."
+            ],
+            "rationale": "Original proposed activity applying the cited principle to a controlled comparison. It is not an empirically validated intervention.",
+            "sourceIds": [
+              "citation_3cf5194de27d46ef"
+            ]
+          },
+          {
+            "id": "activity_fbcbce32ed6b4bc9",
+            "title": "Same material, new amount",
+            "learnerActions": [
+              "Split a uniform block into equal pieces.",
+              "Compare one piece with an equal-volume sample of the original material.",
+              "Explain what changed and what stayed the same."
+            ],
+            "intendedInsight": "Amount changes need not change material density.",
+            "feedback": [
+              "Ask whether each equal-sized part became a different material."
+            ],
+            "rationale": "Original proposed activity applying the cited principle to a controlled comparison. It is not an empirically validated intervention.",
+            "sourceIds": [
+              "citation_3cf5194de27d46ef",
+              "citation_edc5ae7347594f9a"
+            ]
+          },
+          {
+            "id": "activity_4bf2094337ac43e9",
+            "title": "Insufficient evidence",
+            "learnerActions": [
+              "View two unequal-sized objects with total mass readings.",
+              "Explain what extra comparison is needed to rank density."
+            ],
+            "intendedInsight": "Total mass alone is insufficient when volumes differ.",
+            "feedback": [
+              "Accept a justified request for information rather than a forced guess."
+            ],
+            "rationale": "Original proposed activity applying the cited principle to a controlled comparison. It is not an empirically validated intervention.",
+            "sourceIds": [
+              "citation_3cf5194de27d46ef"
+            ]
+          }
+        ],
+        "constraints": [
+          "Use uniform samples under unchanged conditions.",
+          "Do not infer hollow-vehicle behaviour from material density alone.",
+          "Density is outside the NGSS 5-PS1-3 assessment boundary; no such alignment is authored."
+        ],
+        "reviewNotes": [
+          "Age 9–12 is proposed global teaching guidance, not a certified jurisdiction mapping.",
+          "Concrete comparison can precede formal division and particle theory.",
+          "Sources were opened on 2026-11-24 for the stated claims. Confidence describes bounded authoring evidence, not measured learner outcomes.",
+          "Error patterns are design hypotheses unless explicitly supported by the cited classroom evidence; no prevalence claim is made."
+        ]
+      },
+      "assess": {
+        "method": "two_tier",
+        "diagnosticPrompt": "Two equal-volume blocks A and B have masses 20 g and 40 g. A larger block C made from the same uniform material as A has twice its volume and mass. Rank the material densities and explain whether cutting B into two equal pieces changes its material density.",
+        "correctAnswer": "B is denser than A; C has the same material density as A. Cutting B changes the mass and volume of each piece together, not its material density. Comparisons assume unchanged material and conditions.",
+        "whatMakesItDiscriminate": "Matched-volume and changed-amount cases distinguish relational reasoning from heavier-means-denser or smaller-means-lighter-density rules.",
+        "errorPatterns": [
+          {
+            "id": "diagnostic_a6576ae60b2b4a5e",
+            "pattern": "The heavier object is always denser.",
+            "kind": "misconception",
+            "revealedBy": "Ranks a large sample against a smaller one using mass alone.",
+            "nextMove": "Return to equal-volume pieces of both materials and compare their masses.",
+            "distractor": null,
+            "reteachPrerequisiteId": null
+          },
+          {
+            "id": "diagnostic_02463924690549b9",
+            "pattern": "Cutting a material makes it less dense.",
+            "kind": "misconception",
+            "revealedBy": "Predicts lower density after cutting a uniform sample.",
+            "nextMove": "Compare equal-sized pieces before and after cutting; distinguish amount from density.",
+            "distractor": null,
+            "reteachPrerequisiteId": null
+          }
+        ],
+        "probeDeeper": [
+          "What information is missing if the volumes are not supplied?",
+          "Would a hollow object made of B necessarily have the density of solid B? Explain the distinction."
+        ],
+        "responseLevels": {
+          "gap": "Relies on the incorrect single-cue rules described in the error patterns or cannot connect the required parts.",
+          "partial": "Predicts a familiar case correctly but cannot justify a controlled contrast or transfer.",
+          "full": "Predicts the supplied contrasting cases, connects the causal relationships in the answer key and states the relevant model limits."
+        },
+        "poeTask": "Predict and explain the outcome of matched blocks, observe the comparison, then revise the explanation before a changed case."
+      },
+      "sources": [
+        {
+          "id": "citation_3cf5194de27d46ef",
+          "source": "American Chemical Society, Inquiry in Action, Grade 5 Lesson 2.4, objectives, key concepts and NGSS boundary",
+          "url": "https://www.acs.org/education/resources/k-8/inquiryinaction/fifth-grade/substances-have-characteristic-properties/lesson-2-4--density-and-sinking-and-floating.html",
+          "claim": "Equal-volume comparisons support an introductory density account; this lesson treats density as enrichment rather than an assessed requirement of NGSS 5-PS1-3.",
+          "verified": true
+        },
+        {
+          "id": "citation_edc5ae7347594f9a",
+          "source": "Hardy, Jonen, Möller and Stern (2006), Journal of Educational Psychology 98(2), 307–326; DOI 10.1037/0022-0663.98.2.307; abstract, method and discussion",
+          "url": "https://www.uni-muenster.de/imperia/md/content/didaktik_des_sachunterrichts/dokumente/literaturmoeller/article.pdf",
+          "claim": "In an elementary classroom study, more structured instructional support benefited longer-term flotation explanations and misconception reduction. This supports guided conceptual comparisons, not a validated digital-game intervention.",
+          "verified": true
+        }
+      ],
+      "confidence": "medium",
+      "authorship": {
+        "attribution": "Sparks & Sprockets extension; original AI-assisted authoring by OpenAI Codex, 24 November 2026. Source claims checked against the listed public pages. Built on Marble Skill Taxonomy; no Marble endorsement or learner efficacy claim."
+      }
+    },
+    {
+      "schemaVersion": 2,
+      "namespace": "v1",
+      "topicId": "mt_92fa2c4720f84f79",
+      "pedagogy": {
+        "summary": "Use controlled immersion before asking about floating. Hold object volume, tank shape and immersion depth explicit so mass and water-level cues do not masquerade as volume reasoning.",
+        "bestPractices": [
+          "Keep full versus partial immersion visible.",
+          "Compare equal-volume objects of different masses, then equal-mass objects of different volumes.",
+          "Keep the container fixed until the volume-height distinction is established."
+        ],
+        "keyRepresentations": [
+          "Transparent tank with marked immersed portion.",
+          "Overflow collection or a supplied displaced-volume readout."
+        ],
+        "commonMisconceptions": [
+          "A heavier block pushes out more water even at the same size.",
+          "Once underwater, deeper always means more water displaced.",
+          "The taller water rise always means more displaced water."
+        ]
+      },
+      "learn": {
+        "schemaVersion": 2,
+        "summary": "Use controlled immersion before asking about floating. Hold object volume, tank shape and immersion depth explicit so mass and water-level cues do not masquerade as volume reasoning.",
+        "activities": [
+          {
+            "id": "activity_84a19104b2d1485b",
+            "title": "Mass swap",
+            "learnerActions": [
+              "Fully immerse two sealed blocks of equal outside volume but different mass.",
+              "Predict and compare displaced water."
+            ],
+            "intendedInsight": "Immersed volume, not mass alone, determines displacement.",
+            "feedback": [
+              "Point to the volume excluded from water; do not use a floating case for this comparison."
+            ],
+            "rationale": "Original proposed activity applying the cited principle to a controlled comparison. It is not an empirically validated intervention.",
+            "sourceIds": [
+              "citation_594e4574acd84fd0"
+            ]
+          },
+          {
+            "id": "activity_156c0c0de59342f9",
+            "title": "Lowering a block",
+            "learnerActions": [
+              "Lower a rigid block progressively through the surface.",
+              "Then move it deeper after full immersion."
+            ],
+            "intendedInsight": "Only changes in immersed volume change displacement in this model.",
+            "feedback": [
+              "Show the waterline and submerged outline at each stage."
+            ],
+            "rationale": "Original proposed activity applying the cited principle to a controlled comparison. It is not an empirically validated intervention.",
+            "sourceIds": [
+              "citation_594e4574acd84fd0",
+              "citation_a841d9b675be4855"
+            ]
+          },
+          {
+            "id": "activity_b2182bf503a74985",
+            "title": "Two tanks",
+            "learnerActions": [
+              "Introduce the same fully immersed block into a narrow and a wide tank.",
+              "Compare level change and displaced-volume readings."
+            ],
+            "intendedInsight": "Water height is not itself water volume.",
+            "feedback": [
+              "Ask which tank shape makes the same volume rise farther."
+            ],
+            "rationale": "Original proposed activity applying the cited principle to a controlled comparison. It is not an empirically validated intervention.",
+            "sourceIds": [
+              "citation_594e4574acd84fd0"
+            ]
+          }
+        ],
+        "constraints": [
+          "Use rigid sealed or water-excluding objects; explicitly account for flooded openings.",
+          "Exclude absorption, dissolution, trapped bubbles changing volume, spill loss and appreciable fluid compressibility.",
+          "Do not confuse displacement with buoyant force or pressure."
+        ],
+        "reviewNotes": [
+          "Middle-school displacement material supports the physics; the simpler primary activity is original authoring.",
+          "This conceptual claim does not certify the graduated-cylinder measurement procedure.",
+          "Sources were opened on 2026-11-24 for the stated claims. Confidence describes bounded authoring evidence, not measured learner outcomes.",
+          "Error patterns are design hypotheses unless explicitly supported by the cited classroom evidence; no prevalence claim is made."
+        ]
+      },
+      "assess": {
+        "method": "two_tier",
+        "diagnosticPrompt": "Two sealed rigid blocks have the same outside volume but different masses. Both are held fully underwater in turn. Compare the displaced volumes. Then lower one block deeper without changing its shape. Does displacement increase? Explain, and contrast with lowering a half-immersed block to full immersion.",
+        "correctAnswer": "Equal fully immersed outside volumes displace equal water. Moving the unchanged fully submerged block deeper does not increase displaced volume; immersing more of a partly submerged block does. Water-level rises also depend on container shape.",
+        "whatMakesItDiscriminate": "Mass and depth vary independently of immersed volume, exposing reliance on weight or depth instead of the stated geometric relation.",
+        "errorPatterns": [
+          {
+            "id": "diagnostic_4624831341f14865",
+            "pattern": "A heavier block pushes out more water even at the same size.",
+            "kind": "misconception",
+            "revealedBy": "Predicts unequal displacement for equal-volume fully immersed blocks.",
+            "nextMove": "Hold immersed volume constant and change only mass.",
+            "distractor": null,
+            "reteachPrerequisiteId": null
+          },
+          {
+            "id": "diagnostic_5c4bf210936048c7",
+            "pattern": "Once underwater, deeper always means more water displaced.",
+            "kind": "misconception",
+            "revealedBy": "Predicts growing displacement while a rigid fully submerged block moves down.",
+            "nextMove": "Trace the submerged outside volume at both depths; distinguish pressure from displacement.",
+            "distractor": null,
+            "reteachPrerequisiteId": null
+          },
+          {
+            "id": "diagnostic_e32394fdf6fa45a3",
+            "pattern": "The taller water rise always means more displaced water.",
+            "kind": "misconception",
+            "revealedBy": "Compares height alone across tanks with different cross-sections.",
+            "nextMove": "Collect or compare volumes while showing the different tank shapes.",
+            "distractor": null,
+            "reteachPrerequisiteId": null
+          }
+        ],
+        "probeDeeper": [
+          "What changes if water can enter an opening?",
+          "Why might equal displaced volumes produce different water-level rises?"
+        ],
+        "responseLevels": {
+          "gap": "Relies on the incorrect single-cue rules described in the error patterns or cannot connect the required parts.",
+          "partial": "Predicts a familiar case correctly but cannot justify a controlled contrast or transfer.",
+          "full": "Predicts the supplied contrasting cases, connects the causal relationships in the answer key and states the relevant model limits."
+        },
+        "poeTask": "Predict and explain the outcome of mass swap, observe the comparison, then revise the explanation before a changed case."
+      },
+      "sources": [
+        {
+          "id": "citation_594e4574acd84fd0",
+          "source": "American Chemical Society, Middle School Chemistry, Lesson 3.2, key concepts and summary",
+          "url": "https://www.acs.org/middleschoolchemistry/lessonplans/chapter3/lesson2.html",
+          "claim": "An immersed solid displaces liquid according to its immersed volume; equal-mass objects can have different volumes. This is technical/lesson support, not evidence of primary-age game effectiveness.",
+          "verified": true
+        },
+        {
+          "id": "citation_a841d9b675be4855",
+          "source": "OpenStax, University Physics Volume 1, section 14.4, Buoyant Force and Archimedes Principle",
+          "url": "https://openstax.org/books/university-physics-volume-1/pages/14-4-archimedes-principle-and-buoyancy",
+          "claim": "Buoyant support equals the weight of displaced fluid; it acts on sinking as well as floating objects. Pressure forces act normal to immersed surfaces. The reference supplies physics, not child-learning evidence.",
+          "verified": true
+        },
+        {
+          "id": "citation_60fd0afcd6114ed4",
+          "source": "Hardy, Jonen, Möller and Stern (2006), Journal of Educational Psychology 98(2), 307–326; DOI 10.1037/0022-0663.98.2.307; abstract, method and discussion",
+          "url": "https://www.uni-muenster.de/imperia/md/content/didaktik_des_sachunterrichts/dokumente/literaturmoeller/article.pdf",
+          "claim": "In an elementary classroom study, more structured instructional support benefited longer-term flotation explanations and misconception reduction. This supports guided conceptual comparisons, not a validated digital-game intervention.",
+          "verified": true
+        }
+      ],
+      "confidence": "medium",
+      "authorship": {
+        "attribution": "Sparks & Sprockets extension; original AI-assisted authoring by OpenAI Codex, 24 November 2026. Source claims checked against the listed public pages. Built on Marble Skill Taxonomy; no Marble endorsement or learner efficacy claim."
+      }
+    },
+    {
+      "schemaVersion": 2,
+      "namespace": "v1",
+      "topicId": "mt_0124c7499b7c49de",
+      "pedagogy": {
+        "summary": "Connect visible displacement to support, contrasting sinking solids, floating hulls and changed cargo. Use a guided sequence and ask for explanations rather than rewarding successful hull choice alone.",
+        "bestPractices": [
+          "Start with at-rest or released-from-rest cases and state other forces.",
+          "Keep the same material and mass when changing hull shape.",
+          "Show displaced water and load together; separate a material property from the whole hollow object."
+        ],
+        "keyRepresentations": [
+          "Upward support and downward weight bars.",
+          "A waterline, sealed hull outline and displaced-water comparison."
+        ],
+        "commonMisconceptions": [
+          "Water does not push up on sinking things.",
+          "The material became less dense when I bent it.",
+          "Balanced forces instantly stop a moving submarine."
+        ]
+      },
+      "learn": {
+        "schemaVersion": 2,
+        "summary": "Connect visible displacement to support, contrasting sinking solids, floating hulls and changed cargo. Use a guided sequence and ask for explanations rather than rewarding successful hull choice alone.",
+        "activities": [
+          {
+            "id": "activity_9a195030ffc440b7",
+            "title": "Support a sinking object",
+            "learnerActions": [
+              "Compare the weight of an object with and without partial support from water.",
+              "Explain why it can still sink when released."
+            ],
+            "intendedInsight": "Buoyant support need not exceed weight.",
+            "feedback": [
+              "Do not label a sinking object as having zero buoyancy."
+            ],
+            "rationale": "Original proposed activity applying the cited principle to a controlled comparison. It is not an empirically validated intervention.",
+            "sourceIds": [
+              "citation_f60f04cd359d4fb6"
+            ]
+          },
+          {
+            "id": "activity_89701cb0df354eb8",
+            "title": "One material, two shapes",
+            "learnerActions": [
+              "Compare a compact lump with a watertight hollow hull of the same material and mass.",
+              "Show water excluded and explain the result."
+            ],
+            "intendedInsight": "A hull can displace sufficient water without changing the solid material density.",
+            "feedback": [
+              "If the hull floods, account for water entry rather than invoking a shape-only rule."
+            ],
+            "rationale": "Original proposed activity applying the cited principle to a controlled comparison. It is not an empirically validated intervention.",
+            "sourceIds": [
+              "citation_f60f04cd359d4fb6",
+              "citation_c461a2e31a8a4d71"
+            ]
+          },
+          {
+            "id": "activity_535280fade714801",
+            "title": "Loading the hull",
+            "learnerActions": [
+              "Add known cargo in steps to a floating hull.",
+              "Predict the next waterline and a limit case."
+            ],
+            "intendedInsight": "Additional load requires additional displacement while floating at rest.",
+            "feedback": [
+              "Ask for a changed-load prediction before revealing the result."
+            ],
+            "rationale": "Original proposed activity applying the cited principle to a controlled comparison. It is not an empirically validated intervention.",
+            "sourceIds": [
+              "citation_f60f04cd359d4fb6",
+              "citation_c461a2e31a8a4d71"
+            ]
+          }
+        ],
+        "constraints": [
+          "Distinguish steady floating from moving objects and terminal-speed cases.",
+          "Use water-excluding hull geometry; do not assert every hollow object floats.",
+          "No surface-tension-supported tiny objects or changing fluid density in the core task."
+        ],
+        "reviewNotes": [
+          "Primary flotation teaching has classroom evidence, but these exact activities have not been tested.",
+          "Assessment design is included in the graph; learner efficacy testing is not a release gate for this project.",
+          "Sources were opened on 2026-11-24 for the stated claims. Confidence describes bounded authoring evidence, not measured learner outcomes.",
+          "Error patterns are design hypotheses unless explicitly supported by the cited classroom evidence; no prevalence claim is made."
+        ]
+      },
+      "assess": {
+        "method": "two_tier",
+        "diagnosticPrompt": "A watertight bowl floats at rest. The same material and mass pressed into a compact lump sinks. Explain both using weight and displaced water. Predict what happens to the bowl waterline when cargo is added, and explain whether the sinking lump still receives upward support.",
+        "correctAnswer": "The bowl excludes enough water to balance its weight before flooding; the compact lump cannot displace enough water for that balance when fully immersed. The sinking lump still receives support. Added cargo makes the floating bowl settle deeper until support matches total weight, if sufficient unflooded hull remains.",
+        "whatMakesItDiscriminate": "Same-material and changed-load comparisons rule out simple light-floats and shape-magic accounts, while the sinking case tests whether buoyancy is understood as support rather than an outcome label.",
+        "errorPatterns": [
+          {
+            "id": "diagnostic_4966658f4fc7446a",
+            "pattern": "Water does not push up on sinking things.",
+            "kind": "misconception",
+            "revealedBy": "Removes upward support from the sinking-object diagram.",
+            "nextMove": "Compare support for an immersed object with its weight rather than equating sinking with no support.",
+            "distractor": null,
+            "reteachPrerequisiteId": null
+          },
+          {
+            "id": "diagnostic_dfe634d5d0c64459",
+            "pattern": "The material became less dense when I bent it.",
+            "kind": "misconception",
+            "revealedBy": "Attributes floating to a change in solid material density.",
+            "nextMove": "Keep the solid material unchanged and trace the hull space excluding water.",
+            "distractor": null,
+            "reteachPrerequisiteId": null
+          },
+          {
+            "id": "diagnostic_fa2fc96abdce4d76",
+            "pattern": "Balanced forces instantly stop a moving submarine.",
+            "kind": "misconception",
+            "revealedBy": "Predicts immediate rest after balancing support and weight.",
+            "nextMove": "Contrast no acceleration with no velocity; use an initially resting case first.",
+            "distractor": null,
+            "reteachPrerequisiteId": null
+          }
+        ],
+        "probeDeeper": [
+          "What changes if the bowl develops a hole?",
+          "Can a fully submerged object remain at rest without touching the bottom? Explain the required balance."
+        ],
+        "responseLevels": {
+          "gap": "Relies on the incorrect single-cue rules described in the error patterns or cannot connect the required parts.",
+          "partial": "Predicts a familiar case correctly but cannot justify a controlled contrast or transfer.",
+          "full": "Predicts the supplied contrasting cases, connects the causal relationships in the answer key and states the relevant model limits."
+        },
+        "poeTask": "Predict and explain the outcome of support a sinking object, observe the comparison, then revise the explanation before a changed case."
+      },
+      "sources": [
+        {
+          "id": "citation_f60f04cd359d4fb6",
+          "source": "OpenStax, University Physics Volume 1, section 14.4, Buoyant Force and Archimedes Principle",
+          "url": "https://openstax.org/books/university-physics-volume-1/pages/14-4-archimedes-principle-and-buoyancy",
+          "claim": "Buoyant support equals the weight of displaced fluid; it acts on sinking as well as floating objects. Pressure forces act normal to immersed surfaces. The reference supplies physics, not child-learning evidence.",
+          "verified": true
+        },
+        {
+          "id": "citation_c461a2e31a8a4d71",
+          "source": "Hardy, Jonen, Möller and Stern (2006), Journal of Educational Psychology 98(2), 307–326; DOI 10.1037/0022-0663.98.2.307; abstract, method and discussion",
+          "url": "https://www.uni-muenster.de/imperia/md/content/didaktik_des_sachunterrichts/dokumente/literaturmoeller/article.pdf",
+          "claim": "In an elementary classroom study, more structured instructional support benefited longer-term flotation explanations and misconception reduction. This supports guided conceptual comparisons, not a validated digital-game intervention.",
+          "verified": true
+        },
+        {
+          "id": "citation_5a1592c9127f421f",
+          "source": "American Chemical Society, Inquiry in Action, Grade 5 Lesson 2.4, objectives, key concepts and NGSS boundary",
+          "url": "https://www.acs.org/education/resources/k-8/inquiryinaction/fifth-grade/substances-have-characteristic-properties/lesson-2-4--density-and-sinking-and-floating.html",
+          "claim": "Equal-volume comparisons support an introductory density account; this lesson treats density as enrichment rather than an assessed requirement of NGSS 5-PS1-3.",
+          "verified": true
+        }
+      ],
+      "confidence": "medium",
+      "authorship": {
+        "attribution": "Sparks & Sprockets extension; original AI-assisted authoring by OpenAI Codex, 24 November 2026. Source claims checked against the listed public pages. Built on Marble Skill Taxonomy; no Marble endorsement or learner efficacy claim."
+      }
+    },
+    {
+      "schemaVersion": 2,
+      "namespace": "v1",
+      "topicId": "mt_b39a1788b3424357",
+      "pedagogy": {
+        "summary": "Use pressure readings at controlled depths and surface orientations. Contrast pressure, displaced volume and resultant support explicitly so deeper does not become a universal more-buoyant rule.",
+        "bestPractices": [
+          "State same liquid, connected resting fluid and equal surface pressure before comparing containers.",
+          "Use identical sensors or equal-area patches so force is not confused with pressure.",
+          "Show pressure-force directions normal to surfaces, not a single downward arrow."
+        ],
+        "keyRepresentations": [
+          "Movable pressure sensor with depth ruler.",
+          "Equal-area surface patches and inward force arrows."
+        ],
+        "commonMisconceptions": [
+          "Water pressure only pushes down.",
+          "A wider tank always has more pressure at the same depth.",
+          "A deeper rigid submarine must be more buoyant."
+        ]
+      },
+      "learn": {
+        "schemaVersion": 2,
+        "summary": "Use pressure readings at controlled depths and surface orientations. Contrast pressure, displaced volume and resultant support explicitly so deeper does not become a universal more-buoyant rule.",
+        "activities": [
+          {
+            "id": "activity_272d4dca82f942c3",
+            "title": "Depth probe",
+            "learnerActions": [
+              "Move the same pressure sensor downward in still water.",
+              "Predict and compare readings."
+            ],
+            "intendedInsight": "Pressure grows with depth in the stated liquid model.",
+            "feedback": [
+              "Keep sensor area, liquid and surface pressure fixed."
+            ],
+            "rationale": "Original proposed activity applying the cited principle to a controlled comparison. It is not an empirically validated intervention.",
+            "sourceIds": [
+              "citation_fc699e58f68a4081"
+            ]
+          },
+          {
+            "id": "activity_5ce3907e232d453d",
+            "title": "Equal depth, different place",
+            "learnerActions": [
+              "Compare equal-depth readings in connected wide and narrow regions.",
+              "Rotate a small sensor at fixed depth."
+            ],
+            "intendedInsight": "Local pressure is not set by total container volume or downward-only action.",
+            "feedback": [
+              "Distinguish orientation of force from magnitude of pressure."
+            ],
+            "rationale": "Original proposed activity applying the cited principle to a controlled comparison. It is not an empirically validated intervention.",
+            "sourceIds": [
+              "citation_9d56561cb7284b8c"
+            ]
+          },
+          {
+            "id": "activity_5acc478e5dc24be8",
+            "title": "Pressure versus support",
+            "learnerActions": [
+              "Compare a rigid sealed object at two fully submerged depths in uniform water.",
+              "Track pressure, immersed volume and support separately."
+            ],
+            "intendedInsight": "Greater absolute pressure does not imply greater buoyant support for unchanged displaced volume.",
+            "feedback": [
+              "Exclude compression and density gradients from this comparison."
+            ],
+            "rationale": "Original proposed activity applying the cited principle to a controlled comparison. It is not an empirically validated intervention.",
+            "sourceIds": [
+              "citation_9d56561cb7284b8c"
+            ]
+          }
+        ],
+        "constraints": [
+          "Same liquid density, rest, shared surface pressure and negligible compressibility in core comparisons.",
+          "Use identical sensor areas; no pressure calculations, gas laws or decompression advice.",
+          "Pressure-force differences explain support, but the older deformation/thermal claim is not awarded by this task."
+        ],
+        "reviewNotes": [
+          "Proposed primary age guidance is 10–12; technical sources do not establish an exact age threshold.",
+          "Older bundled topic and research remain unchanged; overlap is documented, not silently merged.",
+          "Sources were opened on 2026-11-24 for the stated claims. Confidence describes bounded authoring evidence, not measured learner outcomes.",
+          "Error patterns are design hypotheses unless explicitly supported by the cited classroom evidence; no prevalence claim is made."
+        ]
+      },
+      "assess": {
+        "method": "two_tier",
+        "diagnosticPrompt": "In connected still water with a common open surface, sensors in a wide and a narrow region are at the same depth. Compare their pressure. Move one deeper and compare again. Explain whether the liquid also pushes on vertical walls and why moving a rigid fully submerged box deeper does not by itself increase displaced volume.",
+        "correctAnswer": "Equal depths in the same connected resting liquid have equal pressure under the same surface pressure. The deeper reading is greater. Surface forces act normal to walls in every orientation. A rigid fully submerged box excludes the same volume at either depth, so pressure and displacement are not interchangeable.",
+        "whatMakesItDiscriminate": "Container shape, sensor depth and surface orientation vary independently, separating a hydrostatic model from total-water and downward-only rules.",
+        "errorPatterns": [
+          {
+            "id": "diagnostic_7e714c873aaa4399",
+            "pattern": "Water pressure only pushes down.",
+            "kind": "misconception",
+            "revealedBy": "Draws no sideways or upward pressure forces.",
+            "nextMove": "Rotate an equal-area sensor at the same depth and inspect the direction of surface force.",
+            "distractor": null,
+            "reteachPrerequisiteId": null
+          },
+          {
+            "id": "diagnostic_09993d0fd3b246d5",
+            "pattern": "A wider tank always has more pressure at the same depth.",
+            "kind": "misconception",
+            "revealedBy": "Uses total water amount instead of local depth.",
+            "nextMove": "Compare equal-depth sensors with surface pressure and liquid fixed.",
+            "distractor": null,
+            "reteachPrerequisiteId": null
+          },
+          {
+            "id": "diagnostic_43839038674b4b38",
+            "pattern": "A deeper rigid submarine must be more buoyant.",
+            "kind": "misconception",
+            "revealedBy": "Infers larger upward resultant from larger pressure readings alone.",
+            "nextMove": "Compare top and bottom pressure differences and unchanged displaced volume in uniform water.",
+            "distractor": null,
+            "reteachPrerequisiteId": null
+          }
+        ],
+        "probeDeeper": [
+          "What assumptions would fail in flowing water or a sealed pressurised tank?",
+          "Why should pressure and total force be distinguished if two surface patches have different areas?"
+        ],
+        "responseLevels": {
+          "gap": "Relies on the incorrect single-cue rules described in the error patterns or cannot connect the required parts.",
+          "partial": "Predicts a familiar case correctly but cannot justify a controlled contrast or transfer.",
+          "full": "Predicts the supplied contrasting cases, connects the causal relationships in the answer key and states the relevant model limits."
+        },
+        "poeTask": "Predict and explain the outcome of depth probe, observe the comparison, then revise the explanation before a changed case."
+      },
+      "sources": [
+        {
+          "id": "citation_fc699e58f68a4081",
+          "source": "NOAA National Ocean Service, How does pressure change with ocean depth?",
+          "url": "https://oceanservice.noaa.gov/facts/pressure.html",
+          "claim": "Hydrostatic pressure increases with depth. The source provides an ocean/submersible context, not validation of the proposed activities.",
+          "verified": true
+        },
+        {
+          "id": "citation_9d56561cb7284b8c",
+          "source": "OpenStax, University Physics Volume 1, section 14.4, Buoyant Force and Archimedes Principle",
+          "url": "https://openstax.org/books/university-physics-volume-1/pages/14-4-archimedes-principle-and-buoyancy",
+          "claim": "Buoyant support equals the weight of displaced fluid; it acts on sinking as well as floating objects. Pressure forces act normal to immersed surfaces. The reference supplies physics, not child-learning evidence.",
+          "verified": true
+        }
+      ],
+      "confidence": "medium",
+      "authorship": {
+        "attribution": "Sparks & Sprockets extension; original AI-assisted authoring by OpenAI Codex, 24 November 2026. Source claims checked against the listed public pages. Built on Marble Skill Taxonomy; no Marble endorsement or learner efficacy claim."
+      }
+    },
+    {
+      "schemaVersion": 2,
+      "namespace": "v1",
+      "topicId": "mt_da7df960e3c3497f",
+      "pedagogy": {
+        "summary": "Make the information path visible in a concrete machine before formal programming. Ask which component senses, which applies the rule and which physically acts; keep power distinct from data.",
+        "bestPractices": [
+          "Use more than one machine so labels alone are insufficient.",
+          "Change the rule while holding hardware fixed to expose controller responsibility.",
+          "Treat polling and event-based systems as different execution models, not claims about whether the physical sensor can sense."
+        ],
+        "keyRepresentations": [
+          "Input–controller–output diagram with a separate power connection.",
+          "A trace of supplied readings, rule evaluations and output states."
+        ],
+        "commonMisconceptions": [
+          "The sensor decides what the motor should do.",
+          "The reading provides all the energy to move the arm.",
+          "Every robot must work without a human."
+        ]
+      },
+      "learn": {
+        "schemaVersion": 2,
+        "summary": "Make the information path visible in a concrete machine before formal programming. Ask which component senses, which applies the rule and which physically acts; keep power distinct from data.",
+        "activities": [
+          {
+            "id": "activity_2ec2199dcd394058",
+            "title": "Trace the machine",
+            "learnerActions": [
+              "Identify the sensor, controller and output in a supplied system.",
+              "Predict the output for two readings using the shown rule."
+            ],
+            "intendedInsight": "A physical response depends on the whole chain, not the sensor name alone.",
+            "feedback": [
+              "Highlight where information is read and where physical movement is powered."
+            ],
+            "rationale": "Original proposed activity applying the cited principle to a controlled comparison. It is not an empirically validated intervention.",
+            "sourceIds": [
+              "citation_f5a82418002c4659"
+            ]
+          },
+          {
+            "id": "activity_9522dea1577441a4",
+            "title": "Same sensor, different rule",
+            "learnerActions": [
+              "Keep the sensor readings identical.",
+              "Compare two controller rules and predict different actions."
+            ],
+            "intendedInsight": "The controller rule determines how input affects output.",
+            "feedback": [
+              "Do not credit a correct action without explaining the rule."
+            ],
+            "rationale": "Original proposed activity applying the cited principle to a controlled comparison. It is not an empirically validated intervention.",
+            "sourceIds": [
+              "citation_f5a82418002c4659",
+              "citation_7c477cb309754149"
+            ]
+          },
+          {
+            "id": "activity_0e43e73208e04684",
+            "title": "Transfer the chain",
+            "learnerActions": [
+              "Trace a rover obstacle response and a submersible depth display or actuator.",
+              "Identify the separate power and information paths."
+            ],
+            "intendedInsight": "The causal model transfers beyond one vehicle.",
+            "feedback": [
+              "A display reports information; it need not change the measured condition."
+            ],
+            "rationale": "Original proposed activity applying the cited principle to a controlled comparison. It is not an empirically validated intervention.",
+            "sourceIds": [
+              "citation_f5a82418002c4659",
+              "citation_4902be0548f84359"
+            ]
+          }
+        ],
+        "constraints": [
+          "State whether the program polls, handles events or uses pre-supplied readings.",
+          "Do not claim an if block continuously monitors input or that all physical sensors stop sensing between reads.",
+          "Use supplied safe low-voltage or simulated systems; this claim does not certify wiring competence."
+        ],
+        "reviewNotes": [
+          "Age guidance is a proposed primary teaching range.",
+          "Physical control is a curriculum component; no full standard coverage is asserted.",
+          "Sources were opened on 2026-11-24 for the stated claims. Confidence describes bounded authoring evidence, not measured learner outcomes.",
+          "Error patterns are design hypotheses unless explicitly supported by the cited classroom evidence; no prevalence claim is made."
+        ]
+      },
+      "assess": {
+        "method": "two_tier",
+        "diagnosticPrompt": "A distance sensor reports 2 units. Controller A runs a motor when the reading is below 3; controller B stops it under that condition. Both have the same sensor and battery. Predict both outputs, identify who senses/decides/acts, and explain why a disconnected motor power supply can prevent movement even with a valid reading.",
+        "correctAnswer": "A commands running and B commands stopping. The sensor supplies the reading, the controller applies the rule and the motor is the actuator. A command and data connection do not replace the energy supply required by the motor.",
+        "whatMakesItDiscriminate": "Identical hardware/readings with changed rules separate controller reasoning from memorising a sensor-to-action association; power failure separates information from energy.",
+        "errorPatterns": [
+          {
+            "id": "diagnostic_77459d48e2cf4c6a",
+            "pattern": "The sensor decides what the motor should do.",
+            "kind": "misconception",
+            "revealedBy": "Changes the sensor type but ignores the given controller rule.",
+            "nextMove": "Hold the reading fixed and compare two controller rules.",
+            "distractor": null,
+            "reteachPrerequisiteId": null
+          },
+          {
+            "id": "diagnostic_566af4e35ff54c2c",
+            "pattern": "The reading provides all the energy to move the arm.",
+            "kind": "misconception",
+            "revealedBy": "Omits the power source or claims data alone moves the actuator.",
+            "nextMove": "Trace the supplied information path separately from the powered motor path.",
+            "distractor": null,
+            "reteachPrerequisiteId": null
+          },
+          {
+            "id": "diagnostic_0bfc312d0054468b",
+            "pattern": "Every robot must work without a human.",
+            "kind": "misconception",
+            "revealedBy": "Rejects a human-operated robotic arm as a robot.",
+            "nextMove": "Compare manual commands with automatic rules without equating robotics with autonomy.",
+            "distractor": null,
+            "reteachPrerequisiteId": null
+          }
+        ],
+        "probeDeeper": [
+          "Would the sensor necessarily stop sensing if the program read it only once?",
+          "Can a person provide an input to the same controller? What changes in the chain?"
+        ],
+        "responseLevels": {
+          "gap": "Relies on the incorrect single-cue rules described in the error patterns or cannot connect the required parts.",
+          "partial": "Predicts a familiar case correctly but cannot justify a controlled contrast or transfer.",
+          "full": "Predicts the supplied contrasting cases, connects the causal relationships in the answer key and states the relevant model limits."
+        },
+        "poeTask": "Predict and explain the outcome of trace the machine, observe the comparison, then revise the explanation before a changed case."
+      },
+      "sources": [
+        {
+          "id": "citation_f5a82418002c4659",
+          "source": "Micro:bit Educational Foundation, First lessons with MakeCode and the micro:bit, lessons 1–5",
+          "url": "https://www.microbit.org/teach/lessons/first-lessons-with-makecode-and-the-microbit/",
+          "claim": "The provider progression connects sequences, loops, inputs, outputs and conditionals in a physical control project; its nightlight uses repeated checks. This is lesson guidance rather than efficacy evidence.",
+          "verified": true
+        },
+        {
+          "id": "citation_7c477cb309754149",
+          "source": "Department for Education, National curriculum in England: Computing, Key Stage 2",
+          "url": "https://www.gov.uk/government/publications/national-curriculum-in-england-computing-programmes-of-study/national-curriculum-in-england-computing-programmes-of-study",
+          "claim": "The primary programme includes programming physical systems, inputs/outputs, sequence, selection, repetition and debugging. These proposed claims address components, not the whole programme.",
+          "verified": true
+        },
+        {
+          "id": "citation_4902be0548f84359",
+          "source": "Department for Education, National curriculum in England: Design and technology, Key Stage 2 technical knowledge",
+          "url": "https://www.gov.uk/government/publications/national-curriculum-in-england-design-and-technology-programmes-of-study/national-curriculum-in-england-design-and-technology-programmes-of-study",
+          "claim": "The primary programme includes using computing to program, monitor and control products. Simulation alone does not establish all practical design-and-making requirements.",
+          "verified": true
+        }
+      ],
+      "confidence": "medium",
+      "authorship": {
+        "attribution": "Sparks & Sprockets extension; original AI-assisted authoring by OpenAI Codex, 24 November 2026. Source claims checked against the listed public pages. Built on Marble Skill Taxonomy; no Marble endorsement or learner efficacy claim."
+      }
+    },
+    {
+      "schemaVersion": 2,
+      "namespace": "v1",
+      "topicId": "mt_84988393c9e342de",
+      "pedagogy": {
+        "summary": "Compare a timed action with repeated outcome checks in a bounded system, then introduce one disturbance. Keep the controlled variable and the action that changes it explicit.",
+        "bestPractices": [
+          "Trace multiple cycles rather than a single correct response.",
+          "Use a target band and visible delay rather than promising a perfect target.",
+          "Contrast closed-loop regulation with a trigger whose output cannot affect its input."
+        ],
+        "keyRepresentations": [
+          "Target–comparison–action–outcome–measurement cycle.",
+          "A short time trace showing reading, chosen action and next reading."
+        ],
+        "commonMisconceptions": [
+          "Any sensor makes a feedback loop.",
+          "One if-check keeps correcting forever.",
+          "Feedback always reaches the exact target immediately."
+        ]
+      },
+      "learn": {
+        "schemaVersion": 2,
+        "summary": "Compare a timed action with repeated outcome checks in a bounded system, then introduce one disturbance. Keep the controlled variable and the action that changes it explicit.",
+        "activities": [
+          {
+            "id": "activity_c56cf27d2ddd41bc",
+            "title": "Timer or feedback",
+            "learnerActions": [
+              "Compare a fixed-time controller with one that repeatedly measures an outcome.",
+              "Change the starting state while keeping the goal fixed."
+            ],
+            "intendedInsight": "Outcome checks support adaptation when the same timer no longer fits.",
+            "feedback": [
+              "Show readings and actions; do not infer understanding from a successful run alone."
+            ],
+            "rationale": "Original proposed activity applying the cited principle to a controlled comparison. It is not an empirically validated intervention.",
+            "sourceIds": [
+              "citation_fad88003b51d43d4",
+              "citation_f621e84f2fd04f3d"
+            ]
+          },
+          {
+            "id": "activity_7cac757d427f4294",
+            "title": "Add a disturbance",
+            "learnerActions": [
+              "Apply a supplied corrective rule around a target band.",
+              "Introduce a changed load and trace the next few measurements."
+            ],
+            "intendedInsight": "Correction requires new measurement after conditions change.",
+            "feedback": [
+              "Make the direction and delay of each action explicit."
+            ],
+            "rationale": "Original proposed activity applying the cited principle to a controlled comparison. It is not an empirically validated intervention.",
+            "sourceIds": [
+              "citation_fad88003b51d43d4"
+            ]
+          },
+          {
+            "id": "activity_f5ace8024b884fca",
+            "title": "Is the loop closed?",
+            "learnerActions": [
+              "Compare a depth-regulating system with a door sensor that only plays a tune.",
+              "Trace whether the output changes the measured variable."
+            ],
+            "intendedInsight": "Sensor use and closed-loop regulation are not synonymous.",
+            "feedback": [
+              "Ask for the missing return path in the trigger-only system."
+            ],
+            "rationale": "Original proposed activity applying the cited principle to a controlled comparison. It is not an empirically validated intervention.",
+            "sourceIds": [
+              "citation_fad88003b51d43d4",
+              "citation_d3226f6c3a924a37"
+            ]
+          }
+        ],
+        "constraints": [
+          "Use a supplied plant model, bounded disturbance and actuator limits.",
+          "Core claim is conceptual; PID equations, stability proofs and code writing are separate.",
+          "For submarine activities, account for inertia and drag; neutral buoyancy does not immediately remove vertical speed."
+        ],
+        "reviewNotes": [
+          "Technical feedback sources support correctness, not an experimentally established primary age threshold.",
+          "Repeated sensor use is supported by primary lesson guidance; closed-loop regulator examples are original bounded applications.",
+          "Sources were opened on 2026-11-24 for the stated claims. Confidence describes bounded authoring evidence, not measured learner outcomes.",
+          "Error patterns are design hypotheses unless explicitly supported by the cited classroom evidence; no prevalence claim is made."
+        ]
+      },
+      "assess": {
+        "method": "two_tier",
+        "diagnosticPrompt": "A tank controller reads the water level each cycle. Below a target band it opens an inlet; above it, it closes the inlet. A separate drain can remove water. Compare this with opening the inlet for a fixed time. Explain a response when draining increases, identify the feedback path, and explain why a door sensor playing a tune is not automatically door-position regulation.",
+        "correctAnswer": "The level affects the controller decision, the inlet affects the level, and repeated measurement closes the loop. Increased draining can cause additional inlet action when the rule next observes a low level, subject to inlet capacity and delay. The fixed timer does not adjust from the outcome. Playing a tune does not itself control door position in the stated example.",
+        "whatMakesItDiscriminate": "Changed disturbances and a sensor-trigger counterexample distinguish causal regulation from knowing the names of a sensor or a loop block.",
+        "errorPatterns": [
+          {
+            "id": "diagnostic_19e4e46ffff64bfb",
+            "pattern": "Any sensor makes a feedback loop.",
+            "kind": "misconception",
+            "revealedBy": "Labels an unrelated trigger as regulation without a path from action to measured outcome.",
+            "nextMove": "Trace whether the output can change the variable being measured.",
+            "distractor": null,
+            "reteachPrerequisiteId": null
+          },
+          {
+            "id": "diagnostic_2f8ce7cfd3474315",
+            "pattern": "One if-check keeps correcting forever.",
+            "kind": "misconception",
+            "revealedBy": "Expects later disturbances to be handled after a one-shot rule has finished.",
+            "nextMove": "Trace two time steps and locate the second measurement.",
+            "distractor": null,
+            "reteachPrerequisiteId": null
+          },
+          {
+            "id": "diagnostic_5645906b1e0f408f",
+            "pattern": "Feedback always reaches the exact target immediately.",
+            "kind": "misconception",
+            "revealedBy": "Ignores delay, actuator limits or continuing motion.",
+            "nextMove": "Show a bounded delayed case and separate measuring error from removing it.",
+            "distractor": null,
+            "reteachPrerequisiteId": null
+          }
+        ],
+        "probeDeeper": [
+          "What happens if water drains faster than the inlet can supply it?",
+          "Why might delayed readings or a strong actuator cause overshoot around a target?"
+        ],
+        "responseLevels": {
+          "gap": "Relies on the incorrect single-cue rules described in the error patterns or cannot connect the required parts.",
+          "partial": "Predicts a familiar case correctly but cannot justify a controlled contrast or transfer.",
+          "full": "Predicts the supplied contrasting cases, connects the causal relationships in the answer key and states the relevant model limits."
+        },
+        "poeTask": "Predict and explain the outcome of timer or feedback, observe the comparison, then revise the explanation before a changed case."
+      },
+      "sources": [
+        {
+          "id": "citation_fad88003b51d43d4",
+          "source": "Åström and Murray, Feedback Systems, author-hosted Introduction, chapter summary",
+          "url": "https://fbswiki.org/wiki/index.php/Introduction",
+          "claim": "Feedback connects sensing, computation and actuation in a closed loop; measured outcomes can guide correction, but feedback can also introduce instability and noise sensitivity. This is technical support, not primary-age pedagogy evidence.",
+          "verified": true
+        },
+        {
+          "id": "citation_f621e84f2fd04f3d",
+          "source": "National Centre for Computing Education, Year 5 Starting with selection, public lesson description and objectives",
+          "url": "https://teachcomputing.org/curriculum/key-stage-2/programming-a-selection-in-physical-computing/starting-with-selection",
+          "claim": "In the explicit polling model used in the lesson, a loop repeatedly checks a condition. A one-time conditional does not itself keep rechecking.",
+          "verified": true
+        },
+        {
+          "id": "citation_d3226f6c3a924a37",
+          "source": "Micro:bit Educational Foundation, First lessons with MakeCode and the micro:bit, lessons 1–5",
+          "url": "https://www.microbit.org/teach/lessons/first-lessons-with-makecode-and-the-microbit/",
+          "claim": "The provider progression connects sequences, loops, inputs, outputs and conditionals in a physical control project; its nightlight uses repeated checks. This is lesson guidance rather than efficacy evidence.",
+          "verified": true
+        }
+      ],
+      "confidence": "medium",
+      "authorship": {
+        "attribution": "Sparks & Sprockets extension; original AI-assisted authoring by OpenAI Codex, 24 November 2026. Source claims checked against the listed public pages. Built on Marble Skill Taxonomy; no Marble endorsement or learner efficacy claim."
+      }
+    },
+    {
+      "schemaVersion": 2,
+      "namespace": "v1",
+      "topicId": "mt_d1f48410cd8b4254",
+      "pedagogy": {
+        "summary": "Keep the output task fixed and make both input travel and output travel visible. Compare a smaller force over a longer input path with a larger force over a shorter one.",
+        "bestPractices": [
+          "Label which point is pushed and which load moves.",
+          "Predict both force and travel before a comparison.",
+          "Use ideal or measured low-loss cases before discussing friction."
+        ],
+        "keyRepresentations": [
+          "Two ramps reaching the same platform.",
+          "Marked crank circumference, drum rotation and load movement.",
+          "Supplied screw-turn/advance or wedge-insertion/separation traces."
+        ],
+        "commonMisconceptions": [
+          "A machine saves energy whenever it saves force.",
+          "A bigger wheel always gives more lifting force."
+        ]
+      },
+      "learn": {
+        "schemaVersion": 2,
+        "summary": "Keep the output task fixed and make both input travel and output travel visible. Compare a smaller force over a longer input path with a larger force over a shorter one.",
+        "activities": [
+          {
+            "id": "activity_dc2bdb5f448b4cd3",
+            "title": "Two routes up",
+            "learnerActions": [
+              "Compare low-friction ramps reaching the same height.",
+              "Predict push and travel, then inspect measured comparisons."
+            ],
+            "intendedInsight": "Input force and travel change in opposite directions for the fixed output.",
+            "feedback": [
+              "Keep load, height and friction controlled."
+            ],
+            "rationale": "Original proposed activity applying the cited principle to a controlled comparison. It is not an empirically validated intervention.",
+            "sourceIds": [
+              "citation_a4007f6487154afe"
+            ]
+          },
+          {
+            "id": "activity_1300e63a26304800",
+            "title": "Crank and drum",
+            "learnerActions": [
+              "Trace one turn at two handle radii with the same drum.",
+              "Compare hand travel and required tangential force for the same load."
+            ],
+            "intendedInsight": "Changing the input radius changes force and hand travel, not the load height per drum turn.",
+            "feedback": [
+              "Do not substitute vehicle wheel rolling resistance for a lifting wheel-and-axle model."
+            ],
+            "rationale": "Original proposed activity applying the cited principle to a controlled comparison. It is not an empirically validated intervention.",
+            "sourceIds": [
+              "citation_a4007f6487154afe"
+            ]
+          },
+          {
+            "id": "activity_3add4735f8e54f10",
+            "title": "Transfer the tradeoff",
+            "learnerActions": [
+              "Use supplied screw or wedge motion diagrams with low-loss force readings.",
+              "Explain the extra turns or insertion distance needed for a small output movement.",
+              "Reject a free-energy claim."
+            ],
+            "intendedInsight": "The same relationship can connect differently shaped mechanisms.",
+            "feedback": [
+              "Do not assume equal friction in real cutting or threaded tools."
+            ],
+            "rationale": "Original proposed activity applying the cited principle to a controlled comparison. It is not an empirically validated intervention.",
+            "sourceIds": [
+              "citation_a4007f6487154afe"
+            ]
+          }
+        ],
+        "constraints": [
+          "Quasi-static low-loss comparisons; fixed output load/displacement.",
+          "No formal work calculations, Sankey diagrams or proof of practical construction competence.",
+          "A cutting wedge may also break material; do not assume its actual work equals a lifting task."
+        ],
+        "reviewNotes": [
+          "Primary ages are proposed, not a new statutory mapping.",
+          "Year 5 mechanism recognition is related; the explicit travel/energy tradeoff extends that requirement.",
+          "Sources were opened on 2026-11-24 for the stated claims. Confidence describes bounded authoring evidence, not measured learner outcomes.",
+          "Error patterns are design hypotheses unless explicitly supported by the cited classroom evidence; no prevalence claim is made."
+        ]
+      },
+      "assess": {
+        "method": "two_tier",
+        "diagnosticPrompt": "Two ideal ramps raise the same box to the same height slowly; one ramp is longer. Which needs the smaller push and which longer input travel? In a separate ideal crank lift, the handle radius doubles while the drum and load stay fixed. Compare hand travel, required tangential force and load rise per turn. Explain why neither machine creates energy.",
+        "correctAnswer": "The longer ramp needs the smaller push along the ramp and greater travel. Doubling the handle radius doubles hand travel per turn and halves the tangential force in the ideal model; the unchanged drum raises the load the same distance per turn. Force reduction is exchanged for input travel; losses require additional input in real machines.",
+        "whatMakesItDiscriminate": "Keeping the output fixed separates effort reduction from energy creation and distinguishes handle travel from drum/load travel.",
+        "errorPatterns": [
+          {
+            "id": "diagnostic_b86e9d37eba54ff5",
+            "pattern": "A machine saves energy whenever it saves force.",
+            "kind": "misconception",
+            "revealedBy": "Predicts less input energy solely from a smaller push.",
+            "nextMove": "Trace how far the point of effort moves for the same output.",
+            "distractor": null,
+            "reteachPrerequisiteId": null
+          },
+          {
+            "id": "diagnostic_d96e313514604f77",
+            "pattern": "A bigger wheel always gives more lifting force.",
+            "kind": "misconception",
+            "revealedBy": "Ignores which part is the input and which is the drum.",
+            "nextMove": "Hold the drum radius fixed and identify the input point; reverse the arrangement as a countercase.",
+            "distractor": null,
+            "reteachPrerequisiteId": null
+          }
+        ],
+        "probeDeeper": [
+          "What changes if the ramp surface is much rougher?",
+          "In a supplied finer-pitch screw with the same handle, what happens to turns required for the same rise?"
+        ],
+        "responseLevels": {
+          "gap": "Relies on the incorrect single-cue rules described in the error patterns or cannot connect the required parts.",
+          "partial": "Predicts a familiar case correctly but cannot justify a controlled contrast or transfer.",
+          "full": "Predicts the supplied contrasting cases, connects the causal relationships in the answer key and states the relevant model limits."
+        },
+        "poeTask": "Predict and explain the outcome of two routes up, observe the comparison, then revise the explanation before a changed case."
+      },
+      "sources": [
+        {
+          "id": "citation_a4007f6487154afe",
+          "source": "OpenStax Physics, section 9.3 Simple Machines, input/output travel, ideal advantage and efficiency",
+          "url": "https://openstax.org/books/physics/pages/9-3-simple-machines",
+          "claim": "A low-loss machine exchanges force for travel; real losses prevent free energy. Ramp, crank, wedge and screw arrangements illustrate the same relationship. Technical support, not primary-age efficacy evidence.",
+          "verified": true
+        },
+        {
+          "id": "citation_f8863970021c422a",
+          "source": "Department for Education, National curriculum in England: Science, Year 5 Forces and KS3 Motion and forces",
+          "url": "https://www.gov.uk/government/publications/national-curriculum-in-england-science-programmes-of-study/national-curriculum-in-england-science-programmes-of-study",
+          "claim": "Year 5 addresses force-changing mechanisms. Turning effects and force/area pressure appear at KS3. These are scoped curriculum comparisons, not certification of the proposed younger teaching range.",
+          "verified": true
+        }
+      ],
+      "confidence": "medium",
+      "authorship": {
+        "attribution": "Sparks & Sprockets extension; original AI-assisted authoring by OpenAI Codex, 24 November 2026. Source claims checked against the listed public pages. Built on Marble Skill Taxonomy; no Marble endorsement or learner efficacy claim."
+      }
+    },
+    {
+      "schemaVersion": 2,
+      "namespace": "v1",
+      "topicId": "mt_9401faebe1804335",
+      "pedagogy": {
+        "summary": "Show a combined centre-of-gravity marker and a vertical line before asking for a prediction. Move the load without changing its mass; compare the line with the support boundary.",
+        "bestPractices": [
+          "Keep mass distribution and support changes separate.",
+          "Distinguish a restoring turn from a tipping turn.",
+          "State when sliding, acceleration or an extra support force invalidates the model."
+        ],
+        "keyRepresentations": [
+          "Side-view model with centre marker, plumb line and support edges.",
+          "Successive slow tilt positions of the same rigid object."
+        ],
+        "commonMisconceptions": [
+          "The heaviest object always tips first.",
+          "The middle of the outline is always the balance point.",
+          "Being at the edge is safely stable."
+        ]
+      },
+      "learn": {
+        "schemaVersion": 2,
+        "summary": "Show a combined centre-of-gravity marker and a vertical line before asking for a prediction. Move the load without changing its mass; compare the line with the support boundary.",
+        "activities": [
+          {
+            "id": "activity_cb2c674118b04c26",
+            "title": "Move the load",
+            "learnerActions": [
+              "Move a fixed load along a stationary model arm.",
+              "Track the supplied combined centre line relative to supports."
+            ],
+            "intendedInsight": "Placement matters even when total mass is constant.",
+            "feedback": [
+              "Keep the support and total mass unchanged."
+            ],
+            "rationale": "Original proposed activity applying the cited principle to a controlled comparison. It is not an empirically validated intervention.",
+            "sourceIds": [
+              "citation_e939a38f82044794"
+            ]
+          },
+          {
+            "id": "activity_bc7016b97a604d9e",
+            "title": "Widen or lower",
+            "learnerActions": [
+              "Compare supplied rigid models with different base width or centre height.",
+              "Predict which tolerates more slow tilt."
+            ],
+            "intendedInsight": "Support geometry and centre height affect the tipping margin.",
+            "feedback": [
+              "Assume enough friction to prevent sliding."
+            ],
+            "rationale": "Original proposed activity applying the cited principle to a controlled comparison. It is not an empirically validated intervention.",
+            "sourceIds": [
+              "citation_e939a38f82044794"
+            ]
+          },
+          {
+            "id": "activity_c3652db5f6e24bc1",
+            "title": "Find the model boundary",
+            "learnerActions": [
+              "Compare inside, edge and outside centre lines.",
+              "Add a stated tether or external push and explain why the simple criterion alone is insufficient."
+            ],
+            "intendedInsight": "A gravity-only criterion is conditional, not a universal safety rule.",
+            "feedback": [
+              "Accept a request for additional force information."
+            ],
+            "rationale": "Original proposed activity applying the cited principle to a controlled comparison. It is not an empirically validated intervention.",
+            "sourceIds": [
+              "citation_e939a38f82044794",
+              "citation_effd653b55194b55"
+            ]
+          }
+        ],
+        "constraints": [
+          "Rigid body, gravity and support forces; quasi-static tilt and no sliding.",
+          "Provide combined centre markers; calculating centre of mass is not required.",
+          "No claim of real vehicle, crane or human balancing safety."
+        ],
+        "reviewNotes": [
+          "Related to England D&T stability practice, but conceptual prediction alone does not cover building structures.",
+          "Formal turning effects occur in England KS3; the proposed earlier qualitative model is enrichment.",
+          "Sources were opened on 2026-11-24 for the stated claims. Confidence describes bounded authoring evidence, not measured learner outcomes.",
+          "Error patterns are design hypotheses unless explicitly supported by the cited classroom evidence; no prevalence claim is made."
+        ]
+      },
+      "assess": {
+        "method": "two_tier",
+        "diagnosticPrompt": "A rigid model has two supporting feet and a marked combined centre of gravity. Its downward vertical line is initially inside the support region. A load is moved outward without changing total mass until the line passes beyond the right support. Predict the change, explain a counterweight solution and describe the exactly-at-edge case.",
+        "correctAnswer": "Inside the support region the gravity-only static model can remain supported. Outside the right edge, gravity turns the model outward about that edge and it begins to tip if sliding is prevented. A correctly placed counterweight can bring the combined centre line inside. Exactly at the edge is the marginal boundary, not a robust stability margin.",
+        "whatMakesItDiscriminate": "Unchanged mass with changed placement defeats mass-only rules; the edge case tests the boundary rather than a vague wider-is-better slogan.",
+        "errorPatterns": [
+          {
+            "id": "diagnostic_b5eacd6e599d4b64",
+            "pattern": "The heaviest object always tips first.",
+            "kind": "misconception",
+            "revealedBy": "Ranks stability only by total mass.",
+            "nextMove": "Compare equal total mass with different placement.",
+            "distractor": null,
+            "reteachPrerequisiteId": null
+          },
+          {
+            "id": "diagnostic_ed7b90c4b0944228",
+            "pattern": "The middle of the outline is always the balance point.",
+            "kind": "misconception",
+            "revealedBy": "Ignores an offset load.",
+            "nextMove": "Use the marked combined centre rather than the geometric centre.",
+            "distractor": null,
+            "reteachPrerequisiteId": null
+          },
+          {
+            "id": "diagnostic_db5fa7f3e69f4efa",
+            "pattern": "Being at the edge is safely stable.",
+            "kind": "misconception",
+            "revealedBy": "Calls the boundary robust against disturbance.",
+            "nextMove": "Apply a small outward tilt to show the marginal case.",
+            "distractor": null,
+            "reteachPrerequisiteId": null
+          }
+        ],
+        "probeDeeper": [
+          "Does lowering the centre always prevent tipping from every applied push?",
+          "What extra information is needed when the model is accelerating or held by a tether?"
+        ],
+        "responseLevels": {
+          "gap": "Relies on the incorrect single-cue rules described in the error patterns or cannot connect the required parts.",
+          "partial": "Predicts a familiar case correctly but cannot justify a controlled contrast or transfer.",
+          "full": "Predicts the supplied contrasting cases, connects the causal relationships in the answer key and states the relevant model limits."
+        },
+        "poeTask": "Predict and explain the outcome of move the load, observe the comparison, then revise the explanation before a changed case."
+      },
+      "sources": [
+        {
+          "id": "citation_e939a38f82044794",
+          "source": "OpenStax College Physics 2e, section 9.3 Stability, base of support and centre of gravity",
+          "url": "https://openstax.org/books/college-physics-2e/pages/9-3-stability",
+          "claim": "Under gravity, the position of the centre of gravity relative to the support region determines the static tipping boundary. Lowering it or widening support can increase the allowable tilt.",
+          "verified": true
+        },
+        {
+          "id": "citation_effd653b55194b55",
+          "source": "Department for Education, National curriculum in England: Design and technology, Key Stage 2 technical knowledge",
+          "url": "https://www.gov.uk/government/publications/national-curriculum-in-england-design-and-technology-programmes-of-study/national-curriculum-in-england-design-and-technology-programmes-of-study",
+          "claim": "The primary programme includes using computing to program, monitor and control products. Simulation alone does not establish all practical design-and-making requirements.",
+          "verified": true
+        }
+      ],
+      "confidence": "medium",
+      "authorship": {
+        "attribution": "Sparks & Sprockets extension; original AI-assisted authoring by OpenAI Codex, 24 November 2026. Source claims checked against the listed public pages. Built on Marble Skill Taxonomy; no Marble endorsement or learner efficacy claim."
+      }
+    },
+    {
+      "schemaVersion": 2,
+      "namespace": "v1",
+      "topicId": "mt_56c39fbf4ef341a0",
+      "pedagogy": {
+        "summary": "Use matched loads and actual contact patches. Change area first, then hold area fixed and change force; only then vary both.",
+        "bestPractices": [
+          "Use normal force, not a sideways pull, in the comparison.",
+          "Control the surface material and preparation.",
+          "Ask for missing information when both force and area change."
+        ],
+        "keyRepresentations": [
+          "Equal contact patches with force distributed across them.",
+          "Matched loads on broad and narrow pads."
+        ],
+        "commonMisconceptions": [
+          "Wider pads make the object lighter.",
+          "The widest base always has the lowest pressure."
+        ]
+      },
+      "learn": {
+        "schemaVersion": 2,
+        "summary": "Use matched loads and actual contact patches. Change area first, then hold area fixed and change force; only then vary both.",
+        "activities": [
+          {
+            "id": "activity_e585fd0eb0ce4805",
+            "title": "Spread the same load",
+            "learnerActions": [
+              "Compare the same load on two contact areas in identically prepared yielding material.",
+              "Explain total force versus force per patch."
+            ],
+            "intendedInsight": "Spreading a fixed force reduces average contact pressure.",
+            "feedback": [
+              "Avoid reading indentation depth as a universal pressure meter."
+            ],
+            "rationale": "Original proposed activity applying the cited principle to a controlled comparison. It is not an empirically validated intervention.",
+            "sourceIds": [
+              "citation_1af592a405d44b76"
+            ]
+          },
+          {
+            "id": "activity_5eb02c1e661e4398",
+            "title": "Same pad, new load",
+            "learnerActions": [
+              "Keep the pad area fixed and increase a known normal force.",
+              "Predict the change in average pressure."
+            ],
+            "intendedInsight": "Force matters independently of area.",
+            "feedback": [
+              "Keep surface response conditions fixed."
+            ],
+            "rationale": "Original proposed activity applying the cited principle to a controlled comparison. It is not an empirically validated intervention.",
+            "sourceIds": [
+              "citation_1af592a405d44b76"
+            ]
+          },
+          {
+            "id": "activity_fdb8e329e3a04cad",
+            "title": "Not enough information",
+            "learnerActions": [
+              "View two differently sized pads carrying unspecified loads.",
+              "Say what measurements are needed for a justified pressure ranking."
+            ],
+            "intendedInsight": "A footprint-only rule cannot compare all cases.",
+            "feedback": [
+              "Distinguish actual contact patches from the outer silhouette."
+            ],
+            "rationale": "Original proposed activity applying the cited principle to a controlled comparison. It is not an empirically validated intervention.",
+            "sourceIds": [
+              "citation_1af592a405d44b76"
+            ]
+          }
+        ],
+        "constraints": [
+          "Average normal contact pressure, not local stress concentrations.",
+          "Controlled material, loading time and surface condition for indentation comparisons.",
+          "No formal pressure units/calculation or soil-bearing engineering claim."
+        ],
+        "reviewNotes": [
+          "Qualitative enrichment relative to England primary Science; ratio pressure is explicit at KS3.",
+          "This is not the same claim as hydrostatic pressure with depth.",
+          "Sources were opened on 2026-11-24 for the stated claims. Confidence describes bounded authoring evidence, not measured learner outcomes.",
+          "Error patterns are design hypotheses unless explicitly supported by the cited classroom evidence; no prevalence claim is made."
+        ]
+      },
+      "assess": {
+        "method": "two_tier",
+        "diagnosticPrompt": "The same block is placed gently on a broad face and a narrow face on an identical yielding surface. Compare its total downward force and average contact pressure. Then compare a wider pad carrying an unknown heavier load with a narrow pad carrying a lighter load: can width alone settle the pressure ranking?",
+        "correctAnswer": "The same block has the same downward force; the broad contact face spreads that force and has lower average pressure. If force and area both change, width alone is insufficient; actual force and total contact area are needed. Indentation also depends on surface properties and history.",
+        "whatMakesItDiscriminate": "Separates force from force-per-area and tests whether the learner controls both variables.",
+        "errorPatterns": [
+          {
+            "id": "diagnostic_9d7bb8f2d9414b77",
+            "pattern": "Wider pads make the object lighter.",
+            "kind": "misconception",
+            "revealedBy": "Claims the total downward force decreased.",
+            "nextMove": "Keep the force reading visible while changing pads.",
+            "distractor": null,
+            "reteachPrerequisiteId": null
+          },
+          {
+            "id": "diagnostic_d52f10d09fde432b",
+            "pattern": "The widest base always has the lowest pressure.",
+            "kind": "misconception",
+            "revealedBy": "Ignores a much larger load.",
+            "nextMove": "Compare force as well as total actual contact area.",
+            "distractor": null,
+            "reteachPrerequisiteId": null
+          }
+        ],
+        "probeDeeper": [
+          "Do four small feet necessarily have the area of the outline connecting them?",
+          "Why could a softer surface deform more at the same pressure?"
+        ],
+        "responseLevels": {
+          "gap": "Relies on the incorrect single-cue rules described in the error patterns or cannot connect the required parts.",
+          "partial": "Predicts a familiar case correctly but cannot justify a controlled contrast or transfer.",
+          "full": "Predicts the supplied contrasting cases, connects the causal relationships in the answer key and states the relevant model limits."
+        },
+        "poeTask": "Predict and explain the outcome of spread the same load, observe the comparison, then revise the explanation before a changed case."
+      },
+      "sources": [
+        {
+          "id": "citation_1af592a405d44b76",
+          "source": "OpenStax College Physics 2e, section 11.3 Pressure, definition and contrasting contact areas",
+          "url": "https://openstax.org/books/college-physics-2e/pages/11-3-pressure",
+          "claim": "Average pressure is normal force divided by contact area; force and pressure are different quantities. Technical reference, not a primary learning study.",
+          "verified": true
+        },
+        {
+          "id": "citation_b1942d3bb2424757",
+          "source": "Department for Education, National curriculum in England: Science, Year 5 Forces and KS3 Motion and forces",
+          "url": "https://www.gov.uk/government/publications/national-curriculum-in-england-science-programmes-of-study/national-curriculum-in-england-science-programmes-of-study",
+          "claim": "Year 5 addresses force-changing mechanisms. Turning effects and force/area pressure appear at KS3. These are scoped curriculum comparisons, not certification of the proposed younger teaching range.",
+          "verified": true
+        }
+      ],
+      "confidence": "medium",
+      "authorship": {
+        "attribution": "Sparks & Sprockets extension; original AI-assisted authoring by OpenAI Codex, 24 November 2026. Source claims checked against the listed public pages. Built on Marble Skill Taxonomy; no Marble endorsement or learner efficacy claim."
+      }
+    },
+    {
+      "schemaVersion": 2,
+      "namespace": "v1",
+      "topicId": "mt_3568068de7804719",
+      "pedagogy": {
+        "summary": "Hold the light and circuit fixed while rotating the same panel. Make the face and incoming ray direction visible, and separate instantaneous power from stored energy.",
+        "bestPractices": [
+          "Use supplied readings or a safe small panel experiment.",
+          "Compare orientation to the rays rather than an ambiguous angle to the ground.",
+          "Avoid promising a fixed universally best mounting angle."
+        ],
+        "keyRepresentations": [
+          "Parallel ray diagram meeting the same panel at two orientations.",
+          "Controlled orientation/power readings with units identified."
+        ],
+        "commonMisconceptions": [
+          "Steeper always produces more power.",
+          "Turning the panel makes the battery larger."
+        ]
+      },
+      "learn": {
+        "schemaVersion": 2,
+        "summary": "Hold the light and circuit fixed while rotating the same panel. Make the face and incoming ray direction visible, and separate instantaneous power from stored energy.",
+        "activities": [
+          {
+            "id": "activity_fd867e76d2a1412c",
+            "title": "Face the light",
+            "learnerActions": [
+              "Compare the same panel square-on and nearly edge-on to fixed direct rays.",
+              "Predict and inspect supplied electrical power readings."
+            ],
+            "intendedInsight": "Orientation changes captured direct light.",
+            "feedback": [
+              "Control source distance, intensity, panel temperature and circuit."
+            ],
+            "rationale": "Original proposed activity applying the cited principle to a controlled comparison. It is not an empirically validated intervention.",
+            "sourceIds": [
+              "citation_28e5ab36eeec447f"
+            ]
+          },
+          {
+            "id": "activity_b067553a485c4f35",
+            "title": "Move the source",
+            "learnerActions": [
+              "Change the direct-light direction.",
+              "Choose an orientation for the new position and explain the change."
+            ],
+            "intendedInsight": "A useful orientation is relative to the light direction.",
+            "feedback": [
+              "Separate this instant from whole-day energy optimisation."
+            ],
+            "rationale": "Original proposed activity applying the cited principle to a controlled comparison. It is not an empirically validated intervention.",
+            "sourceIds": [
+              "citation_28e5ab36eeec447f"
+            ]
+          },
+          {
+            "id": "activity_27a955922fc94123",
+            "title": "Check the conditions",
+            "learnerActions": [
+              "Compare the original direct-light case with shading or diffuse-light conditions.",
+              "State which predictions need new information."
+            ],
+            "intendedInsight": "The simple direct-beam model has limits.",
+            "feedback": [
+              "Do not infer a precise percentage change without measurements."
+            ],
+            "rationale": "Original proposed activity applying the cited principle to a controlled comparison. It is not an empirically validated intervention.",
+            "sourceIds": [
+              "citation_28e5ab36eeec447f"
+            ]
+          }
+        ],
+        "constraints": [
+          "Qualitative direct-beam comparison with identical panel, circuit/load and temperature.",
+          "Diffuse light, shade and electrical operating limits require additional information.",
+          "No mains wiring, installation recommendation or exact cosine-power law claim."
+        ],
+        "reviewNotes": [
+          "Application enrichment; no exact primary curriculum mapping asserted.",
+          "Technical source supports orientation effects, not a validated primary-age sequence.",
+          "Sources were opened on 2026-11-24 for the stated claims. Confidence describes bounded authoring evidence, not measured learner outcomes.",
+          "Error patterns are design hypotheses unless explicitly supported by the cited classroom evidence; no prevalence claim is made."
+        ]
+      },
+      "assess": {
+        "method": "two_tier",
+        "diagnosticPrompt": "Two identical panels under the same direct beam have identical circuits and temperatures. One faces the beam square-on and the other nearly edge-on. Predict which captures more direct light and generally supplies more power under suitable operation. If the light direction moves, must the old best orientation stay best? Does more power at one instant establish the greatest energy over a whole day?",
+        "correctAnswer": "The more square-on face intercepts more of the direct beam and generally supplies more electrical power under the stated conditions. A changed light direction can change the best orientation. Instantaneous power alone does not establish day-long energy; changing sunlight, shading, weather and operating conditions matter.",
+        "whatMakesItDiscriminate": "Tests the ray-to-face relationship rather than a memorised ground angle and separates instantaneous output from cumulative energy.",
+        "errorPatterns": [
+          {
+            "id": "diagnostic_37ac7905bbd04948",
+            "pattern": "Steeper always produces more power.",
+            "kind": "misconception",
+            "revealedBy": "Uses ground tilt without locating the light.",
+            "nextMove": "Show two different light directions with the same ground tilt.",
+            "distractor": null,
+            "reteachPrerequisiteId": null
+          },
+          {
+            "id": "diagnostic_08c845032905475d",
+            "pattern": "Turning the panel makes the battery larger.",
+            "kind": "misconception",
+            "revealedBy": "Explains more output as increased storage capacity.",
+            "nextMove": "Keep the battery or electrical load unchanged and distinguish collection from storage.",
+            "distractor": null,
+            "reteachPrerequisiteId": null
+          }
+        ],
+        "probeDeeper": [
+          "What should be held fixed in a fair orientation comparison?",
+          "Why is a fixed-panel annual design not determined by one noon measurement?"
+        ],
+        "responseLevels": {
+          "gap": "Relies on the incorrect single-cue rules described in the error patterns or cannot connect the required parts.",
+          "partial": "Predicts a familiar case correctly but cannot justify a controlled contrast or transfer.",
+          "full": "Predicts the supplied contrasting cases, connects the causal relationships in the answer key and states the relevant model limits."
+        },
+        "poeTask": "Predict and explain the outcome of face the light, observe the comparison, then revise the explanation before a changed case."
+      },
+      "sources": [
+        {
+          "id": "citation_28e5ab36eeec447f",
+          "source": "US Energy Information Administration, Solar photovoltaic output depends on orientation, tilt, and tracking, 19 November 2014",
+          "url": "https://www.eia.gov/todayinenergy/detail.php?id=18871",
+          "claim": "Panel output depends on orientation to sunlight; tracking changes orientation over time. Fixed-installation decisions involve other conditions and objectives; this is not a universal mounting prescription.",
+          "verified": true
+        }
+      ],
+      "confidence": "medium",
+      "authorship": {
+        "attribution": "Sparks & Sprockets extension; original AI-assisted authoring by OpenAI Codex, 24 November 2026. Source claims checked against the listed public pages. Built on Marble Skill Taxonomy; no Marble endorsement or learner efficacy claim."
+      }
+    }
+  ]
+}

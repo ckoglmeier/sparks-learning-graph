@@ -1,0 +1,254 @@
+{
+ "topicId": "mt_JTuhd-cPiV",
+ "pedagogy": {
+  "summary": "- **Age:** 9–13 years (introduce once single loops are secure, typically 10–11; text-based nested loops toward 12–13)\n\n- **Topic:** Nested loops in code — a loop inside a loop, predicting total runs (outer × inner) and how changing either loop changes the result\n\n- **Standards — UK (DfE National Curriculum, KS2 Computing):** pupils design, write and debug programs and use repetition; nesting is a natural extension of KS2 repetition into KS3.\n\n- **Standards — US (CSTA K-12, 2-AP-12, grades 6–8):** students build and refine programs that mix control structures, with nested loops named explicitly; builds on 1B-AP-10 loops in grades 3–5.\n\n- **Standards — Ontario (Mathematics 2020, Strand C3 Coding, Grades 4–7):** write and run code to represent and solve maths situations, where the code includes repeated and nested events (the topic's listed standards).\n\n- **Checkpoint:** Given 'repeat 3 [repeat 4 [clap]]' or 'repeat 2 trips [repeat 3 crates [load]]', the child predicts the total (12; 6) before running, explains it as 'the whole inner loop happens each time the outer loop goes round', says which number to change to get more of the inner action per pass versus more passes, and can build a nested loop to draw a ring of squares. Prerequisite: single loops (mt_6XbAmdmjDb).",
+  "bestPractices": [
+   "Make sure single loops are secure first, including loops holding several blocks; nesting tasks were left out of beginner studies because they are much harder, and fourth-graders who had only been taught single loops mostly could not answer a nested-loop question.",
+   "Teach nesting explicitly rather than hoping it emerges from open projects.",
+   "Use predict-run-investigate-modify: children read nested-loop code, predict the output and the total count, run it, then change one loop at a time and predict again.",
+   "Build nesting from a loop the child already wrote: first a single loop that draws one square (or loads one trip of 3 crates), then wrap it in an outer loop with a turn (or a drive back) after each pass.",
+   "Trace with a two-row tally (outer pass 1: inner 1, 2, 3; outer pass 2: inner 1, 2, 3) so the 'whole inner loop per outer pass' structure is visible, and connect the total to multiplication only after the trace makes sense.",
+   "Contrast nested with sequential loops side by side (repeat 2 then repeat 3 versus repeat 2 containing repeat 3) and ask children to predict both.",
+   "Change one number at a time and ask what will be different before running, so children connect the inner count to 'how much happens each pass' and the outer count to 'how many passes'."
+  ],
+  "keyRepresentations": [
+   "Nested C-shaped blocks, colour-coded inner (e.g. orange) and outer (e.g. blue)",
+   "A two-level tally or table: one row per outer pass, ticks for each inner pass",
+   "An array or grid (rows × columns) of claps, crates or squares showing outer × inner",
+   "Turtle drawings: a square (inner loop) repeated with a turn to make a ring (outer loop)",
+   "Acting it out: one child counts outer passes on fingers while another does the inner action"
+  ],
+  "commonMisconceptions": [
+   "Nested loops run one after the other, like two loops in a row, so 'repeat 3 [repeat 4]' gives 3 + 4 = 7 (Eckert & Kautz 2026; sequencing-vs-nesting confusion).",
+   "Ignoring the outer loop, so only the inner count matters (Eckert & Kautz 2026).",
+   "Swapping inner and outer loop, or thinking the inner count overwrites the outer count so the program runs as one loop (Eckert & Kautz 2026).",
+   "Treating the two loops as running together, like one loop with two counts at once (Eckert & Kautz 2026).",
+   "Getting the total by multiplying the numbers without being able to say what happens in order, or (in the other direction) solving a repeat problem by arithmetic without writing any repeat (Luo et al. 2022, for single repeats; extension to nesting is an inference).",
+   "Note: the taxonomy draws mainly on novice programmers in general, not specifically 9–13-year-olds."
+  ]
+ },
+ "learn": {
+  "schemaVersion": 2,
+  "summary": "For ages 9–13, once single loops are secure, teach that a nested loop runs the whole inner loop every time the outer loop goes round, so the inner steps happen outer × inner times. Grow the nested loop from a loop the child already wrote (one square, one trip of crates), then wrap it with an outer loop. Use predict-before-run tracing with a two-level tally so the order of events is visible, and only then connect the total to multiplication. Contrast nested with sequential loops, and change one count at a time so the child can say which loop controls 'how much each pass' and which controls 'how many passes'. Feedback asks the child to trace their own prediction rather than giving the total.",
+  "activities": [
+   {
+    "title": "Wrap a loop you already wrote",
+    "learnerActions": [
+     "Build or open a single loop that does one complete job (for example 'repeat 3 [pick up crate, load crate]' for one trip, or 'repeat 4 [move, turn 90]' for one square).",
+     "Add the step that happens after each job (drive to the dock and back; turn 60 degrees).",
+     "Wrap the whole thing, including that extra step, in an outer repeat (e.g. 'repeat 2 trips' or 'repeat 6' squares).",
+     "Before running, predict what the arm or sprite will do and how many crates or lines in total; run it and compare.",
+     "Say which loop is the trip and which is the crates (or which is the square and which is the ring)."
+    ],
+    "intendedInsight": "The inner loop is a complete job; the outer loop repeats that whole job. Each time the outer loop goes round, the inner loop runs all the way through, so 2 trips × 3 crates means 6 crates loaded.",
+    "feedback": [
+     "If the extra step (drive back, turn) ended up inside the inner loop, run it and ask: 'Did the truck drive off after every crate or after every trip? Which loop should the drive be in?'",
+     "If the child predicts 5 crates (2 + 3), ask them to tick a tally while the arm runs: 'How many crates on trip one? How many on trip two?'",
+     "If the outer loop was added below the inner loop rather than around it, ask: 'Is the trip loop holding the crate loop, or does it come after it? What did the arm do?'",
+     "When it works, ask: 'What would you change to load 4 crates per trip? To make 3 trips?' and have them predict the new total first."
+    ],
+    "rationale": "Fourth-graders taught only single loops mostly could not answer a nested-loop question, and studies with beginners leave nesting out until the simple loop is secure, so nesting is built here from a loop the child already understands. Confusing nested loops with sequential ones is a documented misconception, which this activity exposes by having the child decide what goes inside which loop and check the result.",
+    "sourceClaims": [
+     "In a study of 184 fourth-graders (ages 9-10) taught single loops in Scratch, an extra-credit question on nested loops, which the curriculum had not covered, was answered correctly by only 22.9% of students using the TIPP&SEE strategy and 12.5% of control students; the authors note nested loops (and parallel loops) remained beyond most students' grasp without explicit teaching.",
+     "A study of 12-13-year-old beginners using fixed-count repeat loops deliberately left out nested-loop tasks because they are significantly more difficult and because pupils first need enough experience with the simple loop; one misconception found was repeating several commands by chaining several loops one after another.",
+     "A 2026 taxonomy of novice difficulties with conditionals and loops, built from prior research plus the authors' quizzes and interviews, lists nested-loop misconceptions including: treating nested loops as one loop running both counts at once; treating them as two loops run one after the other; swapping inner and outer loop; ignoring the outer loop's repetitions; and the inner count overwriting the outer count so the bodies run as one loop."
+    ]
+   },
+   {
+    "title": "Predict, run, investigate: how many claps?",
+    "learnerActions": [
+     "Read a short program such as 'repeat 3 [repeat 4 [clap]]' (or a typed version with two for-loops).",
+     "Predict the total number of claps and write how you worked it out.",
+     "Run it (or act it out: one child counts outer passes on fingers, the class claps the inner loop) and fill in a two-row-per-pass tally.",
+     "Investigate: compare with 'repeat 3 [clap]' followed by 'repeat 4 [clap]' and predict that total too.",
+     "Explain why the two programs give different totals."
+    ],
+    "intendedInsight": "In a nested loop the inner loop runs completely on every outer pass, so the total is outer × inner (3 × 4 = 12). Two loops in a row run one after the other, so their totals add (3 + 4 = 7).",
+    "feedback": [
+     "If the child predicts 7 for the nested version, ask: 'Clap along with the tally. On the first outer pass, how many claps? Does the inner loop start again on the second pass?'",
+     "If the child predicts 4 (ignoring the outer loop), ask: 'How many times does the outer loop go round? What happens each time?'",
+     "If the child gets 12 by multiplying but cannot say what happens first, ask them to describe the first five claps in order and which pass each belongs to.",
+     "If both predictions are right, ask for a nested loop that gives exactly 10 claps and one that gives exactly 7, and whether both are possible."
+    ],
+    "rationale": "Documented nested-loop misconceptions include treating nested loops as two loops run in sequence and ignoring the outer loop's repetitions; side-by-side prediction of nested and sequential versions targets both. The predict-run-investigate structure follows PRIMM, which improved attainment for 11–14-year-olds; that study was not specific to nested loops.",
+    "sourceClaims": [
+     "A 2026 taxonomy of novice difficulties with conditionals and loops, built from prior research plus the authors' quizzes and interviews, lists nested-loop misconceptions including: treating nested loops as one loop running both counts at once; treating them as two loops run one after the other; swapping inner and outer loop; ignoring the outer loop's repetitions; and the inner count overwriting the outer count so the bodies run as one loop.",
+     "In 13 secondary schools with 493 students aged 11-14, teaching programming with PRIMM (Predict, Run, Investigate, Modify, Make) produced better post-test results than a control group, and teachers reported it helped all learners in mixed-ability classes make progress."
+    ]
+   },
+   {
+    "title": "Change one loop: ring of squares",
+    "learnerActions": [
+     "Run a program that draws a ring of squares: 'repeat 6 [repeat 4 [move 50, turn 90], turn 60]'.",
+     "Predict what will change if you change only the inner 4 to 3, then run it.",
+     "Return to 4, then change only the outer 6 to 12 and the 60 to 30; predict, then run.",
+     "Record which number controls the shape of each piece and which controls how many pieces there are.",
+     "Design your own pattern by choosing an inner shape and an outer count, and predict the total number of lines drawn before running."
+    ],
+    "intendedInsight": "The inner loop decides what each piece looks like (4 sides → square, 3 → triangle); the outer loop decides how many pieces and, with the turn, how they are spread round. The total number of lines is outer × inner.",
+    "feedback": [
+     "If changing the inner count is expected to change the number of squares, ask: 'Which loop draws one square? Which loop decides how many?'",
+     "If the drawing looks wrong after changing the outer count, ask: 'How far round does the turn take you each time? What do 12 turns of 60 degrees add up to?' and let them test.",
+     "If the child swaps the loops' roles in explanation, have them change one number, run, and describe exactly what changed."
+    ],
+    "rationale": "The topic's evidence asks children to change either the inner or the outer repeat count and explain the effect; swapping inner and outer loop roles is a documented misconception. One-at-a-time changes with prediction make each loop's role visible. The ring-of-squares context is taken from the topic description.",
+    "sourceClaims": [
+     "A 2026 taxonomy of novice difficulties with conditionals and loops, built from prior research plus the authors' quizzes and interviews, lists nested-loop misconceptions including: treating nested loops as one loop running both counts at once; treating them as two loops run one after the other; swapping inner and outer loop; ignoring the outer loop's repetitions; and the inner count overwriting the outer count so the bodies run as one loop."
+    ]
+   },
+   {
+    "title": "From word problem to nested code",
+    "learnerActions": [
+     "Read a problem: 'The robot arm makes 3 trips. On each trip it loads 4 crates, then the truck drives away and comes back.'",
+     "Write instructions for the arm using two repeat blocks, one inside the other; do not just write the answer.",
+     "Swap with a partner and follow their instructions with counters; count the crates loaded.",
+     "Check the count against a multiplication and say which number in the code matches which number in the multiplication."
+    ],
+    "intendedInsight": "A nested loop is a way of writing 'do this group of steps, and do that whole thing several times'; multiplication gives the total, but the code has to say the steps in order.",
+    "feedback": [
+     "If the child writes '3 × 4 = 12' and stops, ask: 'That's how many crates. What does the arm need to be told, step by step? What comes round again every trip?'",
+     "If both repeats are placed one after the other, ask the partner to follow them literally with counters and report what happens.",
+     "If the truck's drive ended up inside the crate loop, ask: 'How many times should the truck drive away?'"
+    ],
+    "rationale": "Third- and fourth-graders asked to write repeat instructions for a word problem often answered with arithmetic instead, so this activity asks for the instructions and uses multiplication only as a check. Extending this finding from single repeats to nesting is a design inference.",
+    "sourceClaims": [
+     "Cognitive interviews with 22 third- and fourth-graders found that when asked to write instructions using 'repeat 3 times', most children instead explained the arithmetic (e.g. 3 x 3 = 9 cookies) and did not use repetition in their instructions, even though most could explain what a Scratch repeat block does."
+    ]
+   }
+  ],
+  "constraints": [
+   "Do not start nested loops until single loops with several blocks inside are secure (prerequisite mt_6XbAmdmjDb).",
+   "Do not lead with the 'outer × inner' rule; have children trace the order of events first, then connect to multiplication, so the total is understood rather than recited.",
+   "Keep loop counts small (2–4 outer, 2–5 inner) for tracing; larger counts are for prediction checks once the structure is understood.",
+   "Nested loops that use a counter variable (e.g. drawing rows of a times table with i and j) belong with variables topics; keep these fixed-count here.",
+   "Feedback should ask the child to trace or test their prediction rather than supplying the total."
+  ],
+  "reviewNotes": [
+   "All activities are research-informed design proposals; none has been tested as written. The robot-arm 'trips × crates' context is an illustration and can be replaced by any two-level task.",
+   "The nested-loop misconception list comes mainly from Eckert & Kautz (2026), a preprint taxonomy drawing on novice programmers in general (mostly older students); I found no primary study that documents these for 9–13-year-olds specifically, beyond Salac et al. (2020)'s overall nested-loop scores for fourth-graders.",
+   "Mladenović et al. (2018) is marked verified:false: I could not open the article or its abstract; its claim is recorded as reported secondarily by Vaníček et al. (2023) and the SRI poster (Yang et al.), and those secondary reports were verified.",
+   "The SRI poster (Yang et al.) had only eight students and 1–2 nested-loop tasks each; its finding that most nested-loop tasks were answered partially or fully correctly should be read as weak evidence. Its year and venue were not confirmed.",
+   "PRIMM evidence (Sentance et al. 2019) is general programming instruction for ages 11–14, not nested loops specifically; I read the abstract only.",
+   "The Ontario C3 standard summary is a paraphrase from general knowledge of that strand and was not re-opened; CSTA 2-AP-12 wording was confirmed only through secondary listings."
+  ]
+ },
+ "assess": {
+  "method": "performance_task",
+  "diagnosticPrompt": "The robot arm makes 2 trips. On each trip it loads 3 crates, then the truck drives away and comes back. Write the program using one loop inside another. Before you run it, tell me: how many crates get loaded, how many times does the truck drive away, and what happens first, second and third? Then change your program so it loads 4 crates on each trip, and tell me the new totals before you run it.",
+  "correctAnswer": "The child writes 'repeat 2 [repeat 3 [load crate], drive away and back]', with the drive inside the outer loop but outside the inner one. They predict 6 crates and 2 drives, and describe the order as load, load, load, drive, load, load, load, drive. To load 4 per trip they change only the inner 3 to 4 and predict 8 crates and still 2 drives, explaining that the inner loop is the crates per trip and the outer loop is the number of trips.",
+  "whatMakesItDiscriminate": "The task asks for both the structure (where the drive goes, which loop holds which) and two different totals, plus a one-number change. A child who reads nested loops as sequential predicts 5 crates or puts the loops one after another; one who ignores the outer loop predicts 3; one who swaps inner and outer roles changes the wrong number or puts the drive in the wrong loop; one who only multiplies gets 6 but cannot give the order or the number of drives. Only a child who understands the inner loop runs fully on each outer pass gets all parts right.",
+  "errorPatterns": [
+   {
+    "pattern": "'It does 2 and then 3, so 5 crates.'",
+    "kind": "misconception",
+    "revealedBy": "Adds the counts, or builds 'repeat 2 [...]' followed by 'repeat 3 [...]' instead of one inside the other.",
+    "nextMove": "Run it with a tally row per trip and ask how many crates went on trip one and on trip two; contrast with the sequential version they described.",
+    "distractor": "5 crates.",
+    "reteachPrerequisiteId": null
+   },
+   {
+    "pattern": "'The inside loop says 3, so it loads 3 crates.'",
+    "kind": "misconception",
+    "revealedBy": "Ignores the outer loop's repetitions; predicts the inner count as the total.",
+    "nextMove": "Ask how many trips the outer loop makes and what happens on each one; let the child act it out with counters.",
+    "distractor": "3 crates.",
+    "reteachPrerequisiteId": null
+   },
+   {
+    "pattern": "'To get 4 crates each trip I'll change the 2 to 4.'",
+    "kind": "misconception",
+    "revealedBy": "Swaps the roles of inner and outer loops when changing the program, or puts the truck's drive inside the crate loop.",
+    "nextMove": "Have them run their change and describe exactly what happened; ask which loop is 'crates per trip' and which is 'trips'.",
+    "distractor": null,
+    "reteachPrerequisiteId": null
+   },
+   {
+    "pattern": "'2 times 3 is 6.' (but cannot say what happens first)",
+    "kind": "performance",
+    "revealedBy": "Gives the right total by multiplying but cannot describe the order of events or how many times the truck drives.",
+    "nextMove": "Don't mark it wrong; ask for the first four steps in order and the number of drives, using a tally if needed.",
+    "distractor": null,
+    "reteachPrerequisiteId": null
+   },
+   {
+    "pattern": "'Only one thing can go in the big loop, so the drive goes after it.'",
+    "kind": "misconception",
+    "revealedBy": "Places the drive-away step outside both loops, or cannot put a block beside the inner loop inside the outer one; often a leftover single-loop misconception.",
+    "nextMove": "Drop back to single loops holding several blocks, then return to nesting.",
+    "distractor": null,
+    "reteachPrerequisiteId": "mt_6XbAmdmjDb"
+   }
+  ],
+  "probeDeeper": [
+   "If you swapped the two numbers (3 trips of 2 crates), would the total crates change? Would the number of drives change?",
+   "What would happen if the 'drive away' block moved inside the inner loop?",
+   "How could you load exactly 12 crates using a loop inside a loop? Is there more than one way?",
+   "What is different about 'repeat 2' followed by 'repeat 3' compared with 'repeat 2' holding 'repeat 3'?"
+  ],
+  "responseLevels": {
+   "gap": "Writes loops one after the other or ignores the outer loop; predicts 5 or 3 crates and cannot describe what happens on each trip.",
+   "partial": "Builds a working nested loop or gets 6 by multiplying, but cannot give the order of events, misplaces the drive step, or changes the wrong loop to get 4 crates per trip.",
+   "full": "Builds the nested loop with the drive in the right place, predicts 6 crates and 2 drives with the correct order, changes only the inner count for 4 per trip, and explains which loop controls 'per trip' and which 'how many trips', transferring to a new case like the ring of squares."
+  },
+  "poeTask": "Show 'repeat 3 [repeat 4 [clap]]' next to 'repeat 3 [clap]' then 'repeat 4 [clap]'. Ask the child to predict the number of claps for each. Run both (or clap them out together with a tally). If the predictions were 7 and 7, or 12 and 12, ask the child to explain from the tally why the totals differ."
+ },
+ "sources": [
+  {
+   "claim": "In a study of 184 fourth-graders (ages 9-10) taught single loops in Scratch, an extra-credit question on nested loops, which the curriculum had not covered, was answered correctly by only 22.9% of students using the TIPP&SEE strategy and 12.5% of control students; the authors note nested loops (and parallel loops) remained beyond most students' grasp without explicit teaching.",
+   "source": "Salac, Thomas, Butler, Sanchez & Franklin (2020) — TIPP&SEE: A Learning Strategy to Guide Students through Use->Modify Scratch Activities, SIGCSE '20",
+   "url": "https://jeansalac.github.io/docs/SIGCSE2020_TIPP&SEE.pdf",
+   "verified": true
+  },
+  {
+   "claim": "A 2026 taxonomy of novice difficulties with conditionals and loops, built from prior research plus the authors' quizzes and interviews, lists nested-loop misconceptions including: treating nested loops as one loop running both counts at once; treating them as two loops run one after the other; swapping inner and outer loop; ignoring the outer loop's repetitions; and the inner count overwriting the outer count so the bodies run as one loop.",
+   "source": "Eckert & Kautz (2026) — How Students (Mis)understand Conditionals and Loops: A Taxonomy, arXiv:2605.26966 (preprint)",
+   "url": "https://arxiv.org/abs/2605.26966",
+   "verified": true
+  },
+  {
+   "claim": "A study of 12-13-year-old beginners using fixed-count repeat loops deliberately left out nested-loop tasks because they are significantly more difficult and because pupils first need enough experience with the simple loop; one misconception found was repeating several commands by chaining several loops one after another.",
+   "source": "Vaníček, Dobiáš & Šimandl (2023) — Understanding Loops: What are the Misconceptions of Lower-secondary Pupils? Informatics in Education 22(3)",
+   "url": "https://infedu.vu.lt/journal/INFEDU/article/744/file/pdf",
+   "verified": true
+  },
+  {
+   "claim": "Think-aloud interviews with eight middle-school students on standards-aligned tasks found most nested-loop and nested-conditional tasks answered partially or fully correctly, while compound Boolean conditions and procedures inside control structures were harder; the poster also reports that Mladenović and colleagues (2018) found young students held misconceptions about simple and nested loops even in block-based languages.",
+   "source": "Yang, Basu, Rutstein, Rachmatullah, Tate, Ortiz & Rulifson (SRI International) — Uncovering Middle School CS Students' Understanding of Variables and Control Structures: A Cognitive Think-aloud Approach (poster)",
+   "url": "https://par.nsf.gov/servlets/purl/10502125",
+   "verified": true
+  },
+  {
+   "claim": "Comparing 207 elementary students taught loops in Scratch, Logo and Python, loop misconceptions were fewer with block-based Scratch than with text-based languages, and the differences grew larger on more complex tasks such as nested loops.",
+   "source": "Mladenović, Boljat & Žanko (2018) — Comparing loops misconceptions in block-based and text-based programming languages at the K-12 level, Education and Information Technologies 23(4)",
+   "url": "https://doi.org/10.1007/s10639-017-9673-3",
+   "verified": false
+  },
+  {
+   "claim": "In 13 secondary schools with 493 students aged 11-14, teaching programming with PRIMM (Predict, Run, Investigate, Modify, Make) produced better post-test results than a control group, and teachers reported it helped all learners in mixed-ability classes make progress.",
+   "source": "Sentance, Waite & Kallia (2019) — Teaching computer programming with PRIMM: a sociocultural perspective, Computer Science Education 29(2-3) (abstract)",
+   "url": "https://doi.org/10.1080/08993408.2019.1608781",
+   "verified": true
+  },
+  {
+   "claim": "Cognitive interviews with 22 third- and fourth-graders found that when asked to write instructions using 'repeat 3 times', most children instead explained the arithmetic (e.g. 3 x 3 = 9 cookies) and did not use repetition in their instructions, even though most could explain what a Scratch repeat block does.",
+   "source": "Luo, Israel & Gane (2022) — Elementary Computational Thinking Instruction and Assessment: A Learning Trajectory Perspective, ACM TOCE 22(2)",
+   "url": "https://par.nsf.gov/servlets/purl/10378170",
+   "verified": true
+  },
+  {
+   "claim": "England's KS2 computing programme of study expects pupils to plan, write and fix programs that meet set goals, and to use repetition in programs alongside sequence and selection.",
+   "source": "DfE — National curriculum in England: computing programmes of study (Key stage 2)",
+   "url": "https://www.gov.uk/government/publications/national-curriculum-in-england-computing-programmes-of-study/national-curriculum-in-england-computing-programmes-of-study",
+   "verified": true
+  }
+ ],
+ "confidence": "medium",
+ "provenance": {
+  "originalResearchGeneratedBy": "claude-opus-5-5 (Sparks & Sprockets computing research pass)",
+  "createdAt": "2026-10-29T00:00:00Z",
+  "updatedAt": "2026-10-29T00:00:00Z"
+ },
+ "publicationNotes": {
+  "omittedCurriculumText": []
+ }
+}

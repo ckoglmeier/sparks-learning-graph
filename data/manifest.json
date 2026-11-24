@@ -1,0 +1,162 @@
+{
+  "dataset": "Sparks Learning Graph — derived from Marble Skill Taxonomy",
+  "taxonomyVersion": "v1",
+  "generatedAt": "2026-11-02T21:58:14.606Z",
+  "codesOnlySources": [
+    "acara-v9",
+    "the-ontario-curriculum-french-as-a-second-langua",
+    "the-ontario-curriculum-health-and-physical-educa",
+    "the-ontario-curriculum-kindergarten-2026",
+    "the-ontario-curriculum-language-2023",
+    "the-ontario-curriculum-mathematics-2020",
+    "the-ontario-curriculum-native-languages-2001",
+    "the-ontario-curriculum-science-and-technology-20",
+    "the-ontario-curriculum-social-studies-history-an",
+    "the-ontario-curriculum-the-arts-2009",
+    "uk-nc-2013",
+    "ib-pyp-pspe",
+    "c3-social-studies",
+    "ccss-ela",
+    "ccss-math",
+    "ngss-k5",
+    "ngss-ms",
+    "ncert-fs-2025",
+    "ncert-ncfse-2023-ed2024",
+    "ncert-elementary-learning-outcomes-2017",
+    "cbse-ctai-2026"
+  ],
+  "counts": {
+    "topics": 1922,
+    "topicsBySubject": {
+      "Computing": 54,
+      "English": 339,
+      "Geography": 34,
+      "History": 118,
+      "Learning to Learn": 20,
+      "Life Skills": 49,
+      "Mathematics": 583,
+      "Personal & Social Development": 123,
+      "Science": 590,
+      "Art & Design": 4,
+      "Performing Arts": 4,
+      "Français": 4
+    },
+    "dependencies": 4023,
+    "curricula": 21,
+    "curriculumStandards": 8721,
+    "topicStandardLinks": 12566,
+    "clusters": 177,
+    "teachingResearch": 1922,
+    "archivedTeachingResearch": 5,
+    "curriculumAlignments": 5378
+  },
+  "files": {
+    "topics.json": {
+      "bytes": 2864346,
+      "sha256": "8c587905709bfa3c722a9261bed9f648ad7c79b0a4281409e3223baa8d1ad45e"
+    },
+    "dependencies.json": {
+      "bytes": 885948,
+      "sha256": "08277203e5609db62bd8f0a90d24f17f6d446fc9109cf31590bd51787cd68fd6"
+    },
+    "curriculum-standards.json": {
+      "bytes": 1120253,
+      "sha256": "9a73d62c59c84dab74a00ea2ec7f19742881f4b8022fd4196959bc179fad6a67"
+    },
+    "clusters.json": {
+      "bytes": 59129,
+      "sha256": "4e112dd2fc3373666d9f33e7a0314798f282b67b650063ec5afeb69b7af5dbc3"
+    },
+    "teaching-research.json": {
+      "bytes": 32907436,
+      "sha256": "4c3a3d5c5caf7db9169ef98c9e475ce61053e5aaa8cbb7a3460dd27ab1b6b59d"
+    },
+    "archived-teaching-research.json": {
+      "bytes": 122155,
+      "sha256": "c4d3acf94075f5436f6535371f6dd7420900431704e2f45c352d5c01b84b33bc"
+    },
+    "curriculum-alignments.json": {
+      "bytes": 1821393,
+      "sha256": "08e15d56b32d02b5fb63cacd0c31b27576a4c7cf41ae4d44cd7fc1637dd2b2b6"
+    }
+  },
+  "excluded": [
+    "embeddings",
+    "child mastery beliefs (PII)",
+    "visualizations"
+  ],
+  "teachingResearch": {
+    "schemaVersion": 2,
+    "topicFileSha256": "8c587905709bfa3c722a9261bed9f648ad7c79b0a4281409e3223baa8d1ad45e",
+    "canonicalSchemaSha256": "a8e05a32309e4579efe71c777d25106fecd2390fc2108139f54f6a94198b8f9f",
+    "digestContract": "authored-research-json-v1",
+    "coverage": {
+      "topicCount": 1922,
+      "withResearch": 1922,
+      "withoutResearch": 0,
+      "bySubject": {
+        "Computing": {
+          "topics": 54,
+          "withResearch": 54,
+          "withoutResearch": 0
+        },
+        "English": {
+          "topics": 339,
+          "withResearch": 339,
+          "withoutResearch": 0
+        },
+        "Geography": {
+          "topics": 34,
+          "withResearch": 34,
+          "withoutResearch": 0
+        },
+        "History": {
+          "topics": 118,
+          "withResearch": 118,
+          "withoutResearch": 0
+        },
+        "Learning to Learn": {
+          "topics": 20,
+          "withResearch": 20,
+          "withoutResearch": 0
+        },
+        "Life Skills": {
+          "topics": 49,
+          "withResearch": 49,
+          "withoutResearch": 0
+        },
+        "Mathematics": {
+          "topics": 583,
+          "withResearch": 583,
+          "withoutResearch": 0
+        },
+        "Personal & Social Development": {
+          "topics": 123,
+          "withResearch": 123,
+          "withoutResearch": 0
+        },
+        "Science": {
+          "topics": 590,
+          "withResearch": 590,
+          "withoutResearch": 0
+        },
+        "Art & Design": {
+          "topics": 4,
+          "withResearch": 4,
+          "withoutResearch": 0
+        },
+        "Performing Arts": {
+          "topics": 4,
+          "withResearch": 4,
+          "withoutResearch": 0
+        },
+        "Français": {
+          "topics": 4,
+          "withResearch": 4,
+          "withoutResearch": 0
+        }
+      },
+      "missingTopicIds": []
+    }
+  }
+}

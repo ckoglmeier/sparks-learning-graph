@@ -1,0 +1,258 @@
+{
+ "topicId": "mt_6XbAmdmjDb",
+ "pedagogy": {
+  "summary": "- **Age:** 8–13 years (core teaching 8–11; 'repeat until' and loop choice consolidate toward 11–13)\n\n- **Topic:** Loops in programs — using count loops ('repeat 10'), 'forever' and 'repeat until' in a visual language, and spotting where a loop makes a program shorter\n\n- **Standards — UK (DfE National Curriculum, KS2 Computing):** pupils design, write and debug programs for specific goals and use repetition alongside sequence and selection.\n\n- **Standards — US (CSTA K-12, 1B-AP-10, grades 3–5):** create programs that combine sequences, events, loops and conditionals; nested and combined control structures follow at 2-AP-12 (grades 6–8).\n\n- **Standards — Australia (AC9 Digital Technologies, AC9TDI4P04 / AC9TDI6P05):** Years 3–6 algorithms and visual programs that use iteration (repetition) alongside branching.\n\n- **Checkpoint:** The child can (1) replace a run of identical blocks with one repeat block and say what goes inside it and what number to set, (2) trace a short loop with two or more blocks inside and list what happens in order, and (3) choose between 'repeat N', 'forever' and 'repeat until' by asking 'do I know how many times, or am I waiting for something to happen?'. Loops inside loops are the next topic (mt_JTuhd-cPiV).",
+  "bestPractices": [
+   "Start from a long, repetitive program the child already understands and ask them to shorten it, so the loop is a tool for a problem they can see (the repeat count comes from counting the repeated chunk, not the number of blocks).",
+   "Have children trace (unroll) a loop out loud or on paper before running it — 'first, next, last, and how many times' — because many can state a repeat count yet cannot list what a loop with two blocks inside actually does.",
+   "Use example code first, then small modifications, then an open task (Use–Modify–Create), with explicit prompts to read the code and predict before running; scaffolded versions of this improved fourth-graders' loop understanding.",
+   "Show loops holding more than one block early, with a picture or a worked example, to block the beliefs that only one block fits inside or that each block needs its own loop.",
+   "Vary repeat counts and starting values so children see the number is theirs to change, and avoid tasks where the default count happens to be right.",
+   "Pair constructionist making with short targeted concept checks (trace, predict, spot-the-bug) rather than relying on open projects alone.",
+   "Contrast the three loop kinds with everyday cases: a known count ('stamp 3 crates'), until something happens ('keep loading until the belt is empty'), and forever (a background animation), and ask what would make each one stop."
+  ],
+  "keyRepresentations": [
+   "Side-by-side code: the long version with copied blocks next to the short version with one repeat block",
+   "An unrolled trace written as First / Next / Last with a tally of how many times the loop body ran",
+   "A loop block drawn as a 'C' or mouth that holds a group of blocks, with two or three blocks inside",
+   "Acting the loop out with bodies or objects (a child as the robot following 'repeat 3: pick up crate, place crate')",
+   "A stop-condition card for 'repeat until' (e.g. 'belt empty?') checked before each pass"
+  ],
+  "commonMisconceptions": [
+   "The repeat count should equal the number of blocks inside, rather than the number of times the whole group should happen (Salac et al. 2020, teacher-observed).",
+   "Only one block can go inside a repeat, or repeating several commands needs several loops in a row (Vaníček et al. 2023).",
+   "The loop runs its first block N times, then its second block N times ('split loop'), or describes each block repeating in turn instead of the whole group repeating (Salac et al. 2020).",
+   "'Repeat 3' means do it once and then three more times — one extra pass, from the everyday meaning of 'repeat' (Kunz et al. 2025).",
+   "Children often prefer copying blocks to using a loop, and build programs bottom-up in very small pieces (Meerbaum-Salant et al. 2011; Luo et al. 2022 for preferring arithmetic over a repeat in word problems).",
+   "Confusion about when a 'repeat until' checks its condition and when a 'forever' loop stops — see reviewNotes; this is a design inference, not a sourced finding for this age."
+  ]
+ },
+ "learn": {
+  "schemaVersion": 2,
+  "summary": "For ages 8–13, teach loops as a way to say 'do this group of steps again' without copying blocks. Begin with a long, repetitive program the child already understands and have them shorten it, then make tracing a habit: before running, the child says what happens first, next and last, and how many times. Show loops holding several blocks from the start to head off the 'one block per loop' and 'one loop per block' ideas that research with young beginners has found, and vary repeat counts so the number feels changeable. Once count loops are solid, contrast 'repeat N', 'repeat until' and 'forever' by asking what makes each one stop. Feedback asks the child to trace their own attempt rather than giving the fix.",
+  "activities": [
+   {
+    "title": "Shorten the long program",
+    "learnerActions": [
+     "Run a working program that copies the same steps several times (for example a robot arm that does 'pick up crate, turn, drop crate, turn back' three times in a row, or a sprite that does 'move 10, turn 90' four times to draw a square).",
+     "Circle the chunk of blocks that repeats and count how many times the whole chunk appears.",
+     "Build a shorter program with one repeat block: put the whole chunk inside it and set the number.",
+     "Run both versions and check they do exactly the same thing.",
+     "Say in a sentence why the short version is easier to change (for example, to load 5 crates instead of 3)."
+    ],
+    "intendedInsight": "A loop repeats a whole group of steps. The number on the loop is how many times the group happens, not how many blocks are inside it, and changing one number changes the whole behaviour.",
+    "feedback": [
+     "If the repeat number matches the number of blocks inside (e.g. 'repeat 4' around 4 different blocks when the chunk happens 3 times), ask: 'How many crates did the long version load? How many times will yours go round? Trace it with your finger and count.'",
+     "If only one block went inside and the rest sit below the loop, ask: 'Which blocks happen every time a crate is loaded? Are they all inside the mouth of the loop?'",
+     "If the child made a separate loop for each block, run it and ask: 'Watch the arm — did it pick up and drop each crate in turn, or do all the picking first? What order did the long version use?'",
+     "When both versions match, ask the child to change the program to load a different number of crates and notice how few edits that takes."
+    ],
+    "rationale": "Teachers have observed children setting the repeat count to the number of blocks, and young beginners in research believed only one command fits inside a loop or chained several loops to repeat several commands. A task where the child converts a familiar long program and compares outputs brings these ideas into the open and gives the child a way to check their own work, rather than relying on open projects alone.",
+    "sourceClaims": [
+     "In a study of 184 fourth-graders (ages 9-10) learning Scratch loops, most could say how many times a single repeat loop runs, but many fewer could unroll a 'repeat 3' loop holding two blocks; common wrong answers ran the loop body only once, or 'split' the loop so the first block repeated 3 times followed by the second block 3 times; teachers also observed children wrapping repeated blocks in a repeat whose count equalled the number of blocks; a scaffolded Use-Modify strategy (TIPP&SEE) reduced these errors.",
+     "In a study of 12-13-year-old beginners using 'repeat n times' in a block-based environment, four loop misconceptions were found: putting no command inside the repeat block, believing only one command can go inside it, not changing the repeat count, and repeating several commands by chaining several loops one after another; the 'only one command' and 'chain of loops' misconceptions were the hardest to overcome, a picture showing two blocks inside a loop reduced them, and a default repeat count other than 1 strengthened the 'count cannot be changed' misconception.",
+     "In a pilot of assessment items with 100 grade 6-8 students who had completed an introductory Scratch course, students had difficulty with how loops work (as well as with variables and Boolean operators); the authors argue for combining constructionist projects with activities that target conceptual understanding.",
+     "Middle-school Scratch learners were observed developing a bottom-up habit of building programs from individual blocks and a tendency to extremely fine-grained programming, both at odds with designing an algorithm first and structuring code with programming constructs."
+    ]
+   },
+   {
+    "title": "Trace it before you run it",
+    "learnerActions": [
+     "Look at a short script with a loop that has two or three blocks inside, plus one block before and one after the loop.",
+     "Without running it, write or say First / Next / Last and how many times the loop body happens.",
+     "Act it out (one child is the robot, another reads the code) or move counters on paper for each pass.",
+     "Run the program and compare it with the prediction; if they differ, find the exact step where the trace went wrong.",
+     "Repeat with a changed count or a changed order of blocks inside the loop."
+    ],
+    "intendedInsight": "The computer runs the blocks before the loop once, then the whole loop body in order the set number of times (no extra pass), then the blocks after it once.",
+    "feedback": [
+     "If the trace shows the first block happening 3 times, then the second block 3 times, ask: 'After the arm drops the first crate, which block does it go back to?' and have them step through pass one slowly.",
+     "If the trace has one pass too many, ask: 'Count the passes on your fingers as the robot does them. How many did the number on the loop ask for?'",
+     "If the block after the loop is traced inside it, ask: 'Is that block inside the mouth of the loop or underneath it? When does it happen?'",
+     "If the prediction matches the run, ask what would change if the two blocks inside swapped places, and have them predict before testing."
+    ],
+    "rationale": "Fourth-graders who could state a loop's repeat count often could not unroll a two-block loop, choosing a 'split loop' or a single pass, and some primary children add an extra repetition because of the everyday meaning of 'repeat'. Predict-then-run tracing with the First / Next / Last scaffold used in loop assessment targets exactly these slips, and confusion about statement order is one of the most common misconceptions in school-age Scratch learners.",
+    "sourceClaims": [
+     "In a study of 184 fourth-graders (ages 9-10) learning Scratch loops, most could say how many times a single repeat loop runs, but many fewer could unroll a 'repeat 3' loop holding two blocks; common wrong answers ran the loop body only once, or 'split' the loop so the first block repeated 3 times followed by the second block 3 times; teachers also observed children wrapping repeated blocks in a repeat whose count equalled the number of blocks; a scaffolded Use-Modify strategy (TIPP&SEE) reduced these errors.",
+     "Think-aloud code-tracing interviews with 34 primary students (grades 2-4, mean age about 8.7) comparing unplugged, Scratch and Python found that some children ran a Scratch loop one extra time, which the authors attribute to the everyday meaning of the word 'repeat'.",
+     "A Scratch-based misconception questionnaire with 145 children aged 7-17 found the most common misconception was understanding the sequential order of statements; older children did better especially on variable and control concepts, children who had used only Scratch did worse than those who also used another language, and the authors recommend more concept-rich materials with varied exercises per concept."
+    ]
+   },
+   {
+    "title": "Which loop do I need? Repeat N, repeat until, forever",
+    "learnerActions": [
+     "Sort task cards into three groups: 'I know how many times' (load exactly 4 crates), 'until something happens' (keep loading until the belt is empty; keep asking until the answer is right; move until touching the edge), and 'keep going the whole time' (a spinning fan in the background).",
+     "For one card from each group, build the program with the matching loop.",
+     "For the 'repeat until' program, change the setup (e.g. put 2 crates or 6 crates on the belt) and run it again without changing the code.",
+     "Explain to a partner what makes each of the three loops stop, or why it never does."
+    ],
+    "intendedInsight": "Use 'repeat N' when you know the count in advance, 'repeat until' when you are waiting for a condition to become true (so the same code can cope with 2 crates or 6), and 'forever' for something that should keep going for the whole program.",
+    "feedback": [
+     "If the child uses 'repeat 5' for 'until the belt is empty', put 3 crates on the belt and ask: 'What happens on the fourth and fifth trips? What could the arm check instead of counting?'",
+     "If a 'repeat until' never stops, ask: 'What is it waiting for? Does anything inside the loop ever make that true?'",
+     "If the child chooses 'forever' for a task that should finish, ask: 'When should this stop? How would the program know?'",
+     "When all three are right, ask for a new everyday example for each loop kind."
+    ],
+    "rationale": "The Repetition learning trajectory moves from recognising repetition, to constructing instructions with it, to controlling how and when a repetition stops; this activity targets that last level, and the topic's evidence asks children to explain when to use each loop kind. The specific task design and the 'what makes it stop' prompts are design proposals rather than tested interventions.",
+    "sourceClaims": [
+     "Cognitive interviews with 22 third- and fourth-graders found most could explain that a Scratch 'repeat 3' block plays its action three times, but many struggled to recognise or build repeat instructions in word problems, often solving by arithmetic (e.g. 3 x 3 = 9) instead of writing a repeat; the Repetition learning trajectory used (Rich et al.) moves from recognising repeated patterns, to constructing instructions with repetition, to controlling how and when a repetition stops."
+    ]
+   },
+   {
+    "title": "Spot the pattern in a real task",
+    "learnerActions": [
+     "Read a short word problem (e.g. 'The arm must give one crate to each of three trucks, and do that three times').",
+     "Write the instructions as steps for a robot, using a repeat block at least once instead of writing the steps out again.",
+     "Swap with a partner and check: does following their instructions give the right result?",
+     "Rewrite one instruction set where the loop is not needed and say why a loop does not help there."
+    ],
+    "intendedInsight": "Finding the repeating chunk in a problem, not only in code, is the step that lets you use a loop; working out the answer with arithmetic is different from writing instructions a computer can repeat.",
+    "feedback": [
+     "If the child answers with a calculation ('3 × 3 = 9 crates') instead of instructions, ask: 'That's how many crates. What does the arm need to be told to do, one step at a time? Which steps come round again?'",
+     "If the child writes every step out in full, ask: 'Which lines are exactly the same? Could one block do that job?'",
+     "If the child loops something that only happens once, ask: 'How many times does this step need to happen?'"
+    ],
+    "rationale": "Third- and fourth-graders could explain what a repeat block does in code but often did not use repetition when building instructions for a word problem, solving by arithmetic instead. Practising pattern-finding in plain-language tasks extends the loop idea beyond copying-and-shortening code.",
+    "sourceClaims": [
+     "Cognitive interviews with 22 third- and fourth-graders found most could explain that a Scratch 'repeat 3' block plays its action three times, but many struggled to recognise or build repeat instructions in word problems, often solving by arithmetic (e.g. 3 x 3 = 9) instead of writing a repeat; the Repetition learning trajectory used (Rich et al.) moves from recognising repeated patterns, to constructing instructions with repetition, to controlling how and when a repetition stops.",
+     "Middle-school Scratch learners were observed developing a bottom-up habit of building programs from individual blocks and a tendency to extremely fine-grained programming, both at odds with designing an algorithm first and structuring code with programming constructs."
+    ]
+   }
+  ],
+  "constraints": [
+   "Keep to single (non-nested) loops here; loops inside loops are the next topic, and research tasks for beginners left nesting out because it is significantly harder.",
+   "Always include loops with two or more blocks inside early; one-block examples alone can reinforce the belief that only one block fits.",
+   "Do not let the starting value in a repeat block always be the right answer; make children set the count themselves.",
+   "Open-ended making should be paired with short trace-and-predict checks; projects alone can leave loop misunderstandings hidden.",
+   "Feedback should ask the child to trace or test their own attempt, not hand them the corrected program.",
+   "Variables and counters inside loops (e.g. 'change score by 1' each pass) belong to later topics; do not assume them here."
+  ],
+  "reviewNotes": [
+   "All four activities are research-informed design proposals; none has been tested as written. The robot-arm crate context is an illustrative example and can be swapped for any familiar repeated task.",
+   "The 'repeat until' / 'forever' misconceptions listed (when the condition is checked, why a loop never stops) are my design inferences; I did not open a source documenting them for ages 8–13. Grover & Basu (2017) report general loop difficulties for grades 6–8 but I only read the abstract.",
+   "Kunz et al. (2025) and Meerbaum-Salant et al. (2011) were verified at abstract level only; the frequency of the 'extra pass' error and any link between fine-grained programming and avoiding loops were not checked in the full papers.",
+   "Vaníček et al. (2023) studied 12–13-year-old beginners with no instruction; applying their misconceptions to 8–10-year-olds is an extrapolation, though Salac et al. (2020) report related errors in fourth-graders.",
+   "Franklin et al. (2017, SIGCSE) was checked and dropped: loops were not taught in the analysed module, so it does not support claims about loop learning.",
+   "Standards codes are paraphrased; CSTA 1B-AP-10 / 2-AP-12 wording was confirmed only through secondary listings, and the ACARA content descriptions were not opened."
+  ]
+ },
+ "assess": {
+  "method": "performance_task",
+  "diagnosticPrompt": "Here is a program that makes the robot arm do 'pick up crate, turn, drop crate, turn back' written out three times in a row. Make it shorter using one loop so it does exactly the same thing. Before you run it, tell me what the arm will do, step by step, and how many crates it will move. Then change it so it moves 5 crates.",
+  "correctAnswer": "The child puts all four blocks (pick up, turn, drop, turn back) inside one 'repeat 3' block, in the same order, and predicts: pick up, turn, drop, turn back, and that whole group three times, so 3 crates. To move 5 crates they change only the number to 5. They can say the number is how many times the group happens, not how many blocks are inside.",
+  "whatMakesItDiscriminate": "Shortening the program forces the child to decide what goes inside the loop and what number to set, and predicting before running exposes the order they expect. A child who sets the count to the number of blocks, leaves blocks outside, chains separate loops, splits the loop or adds an extra pass will produce a different prediction or a wrong count; a child who understands cannot make the arm move the wrong number of crates in the wrong order. Changing to 5 crates checks that the count is understood as changeable and as counting whole passes.",
+  "errorPatterns": [
+   {
+    "pattern": "'There are four blocks, so I put repeat 4.'",
+    "kind": "misconception",
+    "revealedBy": "Sets the repeat count to the number of blocks inside the loop rather than the number of times the group happens; the arm moves 4 crates instead of 3.",
+    "nextMove": "Ask the child to count the crates the long version moved, then trace their loop with a finger, counting passes; let the mismatch come from their own count.",
+    "distractor": "Repeat 4 around the four blocks.",
+    "reteachPrerequisiteId": null
+   },
+   {
+    "pattern": "'Only one block fits in the repeat, so the others go underneath.' / 'Each block needs its own loop.'",
+    "kind": "misconception",
+    "revealedBy": "Puts only 'pick up' inside the loop, or builds 'repeat 3 [pick up]' then 'repeat 3 [turn]' and so on; the arm picks up three times before moving.",
+    "nextMove": "Run it and ask what the arm did differently from the long version; show a picture of a loop holding two blocks and ask which blocks happen every time a crate is moved.",
+    "distractor": "Repeat 3 (pick up), then repeat 3 (turn), then repeat 3 (drop), then repeat 3 (turn back).",
+    "reteachPrerequisiteId": null
+   },
+   {
+    "pattern": "'First it picks up three times, then it turns three times.'",
+    "kind": "misconception",
+    "revealedBy": "Code is correct, but the spoken trace unrolls the loop block-by-block ('split loop') instead of repeating the whole group in order.",
+    "nextMove": "Have the child act as the robot and step through pass one; ask 'after you drop the crate, which block do you go back to?'",
+    "distractor": null,
+    "reteachPrerequisiteId": "mt_sPV503BQnI"
+   },
+   {
+    "pattern": "'Repeat 3 means it does it, then repeats it 3 more times, so 4 crates.'",
+    "kind": "interference",
+    "revealedBy": "Predicts one more pass than the count; often explained using the everyday meaning of 'repeat'.",
+    "nextMove": "Run it and count passes together; contrast the everyday word with the block's meaning ('do this 3 times in total') without labelling the child wrong.",
+    "distractor": "4 crates.",
+    "reteachPrerequisiteId": null
+   },
+   {
+    "pattern": "'It's easier to just copy the blocks again.'",
+    "kind": "performance",
+    "revealedBy": "Can use a loop when told to but defaults to copying blocks in their own programs.",
+    "nextMove": "Don't ban copying; ask them to change their copied program to 10 crates and compare how many edits each version needs.",
+    "distractor": null,
+    "reteachPrerequisiteId": null
+   }
+  ],
+  "probeDeeper": [
+   "If you put 6 crates on the belt but your loop says 'repeat 3', what happens? What kind of loop would cope with any number of crates?",
+   "What would change if 'turn back' were moved outside the loop, underneath it?",
+   "When would you use 'forever' instead of 'repeat'? What makes a 'repeat until' stop?",
+   "Why is your short version easier to fix if the arm needs to move 10 crates?"
+  ],
+  "responseLevels": {
+   "gap": "Copies the blocks again or builds a loop that does not match the long program (wrong count, blocks outside, one loop per block) and cannot predict what it will do.",
+   "partial": "Builds a correct 'repeat 3' but sets the count by trial and error, or traces it block-by-block or with an extra pass; can use a count loop but cannot say when 'repeat until' or 'forever' would fit.",
+   "full": "Builds the loop correctly, predicts the full ordered trace and crate count before running, changes the count to 5 with one edit, and explains when a 'repeat until' would be better (e.g. an unknown number of crates on the belt)."
+  },
+  "poeTask": "Show a 'repeat 3' loop holding two blocks (pick up crate, drop crate). Ask the child to predict, out loud, everything the arm will do and how many crates end up in the truck. Run it. If they predicted 'pick, pick, pick, drop, drop, drop' or 4 crates, ask them to explain what they saw and where their trace and the run went different ways."
+ },
+ "sources": [
+  {
+   "claim": "In a study of 184 fourth-graders (ages 9-10) learning Scratch loops, most could say how many times a single repeat loop runs, but many fewer could unroll a 'repeat 3' loop holding two blocks; common wrong answers ran the loop body only once, or 'split' the loop so the first block repeated 3 times followed by the second block 3 times; teachers also observed children wrapping repeated blocks in a repeat whose count equalled the number of blocks; a scaffolded Use-Modify strategy (TIPP&SEE) reduced these errors.",
+   "source": "Salac, Thomas, Butler, Sanchez & Franklin (2020) — TIPP&SEE: A Learning Strategy to Guide Students through Use->Modify Scratch Activities, SIGCSE '20",
+   "url": "https://jeansalac.github.io/docs/SIGCSE2020_TIPP&SEE.pdf",
+   "verified": true
+  },
+  {
+   "claim": "In a study of 12-13-year-old beginners using 'repeat n times' in a block-based environment, four loop misconceptions were found: putting no command inside the repeat block, believing only one command can go inside it, not changing the repeat count, and repeating several commands by chaining several loops one after another; the 'only one command' and 'chain of loops' misconceptions were the hardest to overcome, a picture showing two blocks inside a loop reduced them, and a default repeat count other than 1 strengthened the 'count cannot be changed' misconception.",
+   "source": "Vaníček, Dobiáš & Šimandl (2023) — Understanding Loops: What are the Misconceptions of Lower-secondary Pupils? Informatics in Education 22(3)",
+   "url": "https://infedu.vu.lt/journal/INFEDU/article/744/file/pdf",
+   "verified": true
+  },
+  {
+   "claim": "Think-aloud code-tracing interviews with 34 primary students (grades 2-4, mean age about 8.7) comparing unplugged, Scratch and Python found that some children ran a Scratch loop one extra time, which the authors attribute to the everyday meaning of the word 'repeat'.",
+   "source": "Kunz, Wenzel, Wacker & Tsarava (2025) — Unplugged, Scratch, and Python: Tracing Primary Students' Preconceptions of Programming Structures, ICER 2025 (abstract)",
+   "url": "https://icer2025.acm.org/details/icer-2025-papers/24/Unplugged-Scratch-and-Python-Tracing-Primary-Students-Preconceptions-of-Programmi",
+   "verified": true
+  },
+  {
+   "claim": "Cognitive interviews with 22 third- and fourth-graders found most could explain that a Scratch 'repeat 3' block plays its action three times, but many struggled to recognise or build repeat instructions in word problems, often solving by arithmetic (e.g. 3 x 3 = 9) instead of writing a repeat; the Repetition learning trajectory used (Rich et al.) moves from recognising repeated patterns, to constructing instructions with repetition, to controlling how and when a repetition stops.",
+   "source": "Luo, Israel & Gane (2022) — Elementary Computational Thinking Instruction and Assessment: A Learning Trajectory Perspective, ACM TOCE 22(2)",
+   "url": "https://par.nsf.gov/servlets/purl/10378170",
+   "verified": true
+  },
+  {
+   "claim": "In a pilot of assessment items with 100 grade 6-8 students who had completed an introductory Scratch course, students had difficulty with how loops work (as well as with variables and Boolean operators); the authors argue for combining constructionist projects with activities that target conceptual understanding.",
+   "source": "Grover & Basu (2017) — Measuring Student Learning in Introductory Block-Based Programming: Examining Misconceptions of Loops, Variables, and Boolean Logic, SIGCSE '17 (abstract)",
+   "url": "https://www.sri.com/publication/education-learning-pubs/measuring-student-learning-in-introductory-block-based-programming-examining-misconceptions-of-loops-variables-and-boolean-logic/",
+   "verified": true
+  },
+  {
+   "claim": "Middle-school Scratch learners were observed developing a bottom-up habit of building programs from individual blocks and a tendency to extremely fine-grained programming, both at odds with designing an algorithm first and structuring code with programming constructs.",
+   "source": "Meerbaum-Salant, Armoni & Ben-Ari (2011) — Habits of Programming in Scratch, ITiCSE '11 (abstract)",
+   "url": "https://cris.iucc.ac.il/en/publications/habits-of-programming-in-scratch/",
+   "verified": true
+  },
+  {
+   "claim": "A Scratch-based misconception questionnaire with 145 children aged 7-17 found the most common misconception was understanding the sequential order of statements; older children did better especially on variable and control concepts, children who had used only Scratch did worse than those who also used another language, and the authors recommend more concept-rich materials with varied exercises per concept.",
+   "source": "Swidan, Hermans & Smit (2018) — Programming Misconceptions for School Students, ICER '18 (abstract)",
+   "url": "https://doi.org/10.1145/3230977.3230995",
+   "verified": true
+  },
+  {
+   "claim": "England's KS2 computing programme of study expects pupils to plan, write and fix programs that meet set goals, and to use repetition in programs alongside sequence and selection.",
+   "source": "DfE — National curriculum in England: computing programmes of study (Key stage 2)",
+   "url": "https://www.gov.uk/government/publications/national-curriculum-in-england-computing-programmes-of-study/national-curriculum-in-england-computing-programmes-of-study",
+   "verified": true
+  }
+ ],
+ "confidence": "medium",
+ "provenance": {
+  "originalResearchGeneratedBy": "claude-opus-5-5 (Sparks & Sprockets computing research pass)",
+  "createdAt": "2026-10-29T00:00:00Z",
+  "updatedAt": "2026-10-29T00:00:00Z"
+ },
+ "publicationNotes": {
+  "omittedCurriculumText": []
+ }
+}

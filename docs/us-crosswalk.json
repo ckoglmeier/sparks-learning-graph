@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "scope": "Selected US science, engineering and computing references; independent editorial analysis, not certified alignment.",
+  "reviewedAt": "2026-11-24",
+  "sourceTextIncluded": false,
+  "records": [
+    {
+      "standard": "3-5-ETS1-1",
+      "edition": "2013",
+      "gradeBand": "3–5",
+      "topicIds": [
+        "mt_Z5-fSCOBep"
+      ],
+      "relationship": "partial_contribution",
+      "contribution": "Problem definition and criteria.",
+      "learnerEvidence": "Write a design brief for a bridge that carries a chosen load within a materials budget.",
+      "remainingConditions": "The learner must define the need and criteria, rather than only follow a supplied recipe.",
+      "sourceUrl": "https://www.nextgenscience.org/pe/3-5-ets1-1-engineering-design",
+      "reviewedAt": "2026-11-24",
+      "formalAssociationAuthored": false
+    },
+    {
+      "standard": "3-5-ETS1-2",
+      "edition": "2013",
+      "gradeBand": "3–5",
+      "topicIds": [
+        "mt_HveO1bOXpJ"
+      ],
+      "relationship": "partial_contribution",
+      "contribution": "Comparison of proposed designs.",
+      "learnerEvidence": "Compare three bridge sketches against the same brief.",
+      "remainingConditions": "A successful single build is insufficient; explain the comparison against criteria and constraints.",
+      "sourceUrl": "https://www.nextgenscience.org/pe/3-5-ets1-2-engineering-design",
+      "reviewedAt": "2026-11-24",
+      "formalAssociationAuthored": false
+    },
+    {
+      "standard": "3-5-ETS1-3",
+      "edition": "2013",
+      "gradeBand": "3–5",
+      "topicIds": [
+        "mt_eoPcc4nrBE"
+      ],
+      "relationship": "partial_contribution",
+      "contribution": "Controlled prototype testing.",
+      "learnerEvidence": "Record repeated bridge tests, failures and a justified revision.",
+      "remainingConditions": "Plan controls and trial count; use failure evidence to improve the design. Topic evidence alone does not ensure every condition.",
+      "sourceUrl": "https://www.nextgenscience.org/pe/3-5-ets1-3-engineering-design",
+      "reviewedAt": "2026-11-24",
+      "formalAssociationAuthored": false
+    },
+    {
+      "standard": "3-PS2-1",
+      "edition": "2013",
+      "gradeBand": "3–5",
+      "topicIds": [
+        "mt_3WMADSy0mA"
+      ],
+      "relationship": "partial_contribution",
+      "contribution": "Investigating forces and motion.",
+      "learnerEvidence": "Compare motion under balanced and unbalanced pushes.",
+      "remainingConditions": "Control one variable; keep force comparisons qualitative. A race result alone does not isolate forces.",
+      "sourceUrl": "https://www.nextgenscience.org/pe/3-ps2-1-motion-and-stability-forces-and-interactions",
+      "reviewedAt": "2026-11-24",
+      "formalAssociationAuthored": false
+    },
+    {
+      "standard": "4-PS3-4",
+      "edition": "2013",
+      "gradeBand": "3–5",
+      "topicIds": [
+        "mt_K1-HopEJAB"
+      ],
+      "relationship": "partial_contribution",
+      "contribution": "Designing an energy-converting device.",
+      "learnerEvidence": "Build and revise a rubber-band vehicle and explain its energy changes.",
+      "remainingConditions": "Respect the assessment boundary. The inherited solar-oven example is not itself evidence of meeting that boundary.",
+      "sourceUrl": "https://www.nextgenscience.org/pe/4-ps3-4-energy",
+      "reviewedAt": "2026-11-24",
+      "formalAssociationAuthored": false
+    },
+    {
+      "standard": "MS-ETS1-1",
+      "edition": "2013",
+      "gradeBand": "6–8",
+      "topicIds": [
+        "mt_Z5-fSCOBep"
+      ],
+      "relationship": "prerequisite_only",
+      "contribution": "An elementary design brief provides a starting point.",
+      "learnerEvidence": "Revise the bridge brief using scientific constraints and effects on people and the environment.",
+      "remainingConditions": "The existing topic does not establish middle-school depth or these wider impacts.",
+      "sourceUrl": "https://www.nextgenscience.org/pe/ms-ets1-1-engineering-design",
+      "reviewedAt": "2026-11-24",
+      "formalAssociationAuthored": false
+    },
+    {
+      "standard": "5-PS1-3",
+      "edition": "2013",
+      "gradeBand": "3–5",
+      "topicIds": [
+        "mt_915b9dc0b3714097"
+      ],
+      "relationship": "assessment_exclusion",
+      "contribution": "Density is enrichment for this selected expectation.",
+      "learnerEvidence": "Compare equal-volume samples as an optional conceptual investigation.",
+      "remainingConditions": "Density is explicitly excluded from this expectation’s assessment; do not claim coverage.",
+      "sourceUrl": "https://www.nextgenscience.org/pe/5-ps1-3-matter-and-its-interactions",
+      "reviewedAt": "2026-11-24",
+      "formalAssociationAuthored": false
+    },
+    {
+      "standard": "E3-PRO-TR-08",
+      "edition": "2026",
+      "gradeBand": "3",
+      "topicIds": [
+        "mt_5UtPmgdoQ9",
+        "mt_6XbAmdmjDb",
+        "mt_nfGAtwqSvP"
+      ],
+      "relationship": "partial_contribution",
+      "contribution": "Debugging foundation.",
+      "learnerEvidence": "Keep before-and-after programs and explain the fault.",
+      "remainingConditions": "Include sequence, events, loops and decisions across the work; a loop exercise alone is insufficient.",
+      "sourceUrl": "https://csteachers.org/wp-content/uploads/2026/07/2026-CSTA-PK%E2%80%9312-Computer-Science-Standards.pdf",
+      "reviewedAt": "2026-11-24",
+      "formalAssociationAuthored": false
+    },
+    {
+      "standard": "E5-PRO-TR-08",
+      "edition": "2026",
+      "gradeBand": "5",
+      "topicIds": [
+        "mt_5UtPmgdoQ9"
+      ],
+      "relationship": "partial_contribution",
+      "contribution": "Systematic debugging foundation.",
+      "learnerEvidence": "Record how two different debugging methods located a fault.",
+      "remainingConditions": "One successful correction does not establish a repertoire of methods.",
+      "sourceUrl": "https://csteachers.org/wp-content/uploads/2026/07/2026-CSTA-PK%E2%80%9312-Computer-Science-Standards.pdf",
+      "reviewedAt": "2026-11-24",
+      "formalAssociationAuthored": false
+    },
+    {
+      "standard": "MS-PRO-TR-19",
+      "edition": "2026",
+      "gradeBand": "6–8",
+      "topicIds": [
+        "mt_5UtPmgdoQ9"
+      ],
+      "relationship": "prerequisite_only",
+      "contribution": "Testing foundation for later development.",
+      "learnerEvidence": "Keep a change log connecting tests and peer feedback to revisions.",
+      "remainingConditions": "The topic alone does not supply the full development and documentation practice.",
+      "sourceUrl": "https://csteachers.org/wp-content/uploads/2026/07/2026-CSTA-PK%E2%80%9312-Computer-Science-Standards.pdf",
+      "reviewedAt": "2026-11-24",
+      "formalAssociationAuthored": false
+    }
+  ]
+}

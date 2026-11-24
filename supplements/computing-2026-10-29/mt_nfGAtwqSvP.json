@@ -1,0 +1,263 @@
+{
+ "topicId": "mt_nfGAtwqSvP",
+ "pedagogy": {
+  "summary": "- **Age:** 8–13 years (most work sits around ages 8–11; older learners extend to compound conditions)\n\n- **Topic:** Decisions and input in programs\n\n- **Standards — England (DfE National Curriculum, KS2 Computing):** pupils use selection in programs and work with various forms of input and output, and use logical reasoning to explain how simple algorithms work.\n\n- **Standards — US (CSTA K-12, 1B-AP-10):** at grades 3–5, learners create programs that combine sequences, events, loops and conditionals.\n\n- **Standards — Australia (Digital Technologies v9, AC9TDI4P04):** in Years 3–4, learners implement simple algorithms as visual programs that use branching (decisions) and user input.\n\n- **Checkpoint:** Concrete-to-procedural. The goal is that a child can (1) work out whether a condition is true or false right now, (2) say which branch runs because of that, and (3) wire an input (key press, click, typed answer or sensor) to a decision so the program responds. Variables as stored values and compound Boolean conditions (and/or/not) are developed later (mt_YZOjP8KHsM).",
+  "bestPractices": [
+   "Start with everyday if-then sentences ('If it is cold, then put on a jacket') that children complete themselves; this beginning goal is usually within reach before any code.",
+   "Teach explicitly that a condition is a yes/no (true/false) question with exactly two states, and have children answer that question first before choosing a branch; do not assume this comes for free from the everyday sentences.",
+   "Use predict-run-explain: before running, the child says what will happen for a given input, then runs it and explains any surprise from the code.",
+   "Test each decision with inputs that make it true, inputs that make it false, and boundary inputs (e.g. score exactly 5 for 'score > 5', or 'twelve' versus 12 for a typed answer).",
+   "Make the moment of checking visible: show that a program looks at a key, a sensor or an answer only when it reaches the if block, so a decision that must keep responding needs to sit inside a loop or under an event.",
+   "Pair constructionist making (games, quizzes, robots) with short, explicit attention to how conditions and Boolean operators work, rather than relying on making alone."
+  ],
+  "keyRepresentations": [
+   "If-then-else block drawn as a fork in a road: one condition at the junction, a 'yes' path and a 'no' path, and the paths joining again afterwards",
+   "True/false cards held up when the condition is checked (e.g. a crate is red: TRUE card, so the 'load it' path runs)",
+   "Two-column test table: input tried, condition true or false, what the program did",
+   "A sorting robot arm with a colour sensor: if the crate is red, load it on the truck, otherwise put it back",
+   "Event hat blocks (when key pressed, when clicked) next to the same action placed inside 'forever if key pressed', to compare two ways of reacting to input"
+  ],
+  "commonMisconceptions": [
+   "Not evaluating the condition: the child links an outcome to the condition as a label ('it says pop because 5 < 8 is written there') without working out whether it is true (Luo et al., 2020).",
+   "Believing an if block keeps watching in the background, so the program will react whenever the condition later becomes true, even though the if was checked once (the parallelism class of bug described by Pea, 1986; unverified here).",
+   "Misunderstanding how a program handles user input and interactivity, listed among the most common Scratch misconceptions for ages 7–17 (Swidan et al., 2018).",
+   "Confusion about how Boolean operators and conditions combine, reported for grade 6–8 Scratch learners (Grover & Basu, 2017).",
+   "Thinking the robot or sprite 'sees' and 'decides' on its own, rather than a program reading a sensor value and choosing a branch (a less developed perspective in Slangen et al., 2011)."
+  ]
+ },
+ "learn": {
+  "summary": "For ages 8–13, teach decisions as a two-step move: first answer the condition as true or false right now, then follow the branch that answer selects. Build from children's own everyday if-then sentences to an unplugged sorting game with true/false cards, then into block code where input (arrow keys, a typed quiz answer, a colour or bump sensor) feeds the decision. Use predict-run-explain and deliberate test inputs (true, false, boundary) so children see why each branch ran. Make the timing of a check visible: an if looks at its input only when the program reaches it, so decisions that must keep responding live inside a loop or under an event. Feedback asks questions about the child's own program rather than supplying the fix.",
+  "activities": [
+   {
+    "title": "True or false first: the crate-sorting game",
+    "learnerActions": [
+     "Finish three everyday sentences of your own: 'If ___, then put on a jacket', 'If I see a spider, then ___', and one you invent.",
+     "Play the robot arm: a partner shows a crate card (red, blue, green). Before moving, hold up TRUE or FALSE for the question 'Is the crate red?'.",
+     "Only after the card is up, follow the rule 'if red, load it on the truck, otherwise put it back' and move the crate.",
+     "Swap the rule to 'if NOT blue, load it' and play again, saying the true/false answer out loud each time.",
+     "Draw the rule as a fork: the question at the junction, the yes path and the no path."
+    ],
+    "intendedInsight": "A decision has two separate parts. The condition is a question that is either true or false at this moment, and only that answer picks which path runs. The same rule gives different actions for different crates because the answer to the question changes, not the rule.",
+    "feedback": [
+     "If a child moves the crate without holding up a card, ask: 'What was the answer to the question for this crate? Show me the card before the arm moves.'",
+     "If a child says 'it goes on the truck because the rule says red', ask: 'Is this crate red? So is the question true or false? Which path does that pick?'",
+     "If the child handles 'NOT blue' wrongly, ask them to say the question as a full sentence for a blue crate ('Is this crate not blue?') and decide true or false before acting.",
+     "When it goes right, ask the child to explain to a partner why two different crates went to two different places under one rule."
+    ],
+    "rationale": "Fourth graders in a cognitive-interview study could complete everyday if-then sentences but did not evaluate a comparison as true or false before choosing the outcome; the authors suggest the two states of a condition must be taught explicitly. Holding up a true/false card separates evaluating the condition from following the branch.",
+    "sourceClaims": [
+     "In cognitive interviews with 13 fourth graders, all four children answering an everyday 'If ..., then ...' item gave sensible conditions and actions, but on 'If 5 < 8 then say pop, else say bing' items children linked the outcome to the comparison without evaluating it as true or false; the authors suggest that the two states of a condition are not intuitive and need explicit teaching, and that 'a conditional connects a condition to an outcome' may be understood before 'a condition is something that can be true or false'.",
+     "Rich et al. synthesised K-8 learning trajectories for sequence, repetition and conditionals from more than 100 computing-education papers; the Conditionals trajectory places 'a condition is something that can be true or false' and 'actions often result from specific causes' as beginning goals leading to 'a conditional connects a condition to an outcome'."
+    ]
+   },
+   {
+    "title": "Arrow keys: does the program keep checking?",
+    "learnerActions": [
+     "Build version A: 'when green flag clicked, if key right arrow pressed then change x by 10'. Predict what happens if you press the arrow two seconds after clicking the flag, then test it.",
+     "Build version B: put the same if block inside a forever loop. Predict, then test the same way.",
+     "Build version C: use 'when right arrow key pressed, change x by 10' with no if at all. Test it.",
+     "Fill in a test table for each version: when did you press the key, did the program check it, did the character move?",
+     "Add the left arrow to the version you prefer and explain your choice to a partner."
+    ],
+    "intendedInsight": "A program looks at an input only when it reaches the block that checks it. Version A checks once, straight after the flag, so a later key press is missed. A forever loop makes the program check again and again, and an event block reacts each time the key is pressed. Nothing in the code is 'watching' unless the code is built to look repeatedly.",
+    "feedback": [
+     "If the child expects version A to work, ask: 'Read the script from the top. When the flag is clicked, which block runs first? What happens after the if has been checked? Is there anything that sends the program back to check again?'",
+     "If the child says the computer 'knows' you pressed it, ask them to point to the block that would notice a press at the two-second mark.",
+     "If version B works but the child cannot say why, ask: 'How many times does the if block get checked in ten seconds in version B? And in version A?'",
+     "Ask the child which version they would use for a game and why; accept either B or C if they can explain how it keeps responding."
+    ],
+    "rationale": "Novices often treat an if as if it stays alert in the background. Comparing a one-time check, a check inside a loop, and an event-driven script makes the timing of the check observable through the child's own test, and connects input to events and conditionals as Brennan and Resnick describe them.",
+    "sourceClaims": [
+     "Brennan and Resnick list events (one thing causing another to happen, such as clicking the green flag or pressing the space key) and conditionals (making decisions based on conditions, such as an if block checking whether a sprite is touching a colour) among the key computational concepts young Scratch designers use.",
+     "Pea described a 'parallelism' class of conceptual bug, found from primary school to college, in which novices assume different lines of a program can be active at the same time, for example expecting a condition to be watched continuously rather than checked when the program reaches it.",
+     "A Scratch-based questionnaire with 145 learners aged 7 to 17 found the most common misconceptions included difficulty understanding that statements run in sequence and misunderstanding how a program's interactivity works when it needs user input; children who had only learned Scratch struggled more."
+    ]
+   },
+   {
+    "title": "Quiz maker: test your own condition",
+    "learnerActions": [
+     "Write a quiz question with 'ask' and 'answer', for example 'What is 3 × 4?', and the decision 'if answer = 12 then say Correct, else say Try again'.",
+     "Before running, write a list of at least four answers to test: one right answer, one wrong answer, and two tricky ones (such as 'twelve' or ' 12').",
+     "Run each test, record whether the condition was true or false, and which message appeared.",
+     "Add a score and a second decision such as 'if score > 5 then say You win'. Predict and then test what happens with a score of exactly 5 and of 6.",
+     "Change one thing so a tricky answer behaves the way you want, and test again."
+    ],
+    "intendedInsight": "The program compares the typed answer with the value in the condition exactly, decides true or false, and runs one branch only. A comparison like 'score > 5' is false when the score is exactly 5. Planning test inputs before running reveals where a condition does something you did not intend.",
+    "feedback": [
+     "If the child is surprised that 'twelve' gets 'Try again', ask: 'What does the program compare the answer with? Is \"twelve\" the same as 12 to the program?'",
+     "If the child thinks both messages will appear, ask them to point to which path runs when the condition is true, and whether the program ever goes down both.",
+     "If the child expects 'You win' at a score of 5, ask them to read the condition aloud with the number in it ('Is 5 greater than 5?') and decide true or false.",
+     "Ask what other answer a classmate might type that they have not tested yet."
+    ],
+    "rationale": "Grade 6–8 learners who had completed a Scratch course still showed trouble with how Boolean operators work, and the authors recommend adding explicit conceptual attention to constructionist making. A self-written quiz keeps the making while the planned test table forces the child to evaluate the condition for specific inputs.",
+    "sourceClaims": [
+     "Assessment items piloted with 100 grade 6–8 students after an introductory Scratch course showed that students were largely unfamiliar with variables, held misconceptions about them, and had trouble with how loops execute and how Boolean operators work; the authors recommend combining constructionist activities with explicit conceptual instruction.",
+     "In cognitive interviews with 13 fourth graders, all four children answering an everyday 'If ..., then ...' item gave sensible conditions and actions, but on 'If 5 < 8 then say pop, else say bing' items children linked the outcome to the comparison without evaluating it as true or false; the authors suggest that the two states of a condition are not intuitive and need explicit teaching, and that 'a conditional connects a condition to an outcome' may be understood before 'a condition is something that can be true or false'."
+    ]
+   },
+   {
+    "title": "Sensor sorter: make the robot arm decide",
+    "learnerActions": [
+     "With a robot kit, micro:bit or an on-screen arm, connect a colour (or bump) sensor and write: 'if sensor sees red then load crate, else put it back'.",
+     "Run the program once with no crate in front of the sensor, then slide a red crate in. Describe what happened and why.",
+     "Change the program so it sorts a whole line of crates one after another, then test it with a mixed line.",
+     "Tell the story of one crate in three steps: what the sensor measured, what the program decided, what the arm did."
+    ],
+    "intendedInsight": "A sensor is an input that gives the program a reading; the program decides using that reading and then acts. The arm does not 'see' or 'choose' by itself, and it only responds to a new crate if the program goes back to read the sensor again (in a loop) each time.",
+    "feedback": [
+     "If the child says 'the robot saw it was red and decided', ask: 'Which part measured the colour? Which block used that measurement? Could the arm decide if we took that block away?'",
+     "If the program misses the crate that arrived late, ask: 'When did the program read the sensor? What would make it read the sensor again?'",
+     "If the arm loads every crate, ask the child to test one blue crate and tell you what the condition answered for it.",
+     "Ask the child to predict what the arm would do with an orange crate, then test it."
+    ],
+    "rationale": "With LEGO robots, 10–12-year-olds readily see robots as made, functional machines, while the sense-reason-act idea of a controlled system develops through problem-solving tasks. Telling a crate's story as sense, decide, act puts the program's decision between the sensor and the action.",
+    "sourceClaims": [
+     "In lessons with LEGO Mindstorms NXT robots, pupils aged 10–12 readily understood robots as human-made, functional technological artefacts, while understanding of the robot as a controlled system with a sense-reason-act loop could be fostered through problem-solving tasks; the authors describe four perspectives of increasing sophistication: psychological, technological, function and controlled system.",
+     "Pea described a 'parallelism' class of conceptual bug, found from primary school to college, in which novices assume different lines of a program can be active at the same time, for example expecting a condition to be watched continuously rather than checked when the program reaches it."
+    ]
+   }
+  ],
+  "constraints": [
+   "Do not assume everyday if-then talk means a child can evaluate a coded condition; check that they decide true or false first.",
+   "Keep conditions simple (one comparison or one sensor test) until children reliably evaluate them; compound conditions with and/or/not belong after this topic.",
+   "An if block on its own checks once. Whenever a program must keep responding to input, the decision has to sit inside a loop or under an event block; make this explicit rather than letting it appear as an unexplained bug.",
+   "Testing must include false and boundary inputs, not only the input the child expects to work.",
+   "Feedback asks about the child's own code and test results; it does not supply the corrected program or the right answer.",
+   "Physical sensors give noisy readings (lighting changes a colour sensor); treat surprising results as something to test and explain, not as a failure of the child."
+  ],
+  "reviewNotes": [
+   "Rich et al. (2017) was not opened directly; the trajectory goal wording comes from Luo et al. (2020), which quotes it. That source is marked verified:false.",
+   "Pea (1986) is cited from abstracts and secondary descriptions only; the detail that the parallelism bug includes expecting a condition to be watched continuously is widely reported but was not confirmed in the original text here (verified:false).",
+   "The Australian content description AC9TDI4P04 was confirmed through search results only, not the official page (verified:false).",
+   "Slangen et al. (2011) was confirmed at abstract level. Linking the 'robot sees and decides' error to its 'psychological' perspective is our interpretation.",
+   "The boundary error ('score > 5' counted as true at 5) and the 'twelve' versus 12 typed-answer error are design inferences from general practice, not drawn from a cited study of this age group.",
+   "The three-version arrow-key activity is a proposed design; no source tests it as an intervention.",
+   "Grover & Basu (2017) and Swidan et al. (2018) were confirmed from abstracts; the specific item content was not reviewed."
+  ],
+  "schemaVersion": 2
+ },
+ "assess": {
+  "method": "performance_task",
+  "diagnosticPrompt": "Here is a program for a robot arm: 'when green flag clicked, move forward 50 steps, if touching red then say Stop! and drop crate, else say Keep going.' The arm starts on a white floor and the red loading zone is 200 steps ahead. Before you run it, tell me what the arm will do and why. Then change the program so the arm drops its crate when it reaches the red zone, and test that it works.",
+  "correctAnswer": "The arm moves 50 steps, then the program checks once: it is not touching red yet, so the condition is false and it says 'Keep going'. The program then ends, so it never drops the crate even when it is later moved onto red. To fix it, the check has to happen again and again, for example 'repeat until touching red: move 10 steps', then drop the crate, or put the if inside a forever loop with the move. The child tests it and explains that it now works because the program keeps checking the sensor as it moves.",
+  "whatMakesItDiscriminate": "The first part can only be answered correctly by evaluating the condition at the moment the program reaches it (false at 50 steps) and knowing the if is not revisited. A child who thinks the if keeps watching predicts the arm will stop on red; a child who does not evaluate the condition predicts 'Stop!' because red is mentioned. The build-and-test part shows whether the child can put the decision where it will be checked repeatedly, which a child guessing from block names cannot do reliably.",
+  "errorPatterns": [
+   {
+    "pattern": "'When it gets to the red bit it will say Stop, because the if is waiting for red.'",
+    "kind": "misconception",
+    "revealedBy": "Predicts the arm will react later in the run although the if is checked once near the start, and is surprised when it does not.",
+    "nextMove": "Ask the child to step through the script with a finger, saying aloud where the program is at each moment; then ask which block could make it go back and check again, and let them test their idea.",
+    "distractor": "It drives on and says Stop! when it reaches the red zone, because the if is watching for red.",
+    "reteachPrerequisiteId": null
+   },
+   {
+    "pattern": "'It says Stop because it says touching red in the if.'",
+    "kind": "misconception",
+    "revealedBy": "Chooses the branch from the words in the condition without saying whether the condition is true or false at that point.",
+    "nextMove": "Ask: 'At 50 steps, is the arm touching red? So is the question true or false? Which path does that answer pick?' Return to true/false cards with simple comparisons if this repeats.",
+    "distractor": "It says Stop! straight away, because the if block is about red.",
+    "reteachPrerequisiteId": "mt_zQfWqImxva"
+   },
+   {
+    "pattern": "'It will say Stop and Keep going, one after the other.'",
+    "kind": "misconception",
+    "revealedBy": "Expects both branches of an if-then-else to run, or the else to run after the then.",
+    "nextMove": "Ask the child to trace one run with a coloured pen, marking only blocks that actually run, then test with the arm placed on red and on white to see one message each time.",
+    "distractor": "It says Stop! and then Keep going.",
+    "reteachPrerequisiteId": null
+   },
+   {
+    "pattern": "'The arm sees the red and decides to stop by itself.'",
+    "kind": "misconception",
+    "revealedBy": "Describes the sensor or robot as choosing, and cannot name the block that uses the sensor reading.",
+    "nextMove": "Ask the child to tell the story in three steps (the sensor measures, the program decides, the arm acts) and to remove the if block and predict what the arm would do then. Revisit sensors as input devices if needed.",
+    "distractor": null,
+    "reteachPrerequisiteId": "mt_o0vTMl8vj5"
+   },
+   {
+    "pattern": "'I'll put the move and the if inside the loop, but the drop block can go first so it's ready.'",
+    "kind": "performance",
+    "revealedBy": "Understands the check must repeat but places blocks in an order that drops the crate before or outside the decision.",
+    "nextMove": "Do not rebuild it for them. Ask them to run it and say which block ran first, then let them reorder and retest.",
+    "distractor": null,
+    "reteachPrerequisiteId": "mt_sPV503BQnI"
+   }
+  ],
+  "probeDeeper": [
+   "At the exact moment the program reaches the if block, where is the arm, and is the condition true or false?",
+   "What would you add so that the program looks at the sensor again after it moves?",
+   "If you used 'when key pressed' instead of an if, how would that change when the program notices the input?",
+   "What crate or position would you test next to be sure the program never drops a crate in the wrong place?"
+  ],
+  "responseLevels": {
+   "gap": "Predicts from the words in the blocks ('it says Stop because of red') or expects the if to keep watching; cannot say whether the condition is true or false when it is checked.",
+   "partial": "Evaluates the condition correctly at the first check and knows only one branch runs, but cannot explain why the program misses red later, or fixes it by trial and error without explaining the repeated check.",
+   "full": "Explains that the condition is false at 50 steps, the if is checked only once, and so the arm never drops the crate; rebuilds the program so the sensor is checked repeatedly, tests it on and off red, and transfers the idea to a key-press or quiz example."
+  },
+  "poeTask": "Run version A of the arrow-key program ('when green flag clicked, if right arrow pressed then move'). Ask the child to predict what happens if they press the arrow three seconds after the flag. Most children who hold the 'it keeps watching' idea predict the character will move; observing that nothing happens, then putting the if inside a forever loop and seeing it move, opens a discussion of when the program checks its input."
+ },
+ "sources": [
+  {
+   "claim": "In cognitive interviews with 13 fourth graders, all four children answering an everyday 'If ..., then ...' item gave sensible conditions and actions, but on 'If 5 < 8 then say pop, else say bing' items children linked the outcome to the comparison without evaluating it as true or false; the authors suggest that the two states of a condition are not intuitive and need explicit teaching, and that 'a conditional connects a condition to an outcome' may be understood before 'a condition is something that can be true or false'.",
+   "source": "Luo, F., Israel, M., Liu, R., Yan, W., Gane, B. & Hampton, J. (2020). Understanding Students' Computational Thinking through Cognitive Interviews: A Learning Trajectory-based Analysis. Proceedings of SIGCSE '20 (ACM).",
+   "url": "https://par.nsf.gov/servlets/purl/10178448",
+   "verified": true
+  },
+  {
+   "claim": "Rich et al. synthesised K-8 learning trajectories for sequence, repetition and conditionals from more than 100 computing-education papers; the Conditionals trajectory places 'a condition is something that can be true or false' and 'actions often result from specific causes' as beginning goals leading to 'a conditional connects a condition to an outcome'.",
+   "source": "Rich, K. M., Strickland, C., Binkowski, T. A., Moran, C. & Franklin, D. (2017). K-8 Learning Trajectories Derived from Research Literature: Sequence, Repetition, Conditionals. ICER '17, 182–190.",
+   "url": "https://doi.org/10.1145/3105726.3106166",
+   "verified": false
+  },
+  {
+   "claim": "Assessment items piloted with 100 grade 6–8 students after an introductory Scratch course showed that students were largely unfamiliar with variables, held misconceptions about them, and had trouble with how loops execute and how Boolean operators work; the authors recommend combining constructionist activities with explicit conceptual instruction.",
+   "source": "Grover, S. & Basu, S. (2017). Measuring Student Learning in Introductory Block-Based Programming: Examining Misconceptions of Loops, Variables, and Boolean Logic. SIGCSE '17, 267–272.",
+   "url": "https://www.sri.com/publication/education-learning-pubs/measuring-student-learning-in-introductory-block-based-programming-examining-misconceptions-of-loops-variables-and-boolean-logic/",
+   "verified": true
+  },
+  {
+   "claim": "A Scratch-based questionnaire with 145 learners aged 7 to 17 found the most common misconceptions included difficulty understanding that statements run in sequence and misunderstanding how a program's interactivity works when it needs user input; children who had only learned Scratch struggled more.",
+   "source": "Swidan, A., Hermans, F. & Smit, M. (2018). Programming Misconceptions for School Students. ICER '18, 151–159.",
+   "url": "https://research.vu.nl/en/publications/programming-misconceptions-for-school-students/",
+   "verified": true
+  },
+  {
+   "claim": "Brennan and Resnick list events (one thing causing another to happen, such as clicking the green flag or pressing the space key) and conditionals (making decisions based on conditions, such as an if block checking whether a sprite is touching a colour) among the key computational concepts young Scratch designers use.",
+   "source": "Brennan, K. & Resnick, M. (2012). New frameworks for studying and assessing the development of computational thinking. AERA Annual Meeting, Vancouver.",
+   "url": "https://scratched.gse.harvard.edu/ct/files/AERA2012.pdf",
+   "verified": true
+  },
+  {
+   "claim": "Pea described a 'parallelism' class of conceptual bug, found from primary school to college, in which novices assume different lines of a program can be active at the same time, for example expecting a condition to be watched continuously rather than checked when the program reaches it.",
+   "source": "Pea, R. D. (1986). Language-independent conceptual 'bugs' in novice programming. Journal of Educational Computing Research, 2(1), 25–36.",
+   "verified": false
+  },
+  {
+   "claim": "In lessons with LEGO Mindstorms NXT robots, pupils aged 10–12 readily understood robots as human-made, functional technological artefacts, while understanding of the robot as a controlled system with a sense-reason-act loop could be fostered through problem-solving tasks; the authors describe four perspectives of increasing sophistication: psychological, technological, function and controlled system.",
+   "source": "Slangen, L., van Keulen, H. & Gravemeijer, K. (2011). What pupils can learn from working with robotic direct manipulation environments. International Journal of Technology and Design Education, 21, 449–469.",
+   "url": "https://research.tudelft.nl/en/publications/what-pupils-can-learn-from-working-with-robotic-direct-manipulati/",
+   "verified": true
+  },
+  {
+   "claim": "Key stage 2 pupils should design, write and debug programs, use selection (as well as sequence and repetition) in programs, work with various forms of input and output, and use logical reasoning to explain how simple algorithms work.",
+   "source": "DfE (2013). National curriculum in England: computing programmes of study, Key stage 2.",
+   "url": "https://www.gov.uk/government/publications/national-curriculum-in-england-computing-programmes-of-study/national-curriculum-in-england-computing-programmes-of-study",
+   "verified": true
+  },
+  {
+   "claim": "CSTA standard 1B-AP-10 (grades 3–5) expects learners to create programs that include sequences, events, loops and conditionals; Australian Curriculum v9 AC9TDI4P04 (Years 3–4) expects simple algorithms implemented as visual programs using control structures such as branching and user input.",
+   "source": "CSTA K-12 Computer Science Standards (2017), via Code.org CS Fundamentals standards listing; ACARA Australian Curriculum: Digital Technologies v9.",
+   "url": "https://curriculum.code.org/csf-19/coursee/standards/",
+   "verified": false
+  }
+ ],
+ "confidence": "medium",
+ "provenance": {
+  "originalResearchGeneratedBy": "claude-opus-5-5 (Sparks & Sprockets computing research pass)",
+  "createdAt": "2026-10-29T00:00:00Z",
+  "updatedAt": "2026-10-29T00:00:00Z"
+ },
+ "publicationNotes": {
+  "omittedCurriculumText": []
+ }
+}

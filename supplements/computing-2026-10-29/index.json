@@ -1,0 +1,66 @@
+[
+  {
+    "topicId": "mt_5UtPmgdoQ9",
+    "file": "mt_5UtPmgdoQ9.json",
+    "sha256": "993783ae77153cfafd63153a4047986762d5274b2fa03ae70cef8e8832da6ac9",
+    "sourceCount": 8,
+    "historicallyVerified": 6,
+    "disposition": "retained as historical v1 supplement; active v2 record unchanged"
+  },
+  {
+    "topicId": "mt_6XbAmdmjDb",
+    "file": "mt_6XbAmdmjDb.json",
+    "sha256": "d6e8ea252166b2cda8e99cab7b4cecff57ddc8192a0f63d5bb68fd392838ec88",
+    "sourceCount": 8,
+    "historicallyVerified": 8,
+    "disposition": "retained as historical v1 supplement; active v2 record unchanged"
+  },
+  {
+    "topicId": "mt_JTuhd-cPiV",
+    "file": "mt_JTuhd-cPiV.json",
+    "sha256": "b0d07a7d07610a347243821ede4cb3bbb721843e2777cce522b5c77931e8680d",
+    "sourceCount": 8,
+    "historicallyVerified": 7,
+    "disposition": "retained as historical v1 supplement; active v2 record unchanged"
+  },
+  {
+    "topicId": "mt_XXpEz9tyu6",
+    "file": "mt_XXpEz9tyu6.json",
+    "sha256": "dfd34ca81e06e008cbd6c1ec375ac61ca5a7d200b14fee1b0f9ab20adee673a2",
+    "sourceCount": 8,
+    "historicallyVerified": 6,
+    "disposition": "retained as historical v1 supplement; active v2 record unchanged"
+  },
+  {
+    "topicId": "mt__p5n8z5soJ",
+    "file": "mt__p5n8z5soJ.json",
+    "sha256": "1ab8bc60ace72ef81cb9affd69867cf1c11681d035540c31b9503d008f96882c",
+    "sourceCount": 9,
+    "historicallyVerified": 8,
+    "disposition": "retained as historical v1 supplement; active v2 record unchanged"
+  },
+  {
+    "topicId": "mt_iqmt8wL26h",
+    "file": "mt_iqmt8wL26h.json",
+    "sha256": "d2ea47da416ab227082338874ff545d6c307e14b543681aa27bfba12e83aa9aa",
+    "sourceCount": 9,
+    "historicallyVerified": 9,
+    "disposition": "retained as historical v1 supplement; active v2 record unchanged"
+  },
+  {
+    "topicId": "mt_nfGAtwqSvP",
+    "file": "mt_nfGAtwqSvP.json",
+    "sha256": "2108dba7c5526698a6a200f3b7ad0efc55635d511456a48c8cce2db80e207af1",
+    "sourceCount": 9,
+    "historicallyVerified": 6,
+    "disposition": "retained as historical v1 supplement; active v2 record unchanged"
+  },
+  {
+    "topicId": "mt_sPV503BQnI",
+    "file": "mt_sPV503BQnI.json",
+    "sha256": "e62522e8d500fe4fab5ead5009933a6d502da2b62ce3e6b182d8f142a541e278",
+    "sourceCount": 8,
+    "historicallyVerified": 8,
+    "disposition": "retained as historical v1 supplement; active v2 record unchanged"
+  }
+]

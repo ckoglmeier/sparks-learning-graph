@@ -1,0 +1,250 @@
+{
+ "topicId": "mt__p5n8z5soJ",
+ "pedagogy": {
+  "summary": "- **Age:** 5–10 years (core work at 5–7; the 'computers take you literally' idea deepens to age 10)\n\n- **Topic:** Step-by-Step Instructions\n\n- **Standards — UK (England, Computing programme of study, KS1):** pupils learn what an algorithm is, that programs on devices carry out exact and unambiguous instructions, and use logical reasoning to predict what simple programs will do.\n\n- **Standards — US (CSTA K-12, Level 1A, grades K–2):** 1A-AP-08 (model everyday processes by making and following step-by-step algorithms) and 1A-AP-11 (break a problem's steps down into a precise sequence of instructions).\n\n- **Standards — Australia (Digital Technologies v9):** Foundation–Year 2 work on following and describing a sequence of steps (e.g. AC9TDI2P02), extending into Years 3–4 (AC9TDI4P02).\n\n- **Checkpoint:** Two big ideas from the K-8 sequence learning trajectory: ORDER (the order of steps changes the result) and PRECISION/COMPLETENESS (instructions written in advance must say everything, because the follower cannot guess). The target is the concept that a computer or robot carries out exactly what is written, not what was meant. Branching and repeats belong to the next topic (mt_iqmt8wL26h).",
+  "bestPractices": [
+   "Start unplugged with familiar routines (making a sandwich, brushing teeth, getting dressed) before any device; the sequence learning trajectory moves from everyday ideas to computational ideas to programming.",
+   "Have an adult or peer act as a 'robot' who follows the written steps exactly and literally, so missing or vague steps produce visible, funny, safe failures the child can then fix.",
+   "Teach the two ideas separately and then together: shuffle a correct set of steps to show order matters, and remove or blur a step to show completeness and precision matter.",
+   "Move to a floor robot or tangible coding blocks so the child plans a sequence in advance, runs it, sees the result and debugs; physical command cards or a small model of the mat reduce load for 5–6 year olds.",
+   "Treat errors as normal and fixable: name the debugging cycle (notice it went wrong, find the step, try a fix, test again).",
+   "Ask the child to predict what the follower will do before running the steps; prediction is what turns 'it went wrong' into 'this step made it go wrong'."
+  ],
+  "keyRepresentations": [
+   "Picture cards for each step of an everyday routine that can be laid out, shuffled and reordered",
+   "A 'human robot' who follows spoken or written steps exactly as given",
+   "Floor robot (e.g. Bee-Bot) on a grid mat, with matching arrow command cards laid out in a row before programming",
+   "A numbered written list of steps with gaps where a missing step can be added",
+   "Picture-story sequencing cards (beginning, middle, end) as a bridge from storytelling to program order"
+  ],
+  "commonMisconceptions": [
+   "Assuming the follower (a computer, robot or person playing one) will understand what was meant and fill in gaps; Pea traced several novice bugs to a belief that the language has a hidden interpreting mind.",
+   "Egocentrism: believing the instructions contain more of the writer's meaning than they actually say.",
+   "Thinking that as long as all the steps are present the order does not matter.",
+   "Writing steps in the right order but without the detail the follower needs (e.g. 'go right, then up' with no distance), which the trajectory treats as a separate idea from order.",
+   "For floor robots, mixing up left and right turns or losing track of where the robot faces, which looks like a sequencing error but is a spatial one."
+  ]
+ },
+ "learn": {
+  "summary": "For ages 5–10, build the idea that instructions must be complete, in the right order and precise, because a computer or robot carries out exactly what is written and cannot guess what was meant. Begin with everyday routines and a 'human robot' who follows steps literally, so gaps and wrong orders produce visible results the child can debug. Then plan a short sequence in advance for a floor robot or on-screen character, predict what will happen, run it and fix it. Keep order and precision as two named ideas, and keep decisions and repeats for the next topic.",
+  "activities": [
+   {
+    "title": "Program the human robot: a sandwich made exactly as written",
+    "learnerActions": [
+     "In a small group, say or draw the steps for making a jam sandwich (or another simple routine such as washing hands).",
+     "Give the steps to an adult playing a robot who does exactly what each step says and nothing else.",
+     "Watch what happens when a step is missing (e.g. no step to open the jar) or vague (e.g. 'put the jam on').",
+     "Find the step that caused the problem, add or rewrite it, and run the steps again.",
+     "Say what a robot or computer needs from instructions that a helpful person might not."
+    ],
+    "intendedInsight": "A follower who only does what is written exposes every missing or unclear step. Instructions have to say everything, because the robot cannot guess what you meant.",
+    "feedback": [
+     "If the child says 'it should just know to open the jar', ask: which of your steps told it to? Point back to the written list.",
+     "If the child blames the robot, ask what the robot did that your steps did not say. Let the steps, not the follower, be the thing to fix.",
+     "When a fix works, ask the child to say which step they changed and why that made the difference."
+    ],
+    "rationale": "Acting out literal execution makes Pea's 'hidden mind' assumption visible and gives immediate, low-stakes debugging. The everyday context matches the trajectory's move from everyday ideas to programming and the CSTA K–2 expectation to model daily processes as algorithms.",
+    "sourceClaims": [
+     "Novice programmers from primary school to college show persistent, language-independent conceptual bugs (parallelism, intentionality, egocentrism), all traced to a default assumption that the programming language has a hidden mind with intelligent interpretive powers; egocentrism is assuming the program holds more of the programmer's meaning than the code expresses.",
+     "The Sequence learning trajectory centres on two big ideas, order and precision/specificity, and the trajectories were ordered to move from broad everyday-life ideas to general computational thinking concepts and then to direct programming.",
+     "CSTA Level 1A (grades K–2) standards include 1A-AP-08 (make and follow step-by-step algorithms that model everyday routines) and 1A-AP-11 (break a problem down into an exact, ordered list of steps)."
+    ]
+   },
+   {
+    "title": "Mixed-up steps: does the order matter?",
+    "learnerActions": [
+     "Lay out picture cards for a familiar routine (getting dressed, brushing teeth) in a correct order and act it out.",
+     "Swap two cards (e.g. shoes before socks) and predict what would happen if someone followed the new order exactly.",
+     "Act out or describe the result, then put the cards back in a working order.",
+     "Find a pair of steps whose order does not matter, and a pair whose order does, and explain the difference."
+    ],
+    "intendedInsight": "The order in which steps are carried out can change the outcome, but not every swap matters; some steps depend on others being done first.",
+    "feedback": [
+     "If the child says 'it's all the same steps so it's fine', ask them to act out the swapped version: what happens to the socks?",
+     "If the child thinks every swap breaks it, ask whether brushing top teeth or bottom teeth first changes the end result.",
+     "Confirm reasoning that names the dependency: 'Socks have to go on before shoes, because the shoe covers the sock.'"
+    ],
+    "rationale": "Order is one of the trajectory's two big ideas and can be learned separately from precision; picture-story sequencing also links to the literacy skill that robotics work with young children has been shown to support.",
+    "sourceClaims": [
+     "The Sequence learning trajectory centres on two big ideas, order and precision/specificity, and the trajectories were ordered to move from broad everyday-life ideas to general computational thinking concepts and then to direct programming.",
+     "After a one-week robotics and tangible programming workshop (CHERP), 27 early-childhood participants showed significant gains from pre-test to post-test on a picture-story sequencing task, compared against a control group."
+    ]
+   },
+   {
+    "title": "Plan the floor robot's path before pressing go",
+    "learnerActions": [
+     "Look at a grid mat with a start square and a target (e.g. take the robot to the library).",
+     "Lay out arrow command cards in a row to plan the whole route before touching the robot.",
+     "Predict where the robot will stop, then enter the commands and press go.",
+     "If it stops in the wrong place, compare the cards with what the robot did, find the first step that went wrong, and fix it.",
+     "Try the same route a second way and notice that different instructions can reach the same place."
+    ],
+    "intendedInsight": "A program is a set of instructions written in advance and carried out in order, one by one. Each step must say exactly how far and which way, and when it goes wrong you can find the step to blame and fix it.",
+    "feedback": [
+     "If the child writes 'forward, turn, forward' without how many, ask: how far should it go? Count the squares together.",
+     "If the robot turns the wrong way, have the child stand on the mat facing the way the robot faces and turn their own body; check left and right before changing anything else.",
+     "If the child keeps pressing buttons one at a time and watching, ask them to plan all the cards first and predict the stopping square, so the plan can be checked against the result."
+    ],
+    "rationale": "Floor robots make advance planning, literal execution and debugging concrete for 5–7 year olds. Command cards and a small model of the mat helped 5–6 year olds hold the sequence in mind, and left/right confusion is a known separate difficulty.",
+    "sourceClaims": [
+     "In a study of 170 children aged 5–6 solving Bee-Bot problems, children given scaffolds (laminated command cards arranged into a visual sequence, or a scaled-down model of the mat) outperformed an unscaffolded control group, whose members struggled to visualise the command sequence and could not reliably tell left from right turns.",
+     "A fourth grader gave correctly ordered path instructions ('right and up, then right') that lacked how far to move, showing understanding that order affects the outcome without the beginning-level idea that precision and completeness matter when writing instructions in advance.",
+     "In the TangibleK robotics curriculum with kindergarteners (about ages 5–6), three-quarters of children reached the target level on their first sequencing activity, and the curriculum taught a four-step debugging process (recognise a problem, keep the goal, hypothesise a cause, try a fix)."
+    ]
+   },
+   {
+    "title": "Spot the missing step",
+    "learnerActions": [
+     "Read or listen to a short set of steps with one step missing or out of place (e.g. a robot arm told to close its grip before it has moved down to the block).",
+     "Predict exactly what the robot would do if it followed these steps.",
+     "Point to where the steps go wrong and say what to add or move.",
+     "Explain why a person might still manage but a robot would not."
+    ],
+    "intendedInsight": "When a step is missing or in the wrong place, a computer does not notice or fill the gap; it carries on with what it was given, so the result goes wrong in a way you can predict.",
+    "feedback": [
+     "If the child predicts the robot will 'still pick it up', ask them to act out each step in turn with their own hand, doing only what each line says.",
+     "If the child finds the problem but cannot fix it, ask which step should come just before the grab.",
+     "Confirm when the child links cause and effect: 'It grabbed the air because nobody told it to go down first.'"
+    ],
+    "rationale": "Predicting the result of a flawed sequence is the evidence the topic asks for and uses the KS1 expectation of reasoning about what simple programs will do; it checks transfer after the hands-on activities.",
+    "sourceClaims": [
+     "England's KS1 computing programme of study expects pupils to understand what algorithms are, that programs on digital devices execute precise and unambiguous instructions, to build and fix simple programs, and to reason logically about what a simple program will do.",
+     "Novice programmers from primary school to college show persistent, language-independent conceptual bugs (parallelism, intentionality, egocentrism), all traced to a default assumption that the programming language has a hidden mind with intelligent interpretive powers; egocentrism is assuming the program holds more of the programmer's meaning than the code expresses."
+    ]
+   }
+  ],
+  "constraints": [
+   "Keep to plain sequences at this level; decisions (if) and repeats belong to the next topic, mt_iqmt8wL26h.",
+   "The human-robot activity must stay safe and kind: the adult plays the literal robot, and mistakes are presented as the steps' fault, never the child's.",
+   "For 5–6 year olds, keep floor-robot sequences short (a few commands) and provide command cards or a model mat; long sequences test working memory more than the idea.",
+   "Do not treat left/right mix-ups as a failure to understand sequence; check orientation separately.",
+   "Children may grasp order before precision (or the reverse); assess and teach both rather than assuming one implies the other."
+  ],
+  "reviewNotes": [
+   "Research pass by an AI agent with live source checks in October 2026; sources were opened where marked verified. Activities are research-informed designs, not validated interventions.",
+   "Pea's work is cited from the ERIC abstract (ED319373); the full report was not read. The ERIC abstract describes a hidden interpreting mind; the word 'superbug' appears in secondary summaries but was not confirmed on the page opened.",
+   "The Rich et al. (2017) trajectory was not opened directly (publisher page blocked); its goal statements are taken from the University of Chicago summary and from Luo et al. (2020), who quote them. The Rich et al. entry is marked verified:false.",
+   "The Luo et al. precision example comes from a fourth grader (about age 9–10), at the top of this topic's range; its applicability to 5-year-olds is an inference.",
+   "The robot-arm example in 'Spot the missing step' and the 'shoes before socks' example are design choices, not from a source. The order-versus-precision split is from the trajectory; treating them as separately teachable is supported by Luo et al. but rests on a small interview sample (13 students).",
+   "No source compares unplugged-first against device-first for this age; the unplugged-first ordering follows the trajectory's design heuristics, not an efficacy study."
+  ],
+  "schemaVersion": 2
+ },
+ "assess": {
+  "method": "two_tier",
+  "diagnosticPrompt": "A robot is given these steps to make a jam sandwich: 'Put jam on the bread. Put the two slices together. Eat it.' Will the robot make a good sandwich? Tell me what it will actually do, and why.",
+  "correctAnswer": "No. The robot will do exactly what the steps say and no more. Nothing tells it to get the bread out, open the jar, pick up a knife or spread the jam on one slice, so it cannot do those things; it will get stuck or make a mess. A robot cannot guess what you meant, so you have to add every missing step in the right order and say each one clearly.",
+  "whatMakesItDiscriminate": "Tier 1 (will it work?) can be answered 'no' for the wrong reason, e.g. 'robots can't eat'. Tier 2 (what will it actually do, and why?) separates a child who traces the steps literally and names what is missing from one who assumes the robot will fill in the gaps ('it knows to open the jar'). A child who says 'yes, it will work' is showing the hidden-mind assumption directly.",
+  "errorPatterns": [
+   {
+    "pattern": "'The robot knows you have to open the jar first. Everyone knows that.'",
+    "kind": "misconception",
+    "revealedBy": "Says the sandwich will be fine, or explains the gaps away with what the robot 'knows' or 'would do'.",
+    "nextMove": "Act it out: an adult plays the robot and does only what each step says. Ask which step told it to open the jar, then let the child add it.",
+    "distractor": "Yes, the robot will make a good sandwich because it knows how.",
+    "reteachPrerequisiteId": null
+   },
+   {
+    "pattern": "'It's got all the steps, so it doesn't matter which way round they go.'",
+    "kind": "misconception",
+    "revealedBy": "Accepts a shuffled list (e.g. 'put the slices together' before 'spread the jam') as equally good.",
+    "nextMove": "Follow the shuffled version exactly and look at the result. Then ask which steps must come before others and why.",
+    "distractor": "The steps can go in any order as long as they are all there.",
+    "reteachPrerequisiteId": null
+   },
+   {
+    "pattern": "'Go forward, then turn, then forward again.' (with no number of squares or which way to turn)",
+    "kind": "developmental",
+    "revealedBy": "Gives steps in a sensible order but leaves out how far, how much or which way.",
+    "nextMove": "Ask 'how far?' and 'which way?' and let the robot run the vague version to show the gap. Do not mark the order as wrong; it is the detail that is missing.",
+    "distractor": null,
+    "reteachPrerequisiteId": null
+   },
+   {
+    "pattern": "'I pressed the turn the right way!' (the robot turned left instead of right)",
+    "kind": "performance",
+    "revealedBy": "Plan is otherwise sound but turns are reversed, especially when the robot faces the child.",
+    "nextMove": "Do not reteach sequencing. Have the child stand facing the way the robot faces, or put an arrow sticker on the robot, and check turns on their own body.",
+    "distractor": null,
+    "reteachPrerequisiteId": null
+   }
+  ],
+  "probeDeeper": [
+   "What would a robot do with the step 'put the jam on'? Where would it put it?",
+   "If you swapped 'put the slices together' and 'spread the jam', what would happen?",
+   "A person could probably make this sandwich from these steps. Why can't the robot?",
+   "Which step would you add first, and where in the list does it go?"
+  ],
+  "responseLevels": {
+   "gap": "Thinks the robot will manage because it knows what a sandwich is, or blames the robot when it fails rather than the steps.",
+   "partial": "Says some steps are missing or in the wrong order, and can add one or two, but does not explain that the robot does only what is written and cannot guess.",
+   "full": "Traces what the robot would literally do, names the missing and out-of-order steps, fixes them with precise wording, and explains that a computer follows instructions exactly; transfers this to a new routine or a floor-robot path."
+  },
+  "poeTask": "Give an adult playing a robot the child's own sandwich (or hand-washing) steps. Before the adult starts, ask the child to predict what will happen at each step. The adult then follows the steps exactly and literally. The child observes where the result differs from the prediction and explains which missing, vague or misordered step caused it."
+ },
+ "sources": [
+  {
+   "claim": "Novice programmers from primary school to college show persistent, language-independent conceptual bugs (parallelism, intentionality, egocentrism), all traced to a default assumption that the programming language has a hidden mind with intelligent interpretive powers; egocentrism is assuming the program holds more of the programmer's meaning than the code expresses.",
+   "source": "Pea, R. D. (1984/1986). Language-Independent Conceptual 'Bugs' in Novice Programming. Bank Street Technical Report No. 31 (ERIC ED319373); Journal of Educational Computing Research 2(1), 25–36",
+   "url": "https://eric.ed.gov/?id=ED319373",
+   "verified": true
+  },
+  {
+   "claim": "The Sequence learning trajectory centres on two big ideas, order and precision/specificity, and the trajectories were ordered to move from broad everyday-life ideas to general computational thinking concepts and then to direct programming.",
+   "source": "University of Chicago Computer Science news — Diana Franklin receives best paper award at ICER 2017 (summary of Rich, Strickland, Binkowski, Moran & Franklin, K-8 Learning Trajectories)",
+   "url": "https://cs.uchicago.edu/news/diana-franklin-receives-best-paper-award-at-icer-2017/",
+   "verified": true
+  },
+  {
+   "claim": "K-8 learning trajectories for sequence, repetition and conditionals were synthesised from learning goals in published research, with goals grouped into beginning, intermediate and advanced levels and marked as unplugged or computer-based.",
+   "source": "Rich, K. M., Strickland, C., Binkowski, T. A., Moran, C., & Franklin, D. (2017). K-8 Learning Trajectories Derived from Research Literature: Sequence, Repetition, Conditionals. Proceedings of ICER 2017, 182–190",
+   "url": "https://researchr.org/publication/RichSBMF17",
+   "verified": false
+  },
+  {
+   "claim": "A fourth grader gave correctly ordered path instructions ('right and up, then right') that lacked how far to move, showing understanding that order affects the outcome without the beginning-level idea that precision and completeness matter when writing instructions in advance.",
+   "source": "Luo, F., Israel, M., Liu, R., Yan, W., Gane, B., & Hampton, J. (2020). Understanding Students' Computational Thinking through Cognitive Interviews: A Learning Trajectory-based Analysis. SIGCSE '20",
+   "url": "https://par.nsf.gov/servlets/purl/10178448",
+   "verified": true
+  },
+  {
+   "claim": "After a one-week robotics and tangible programming workshop (CHERP), 27 early-childhood participants showed significant gains from pre-test to post-test on a picture-story sequencing task, compared against a control group.",
+   "source": "Kazakoff, E. R., Sullivan, A., & Bers, M. U. (2013). The Effect of a Classroom-Based Intensive Robotics and Programming Workshop on Sequencing Ability in Early Childhood. Early Childhood Education Journal 41, 245–255",
+   "url": "https://sites.bc.edu/devtech/wp-content/uploads/sites/181/2018/02/kazsullbers2013.pdf",
+   "verified": true
+  },
+  {
+   "claim": "In the TangibleK robotics curriculum with kindergarteners (about ages 5–6), three-quarters of children reached the target level on their first sequencing activity, and the curriculum taught a four-step debugging process (recognise a problem, keep the goal, hypothesise a cause, try a fix).",
+   "source": "Bers, M. U., Flannery, L., Kazakoff, E. R., & Sullivan, A. (2014). Computational thinking and tinkering: Exploration of an early childhood robotics curriculum. Computers & Education 72, 145–157",
+   "url": "https://sites.bc.edu/devtech/wp-content/uploads/sites/181/2018/02/computersandeducation.pdf",
+   "verified": true
+  },
+  {
+   "claim": "In a study of 170 children aged 5–6 solving Bee-Bot problems, children given scaffolds (laminated command cards arranged into a visual sequence, or a scaled-down model of the mat) outperformed an unscaffolded control group, whose members struggled to visualise the command sequence and could not reliably tell left from right turns.",
+   "source": "Angeli, C., & Georgiou, K. (2023). Investigating the effects of gender and scaffolding in developing preschool children's computational thinking during problem-solving with Bee-Bots. Frontiers in Education 7",
+   "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2022.757627/full",
+   "verified": true
+  },
+  {
+   "claim": "England's KS1 computing programme of study expects pupils to understand what algorithms are, that programs on digital devices execute precise and unambiguous instructions, to build and fix simple programs, and to reason logically about what a simple program will do.",
+   "source": "DfE — National curriculum in England: computing programmes of study (Key Stage 1)",
+   "url": "https://www.gov.uk/government/publications/national-curriculum-in-england-computing-programmes-of-study/national-curriculum-in-england-computing-programmes-of-study",
+   "verified": true
+  },
+  {
+   "claim": "CSTA Level 1A (grades K–2) standards include 1A-AP-08 (make and follow step-by-step algorithms that model everyday routines) and 1A-AP-11 (break a problem down into an exact, ordered list of steps).",
+   "source": "CSTA K-12 Computer Science Standards (2017), Level 1A, as reproduced by Washington OSPI",
+   "url": "https://ospi.k12.wa.us/sites/default/files/2022-12/cs-standards-k-2.pdf",
+   "verified": true
+  }
+ ],
+ "confidence": "medium",
+ "provenance": {
+  "originalResearchGeneratedBy": "claude-opus-5-5 (Sparks & Sprockets computing research pass)",
+  "createdAt": "2026-10-29T00:00:00Z",
+  "updatedAt": "2026-10-29T00:00:00Z"
+ },
+ "publicationNotes": {
+  "omittedCurriculumText": []
+ }
+}

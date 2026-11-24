@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "scope": "Selected England 2013 Science, Computing and Design & Technology programmes; NGSS 5-PS1-3 boundary only. Not an audit of all catalogued curricula.",
+  "statusDefinitions": {
+    "Partial": "A component is related to the named requirement; remaining conditions prevent a whole-expectation coverage claim.",
+    "Unverified": "An exact standards association has not been established; absence of a link is not proof of universal curriculum absence.",
+    "Out of scope": "The named assessment explicitly excludes this concept; scope is that expectation only."
+  },
+  "records": [
+    {
+      "topicId": "mt_915b9dc0b3714097",
+      "relationship": "enrichment_with_explicit_assessment_exclusion",
+      "reviewDisposition": "Out of scope",
+      "scope": "NGSS 5-PS1-3, assessment boundary",
+      "sourceUrls": [
+        "https://www.nextgenscience.org/pe/5-ps1-3-matter-and-its-interactions"
+      ],
+      "reviewedAt": "2026-11-24",
+      "contribution": "The proposed density comparison is outside this particular performance expectation's assessment boundary.",
+      "remainingConditions": "Do not map density mastery to 5-PS1-3. This is not a claim that all elementary curricula exclude density.",
+      "formalAssociationAuthored": false
+    },
+    {
+      "topicId": "mt_92fa2c4720f84f79",
+      "relationship": "enrichment_in_selected_primary_scope",
+      "reviewDisposition": "Unverified",
+      "scope": "England Science KS1–2 and KS3 Pressure in fluids",
+      "sourceUrls": [
+        "https://www.gov.uk/government/publications/national-curriculum-in-england-science-programmes-of-study/national-curriculum-in-england-science-programmes-of-study"
+      ],
+      "reviewedAt": "2026-11-24",
+      "contribution": "Displacement is a useful conceptual prerequisite/application for buoyancy; no exact primary expectation was established in this review.",
+      "remainingConditions": "Do not infer full coverage of fluid pressure from displaced-volume comparisons; other jurisdictions remain unreviewed.",
+      "formalAssociationAuthored": false
+    },
+    {
+      "topicId": "mt_0124c7499b7c49de",
+      "relationship": "earlier_qualitative_introduction",
+      "reviewDisposition": "Partial",
+      "scope": "England Science KS3 Pressure in fluids",
+      "sourceUrls": [
+        "https://www.gov.uk/government/publications/national-curriculum-in-england-science-programmes-of-study/national-curriculum-in-england-science-programmes-of-study"
+      ],
+      "reviewedAt": "2026-11-24",
+      "contribution": "Related to the later-stage floating/upthrust requirement; the primary-age claim supplies a bounded qualitative model.",
+      "remainingConditions": "Does not cover the complete pressure strand, atmosphere or numerical pressure; proposed ages are not statutory age mappings.",
+      "formalAssociationAuthored": false
+    },
+    {
+      "topicId": "mt_b39a1788b3424357",
+      "relationship": "earlier_qualitative_introduction",
+      "reviewDisposition": "Partial",
+      "scope": "England Science KS3 Pressure in fluids",
+      "sourceUrls": [
+        "https://www.gov.uk/government/publications/national-curriculum-in-england-science-programmes-of-study/national-curriculum-in-england-science-programmes-of-study"
+      ],
+      "reviewedAt": "2026-11-24",
+      "contribution": "Direct conceptual overlap with depth-dependent liquid pressure; the proposed younger scope omits numerical requirements.",
+      "remainingConditions": "The complete strand also includes atmospheric and force/area pressure. No primary statutory association is authored.",
+      "formalAssociationAuthored": false
+    },
+    {
+      "topicId": "mt_da7df960e3c3497f",
+      "relationship": "component_of_primary_requirements",
+      "reviewDisposition": "Partial",
+      "scope": "England Computing KS2 and D&T KS2 technical knowledge",
+      "sourceUrls": [
+        "https://www.gov.uk/government/publications/national-curriculum-in-england-computing-programmes-of-study/national-curriculum-in-england-computing-programmes-of-study",
+        "https://www.gov.uk/government/publications/national-curriculum-in-england-design-and-technology-programmes-of-study/national-curriculum-in-england-design-and-technology-programmes-of-study"
+      ],
+      "reviewedAt": "2026-11-24",
+      "contribution": "Explaining sensing/control/actuation supports physical-system programming and product control.",
+      "remainingConditions": "The conceptual explanation alone does not demonstrate writing/debugging a program, decomposition or designing/making a product; see the D&T source as well.",
+      "formalAssociationAuthored": false
+    },
+    {
+      "topicId": "mt_84988393c9e342de",
+      "relationship": "component_with_enrichment",
+      "reviewDisposition": "Partial",
+      "scope": "England Computing KS2 and D&T KS2 technical knowledge",
+      "sourceUrls": [
+        "https://www.gov.uk/government/publications/national-curriculum-in-england-design-and-technology-programmes-of-study/national-curriculum-in-england-design-and-technology-programmes-of-study",
+        "https://www.gov.uk/government/publications/national-curriculum-in-england-computing-programmes-of-study/national-curriculum-in-england-computing-programmes-of-study"
+      ],
+      "reviewedAt": "2026-11-24",
+      "contribution": "Repeated measurement and correction can support programming, monitoring and control.",
+      "remainingConditions": "This regulator model is an authored application, not an explicit primary requirement for closed-loop theory; explanation alone does not establish programming or making competence.",
+      "formalAssociationAuthored": false
+    },
+    {
+      "topicId": "mt_d1f48410cd8b4254",
+      "relationship": "extends_related_primary_content",
+      "reviewDisposition": "Partial",
+      "scope": "England Science Year 5 Forces; D&T KS2 mechanical systems",
+      "sourceUrls": [
+        "https://www.gov.uk/government/publications/national-curriculum-in-england-science-programmes-of-study/national-curriculum-in-england-science-programmes-of-study",
+        "https://www.gov.uk/government/publications/national-curriculum-in-england-design-and-technology-programmes-of-study/national-curriculum-in-england-design-and-technology-programmes-of-study"
+      ],
+      "reviewedAt": "2026-11-24",
+      "contribution": "Related primary content covers mechanisms that change force; the explicit input-travel and energy relationship adds depth.",
+      "remainingConditions": "No numerical work or efficiency coverage; a concept task alone does not meet practical product-use conditions. Related examples do not certify every mechanism expectation.",
+      "formalAssociationAuthored": false
+    },
+    {
+      "topicId": "mt_9401faebe1804335",
+      "relationship": "component_with_enrichment",
+      "reviewDisposition": "Partial",
+      "scope": "England D&T KS1 stability; Science KS3 turning effects",
+      "sourceUrls": [
+        "https://www.gov.uk/government/publications/national-curriculum-in-england-design-and-technology-programmes-of-study/national-curriculum-in-england-design-and-technology-programmes-of-study",
+        "https://www.gov.uk/government/publications/national-curriculum-in-england-science-programmes-of-study/national-curriculum-in-england-science-programmes-of-study"
+      ],
+      "reviewedAt": "2026-11-24",
+      "contribution": "Qualitative stability prediction contributes to understanding structures; the explicit centre/support model extends the primary practical requirement.",
+      "remainingConditions": "Does not cover actually building stronger/stiffer/stable structures; formal turning-effects content is later-stage. No KS1 age mapping is inferred for this 8–12 proposal.",
+      "formalAssociationAuthored": false
+    },
+    {
+      "topicId": "mt_56c39fbf4ef341a0",
+      "relationship": "earlier_qualitative_introduction",
+      "reviewDisposition": "Partial",
+      "scope": "England Science KS3 pressure as force per area",
+      "sourceUrls": [
+        "https://www.gov.uk/government/publications/national-curriculum-in-england-science-programmes-of-study/national-curriculum-in-england-science-programmes-of-study"
+      ],
+      "reviewedAt": "2026-11-24",
+      "contribution": "The direction-of-change comparison addresses a qualitative component of later force/area pressure.",
+      "remainingConditions": "Does not assess the numerical ratio or the whole pressure strand; primary-age use is proposed enrichment.",
+      "formalAssociationAuthored": false
+    },
+    {
+      "topicId": "mt_3568068de7804719",
+      "relationship": "application_enrichment",
+      "reviewDisposition": "Unverified",
+      "scope": "England Science KS1–2 and D&T KS2 electrical systems",
+      "sourceUrls": [
+        "https://www.gov.uk/government/publications/national-curriculum-in-england-science-programmes-of-study/national-curriculum-in-england-science-programmes-of-study"
+      ],
+      "reviewedAt": "2026-11-24",
+      "contribution": "Related light, electricity and design content provides foundations; no exact primary panel-orientation requirement was established.",
+      "remainingConditions": "Do not label a working circuit or generic energy-conversion standard fully covered by this orientation concept. Other jurisdictions were not checked.",
+      "formalAssociationAuthored": false
+    }
+  ]
+}

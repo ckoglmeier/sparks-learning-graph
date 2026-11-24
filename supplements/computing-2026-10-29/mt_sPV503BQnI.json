@@ -1,0 +1,253 @@
+{
+ "topicId": "mt_sPV503BQnI",
+ "pedagogy": {
+  "summary": "- **Age:** 6–13 years (most children meet this at 6–9; older beginners move through it quickly)\n\n- **Topic:** My first visual program — a start event, a sequence of blocks, run and observe\n\n- **Standards — UK (DfE National Curriculum, KS1 Computing):** pupils learn that programs on devices carry out exact instructions, build and fix simple programs, and reason about what a simple program will do before it runs; KS2 extends this to programs written for a specific goal.\n\n- **Standards — US (CSTA K-12, Level 1A):** 1A-AP-10 (build programs from sequences, and later simple loops, to express an idea) and 1A-AP-08 (model everyday processes as step-by-step algorithms); links to 1A-AP-14 for fixing them.\n\n- **Standards — Australia (Digital Technologies v9, AC9TDI4P04):** turn simple algorithms into block-based programs, Years 3–4.\n\n- **Checkpoint:** The goal is that the child can plan a short sequence, attach it to a start event, run it and check the result against the plan — and can say why swapping two blocks changes what happens. Loops, decisions and input belong to later topics (mt_6XbAmdmjDb, mt_nfGAtwqSvP).",
+  "bestPractices": [
+   "Read before write: give a short working starter program, ask the child to predict what it will do, then run it to check (Predict–Run from PRIMM; 'use' before 'modify' and 'create').",
+   "Keep the first program tiny and visible: one start event (e.g. green flag), three or four blocks, each with an outcome the child can watch.",
+   "Plan the algorithm first in words or pictures, then build it, then run it and compare what happened with the plan.",
+   "Build a little, run it, then add more — incremental and iterative building rather than writing everything before the first run.",
+   "Make order an explicit object of talk: swap two blocks on purpose and ask what changed and why.",
+   "Use a counting grid or number line so movement amounts are concrete and checkable (three jumps of 2 should land on 6).",
+   "Bound the options for young children (small number values, few block types) so tinkering stays aimed at the goal."
+  ],
+  "keyRepresentations": [
+   "A block script hanging from a start event (green flag or Begin block), read top to bottom",
+   "A highlighted 'current block' indicator as the program runs step by step",
+   "A grid or number line under the character or robot, for counting moves and checking where it stops",
+   "Tangible block cards or wooden blocks (e.g. KIBO-style) that can be physically reordered",
+   "A plan card (words or pictures) set beside the script for checking 'did it do what I planned?'"
+  ],
+  "commonMisconceptions": [
+   "Not grasping that blocks run one after another in order — the most common misconception in a Scratch-based study of 145 students aged 7–17 (Swidan et al., 2018).",
+   "Treating order as unimportant — learning that 'order matters' is itself a named goal of the early coding stage (Bers, 2019).",
+   "Chasing big numbers or clicking blocks for instant effects rather than working toward the planned outcome (observed in ScratchJr design studies, Flannery et al., 2013).",
+   "Expecting blocks that are not attached to the start event to run when the flag is clicked (design inference; see reviewNotes).",
+   "Expecting the computer to 'know what I meant' rather than doing exactly the blocks given (linked to the KS1 idea that programs follow precise instructions; framing is a design inference)."
+  ]
+ },
+ "learn": {
+  "schemaVersion": 2,
+  "summary": "For ages 6–13 (mostly 6–9), the child builds a first block program: a start event, a short sequence of blocks, then run and observe. Start by reading and predicting a tiny working program before writing one, then move to modifying it and building a new one from a plan. Make order the centre of attention: run step by step with the current block highlighted, swap blocks on purpose, and use a grid or number line so a maths sequence (three jumps of 2) can be checked against where the character stops. Loops, decisions and input wait for later topics.",
+  "activities": [
+   {
+    "title": "Predict, then run a three-block starter",
+    "learnerActions": [
+     "Look at a ready-made script: green flag, move 2, say 'Hello', move 2. Before pressing anything, say or draw what you think the character will do and where it will end up.",
+     "Press the green flag and watch. Follow the highlighted block as each one runs.",
+     "Say whether your prediction matched. If it didn't, point to the block where what happened stopped matching what you expected.",
+     "Change one number in the script, predict again, and run again."
+    ],
+    "intendedInsight": "A program is a list of steps the computer carries out one at a time, top to bottom, starting from the start event — so you can predict what it will do by reading it.",
+    "feedback": [
+     "If the prediction skipped a block, ask: 'Which block runs first? And after that one?' and let the child trace with a finger.",
+     "If the child is surprised by where it ended up, ask them to count the grid squares for each move block and compare with their guess.",
+     "When the prediction matched, ask: 'How did you know before you pressed the flag?'"
+    ],
+    "rationale": "Starting with a working program to predict and run lowers the load of writing code and makes the order of execution the thing being reasoned about; it follows the Predict–Run stages of PRIMM and the 'use' phase of use-modify-create, and directly targets the common misconception about the order statements run in.",
+    "sourceClaims": [
+     "PRIMM (Predict, Run, Investigate, Modify, Make) structures programming lessons around reading code before writing it: learners first discuss and predict what a shared starter program will do, run it to check the prediction, investigate its structure, modify it in small steps and then make a new program with the same structures; a 2018 study with about 500 learners aged 11–14 reported improved outcomes.",
+     "Lee et al. propose a three-phase 'use-modify-create' progression for youth computational thinking, in which learners move from using an existing artefact, to modifying it, to creating their own.",
+     "In a Scratch-based questionnaire with 145 school students aged 7–17, the most common programming misconceptions concerned the order in which statements are executed, a variable holding one value at a time, and how interactive programs handle user input.",
+     "In Brennan & Resnick's framework, sequences are a core computational concept: a task is expressed as a series of individual steps the computer executes, like a recipe; designers also work incrementally and iteratively, building a little, trying it out, then building further."
+    ]
+   },
+   {
+    "title": "Plan it, build it, check it: my character moves, talks and changes",
+    "learnerActions": [
+     "Plan in words or pictures: 'When the flag is clicked, my character walks forward, says hi, then changes costume.'",
+     "Drag a start block (green flag) and snap the blocks under it in the order of your plan.",
+     "Run it after adding the first block, then add the next block and run again.",
+     "When it is finished, put the plan card next to the script and check each step: did the program do what the plan said, in the same order?"
+    ],
+    "intendedInsight": "A program is an algorithm written in blocks; the plan and the script should match step for step, and building a little then testing keeps them matched.",
+    "feedback": [
+     "If nothing happens when the flag is clicked, ask: 'Which blocks are joined to the flag? What happens to blocks that are not joined?'",
+     "If the character does things in a different order from the plan, ask the child to read the plan and the script side by side and find where they differ.",
+     "If the child keeps clicking blocks to see effects without building toward the plan, ask: 'Which step of your plan are you building now?'"
+    ],
+    "rationale": "Linking a written plan to a block sequence makes visible that a program implements an algorithm; building and running in small steps reflects the incremental and iterative practice Brennan and Resnick describe, and ScratchJr's design (green flag, blocks attached to a trigger) supports exactly this start-event-plus-sequence structure.",
+    "sourceClaims": [
+     "In Brennan & Resnick's framework, sequences are a core computational concept: a task is expressed as a series of individual steps the computer executes, like a recipe; designers also work incrementally and iteratively, building a little, trying it out, then building further.",
+     "ScratchJr was designed for ages 5–7 with a Green Flag to start a program, blocks that can be clicked to run or attached to a trigger block to support tinkering, a grid for counting distance (e.g. three 'Move 1' blocks or one 'Move 3'), and encouragement to predict what will happen before each run; designers observed that unbounded options such as huge number values drew young children away from their goal and produced outcomes they could not readily debug.",
+     "England's KS1 computing programme of study expects pupils to understand that algorithms are implemented as programs on digital devices which follow precise and unambiguous instructions, to create and debug simple programs, and to use logical reasoning to predict the behaviour of simple programs."
+    ]
+   },
+   {
+    "title": "Jump along the number line: three jumps of 2",
+    "learnerActions": [
+     "Your character (or robot) stands on 0 of a number line. Plan a program that makes it jump 2, three times.",
+     "Before running, say where it should stop.",
+     "Build it two ways: three 'move 2' blocks, and then try a different combination of blocks that should give the same result.",
+     "Run each version and check: did it stop on 6? Record what happened."
+    ],
+    "intendedInsight": "A sequence of blocks can act out a maths situation, and the number line lets you check the program's result against the maths you expected.",
+    "feedback": [
+     "If it stops on the wrong number, ask: 'How many jumps did it make? How big was each one?' and have the child count along the line.",
+     "If the child counts the starting square as a jump, ask: 'Where was it before the first jump? Where after?'",
+     "When both versions land on 6, ask: 'Why do two different programs give the same answer here?'"
+    ],
+    "rationale": "ScratchJr's grid was designed so that movement amounts are concrete and several block strategies can reach the same outcome; tying a sequence to a number-line jump gives a checkable target and connects the program to the maths evidence in the topic.",
+    "sourceClaims": [
+     "ScratchJr was designed for ages 5–7 with a Green Flag to start a program, blocks that can be clicked to run or attached to a trigger block to support tinkering, a grid for counting distance (e.g. three 'Move 1' blocks or one 'Move 3'), and encouragement to predict what will happen before each run; designers observed that unbounded options such as huge number values drew young children away from their goal and produced outcomes they could not readily debug."
+    ]
+   },
+   {
+    "title": "Swap two blocks: does order matter?",
+    "learnerActions": [
+     "Take a working script: move 3, say 'I'm here!'. Predict what will change if you swap the two blocks.",
+     "Swap them and run. Watch the highlighted block as each one runs.",
+     "Explain to a partner what changed and why.",
+     "Find one pair of blocks in your own program where swapping makes no visible difference, and one where it does."
+    ],
+    "intendedInsight": "The computer runs blocks in exactly the order they are stacked, so changing the order can change what the program does — even though the blocks themselves are the same.",
+    "feedback": [
+     "If the child says 'it's the same blocks so it's the same', ask them to watch where the character is standing when it speaks in each version.",
+     "If the child finds a swap that changes nothing, ask: 'Why didn't order matter for these two blocks but did for the others?'",
+     "Confirm: 'The same blocks in a different order can make a different program.'"
+    ],
+    "rationale": "Learning that the order of commands produces different behaviour is named as a goal of the early coding stage, and the order statements execute in is the most common misconception found in school students using Scratch; sequencing practice with programmable robots has been linked to gains in young children's sequencing ability.",
+    "sourceClaims": [
+     "Bers' Coding as Another Language approach describes an early 'coding and decoding' stage in which children learn that sequencing matters — the order of commands produces different behaviours — create simple cause-and-effect programs and begin debugging by trial and error; sequencing and debugging are named among the powerful ideas of computer science for young children using ScratchJr and KIBO.",
+     "In a Scratch-based questionnaire with 145 school students aged 7–17, the most common programming misconceptions concerned the order in which statements are executed, a variable holding one value at a time, and how interactive programs handle user input.",
+     "In a one-week robotics and programming workshop using the tangible language CHERP, 27 young children at an early-childhood STEM school showed significant gains on a picture-story sequencing task from pre-test to post-test."
+    ]
+   }
+  ],
+  "constraints": [
+   "Keep to sequences from one start event; loops, decisions, input and several characters running at once belong to later topics.",
+   "Keep the first programs short (about three to six blocks) with visible, slow-enough outcomes so the child can match each block to what happens.",
+   "Always run after predicting; a prediction without a run gives no evidence, and a run without a prediction gives nothing to check.",
+   "For the youngest children, limit number values and block choices so tinkering stays aimed at the goal.",
+   "A step-by-step highlight of the current block supports tracing but should be faded so the child learns to trace a script by reading it.",
+   "Do not give the child the corrected sequence; ask questions that send them back to compare their plan, their script and what happened."
+  ],
+  "reviewNotes": [
+   "Research pass by an AI agent with live source checks in October 2026. All activities are research-informed proposals, not validated interventions.",
+   "The PRIMM evidence (about 500 learners aged 11–14) comes from older learners than most of this topic's age range; applying Predict–Run to ages 6–8 is an extrapolation, though ScratchJr's design also encourages prediction before each run.",
+   "The misconceptions about unattached blocks not running and the computer 'knowing what I meant' are design inferences from common classroom experience, not drawn from the cited studies.",
+   "The Kazakoff et al. study measured transfer to a picture-story sequencing task after a tangible-robot workshop; it does not show that screen-based block programs produce the same gain.",
+   "Swidan et al.'s sample spans ages 7–17 with mixed experience; the order-of-execution finding was checked from the published abstract only.",
+   "The Sentance, Waite & Kallia (2019) journal article (Computer Science Education, 29(2–3)) was not opened directly; PRIMM claims rest on the Raspberry Pi Foundation/NCCE Quick Read."
+  ]
+ },
+ "assess": {
+  "method": "performance_task",
+  "diagnosticPrompt": "Here is a plan: 'When the flag is clicked, the robot moves forward 2, says Hello, then moves forward 2 again.' Build the program, run it, and tell me whether it did what the plan said. Then swap the 'say Hello' block with the first move block and tell me, before you run it, what will be different.",
+  "correctAnswer": "The child attaches the blocks under the start event in the plan's order, runs it and checks each step against the plan. For the swap they predict that the robot will now say Hello at the start, before it has moved, while still ending in the same place — because the computer runs the blocks in the order they are stacked.",
+  "whatMakesItDiscriminate": "Building to a plan, running and checking shows the child links an algorithm to a block sequence; the swap prediction, made before running, separates a child who understands that blocks execute in stacked order from one who treats a program as a bag of blocks. A child can only get the swap right by reasoning about order, and a child who reasons about order cannot miss where the speech happens.",
+  "errorPatterns": [
+   {
+    "kind": "misconception",
+    "pattern": "'It's the same blocks, so swapping them won't change anything.'",
+    "revealedBy": "Predicts no difference after the swap, or is surprised when the robot speaks before moving.",
+    "nextMove": "Run both versions slowly with the current block highlighted and ask where the robot is standing when it speaks each time.",
+    "distractor": null,
+    "reteachPrerequisiteId": "mt__p5n8z5soJ"
+   },
+   {
+    "kind": "misconception",
+    "pattern": "'All my blocks will run when I click the flag' (with some blocks left loose in the scripting area).",
+    "revealedBy": "Leaves blocks unattached to the start event and is puzzled when they don't run.",
+    "nextMove": "Ask the child to trace with a finger from the flag downward and say which blocks the finger touches; those are the ones that run.",
+    "distractor": null,
+    "reteachPrerequisiteId": null
+   },
+   {
+    "kind": "misconception",
+    "pattern": "'The robot knows I want it to stop on 6, so it will.'",
+    "revealedBy": "Expects the right outcome from blocks that don't produce it, or blames the robot when it stops elsewhere.",
+    "nextMove": "Ask the child to read out exactly what each block tells the robot to do and count along the number line together; the robot does only that.",
+    "distractor": null,
+    "reteachPrerequisiteId": "mt__p5n8z5soJ"
+   },
+   {
+    "kind": "performance",
+    "pattern": "'Let me just try this big number and see what happens!'",
+    "revealedBy": "Clicks blocks or types very large values for instant effects and drifts away from the plan.",
+    "nextMove": "Don't scold or ban exploring; ask which step of the plan they're on and what number that step needs.",
+    "distractor": null,
+    "reteachPrerequisiteId": null
+   },
+   {
+    "kind": "developmental",
+    "pattern": "'First it goes 0, then 2... so three jumps is 4.'",
+    "revealedBy": "Counts the starting point as a jump or loses track of jumps versus landing spots on the number line.",
+    "nextMove": "Don't correct the arithmetic for them; have them run the program and point to where the robot is after each jump.",
+    "distractor": null,
+    "reteachPrerequisiteId": null
+   }
+  ],
+  "probeDeeper": [
+   "How did you know what the robot would do before you pressed the flag?",
+   "Which block runs first? How do you know?",
+   "Can you make a different program that still lands on 6? Why do both work?",
+   "If the robot did something your plan didn't say, where would you look first?"
+  ],
+  "responseLevels": {
+   "gap": "Builds blocks without a start event or in any order, can't predict what will happen, and treats a swap as making no difference.",
+   "partial": "Builds a program that runs and roughly matches the plan, but checks only the end result, or predicts a swap's effect only after running it.",
+   "full": "Builds the sequence from the plan under a start event, runs and checks each step against the plan, predicts before running how a swap will change the behaviour and explains it by the order blocks run in — and transfers this to a new sequence such as a number-line program."
+  },
+  "poeTask": "Show a two-block program (move 3, then say 'I'm here!'). Ask the child to predict what will happen if you swap the blocks, and why. Run it with the current block highlighted. A child who said 'nothing changes' sees the robot speak before it moves, which brings out the idea that the computer runs blocks in stacked order."
+ },
+ "sources": [
+  {
+   "claim": "In Brennan & Resnick's framework, sequences are a core computational concept: a task is expressed as a series of individual steps the computer executes, like a recipe; designers also work incrementally and iteratively, building a little, trying it out, then building further.",
+   "source": "Brennan, K. & Resnick, M. (2012). New frameworks for studying and assessing the development of computational thinking. AERA Annual Meeting, Vancouver.",
+   "url": "https://scratched.gse.harvard.edu/ct/files/AERA2012.pdf",
+   "verified": true
+  },
+  {
+   "claim": "ScratchJr was designed for ages 5–7 with a Green Flag to start a program, blocks that can be clicked to run or attached to a trigger block to support tinkering, a grid for counting distance (e.g. three 'Move 1' blocks or one 'Move 3'), and encouragement to predict what will happen before each run; designers observed that unbounded options such as huge number values drew young children away from their goal and produced outcomes they could not readily debug.",
+   "source": "Flannery, L. P., Kazakoff, E. R., Bontá, P., Silverman, B., Bers, M. U. & Resnick, M. (2013). Designing ScratchJr: Support for early childhood learning through computer programming. Proceedings of IDC '13, ACM.",
+   "url": "https://sites.bc.edu/devtech/wp-content/uploads/sites/181/2018/02/scratchjr_idc_2013.pdf",
+   "verified": true
+  },
+  {
+   "claim": "Bers' Coding as Another Language approach describes an early 'coding and decoding' stage in which children learn that sequencing matters — the order of commands produces different behaviours — create simple cause-and-effect programs and begin debugging by trial and error; sequencing and debugging are named among the powerful ideas of computer science for young children using ScratchJr and KIBO.",
+   "source": "Bers, M. U. (2019). Coding as another language: a pedagogical approach for teaching computer science in early childhood. Journal of Computers in Education, 6(4), 499–528.",
+   "url": "https://link.springer.com/article/10.1007/s40692-019-00147-3",
+   "verified": true
+  },
+  {
+   "claim": "In a one-week robotics and programming workshop using the tangible language CHERP, 27 young children at an early-childhood STEM school showed significant gains on a picture-story sequencing task from pre-test to post-test.",
+   "source": "Kazakoff, E. R., Sullivan, A. & Bers, M. U. (2013). The effect of a classroom-based intensive robotics and programming workshop on sequencing ability in early childhood. Early Childhood Education Journal, 41(4), 245–255.",
+   "url": "https://sites.bc.edu/devtech/wp-content/uploads/sites/181/2018/02/kazsullbers2013.pdf",
+   "verified": true
+  },
+  {
+   "claim": "PRIMM (Predict, Run, Investigate, Modify, Make) structures programming lessons around reading code before writing it: learners first discuss and predict what a shared starter program will do, run it to check the prediction, investigate its structure, modify it in small steps and then make a new program with the same structures; a 2018 study with about 500 learners aged 11–14 reported improved outcomes.",
+   "source": "Raspberry Pi Foundation / National Centre for Computing Education — Pedagogy Quick Read: Using PRIMM to structure programming lessons (summarising Sentance, Waite & Kallia, 2019)",
+   "url": "https://static.raspberrypi.org/files/curriculum/quickreads/11-Pedagogy_Summary_PRIMM_V4_2023.pdf",
+   "verified": true
+  },
+  {
+   "claim": "Lee et al. propose a three-phase 'use-modify-create' progression for youth computational thinking, in which learners move from using an existing artefact, to modifying it, to creating their own.",
+   "source": "Lee, I., Martin, F., Denner, J., Coulter, B., Allan, W., Erickson, J., Malyn-Smith, J. & Werner, L. (2011). Computational thinking for youth in practice. ACM Inroads, 2(1), 32–37.",
+   "url": "https://doi.org/10.1145/1929887.1929902",
+   "verified": true
+  },
+  {
+   "claim": "In a Scratch-based questionnaire with 145 school students aged 7–17, the most common programming misconceptions concerned the order in which statements are executed, a variable holding one value at a time, and how interactive programs handle user input.",
+   "source": "Swidan, A., Hermans, F. & Smit, M. (2018). Programming misconceptions for school students. Proceedings of ICER '18, ACM, 151–159.",
+   "url": "https://research.vu.nl/en/publications/programming-misconceptions-for-school-students/",
+   "verified": true
+  },
+  {
+   "claim": "England's KS1 computing programme of study expects pupils to understand that algorithms are implemented as programs on digital devices which follow precise and unambiguous instructions, to create and debug simple programs, and to use logical reasoning to predict the behaviour of simple programs.",
+   "source": "DfE — National curriculum in England: computing programmes of study (Key Stage 1)",
+   "url": "https://www.gov.uk/government/publications/national-curriculum-in-england-computing-programmes-of-study/national-curriculum-in-england-computing-programmes-of-study",
+   "verified": true
+  }
+ ],
+ "confidence": "medium",
+ "provenance": {
+  "originalResearchGeneratedBy": "claude-opus-5-5 (Sparks & Sprockets computing research pass)",
+  "createdAt": "2026-10-29T00:00:00Z",
+  "updatedAt": "2026-10-29T00:00:00Z"
+ },
+ "publicationNotes": {
+  "omittedCurriculumText": []
+ }
+}

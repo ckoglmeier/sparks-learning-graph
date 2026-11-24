@@ -1,0 +1,259 @@
+{
+ "topicId": "mt_XXpEz9tyu6",
+ "pedagogy": {
+  "summary": "- **Age:** 7–13 years (ScratchJr or simple two-sprite scenes at 7–9; shared-resource and message timing at 10–13)\n\n- **Topic:** Concurrent events in code\n\n- **Standards — Ontario (Mathematics 2020, Strand C coding, C3.1/C3.2):** from Grade 2, students write, read and alter code that involves sequential and concurrent events and describe how changes affect the outcome; repeating events are added in Grade 3.\n\n- **Standards — US (CSTA K-12, 1B-AP-10):** at grades 3–5, learners create programs that include events alongside sequences, loops and conditionals.\n\n- **Standards — England (DfE National Curriculum, KS2 Computing):** pupils design, write and debug programs that accomplish goals and reason logically about how they work; concurrency is not named and sits inside this broader expectation.\n\n- **Checkpoint:** Procedural, with prediction. The goal is that a child can (1) make two scripts start on the same event so two things happen together, (2) tell this apart from the same blocks stacked one after another in a single script, (3) predict what is on screen at a given moment, and (4) alter one script and explain the combined effect. Synchronising shared resources (race conditions, 'broadcast and wait') is an extension for older or more experienced learners.",
+  "bestPractices": [
+   "Start from everyday multitasking (walking while talking, a truck driving while its crane works) and contrast it with doing one thing after another.",
+   "Show the same blocks two ways side by side: stacked in one script (one after another) and split into two scripts under the same start event (at the same time); predict, run and compare.",
+   "Ask for predictions at a specific moment ('two seconds after the flag, where is each character and what is it doing?') rather than only the final outcome.",
+   "Alter one script at a time (a longer wait, more steps, an extra repeat) and have children predict and then explain how the combined outcome changes.",
+   "Teach that actions which must happen in a fixed order (place the hero, then show it) belong in one script; splitting them across scripts on the same event can make the order unpredictable.",
+   "Run concurrent programs several times and treat a run that goes wrong as real evidence, not a glitch; give children a list of test cases covering every event."
+  ],
+  "keyRepresentations": [
+   "Two side-by-side lanes (a timeline per script) with time running down the page, so blocks that line up across lanes happen together",
+   "The same blocks shown stacked in one script versus split into two scripts under one green flag",
+   "A truck that drives forward while its robot arm lifts a crate: one script per part, both started by the same event",
+   "Freeze-frame cards: what is on screen at second 1, second 2, second 3",
+   "Children acting out scripts as people, each holding one script card and starting on the same signal"
+  ],
+  "commonMisconceptions": [
+   "Reading all scripts as one long sequence, so the second script is expected to start only after the first finishes (sequential execution is itself among the most common Scratch misconceptions for ages 7–17; Swidan et al., 2018).",
+   "Putting actions that must happen in order into separate scripts on the same event, then being surprised when the order varies (Fatourou et al., 2018).",
+   "Attaching actions to the wrong event, most often putting everything under the green flag (Fatourou et al., 2018).",
+   "Dismissing a run that went wrong as a computer glitch because other runs looked fine (Fatourou et al., 2018).",
+   "General difficulty with concurrency reported for middle-school Scratch learners (Meerbaum-Salant et al., 2013).",
+   "Assuming separate lines of a program are all active at once even when they are in one sequence (the parallelism bug; Pea, 1986; unverified here)."
+  ]
+ },
+ "learn": {
+  "summary": "For ages 7–13, teach concurrency as several scripts running at the same time, each one still running its own blocks in order. Begin with acted-out and everyday examples, then compare the same blocks stacked in one script with the blocks split into two scripts under the same start event. Children predict what is on screen at a particular moment, run the program, and explain the difference. They then alter one script (a longer wait, more steps) and reason about the combined result. Older learners meet the cost of concurrency: actions that must happen in order belong in one script, and shared moments (two sprites reaching the same place) may need coordination such as messages. Feedback asks questions about the child's own scripts rather than giving the fix.",
+  "activities": [
+   {
+    "title": "Act it out: one script or two?",
+    "learnerActions": [
+     "In pairs, take two script cards: card A 'walk 4 steps, wave', card B 'clap 3 times'.",
+     "Version 1: one person does card A and then card B, one after another. A partner times it.",
+     "Version 2: two people each take one card and start together when the teacher says 'go'. Time it again.",
+     "Draw both versions as lanes on a timeline, lining up what happens at the same moment.",
+     "Say which version matches 'the truck drives while the arm lifts' and which matches 'the truck drives, then the arm lifts'."
+    ],
+    "intendedInsight": "When the actions are in one script, they happen one after another. When they are split into two scripts that start on the same signal, both run at the same time, and each one still does its own steps in order. Running together can finish sooner and changes what you see at any moment.",
+    "feedback": [
+     "If a child says version 2 is the same as version 1, ask: 'At the moment the first person waved, what was the second person doing in each version?'",
+     "If the timeline lanes are not lined up, ask the child to point to what happens at second 2 in each lane.",
+     "If the child thinks each person in version 2 can do their steps in any order, ask them to read their card again and say what comes first.",
+     "Ask the child to invent a third card that should run at the same time as the others, and say what signal starts it."
+    ],
+    "rationale": "Children already multitask in daily life, and the authors of a primary-school concurrency course recommend building on that experience. Acting out both arrangements lets children feel the difference between one sequence and parallel sequences before meeting the code.",
+    "sourceClaims": [
+     "In a 12-week Scratch course in seven Greek primary classes, 10-year-olds with no prior programming understood basic concurrency topics and 11-year-olds with some programming experience understood more advanced ones; the course built on everyday experience of doing several tasks at once, and pupils' success on the concurrency objectives ranged from about 32% to 94% depending on objective and age.",
+     "Brennan and Resnick define parallelism as sequences of instructions happening at the same time, possible across several sprites (characters dancing together) or within one sprite (several scripts under one green flag), and their design-scenario tasks include fixing a bug where a singer sings after moving instead of while moving."
+    ]
+   },
+   {
+    "title": "Same blocks, two ways: predict the moment",
+    "learnerActions": [
+     "In Scratch or ScratchJr, build program 1: one character with one script under the green flag: 'glide to the right (2 seconds), then play a song (2 seconds)'.",
+     "Build program 2: the same blocks split into two scripts, each under its own green flag.",
+     "Before running, predict for each program: at second 1, is the character moving, singing, or both? When does each program finish?",
+     "Run both, check your predictions, and write down any surprise.",
+     "Fix this request from a friend: 'I want my singer to sing while she is moving, not after.' Say which program does it and why."
+    ],
+    "intendedInsight": "Stacked blocks run one after another in a single script, so the song starts only when the glide finishes. Two scripts started by the same event run together, so the character glides and sings at once. The blocks are the same; how they are arranged into scripts decides whether they happen in order or together.",
+    "feedback": [
+     "If the child predicts both programs behave the same, ask: 'In program 1, which block has to finish before the song block can start? Is that true in program 2?'",
+     "If the child thinks the second script waits for the first, ask: 'What starts the second script? Does it have to wait for anything else?'",
+     "If the child fixes the singer by adding more blocks to one script, ask them to run it and say whether she now sings while moving.",
+     "Ask the child to predict what program 2 shows at second 3 and check."
+    ],
+    "rationale": "Novices commonly misread the order in which statements run, and a designer-facing bug from Brennan and Resnick's design scenarios (sing while moving, not after) is precisely the sequential-versus-concurrent distinction. Comparing identical blocks arranged two ways isolates that distinction; predicting a particular moment shows whether the child tracks both scripts.",
+    "sourceClaims": [
+     "Brennan and Resnick define parallelism as sequences of instructions happening at the same time, possible across several sprites (characters dancing together) or within one sprite (several scripts under one green flag), and their design-scenario tasks include fixing a bug where a singer sings after moving instead of while moving.",
+     "A Scratch-based questionnaire with 145 learners aged 7 to 17 found the most common misconception was difficulty understanding that statements in a script run in sequence; children who had only learned Scratch struggled more than those who had also learned another language.",
+     "Upper-elementary students (grades 4–6) working through the same block-based curriculum found sequence and tasks with several events, each triggering one action, very accessible (over 80% completion), while initialisation (setting starting values for sprites) was challenging for grades 4 and 5."
+    ]
+   },
+   {
+    "title": "Truck and arm: alter one script, explain the result",
+    "learnerActions": [
+     "Build a truck sprite and an arm sprite. Script 1 (truck): 'when green flag clicked, repeat 10: move 10 steps'. Script 2 (arm): 'when green flag clicked, wait 1 second, lift crate, wait 1 second, lower crate'.",
+     "Run it and describe what each part is doing at seconds 1, 2 and 3.",
+     "Change only the arm's first wait to 3 seconds. Predict where the truck will be when the arm lifts, then test.",
+     "Change only the truck's repeat to 20. Predict whether the arm finishes before or after the truck stops, then test.",
+     "Explain to a partner how changing one script changed what happened together."
+    ],
+    "intendedInsight": "Each script keeps its own timing. Changing a wait or a repeat in one script shifts when its actions happen relative to the other script, so the combined picture changes even though the other script is untouched.",
+    "feedback": [
+     "If the child expects the truck to slow down when the arm's wait grows, ask: 'Which script did you change? Did anything in the truck's script change?'",
+     "If predictions are off, ask the child to draw the two lanes on a timeline and mark when the lift happens and where the truck is then.",
+     "If the child changes both scripts at once, ask how they will know which change caused the difference.",
+     "Ask what you would change so the arm lifts exactly when the truck stops, and let them try it."
+    ],
+    "rationale": "The topic's evidence asks children to alter one of two concurrent scripts and explain the combined effect. Altering one variable at a time and predicting the relative timing makes each script's independence visible.",
+    "sourceClaims": [
+     "Brennan and Resnick define parallelism as sequences of instructions happening at the same time, possible across several sprites (characters dancing together) or within one sprite (several scripts under one green flag), and their design-scenario tasks include fixing a bug where a singer sings after moving instead of while moving.",
+     "Middle-school students learning computer science with Scratch could successfully learn important concepts but had difficulties with repeated execution, variables and concurrency; the authors propose changes to the teaching process to address these."
+    ]
+   },
+   {
+    "title": "Extension: when order matters, or two sprites want the same place",
+    "learnerActions": [
+     "Look at a broken game: under the green flag, script A moves the hero to a safe start, script B shows the hero, and a monster script ends the game if it touches the hero. Run it several times and record what happens each run.",
+     "Explain why some runs go wrong, then rebuild so the hero is placed and shown in the right order every time.",
+     "Make two sprites walk towards one treasure at the same time. Run it several times and record who gets it.",
+     "Use a message (broadcast) so only one sprite can take the treasure at a time, and test with a list of cases.",
+     "Write one rule for yourself about when to use one script and when to use two."
+    ],
+    "intendedInsight": "Running scripts at the same time is useful, but actions that must happen in a set order belong in one script; splitting them can make the order unpredictable. When two scripts share something, a run can go wrong only sometimes, so concurrent programs need to be run several times and coordinated deliberately.",
+    "feedback": [
+     "If the child says the wrong run was 'just the computer being weird', ask: 'What was different in that run? Could it happen again? Run it five more times and count.'",
+     "If the child fixes the hero by adding waits, ask whether that will always work, and whether there is a way that does not depend on timing.",
+     "If both sprites still grab the treasure, ask the child to trace both scripts at the moment they arrive and say which block decides who gets it.",
+     "Ask the child to test every event in their game, not only the green flag."
+    ],
+    "rationale": "In a primary concurrency course, common errors included splitting ordered actions across scripts on the same event, attaching actions to the wrong event, using 'broadcast' where 'broadcast and wait' was needed, and dismissing intermittent faulty runs; the course responded by giving test-case lists and asking pupils to rerun code and report faulty runs. This extension uses those errors as the material to reason about.",
+    "sourceClaims": [
+     "Common errors in a primary Scratch concurrency course included attaching actions to the wrong event (often the green flag), splitting actions that must happen in order into separate scripts for the same event so their order became arbitrary, synchronising the wrong sprites, and using 'broadcast' where 'broadcast and wait' was needed; some errors appeared only on some runs, which tempted pupils to ignore faulty runs as glitches, so pupils were given test-case lists and told to rerun code and report faulty runs.",
+     "In a 12-week Scratch course in seven Greek primary classes, 10-year-olds with no prior programming understood basic concurrency topics and 11-year-olds with some programming experience understood more advanced ones; the course built on everyday experience of doing several tasks at once, and pupils' success on the concurrency objectives ranged from about 32% to 94% depending on objective and age."
+    ]
+   }
+  ],
+  "constraints": [
+   "Keep early examples to two scripts started by the same event, with little arithmetic, so the concurrency idea is not hidden behind calculation.",
+   "Always contrast concurrent scripts with the same blocks in one script; concurrency only makes sense against sequence.",
+   "Asking for a prediction at a specific moment is needed; asking only for the final result can hide a sequential reading.",
+   "Race conditions and message synchronisation are an extension, not the core of this topic; avoid introducing them to 7–9-year-olds as required content.",
+   "Concurrent programs can behave differently from run to run; children should run them several times and treat any wrong run as evidence.",
+   "Feedback asks about the child's own scripts and timelines; it does not hand over the corrected program."
+  ],
+  "reviewNotes": [
+   "Fatourou et al. (2018) and Franklin et al. (2017) were read in full text; Brennan & Resnick (2012) was read in full text. Meerbaum-Salant et al. (2013) and Swidan et al. (2018) were confirmed from abstracts only.",
+   "The Ontario Grade 2 C3.1/C3.2 wording was confirmed through search results and secondary teacher resources, not the official Ministry PDF (verified:false).",
+   "Pea (1986) is cited from abstracts and secondary descriptions; the parallelism-bug detail is not confirmed in the original text here (verified:false).",
+   "No study found that directly measures 7–9-year-olds' predictions of concurrent ScratchJr scripts; the lower age bound relies on the Ontario Grade 2 expectation and on Franklin et al.'s finding that simple events are accessible in grade 4 'and possibly even younger'.",
+   "A Weizmann Institute project on 7th graders' reasoning about concurrent Scratch execution was found but no findings could be read; it is not cited.",
+   "The 'truck slows down when the arm waits' error and the 'one rule for one script or two' reflection are design inferences, not drawn from a cited study.",
+   "All activities are research-informed proposals, not tested interventions."
+  ],
+  "schemaVersion": 2
+ },
+ "assess": {
+  "method": "performance_task",
+  "diagnosticPrompt": "Here are two programs for a truck with a robot arm. Program 1 has one script: 'when green flag clicked, drive forward for 3 seconds, then lift the arm for 2 seconds'. Program 2 has two scripts, both 'when green flag clicked': the truck's script is 'drive forward for 3 seconds' and the arm's script is 'lift the arm for 2 seconds'. Before running them, tell me what each program shows at second 1 and when each program finishes. Then change Program 2 so the arm starts lifting 1 second after the truck starts moving, and test it.",
+  "correctAnswer": "In Program 1 at second 1 the truck is driving and the arm has not moved; the arm lifts only after the drive ends, so it finishes at about 5 seconds. In Program 2 both scripts start on the green flag, so at second 1 the truck is driving and the arm is lifting at the same time; it finishes at about 3 seconds, when the longer script ends. To make the arm start 1 second later, add 'wait 1 second' at the top of the arm's script only. The child tests it and explains that the truck's script is unchanged while the arm's script now starts its lift later.",
+  "whatMakesItDiscriminate": "Predicting a specific moment (second 1) and the finishing time can only be done correctly by tracking each script separately. A child who reads all scripts as one sequence gives the same answers for both programs; a child who thinks everything is simultaneous says the arm also lifts at second 1 in Program 1. The alteration step shows whether the child knows a change to one script affects only that script's timing.",
+  "errorPatterns": [
+   {
+    "pattern": "'They're the same. The truck drives and then the arm lifts, because the truck's script is first.'",
+    "kind": "misconception",
+    "revealedBy": "Gives the same second-1 picture and the same finishing time for both programs; treats the second script as waiting for the first.",
+    "nextMove": "Ask what starts the arm's script in Program 2 and whether it waits for anything; then run both and compare at second 1. Act it out with two children if needed.",
+    "distractor": "Both programs show only the truck moving at second 1, and both finish after 5 seconds.",
+    "reteachPrerequisiteId": null
+   },
+   {
+    "pattern": "'In Program 1 the arm lifts while it drives, because they're both in the program.'",
+    "kind": "misconception",
+    "revealedBy": "Says blocks stacked in one script also run together; does not use the order of blocks in a script.",
+    "nextMove": "Ask the child to point to which block must finish before the lift block can start in Program 1, then run it. Revisit reading a single script from top to bottom if this persists.",
+    "distractor": "Both programs show the truck driving and the arm lifting at second 1.",
+    "reteachPrerequisiteId": "mt_sPV503BQnI"
+   },
+   {
+    "pattern": "'If I put a wait in the arm's script, the truck will wait too.'",
+    "kind": "misconception",
+    "revealedBy": "Expects a change in one script to delay or change the other script.",
+    "nextMove": "Ask which script they changed and whether any block in the truck's script is different; let them run it and watch the truck's start time.",
+    "distractor": null,
+    "reteachPrerequisiteId": null
+   },
+   {
+    "pattern": "'It went wrong once, but that was just the computer being glitchy.'",
+    "kind": "performance",
+    "revealedBy": "Ignores a faulty run in a concurrent program because other runs looked fine.",
+    "nextMove": "Do not fix it for them. Ask them to run it several more times, count the wrong runs, and say what was different; return to predict-run-check testing habits.",
+    "distractor": null,
+    "reteachPrerequisiteId": "mt_5UtPmgdoQ9"
+   },
+   {
+    "pattern": "'I'll put the arm's lift under the green flag too, so I can test it.' (for an action meant to happen on a key press)",
+    "kind": "performance",
+    "revealedBy": "Attaches actions to the wrong event, usually the green flag, so they run at the wrong time.",
+    "nextMove": "Ask what should make this action start, then ask them to test every event in the program, not only the green flag.",
+    "distractor": null,
+    "reteachPrerequisiteId": null
+   }
+  ],
+  "probeDeeper": [
+   "At exactly second 2, what is the truck doing and what is the arm doing in each program?",
+   "Why does Program 2 finish sooner? Which script decides when it is all done?",
+   "If you made the truck drive for 1 second instead, what would you see at second 1.5 in Program 2?",
+   "When would you choose to keep two actions in one script instead of two?"
+  ],
+  "responseLevels": {
+   "gap": "Treats both programs as the same sequence (or both as all at once); cannot say what is happening at a given moment in each script.",
+   "partial": "Knows that two scripts on the green flag start together, but cannot predict a specific moment or finishing time, or changes both scripts when asked to delay only one.",
+   "full": "Predicts the second-1 picture and finishing time for both programs, explains that blocks in one script run in order while separate scripts on one event run together, delays only the arm's script, tests it, and can say when ordered actions should stay in one script."
+  },
+  "poeTask": "Show one character with the blocks 'glide 2 seconds' and 'play sound for 2 seconds' stacked in one script, and a copy with the same blocks split into two green-flag scripts. Ask the child to predict whether the character sings while gliding in each, and when each finishes. Running both side by side lets the child see the song start after the glide in one and during the glide in the other, and explain why from the scripts."
+ },
+ "sources": [
+  {
+   "claim": "Brennan and Resnick define parallelism as sequences of instructions happening at the same time, possible across several sprites (characters dancing together) or within one sprite (several scripts under one green flag), and their design-scenario tasks include fixing a bug where a singer sings after moving instead of while moving.",
+   "source": "Brennan, K. & Resnick, M. (2012). New frameworks for studying and assessing the development of computational thinking. AERA Annual Meeting, Vancouver.",
+   "url": "https://scratched.gse.harvard.edu/ct/files/AERA2012.pdf",
+   "verified": true
+  },
+  {
+   "claim": "In a 12-week Scratch course in seven Greek primary classes, 10-year-olds with no prior programming understood basic concurrency topics and 11-year-olds with some programming experience understood more advanced ones; the course built on everyday experience of doing several tasks at once, and pupils' success on the concurrency objectives ranged from about 32% to 94% depending on objective and age.",
+   "source": "Fatourou, E., Zygouris, N. C., Loukopoulos, T. & Stamoulis, G. I. (2018). Teaching Concurrent Programming Concepts Using Scratch in Primary School: Methodology and Evaluation. International Journal of Engineering Pedagogy, 8(4), 89–105.",
+   "url": "https://online-journals.org/index.php/i-jep/article/view/8216",
+   "verified": true
+  },
+  {
+   "claim": "Common errors in a primary Scratch concurrency course included attaching actions to the wrong event (often the green flag), splitting actions that must happen in order into separate scripts for the same event so their order became arbitrary, synchronising the wrong sprites, and using 'broadcast' where 'broadcast and wait' was needed; some errors appeared only on some runs, which tempted pupils to ignore faulty runs as glitches, so pupils were given test-case lists and told to rerun code and report faulty runs.",
+   "source": "Fatourou, E., Zygouris, N. C., Loukopoulos, T. & Stamoulis, G. I. (2018). Teaching Concurrent Programming Concepts Using Scratch in Primary School, section 4 'Common programming pitfalls'. International Journal of Engineering Pedagogy, 8(4).",
+   "url": "https://online-journals.org/index.php/i-jep/article/download/8216/5011/28003",
+   "verified": true
+  },
+  {
+   "claim": "Middle-school students learning computer science with Scratch could successfully learn important concepts but had difficulties with repeated execution, variables and concurrency; the authors propose changes to the teaching process to address these.",
+   "source": "Meerbaum-Salant, O., Armoni, M. & Ben-Ari, M. (2013). Learning computer science concepts with Scratch. Computer Science Education, 23(3), 239–264.",
+   "url": "https://cris.iucc.ac.il/en/publications/learning-computer-science-concepts-with-scratch/",
+   "verified": true
+  },
+  {
+   "claim": "Upper-elementary students (grades 4–6) working through the same block-based curriculum found sequence and tasks with several events, each triggering one action, very accessible (over 80% completion), while initialisation (setting starting values for sprites) was challenging for grades 4 and 5.",
+   "source": "Franklin, D., Skifstad, G., Rolock, R., Mehrotra, I., Ding, V., Hansen, A., Weintrop, D. & Harlow, D. (2017). Using Upper-Elementary Student Performance to Understand Conceptual Sequencing in a Blocks-based Curriculum. SIGCSE '17.",
+   "url": "https://doi.org/10.1145/3017680.3017760",
+   "verified": true
+  },
+  {
+   "claim": "A Scratch-based questionnaire with 145 learners aged 7 to 17 found the most common misconception was difficulty understanding that statements in a script run in sequence; children who had only learned Scratch struggled more than those who had also learned another language.",
+   "source": "Swidan, A., Hermans, F. & Smit, M. (2018). Programming Misconceptions for School Students. ICER '18, 151–159.",
+   "url": "https://research.vu.nl/en/publications/programming-misconceptions-for-school-students/",
+   "verified": true
+  },
+  {
+   "claim": "Pea described a 'parallelism' class of conceptual bug, found from primary school to college, in which novices assume different lines of a program can be active at the same time.",
+   "source": "Pea, R. D. (1986). Language-independent conceptual 'bugs' in novice programming. Journal of Educational Computing Research, 2(1), 25–36.",
+   "verified": false
+  },
+  {
+   "claim": "The Ontario Grade 2 mathematics coding expectations (C3.1, C3.2) ask students to write, execute, read and alter code involving sequential and concurrent events and describe how changes affect outcomes, with repeating events added in Grade 3; CSTA 1B-AP-10 (grades 3–5) expects programs that include sequences, events, loops and conditionals.",
+   "source": "Ontario Ministry of Education (2020). The Ontario Curriculum, Grades 1–8: Mathematics, Strand C; CSTA K-12 Computer Science Standards (2017), via Code.org CS Fundamentals standards listing.",
+   "url": "https://curriculum.code.org/csf-19/coursee/standards/",
+   "verified": false
+  }
+ ],
+ "confidence": "medium",
+ "provenance": {
+  "originalResearchGeneratedBy": "claude-opus-5-5 (Sparks & Sprockets computing research pass)",
+  "createdAt": "2026-10-29T00:00:00Z",
+  "updatedAt": "2026-10-29T00:00:00Z"
+ },
+ "publicationNotes": {
+  "omittedCurriculumText": []
+ }
+}

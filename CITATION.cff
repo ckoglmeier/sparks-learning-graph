@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Cite this derivative and the Marble source identified in ATTRIBUTION.md."
+title: "Sparks Learning Graph"
+type: dataset
+version: "0.1.0-rc.1"
+authors:
+  - name: "Sparks & Sprockets"
+license:
+  - ODbL-1.0
+  - CC-BY-SA-4.0
+abstract: "A Marble-derived learning graph with qualitative engineering, fluids and physical-control concepts, sources and scoped curriculum notes."

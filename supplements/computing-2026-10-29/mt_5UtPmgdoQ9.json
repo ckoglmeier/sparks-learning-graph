@@ -1,0 +1,249 @@
+{
+ "topicId": "mt_5UtPmgdoQ9",
+ "pedagogy": {
+  "summary": "- **Age:** 6–13 years (simple fix-it-so-it-works at 6–8; planned, hypothesis-driven bug hunts from about 8–9)\n\n- **Topic:** Testing and debugging programs — predict, run, find where behaviour differs, fix one change at a time\n\n- **Standards — UK (DfE National Curriculum, KS1/KS2 Computing):** KS1 pupils build and fix simple programs and reason about what they will do; KS2 pupils reason logically to spot and correct mistakes in algorithms and programs.\n\n- **Standards — US (CSTA K-12):** 1A-AP-14 (find and fix errors in programs with sequences and simple loops, K–2) and 1B-AP-15 (test a program and fix errors so it works as intended, grades 3–5).\n\n- **Standards — Australia (Digital Technologies v9):** AC9TDI4P04 and AC9TDI6P05 — implementing algorithms as visual programs, which in practice includes testing them.\n\n- **Checkpoint:** The goal is a repeatable process — say what should happen, run it, find the first place where what happened differs, guess why, change one thing, run again — and the habit of fixing rather than starting over. Formal test plans, debugger tools and error-type taxonomies are for later.",
+  "bestPractices": [
+   "Teach debugging explicitly as a process rather than leaving children to pick it up: predict, run, find where it goes wrong, guess why, change one thing, test again.",
+   "Always predict before running; the prediction is the test — a mismatch between prediction and result is how a bug is noticed.",
+   "Hunt for the first point where the behaviour differs from the plan, using step-by-step running or one-part-at-a-time running to narrow it down.",
+   "Change one thing at a time, and undo a change that didn't help before trying another.",
+   "Give children ready-made buggy programs (one bug, then two) so they practise finding bugs in code that isn't theirs before facing their own.",
+   "Name and share strategies — read the script, run one part, compare each block with the plan, ask someone, take a break — and ask children to explain how they found a bug.",
+   "Build a classroom culture where bugs are normal and fixing beats starting over."
+  ],
+  "keyRepresentations": [
+   "A test table: input or situation, what should happen, what did happen, match?",
+   "Step-by-step running with the current block highlighted, so the child can stop at the first block where things go wrong",
+   "The algorithm or plan card set beside the script, checked block by block",
+   "A 'bug hunter' strategy card listing the steps (predict, run, spot, guess, change one thing, retest)",
+   "A short debugging log: what I thought the bug was, what I changed, what happened"
+  ],
+  "commonMisconceptions": [
+   "Changing things at random until it works (trial and error), common among weaker students (Michaeli & Romeike, 2019) and among 'extreme movers' who tinker too fast to learn from results (Perkins et al., 1986).",
+   "Giving up or wanting to start again from scratch when something goes wrong — the 'stopper' pattern (Perkins et al., 1986) and the learned helplessness teachers report.",
+   "Thinking a program is correct because it ran once, without testing other inputs or unusual cases (design inference tied to CSTA 1B-AP-15; see reviewNotes).",
+   "Blaming the computer ('it's broken', 'it did it wrong') rather than the instructions it was given (design inference; see reviewNotes).",
+   "Making several changes at once, so that it's unclear which change fixed (or caused) the problem."
+  ]
+ },
+ "learn": {
+  "schemaVersion": 2,
+  "summary": "For ages 6–13, teach testing and debugging as an explicit, repeatable process rather than leaving it to trial and error: say what the program should do, run it, find the first place where what happens differs, guess why, change one thing, and run again. Start with ready-made programs that each hide one bug, use step-by-step running with the current block highlighted to locate it, and record tests (including unusual inputs) in a simple table. Ask children to explain how they tracked a bug down, and treat bugs as normal so the habit becomes fixing rather than starting over. Younger children can debug by trying fixes; older ones should form and test a guess about the cause.",
+  "activities": [
+   {
+    "title": "Test table: predict, run, record",
+    "learnerActions": [
+     "Read a short program (for example, a quiz that says 'Well done!' if you type 4 for 2 + 2).",
+     "Fill in the 'should happen' column for several tests: the right answer, a wrong answer, and a blank answer.",
+     "Run each test and write what actually happened.",
+     "Tick the rows that matched and circle the ones that didn't. Each circle is a bug to hunt."
+    ],
+    "intendedInsight": "Testing means checking what a program does against what it should do, for more than one case — including odd ones — and a mismatch is how you notice a bug.",
+    "feedback": [
+     "If the child only tests the right answer, ask: 'What might someone type who doesn't know the answer? What should happen then?'",
+     "If a row didn't match, ask: 'Is it the program that's wrong, or your prediction? How could you tell?'",
+     "When all the rows are filled, ask: 'Which test was the most useful? Why?'"
+    ],
+    "rationale": "Prediction followed by running is the core of PRIMM's Predict and Run stages; making the prediction explicit and recording it turns a run into a test, which national curricula and the CSTA grade 3–5 standard expect children to do so a program works as intended.",
+    "sourceClaims": [
+     "PRIMM (Predict, Run, Investigate, Modify, Make) has learners predict what a program will do, run it to test the prediction, then investigate its structure through activities such as tracing, explaining, annotating and debugging, before modifying it in small steps.",
+     "England's computing programmes of study expect KS1 pupils to create and debug simple programs and use logical reasoning to predict the behaviour of simple programs, and KS2 pupils to use logical reasoning to detect and correct errors in algorithms and programs."
+    ]
+   },
+   {
+    "title": "Bug hunt: one bug, one change at a time",
+    "learnerActions": [
+     "You get a program and its plan. The plan says the robot arm should turn left, lower, grab, then lift — but it turns the wrong way.",
+     "Run it step by step with the current block highlighted. Stop at the first block where what happens doesn't match the plan.",
+     "Say your guess: 'I think the bug is ... because ...'.",
+     "Change only that one thing and run again. If it didn't help, undo it and make a new guess.",
+     "Try a second program where a repeat loop goes round too many times and use the same steps."
+    ],
+    "intendedInsight": "A bug lives at the first place where what the program does differs from the plan; you find it by narrowing down, guessing a cause and testing one change at a time — not by changing things at random.",
+    "feedback": [
+     "If the child changes several blocks at once, ask: 'Which of those changes fixed it? How could you find out?'",
+     "If the child wants to delete everything and start again, ask: 'Which parts are already doing the right thing? Where does it first go wrong?'",
+     "If a change made no difference, ask: 'What did that tell you about your guess? What's the next guess?'",
+     "When the bug is fixed, ask: 'How do you know it's fixed? What test proves it?'"
+    ],
+    "rationale": "A classroom study found that explicitly teaching a systematic, hypothesis-driven debugging process (with undoing of changes that don't help) improved both self-efficacy and errors fixed compared with practice alone; earlier work with elementary-school children likewise taught LOGO debugging as an explicit procedure. Step-by-step running supports the locate step, which is hardest for logic bugs.",
+    "sourceClaims": [
+     "In a pre/post control-group classroom study (Year 10, ages 15–16, small samples), explicitly teaching a systematic debugging process — test, then repeatedly form a hypothesis about the cause, check it with an experiment and refine it, undoing changes that do not help — significantly increased students' debugging self-efficacy and the number of errors they fixed, compared with extra debugging practice alone; the authors aimed it at the trial-and-error approach common among weaker students and at learned helplessness in K-12 classrooms.",
+     "Klahr & Carver built a detailed cognitive model of LOGO debugging skill and used it to design explicit debugging instruction for elementary-school children, assessing both their learning of debugging and transfer of its high-level goal structure to non-programming tasks.",
+     "Bers' Coding as Another Language approach places simple trial-and-error debugging and fixing code so it works at an early coding stage, and later stages add finding and fixing logical errors (the program runs but doesn't do what was expected) and more strategic debugging; debugging is named as a powerful idea of computer science for young children."
+    ]
+   },
+   {
+    "title": "How did you find it? Sharing bug-hunting strategies",
+    "learnerActions": [
+     "After fixing a bug, tell a partner the steps you took to find it.",
+     "Compare with a strategy card: identify the problem, read through the script, run one part at a time, compare each block with the plan, find a script that works, ask someone, take a break.",
+     "Tick which strategies you used, and pick one you didn't use to try next time.",
+     "Add one line to your bug log: what the bug was, how you found it, what you changed."
+    ],
+    "intendedInsight": "There are several ways to track down a bug, and saying how you did it helps you choose a good strategy next time.",
+    "feedback": [
+     "If the child says 'I just fixed it', ask: 'What made you look at that block first?'",
+     "If the child only ever uses 'try things', ask: 'What could you read or check before you change anything?'",
+     "Praise the strategy and the persistence, not just the fix."
+    ],
+    "rationale": "Young Scratch designers describe a repertoire of testing and debugging strategies, and articulating how a bug was found matches the topic's evidence that children explain how they tracked it down; making strategies explicit is one of the review's suggestions for improving debugging teaching, and shared talk about bugs supports a culture where they are normal.",
+    "sourceClaims": [
+     "Brennan & Resnick identify testing and debugging as a core computational practice — things rarely work as first imagined, so designers need strategies for dealing with and anticipating problems; young Scratch designers developed these through trial and error, transfer from other activities and help from others, and one listed identifying the source of the problem, reading through scripts, experimenting with scripts, rewriting scripts, finding example scripts that work, telling or asking someone else, and taking a break.",
+     "McCauley et al.'s review finds debugging remains difficult for novices to learn and challenging to teach despite research since the mid-1970s, and organises the field around what causes bugs, what types occur, what the debugging process is, and how its learning and teaching can be improved."
+    ]
+   },
+   {
+    "title": "Plant a bug for a partner",
+    "learnerActions": [
+     "Take a working program you built. Change one block so it has a bug, and write down what you changed.",
+     "Swap with a partner. Each of you predicts, runs, finds and fixes the other's bug.",
+     "Check together: did they find the block you changed? Did their fix match yours, or find a different way to make it work?"
+    ],
+    "intendedInsight": "Knowing what kinds of bugs happen (wrong order, wrong direction, wrong number, wrong count in a loop) makes them easier to spot.",
+    "feedback": [
+     "If a planted bug is too hard to see, ask the planter: 'What test would show your partner something is wrong?'",
+     "If the partner fixes it differently, ask both: 'Do both fixes pass the same tests?'"
+    ],
+    "rationale": "This is a design proposal rather than a tested activity: thinking about what kinds of bugs occur is one of the organising questions of the debugging literature, and creating and fixing bugs in each other's programs gives practice on code that isn't one's own.",
+    "sourceClaims": [
+     "McCauley et al.'s review finds debugging remains difficult for novices to learn and challenging to teach despite research since the mid-1970s, and organises the field around what causes bugs, what types occur, what the debugging process is, and how its learning and teaching can be improved."
+    ]
+   }
+  ],
+  "constraints": [
+   "Keep programs short and limited to sequences and simple loops for the youngest children; one bug per program at first.",
+   "Never hand the child the fix; ask questions that send them back to the plan, the prediction and the first point of mismatch.",
+   "Require a prediction before every test run; without it a run can't count as a test.",
+   "Insist on one change at a time and undoing changes that don't help; random multi-block changes defeat the purpose.",
+   "Step-by-step highlighting helps locate bugs but should be faded so children learn to trace scripts by reading.",
+   "Accept trial-and-error fixing at 6–7 as a starting stage while nudging toward stating a guess before changing anything."
+  ],
+  "reviewNotes": [
+   "Research pass by an AI agent with live source checks in October 2026. All activities are research-informed proposals, not validated interventions.",
+   "The strongest classroom evidence for teaching a systematic process (Michaeli & Romeike, 2019) comes from 15–16-year-olds using Java with small, non-randomised groups; its use here for ages 6–13 is an extrapolation.",
+   "Klahr & Carver (1988) and Perkins et al. (1986) were confirmed only from bibliographic records and secondary summaries; their full texts and transfer results were not opened, so both are marked verified:false. The journal name and pages given for Perkins et al. come from library records and should be checked against the original.",
+   "The misconceptions 'it ran once so it works' and 'the computer is broken' are design inferences from classroom experience, not findings of the cited studies.",
+   "'Plant a bug for a partner' is a design proposal with no direct study behind it.",
+   "No source found specifically on block-based debugging by children aged 6–9 beyond the Coding as Another Language stage descriptions; this is a gap worth filling in a later pass."
+  ]
+ },
+ "assess": {
+  "method": "performance_task",
+  "diagnosticPrompt": "This program should make the robot arm turn left, lower, grab the block and lift it — but when you run it the arm turns right and grabs the air. Find the bug and fix it, and as you go, tell me what you're checking and why.",
+  "correctAnswer": "The child first says what should happen, runs it (ideally step by step), stops at the first block where the arm does something different from the plan (the turn), says a guess such as 'that turn block says right instead of left', changes just that block, runs again and checks the whole plan now works — then explains the steps they used.",
+  "whatMakesItDiscriminate": "The task is judged on process, not just the final fix: the narration shows whether the child compared behaviour with the plan, located the first mismatch and changed one thing. A child who changes blocks at random may land on the fix by luck but cannot explain why it was the bug, while a child with a systematic process can explain even if their first guess was wrong.",
+  "errorPatterns": [
+   {
+    "kind": "performance",
+    "pattern": "'I'll just keep changing things till it works.'",
+    "revealedBy": "Changes several blocks at once or at random, with no guess about the cause, and can't say which change fixed it.",
+    "nextMove": "Don't take over or point to the bug; ask them to undo back to the original, run step by step and say where it first goes wrong before changing anything.",
+    "distractor": null,
+    "reteachPrerequisiteId": null
+   },
+   {
+    "kind": "misconception",
+    "pattern": "'It's all wrong — I need to start again.'",
+    "revealedBy": "Deletes the program or asks for a fresh one instead of locating the problem.",
+    "nextMove": "Ask which parts already do what the plan says, and help them find the one place where it first differs; bugs are normal and most of the program is usually fine.",
+    "distractor": null,
+    "reteachPrerequisiteId": "mt_TDUpy57QVM"
+   },
+   {
+    "kind": "misconception",
+    "pattern": "'It worked when I ran it, so it's done.'",
+    "revealedBy": "Tests only one case, or stops after the first run that looks right without checking it against the whole plan.",
+    "nextMove": "Ask what else it should do and what an unusual input would do; have them add rows to a test table and run each one.",
+    "distractor": null,
+    "reteachPrerequisiteId": "mt_8dstvf-KKb"
+   },
+   {
+    "kind": "misconception",
+    "pattern": "'The robot's broken — it's doing it wrong.'",
+    "revealedBy": "Blames the device or app rather than looking at the blocks it was given.",
+    "nextMove": "Ask the child to read out exactly what each block tells the robot to do, and compare that with what it actually did.",
+    "distractor": null,
+    "reteachPrerequisiteId": "mt_sPV503BQnI"
+   },
+   {
+    "kind": "misconception",
+    "pattern": "'The order doesn't matter, the blocks are all there.'",
+    "revealedBy": "Can't find bugs caused by blocks in the wrong order because they check only that each block is present.",
+    "nextMove": "Run it step by step with the current block highlighted and ask what the arm is doing at each step compared with the plan.",
+    "distractor": null,
+    "reteachPrerequisiteId": "mt_sPV503BQnI"
+   }
+  ],
+  "probeDeeper": [
+   "How did you know where to look first?",
+   "How can you be sure that change fixed it and didn't just hide the problem?",
+   "What test would you run to show someone else it's fixed?",
+   "If your first guess hadn't worked, what would you have tried next?"
+  ],
+  "responseLevels": {
+   "gap": "Can't say what the program should do, changes things at random or wants to start over, and can't explain any fix.",
+   "partial": "Notices the program is wrong and may fix it, but by trying several changes; can describe what changed but not how they found it or how they know it's fixed.",
+   "full": "States what should happen, runs it, locates the first point of mismatch, makes and tests one change based on a reason, retests the whole plan, explains the strategy, and uses the same process on a new buggy program such as a loop that repeats too many times."
+  },
+  "poeTask": "Show a program with a repeat loop meant to stack 3 blocks. Ask the child to predict, by reading the loop, how many blocks the arm will stack. Run it: it stacks 4. Ask them to explain the mismatch and find the block responsible. A child who predicted 3 without reading the loop's number sees that the program does what it says, not what was meant."
+ },
+ "sources": [
+  {
+   "claim": "Brennan & Resnick identify testing and debugging as a core computational practice — things rarely work as first imagined, so designers need strategies for dealing with and anticipating problems; young Scratch designers developed these through trial and error, transfer from other activities and help from others, and one listed identifying the source of the problem, reading through scripts, experimenting with scripts, rewriting scripts, finding example scripts that work, telling or asking someone else, and taking a break.",
+   "source": "Brennan, K. & Resnick, M. (2012). New frameworks for studying and assessing the development of computational thinking. AERA Annual Meeting, Vancouver.",
+   "url": "https://scratched.gse.harvard.edu/ct/files/AERA2012.pdf",
+   "verified": true
+  },
+  {
+   "claim": "McCauley et al.'s review finds debugging remains difficult for novices to learn and challenging to teach despite research since the mid-1970s, and organises the field around what causes bugs, what types occur, what the debugging process is, and how its learning and teaching can be improved.",
+   "source": "McCauley, R., Fitzgerald, S., Lewandowski, G., Murphy, L., Simon, B., Thomas, L. & Zander, C. (2008). Debugging: a review of the literature from an educational perspective. Computer Science Education, 18(2), 67–92.",
+   "url": "https://doi.org/10.1080/08993400802114581",
+   "verified": true
+  },
+  {
+   "claim": "In a pre/post control-group classroom study (Year 10, ages 15–16, small samples), explicitly teaching a systematic debugging process — test, then repeatedly form a hypothesis about the cause, check it with an experiment and refine it, undoing changes that do not help — significantly increased students' debugging self-efficacy and the number of errors they fixed, compared with extra debugging practice alone; the authors aimed it at the trial-and-error approach common among weaker students and at learned helplessness in K-12 classrooms.",
+   "source": "Michaeli, T. & Romeike, R. (2019). Improving debugging skills in the classroom — the effects of teaching a systematic debugging process. Proceedings of WiPSCE '19, ACM, 57–63.",
+   "url": "https://computingeducation.de/pub/2019_Michaeli-Romeike_WIPSCE19.pdf",
+   "verified": true
+  },
+  {
+   "claim": "Klahr & Carver built a detailed cognitive model of LOGO debugging skill and used it to design explicit debugging instruction for elementary-school children, assessing both their learning of debugging and transfer of its high-level goal structure to non-programming tasks.",
+   "source": "Klahr, D. & Carver, S. M. (1988). Cognitive objectives in a LOGO debugging curriculum: Instruction, learning, and transfer. Cognitive Psychology, 20(3), 362–404.",
+   "url": "https://doi.org/10.1016/0010-0285(88)90004-7",
+   "verified": false
+  },
+  {
+   "claim": "Perkins et al. describe novice programmers as 'stoppers', who give up when they meet difficulty, and 'movers', who keep trying new ideas; extreme movers tinker so quickly and haphazardly that they fail to learn from what happens, whereas closely tracking what the code does supports progress.",
+   "source": "Perkins, D. N., Hancock, C., Hobbs, R., Martin, F. & Simmons, R. (1986). Conditions of learning in novice programmers. Journal of Educational Computing Research, 2(1), 37–55; reprinted in Soloway & Spohrer (eds.), Studying the Novice Programmer (1989).",
+   "verified": false
+  },
+  {
+   "claim": "Bers' Coding as Another Language approach places simple trial-and-error debugging and fixing code so it works at an early coding stage, and later stages add finding and fixing logical errors (the program runs but doesn't do what was expected) and more strategic debugging; debugging is named as a powerful idea of computer science for young children.",
+   "source": "Bers, M. U. (2019). Coding as another language: a pedagogical approach for teaching computer science in early childhood. Journal of Computers in Education, 6(4), 499–528.",
+   "url": "https://link.springer.com/article/10.1007/s40692-019-00147-3",
+   "verified": true
+  },
+  {
+   "claim": "PRIMM (Predict, Run, Investigate, Modify, Make) has learners predict what a program will do, run it to test the prediction, then investigate its structure through activities such as tracing, explaining, annotating and debugging, before modifying it in small steps.",
+   "source": "Raspberry Pi Foundation / National Centre for Computing Education — Pedagogy Quick Read: Using PRIMM to structure programming lessons (summarising Sentance, Waite & Kallia, 2019)",
+   "url": "https://static.raspberrypi.org/files/curriculum/quickreads/11-Pedagogy_Summary_PRIMM_V4_2023.pdf",
+   "verified": true
+  },
+  {
+   "claim": "England's computing programmes of study expect KS1 pupils to create and debug simple programs and use logical reasoning to predict the behaviour of simple programs, and KS2 pupils to use logical reasoning to detect and correct errors in algorithms and programs.",
+   "source": "DfE — National curriculum in England: computing programmes of study (Key Stages 1 and 2)",
+   "url": "https://www.gov.uk/government/publications/national-curriculum-in-england-computing-programmes-of-study/national-curriculum-in-england-computing-programmes-of-study",
+   "verified": true
+  }
+ ],
+ "confidence": "medium",
+ "provenance": {
+  "originalResearchGeneratedBy": "claude-opus-5-5 (Sparks & Sprockets computing research pass)",
+  "createdAt": "2026-10-29T00:00:00Z",
+  "updatedAt": "2026-10-29T00:00:00Z"
+ },
+ "publicationNotes": {
+  "omittedCurriculumText": []
+ }
+}
